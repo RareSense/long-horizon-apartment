@@ -1,0 +1,8 @@
+[checkpoint] loaded C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\checkpoints\3261_item_r149i1_pouch: t=10523.330 s, k=5261665, {'controller_fields': 179, 'cloth_arrays': 231}
+RELOADED 3261 rec 229702
+ITEM_START r130i1_light_saber attempt 2 pos 31 route at r130i1_light_saber state {'t': 10527.03, 'pelvis': [0.11, 0.821, 0.769], 'yaw_deg': 89.7, 'hands': {'left': [-0.146, 0.82, 0.539], 'right': [0.363, 0.818, 0.538]}, 'mode': 'stand'}
+grasp [-1.443, -0.584, 0.02] closes [0.5, 0.866] stance [-1.455, -0.265] -30.0 top 0.037
+ck C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\checkpoints\3415_act_n1_saber_stance
+SABER {'e_above': [0.0, 0.002, -0.0], 'e_down': [-0.008, 0.009, -0.02], 'pad': [-1.435, -0.592, 0.045], 'ahead': 0.269, 'grip': {'ok': True, 'gap': 0.0788, 'jaw1_N': 6.5, 'jaw2_N': 3.4}, 'fingers': 2, 'rose': 0.093, 'held': True} at [-1.438, -0.586, 0.111] state {'t': 10592.55, 'pelvis': [-1.521, -0.214, 0.259], 'yaw_deg': -32.0, 'hands': {'left': [-1.549, 0.103, 0.111], 'right': [-1.426, -0.591, 0.146]}, 'mode': 'stand'} fell False
+C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\tele\0128_n1_saber_grip.jpg
+__END__

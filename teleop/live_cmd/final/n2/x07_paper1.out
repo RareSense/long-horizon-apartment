@@ -1,0 +1,4 @@
+ck C:\Users\raresense\sim_home\runs\1121_123451_dex1_floor_final_s4\checkpoints\0432_act_x_paper3_in
+r195i1_paper corners [[0.194, 1.619], [0.198, 1.61], [0.197, 1.629], [0.196, 1.628]] far [0.197, 1.629] stance [0.447, 1.829, 3.142] bin box [[-0.056, 1.26, -0.0], [0.305, 1.622, 0.4]]
+at {'t': 12426.17, 'pelvis': [0.449, 1.828, 0.673], 'yaw_deg': -179.4, 'hands': {'left': [0.453, 1.572, 0.443], 'right': [0.448, 2.081, 0.442]}, 'mode': 'stand'} corner rel [0.254, 0.197]
+C:\Users\raresense\sim_home\runs\1121_123451_dex1_floor_final_s4\tele\0028_x07_paper1_stance.jpg

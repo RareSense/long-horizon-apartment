@@ -1,0 +1,6 @@
+exec(open(r"E:\urc_scout\scripts\home\live\hall.py", encoding="utf-8").read())
+LD = "1517_item_r105i2_shoe"; exec(open(r"C:\Users\raresense\sim_home\apartment\live_cmd\sc\ld.py", encoding="utf-8").read())
+ZR = umbrella_to_entry(record=False)
+print("RESULT", ZR, flush=True)
+b_ = body_of("r107i1_umbrella")
+print(close(os.path.join(LK, "u05_entry.jpg"), np.r_[3.6, -1.7, 1.3], np.r_[3.1, -2.45, 0.0], "entry"), flush=True)

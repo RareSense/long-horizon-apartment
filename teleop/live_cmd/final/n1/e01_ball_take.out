@@ -1,0 +1,6 @@
+ITEM_START r178i1_ball attempt 1 pos 17 route at r178i1_ball state {'t': 6216.56, 'pelvis': [-4.872, 1.089, 0.673], 'yaw_deg': 90.4, 'hands': {'left': [-5.128, 1.085, 0.443], 'right': [-4.618, 1.089, 0.443]}, 'mode': 'stand'}
+WALK {'walk': {'ok': True, 'err_xy': 0.013}} {'t': 6291.42, 'pelvis': [-5.788, -2.134, 0.673], 'yaw_deg': 179.9, 'hands': {'left': [-5.786, -2.39, 0.444], 'right': [-5.785, -1.88, 0.443]}, 'mode': 'stand'} ball rel [0.356, 0.197]
+ck C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\checkpoints\0693_act_n1_ball_stance
+OUT {'walk': {'ok': True, 'err_xy': 0.013}, 's0': (-0.0016, -0.0007, 0.767), 'g1': {'ok': True, 'gap': 0.0481, 'jaw1_N': 6.0, 'jaw2_N': 6.0}, 'rose': 0.064, 'g2': True, 'fingers': 2, 'held': True} ball [-6.141, -2.326, 0.823] state {'t': 6308.13, 'pelvis': [-5.739, -2.139, 0.739], 'yaw_deg': -179.9, 'hands': {'left': [-6.139, -2.326, 0.835], 'right': [-5.651, -1.885, 0.519]}, 'mode': 'stand'} fell False touch None
+C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\tele\0014_n1_ball_take.jpg
+__END__

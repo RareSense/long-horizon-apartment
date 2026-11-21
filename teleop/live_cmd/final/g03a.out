@@ -1,0 +1,12 @@
+JAW_OPEN 0.04 PRE_OPEN 0.026 gap now -0.001
+gap open 0.079 jaw 0.04
+left to (0.16, 0.24, 0.62) {'err': [-0.0, -0.0, -0.028], 'pad': [-1.912, -1.572, 0.648], 'pad_rf': [0.166, 0.239, 0.648], 'tilt': 0.247} fingers rf [0.99, 0.0, -0.14] close rf [-0.0, 1.0, 0.01] pads rf [0.166, 0.194, 0.648] [0.166, 0.285, 0.649] caught 0 at_f 0 {'body': 0.0, 'body_who': None, 'held': 0.0, 'held_who': None} knees {'left_knee': 0.109, 'right_knee': 0.103} fell False
+left to (0.17, 0.1, 0.76) {'err': [-0.02, 0.0, -0.0], 'pad': [-2.031, -1.582, 0.76], 'pad_rf': [0.167, 0.111, 0.76], 'tilt': 0.264} fingers rf [1.0, -0.04, 0.01] close rf [0.04, 1.0, -0.0] pads rf [0.165, 0.066, 0.76] [0.169, 0.156, 0.76] caught 0 at_f 0 {'body': 0.0, 'body_who': None, 'held': 0.0, 'held_who': None} knees {'left_knee': 0.1, 'right_knee': 0.093} fell False
+left to (0.17, -0.02, 0.77) {'err': [-0.105, -0.001, 0.013], 'pad': [-2.057, -1.591, 0.757], 'pad_rf': [0.176, 0.084, 0.757], 'tilt': 0.262} fingers rf [0.99, -0.16, 0.06] close rf [0.16, 0.99, 0.0] pads rf [0.168, 0.039, 0.757] [0.184, 0.128, 0.757] caught 0 at_f 0 {'body': 0.0, 'body_who': None, 'held': 0.0, 'held_who': None} knees {'left_knee': 0.102, 'right_knee': 0.095} fell False
+right held True blanket {'inside': 0.678, 'below_rim': 0.264, 'overhang': 0.065, 'lowest': 0.302, 'rim': 0.59} pelvis [-2.15, -1.42, 0.698]
+z 0.72 nearest 1199 [0.275, -0.082, 0.716] uv [0.1, 0.2]
+z 0.76 nearest 1121 [0.288, -0.065, 0.751] uv [0.06, 0.2]
+z 0.8 nearest 1042 [0.301, -0.067, 0.794] uv [0.02, 0.18]
+z 0.84 nearest 963 [0.315, -0.069, 0.837] uv [-0.02, 0.16]
+look C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\look_fb\0002_g03_pre.jpg
+__END__

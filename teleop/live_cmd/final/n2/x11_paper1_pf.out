@@ -1,0 +1,7 @@
+PICK {'err_pick': 'no place to stand for picking object_0324_body'}
+bin [0.125, 1.44, 0.2] tilt 0.0 state {'t': 12469.77, 'pelvis': [0.596, 1.883, 0.283], 'yaw_deg': 179.4, 'hands': {'left': [0.269, 1.66, 0.02], 'right': [0.781, 2.137, 0.132]}, 'mode': 'stand'} fell False held {'left': False, 'right': False} rec 33218
+  r149i1_pouch [0.134, 1.367, 0.025] inside True
+  r195i3_paper [0.153, 1.473, 0.025] inside True
+  r195i1_paper [0.242, 1.62, 0.021] inside False
+  r158i1_tissue [-0.007, 1.362, 0.028] inside True
+C:\Users\raresense\sim_home\runs\1121_123451_dex1_floor_final_s4\tele\0031_x11_paper1_pf.jpg

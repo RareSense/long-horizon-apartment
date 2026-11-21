@@ -1,0 +1,8 @@
+[chk] item_check + guarded route_checkpoint loaded; SPOT_TOL 0.15
+[final_run] common_b loaded
+[final_run] items ['r68i1_rag', 'r196i1_plastic_bag', 'r190i1_stocking', 'r125i2_flat', 'r130i1_light_saber', 'r120i2_duck', 'r125i1_flat', 'r175i1_cardboard_box', 'r178i1_ball', 'r179i1_toy_pouch', 'r126i1_scooter', 'r149i1_pouch', 'r93i1_nugget', 'r193i4_toy_piece', 'r192i1_ball', 'r193i2_toy_piece', 'r193i1_toy_piece', 'r193i3_toy_piece', 'r120i1_duck', 'r158i1_tissue', 'r105i1_shoe', 'r105i2_shoe', 'r107i1_umbrella', 'r159i1_door', 'r83i1_sponges']
+ITEM_START r192i1_ball attempt 0 pos 12 route at r192i1_ball state {'t': 4353.22, 'pelvis': [-2.529, -2.222, 0.772], 'yaw_deg': 59.5, 'hands': {'left': [-2.747, -2.094, 0.541], 'right': [-2.181, -2.307, 0.609]}, 'mode': 'stand'}
+TOY {'item': 'r192i1_ball', 'abort_pick': 'right_hip_yaw_link pressing r133i1_laundry_basket 24 N', 'in': False, 'fell': False, 'state': {'t': 4353.87, 'pelvis': [-2.539, -2.234, 0.743], 'yaw_deg': 58.9, 'hands': {'left': [-2.752, -2.107, 0.507], 'right': [-2.18, -2.298, 0.606]}, 'mode': 'stand'}}
+C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\tele\0197_f12_r192i1_ball_end.jpg
+ITEM_RESULT FAIL r192i1_ball {'item': 'r192i1_ball', 't': 4353.87, 'kind': 'thing', 'dest': 'object_0312_body', 'centre': [-2.859, -1.319, 0.036], 'ok': False, 'off_spot': 2.333, 'inside': False} held False fell False state {'t': 4353.87, 'pelvis': [-2.539, -2.234, 0.743], 'yaw_deg': 58.9, 'hands': {'left': [-2.752, -2.107, 0.507], 'right': [-2.18, -2.298, 0.606]}, 'mode': 'stand'}
+ZZ_OK False

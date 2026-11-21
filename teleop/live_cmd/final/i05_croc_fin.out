@@ -1,0 +1,8 @@
+LOWER_PUT {'bottom': -0.014, 'off_xy': [-0.008, 0.001], 'at': [1.211, -2.009, 0.043], 'state': {'t': 3756.8, 'pelvis': [1.059, -1.75, 0.769], 'yaw_deg': 1.6, 'hands': {'left': [1.05, -1.496, 0.538], 'right': [1.065, -2.004, 0.539]}, 'mode': 'stand'}, 'fell': False, 'touch': 0.0, 'held': {'left': False, 'right': False}, 'check': {'item': 'r122i1_croc', 't': 3756.8, 'kind': 'thing', 'dest': 'r119i1_mat', 'centre': [1.211, -2.009, 0.043], 'ok': True, 'off_spot': 0.016}}
+ITEM_CHECK {'item': 'r122i1_croc', 't': 3756.8, 'kind': 'thing', 'dest': 'r119i1_mat', 'centre': [1.211, -2.009, 0.043], 'ok': True, 'off_spot': 0.016}
+[checkpoint] 2253_item_r122i1_croc t=3756.80 s, 1.62 MB, 0.436 s
+DONE {'done': 'r122i1_croc', 'ckpt': 'C:\\Users\\raresense\\sim_home\\runs\\1120_181556_dex1_floor_final\\checkpoints\\2253_item_r122i1_croc', 'pruned': 87, 'pos': 10, 'n': 36, 'next': 'close_dishwasher'}
+sandal {'item': 'r124i1_sandal', 't': 3756.8, 'kind': 'thing', 'dest': 'r119i1_mat', 'centre': [1.282, -2.336, 0.034], 'ok': True, 'off_spot': 0.186}
+C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\tele\0169_croc_fin.jpg
+SAY {'done': 10, 'last': 'C:\\Users\\raresense\\sim_home\\runs\\1120_181556_dex1_floor_final\\checkpoints\\2253_item_r122i1_croc', 'next': 'close_dishwasher', 'frame': 143545, 't': 3756.8, 'kit': {'ws_gb': 1.48, 'priv_gb': 12.83}}
+__END__

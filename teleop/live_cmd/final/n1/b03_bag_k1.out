@@ -1,0 +1,6 @@
+[checkpoint] loaded C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\checkpoints\3386_act_n1_off_croc: t=4873.726 s, k=2436863, {'controller_fields': 177, 'cloth_arrays': 230}
+RELOADED 3386 at rec 211713 {'t': 4877.03, 'pelvis': [0.75, -1.992, 0.673], 'yaw_deg': -0.6, 'hands': {'left': [0.751, -1.737, 0.443], 'right': [0.745, -2.245, 0.442]}, 'mode': 'stand'}
+ITEM_START r196i1_plastic_bag attempt 0 pos 13 route at r196i1_plastic_bag state {'t': 4877.03, 'pelvis': [0.75, -1.992, 0.673], 'yaw_deg': -0.6, 'hands': {'left': [0.751, -1.737, 0.443], 'right': [0.745, -2.245, 0.442]}, 'mode': 'stand'}
+TRY {'corner': [-4.327, -1.185], 'G': [-4.354, -1.172], 'stance': [-4.622, -1.345, -0.435], 'free': True, 'abort': 'tipping (trunk tilt > 0.95 rad)', 'state': {'t': 4964.03, 'pelvis': [-4.912, -0.663, 0.544], 'yaw_deg': -24.3, 'hands': {'left': [-4.408, -0.852, 0.59], 'right': [-5.242, -0.413, 0.317]}, 'mode': 'ds'}, 'fell': False, 'bag': [-4.447, -1.149, 0.015]}
+held False touch None
+__END__

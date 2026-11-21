@@ -1,0 +1,403 @@
+[
+ [
+  "tidy_all",
+  {
+   "names": [
+    "r123i1_slipper",
+    "r124i1_sandal"
+   ],
+   "pairs": true
+  }
+ ],
+ [
+  "carry2",
+  "r127i1_scooter",
+  {
+   "to_scene": [
+    0.855,
+    -2.055,
+    -95.5
+   ],
+   "to_world": [
+    -0.045,
+    -2.505,
+    -95.5
+   ],
+   "turn_deg": 264.5,
+   "hold": true,
+   "grip": "both hands on the handlebar ends, side grasp round the 2.7 cm bar",
+   "handlebar_z": 0.78,
+   "lift_m": 0.03,
+   "take_stance_scene": [
+    1.12,
+    0.9,
+    5
+   ],
+   "set_down": {
+    "stand_scene": [
+     0.86,
+     -1.52,
+     -90
+    ],
+    "pelvis_to_stem_m": 0.36
+   },
+   "stem_target_scene": [
+    0.855,
+    -1.883
+   ],
+   "nose_to": "wall"
+  }
+ ],
+ [
+  "carry2",
+  "r126i1_scooter",
+  {
+   "to_scene": [
+    1.19,
+    -2.065,
+    -90.0
+   ],
+   "to_world": [
+    0.29,
+    -2.515,
+    -90.0
+   ],
+   "turn_deg": 270.0,
+   "hold": true,
+   "grip": "both hands on the handlebar ends, side grasp round the 2.7 cm bar",
+   "handlebar_z": 0.93,
+   "lift_m": 0.03,
+   "take_stance_scene": [
+    -1.45,
+    -0.3,
+    0
+   ],
+   "set_down": {
+    "stand_scene": [
+     1.19,
+     -1.51,
+     -90
+    ],
+    "pelvis_to_stem_m": 0.36
+   },
+   "stem_target_scene": [
+    1.19,
+    -1.87
+   ],
+   "nose_to": "wall"
+  }
+ ],
+ [
+  "tidy_all",
+  {
+   "names": [
+    "r195i3_paper"
+   ],
+   "pairs": true
+  }
+ ],
+ [
+  "garments",
+  [
+   "r100i1_towel",
+   "r131i1_knit_hat",
+   "r121i1_jacket",
+   "r116i1_coat_pile",
+   "r117i1_blanket",
+   "r68i1_rag"
+  ]
+ ],
+ [
+  "tidy_all",
+  {
+   "names": [
+    "r122i1_croc",
+    "r105i1_shoe",
+    "r105i2_shoe"
+   ],
+   "pairs": true
+  }
+ ],
+ [
+  "tidy_all",
+  {
+   "names": [
+    "r107i1_umbrella"
+   ],
+   "pairs": true
+  }
+ ],
+ [
+  "close_dishwasher",
+  {
+   "racks": [
+    "r33i1_rack",
+    "r33i2_rack"
+   ],
+   "door": "r32i1_door",
+   "stand_scene": [
+    3.5,
+    1.5
+   ],
+   "stand_world": [
+    2.6,
+    1.05
+   ],
+   "optional": true
+  }
+ ],
+ [
+  "tidy_surface",
+  {
+   "names": [
+    "r81i1_glass_spoon",
+    "r89i1_salad_bowl",
+    "r90i1_plate",
+    "r91i1_tan_plate",
+    "r63i1_glass"
+   ],
+   "pairs": true
+  }
+ ],
+ [
+  "tidy_surface",
+  {
+   "names": [
+    "r83i1_sponges"
+   ],
+   "pairs": true
+  }
+ ],
+ [
+  "tidy_surface",
+  {
+   "names": [
+    "r70i1_tote"
+   ],
+   "pairs": true
+  }
+ ],
+ [
+  "tidy_all",
+  {
+   "names": [
+    "r120i1_duck"
+   ],
+   "pairs": true
+  }
+ ],
+ [
+  "drag",
+  "r106i1_umbrella",
+  {
+   "to_scene": [
+    -1.076,
+    1.81,
+    -21.0
+   ],
+   "to_world": [
+    -1.976,
+    1.36,
+    -21.0
+   ],
+   "turn_deg": -21.0,
+   "hold": true,
+   "grip": "one hand on the rim at floor level (deep squat, hand pitched down)",
+   "grip_point_scene": [
+    3.7695,
+    -0.664,
+    0.0211
+   ],
+   "take_stance_scene": [
+    3.94,
+    -0.39,
+    180
+   ],
+   "hand_height_while_dragging_m": 0.6
+  }
+ ],
+ [
+  "tidy_surface",
+  {
+   "names": [
+    "r179i1_toy_pouch",
+    "r178i1_ball"
+   ],
+   "pairs": true
+  }
+ ],
+ [
+  "carry",
+  "r186i1_basket",
+  {
+   "to_scene": [
+    -1.75,
+    -0.6
+   ],
+   "to_world": [
+    -2.65,
+    -1.05
+   ]
+  }
+ ],
+ [
+  "tidy_surface",
+  {
+   "names": [
+    "r192i1_ball",
+    "r193i1_toy_piece",
+    "r193i3_toy_piece",
+    "r190i1_stocking",
+    "r193i2_toy_piece",
+    "r191i1_toy_vehicle",
+    "r193i4_toy_piece",
+    "r139i1_toy_car",
+    "r120i2_duck"
+   ],
+   "pairs": true
+  }
+ ],
+ [
+  "carry",
+  "r186i1_basket",
+  {
+   "to_scene": [
+    -4.28,
+    -0.95
+   ],
+   "to_world": [
+    -5.18,
+    -1.4
+   ]
+  }
+ ],
+ [
+  "close_door",
+  "r159i1_door",
+  {
+   "joint": "object_0129_joint",
+   "q_closed": -1.571,
+   "push_point_scene": [
+    -2.51,
+    -1.95,
+    0.28
+   ],
+   "push_point_world": [
+    -3.41,
+    -2.4,
+    0.28
+   ],
+   "push_dir": [
+    1.0,
+    -0.04
+   ],
+   "stand_scene": [
+    -2.75,
+    -1.95
+   ],
+   "optional": false
+  }
+ ],
+ [
+  "tidy_surface",
+  {
+   "names": [
+    "r188i1_dollhouse",
+    "r154i1_stick",
+    "r130i1_light_saber"
+   ],
+   "pairs": false
+  }
+ ],
+ [
+  "garments",
+  [
+   "r189i1_santa_hat"
+  ]
+ ],
+ [
+  "tidy_surface",
+  {
+   "names": [
+    "r195i1_paper",
+    "r158i1_tissue",
+    "r196i1_plastic_bag"
+   ],
+   "pairs": true
+  }
+ ],
+ [
+  "tidy_all",
+  {
+   "names": [
+    "r125i1_flat",
+    "r125i2_flat"
+   ],
+   "pairs": true
+  }
+ ],
+ [
+  "tidy_surface",
+  {
+   "names": [
+    "r138i1_cup",
+    "r155i1_kids_bottle",
+    "r151i1_spoon",
+    "r148i1_pink_lid",
+    "r147i1_purple_container",
+    "r197i1_cup",
+    "r177i1_bowl",
+    "r173i1_tumbler",
+    "r171i1_glass"
+   ],
+   "pairs": true
+  }
+ ],
+ [
+  "tidy_all",
+  {
+   "names": [
+    "r175i1_cardboard_box"
+   ],
+   "pairs": true
+  }
+ ],
+ [
+  "tidy_surface",
+  {
+   "names": [
+    "r149i1_pouch",
+    "r87i1_wrapper"
+   ],
+   "pairs": true
+  }
+ ],
+ [
+  "tidy_surface",
+  {
+   "names": [
+    "r78i1_kids_bottle",
+    "r92i1_pink_container"
+   ],
+   "pairs": true
+  }
+ ],
+ [
+  "tidy_surface",
+  {
+   "names": [
+    "r71i1_lysol"
+   ],
+   "pairs": true
+  }
+ ],
+ [
+  "tidy_surface",
+  {
+   "names": [
+    "r93i1_nugget"
+   ],
+   "pairs": true
+  }
+ ]
+]

@@ -1,0 +1,7 @@
+[chk] item_check + guarded route_checkpoint loaded; SPOT_TOL 0.15
+[final_run] common_b loaded
+[final_run] items ['r68i1_rag', 'r196i1_plastic_bag', 'r190i1_stocking', 'r125i2_flat', 'r130i1_light_saber', 'r120i2_duck', 'r125i1_flat', 'r175i1_cardboard_box', 'r178i1_ball', 'r179i1_toy_pouch', 'r126i1_scooter', 'r149i1_pouch', 'r93i1_nugget', 'r193i4_toy_piece', 'r192i1_ball', 'r193i2_toy_piece', 'r193i1_toy_piece', 'r193i3_toy_piece', 'r120i1_duck', 'r158i1_tissue', 'r105i1_shoe', 'r105i2_shoe', 'r107i1_umbrella', 'r159i1_door', 'r83i1_sponges']
+ITEM_START r130i1_light_saber attempt 2 pos 13 route at r130i1_light_saber state {'t': 4865.21, 'pelvis': [1.027, -1.996, 0.769], 'yaw_deg': -0.6, 'hands': {'left': [1.028, -1.74, 0.539], 'right': [1.023, -2.249, 0.538]}, 'mode': 'stand'}
+PICKPUT {'item': 'r130i1_light_saber', 'abort': 'foot on a loose thing: r122i1_croc (13 N)', 'at': [-1.453, -0.595, 0.018], 'zaxis': [0.13, -0.22, -0.97], 'fell': False, 'touch': 0.0, 'look': 'C:\\Users\\raresense\\sim_home\\runs\\1120_181556_dex1_floor_final\\tele\\0261_put_r130i1_light_saber.jpg'}
+ITEM_RESULT FAIL r130i1_light_saber {'item': 'r130i1_light_saber', 't': 4868.11, 'kind': 'thing', 'dest': 'floor', 'centre': [-1.453, -0.595, 0.018], 'ok': False, 'off_spot': 3.561} held False fell False state {'t': 4868.11, 'pelvis': [0.991, -2.018, 0.672], 'yaw_deg': -26.8, 'hands': {'left': [1.104, -1.789, 0.442], 'right': [0.876, -2.244, 0.442]}, 'mode': 'swing'}
+ZZ_OK False

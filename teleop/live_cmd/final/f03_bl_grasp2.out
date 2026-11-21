@@ -1,0 +1,6 @@
+back_off r133i1_laundry_basket
+after backoff {'t': 1493.44, 'pelvis': [-2.409, -1.121, 0.768], 'yaw_deg': 14.8, 'hands': {'left': [-2.476, -0.876, 0.538], 'right': [-2.345, -1.368, 0.537]}, 'mode': 'stand'} {'body': 0.0, 'body_who': None, 'held': 0.0, 'held_who': None}
+stance ERR no place to stand for [1.190000057220459, -1.649999976158142, 0.0]
+state {'t': 1493.44, 'pelvis': [-2.409, -1.121, 0.768], 'yaw_deg': 14.8, 'hands': {'left': [-2.476, -0.876, 0.538], 'right': [-2.345, -1.368, 0.537]}, 'mode': 'stand'} touch {'body': 0.0, 'body_who': None, 'held': 0.0, 'held_who': None} held R False kit {'ws_gb': 6.16, 'priv_gb': 12.76}
+look3 C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\tele\0027_blanket_grasped.jpg
+__END__

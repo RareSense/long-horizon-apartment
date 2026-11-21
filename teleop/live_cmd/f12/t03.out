@@ -1,0 +1,4 @@
+[checkpoint] loaded C:\Users\raresense\sim_home\runs\1120_093820_dex1_floor_12\checkpoints\0864_act_sh_set_down_leg: t=8255.500 s, k=4127750, {'controller_fields': 179, 'cloth_arrays': 231}
+[route] resumed at item 22/65 (r106i1_umbrella), 21 done
+t03a {'seat': {'left': {'seat_mm': -5.8, 'pitch': 13.0, 'lower_N': 15.2, 'upper_N': 3.8}, 'right': {'seat_mm': -13.1, 'pitch': 32.0, 'lower_N': 14.2, 'upper_N': 2.6}}, 'touch': {'left': 4, 'right': 2}, 'tilt': 5.1, 'wheel_x': 0.358, 'x_up': 0.44, 'bar_z': 0.995, 'arc': 0.995, 'on_floor': 1, 'pelvis': [-1.851, -0.039, 0.719], 'fell': False}
+t03b {'seat': {'left': {'seat_mm': -6.6, 'pitch': 18.2, 'lower_N': 15.5, 'upper_N': 5.2}, 'right': {'seat_mm': -14.9, 'pitch': 40.9, 'lower_N': 14.3, 'upper_N': 2.5}}, 'touch': {'left': 3, 'right': 8}, 'tilt': 4.7, 'wheel_x': 0.365, 'x_up': 0.44, 'bar_z': 0.992, 'arc': 0.993, 'on_floor': 1, 'pelvis': [-1.851, -0.035, 0.721], 'fell': False}

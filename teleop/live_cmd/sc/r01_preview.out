@@ -1,0 +1,8 @@
+orig {'/rtx/rendermode': 'RealTimePathTracing', '/rtx/post/aa/op': 3, '/rtx/post/dlss/execMode': 0, '/rtx/reflections/enabled': True, '/rtx/translucency/enabled': True, '/rtx/shadows/enabled': True, '/rtx/indirectDiffuse/enabled': True, '/rtx/ambientOcclusion/enabled': True, '/rtx/directLighting/sampledLighting/enabled': True, '/rtx/pathtracing/spp': 64, '/rtx/pathtracing/totalSpp': 64, '/rtx/pathtracing/optixDenoiser/enabled': True, '/rtx/pathtracing/maxBounces': 3, '/rtx/reflections/maxRoughness': 0.30000001192092896, '/rtx/raytracing/fractionalCutoutOpacity': False, '/rtx/directLighting/sampledLighting/samplesPerPixel': 2} textured env 1
+room_rt_1080.png ms/frame 106.0 mem {'ws_gb': 1.17, 'priv_gb': 15.37}
+head_rt_1080.png ms/frame 92.6 mem {'ws_gb': 1.17, 'priv_gb': 15.87}
+closeup_toy_basket_rt_1080.png ms/frame 131.1 mem {'ws_gb': 1.19, 'priv_gb': 16.21}
+closeup_shoe_mat_rt_1080.png ms/frame 99.4 mem {'ws_gb': 1.2, 'priv_gb': 16.72}
+room_pt_1080.png ms/frame 22.0 mem {'ws_gb': 1.22, 'priv_gb': 17.01}
+restored {'/rtx/rendermode': 'RealTimePathTracing', '/rtx/post/aa/op': 3, '/rtx/post/dlss/execMode': 0}
+TIMES {'room_rt_1080.png': 106.0, 'head_rt_1080.png': 92.6, 'closeup_toy_basket_rt_1080.png': 131.1, 'closeup_shoe_mat_rt_1080.png': 99.4, 'room_pt_1080.png': 22.0}

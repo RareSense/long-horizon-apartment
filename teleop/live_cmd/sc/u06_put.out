@@ -1,0 +1,6 @@
+[hall] duck_to_basket, shoe_to_mat, umbrella_to_entry loaded (scout, AI-operated)
+[checkpoint] loaded C:\Users\raresense\sim_home\runs\1120_114552_scout_hall_AI_operated\checkpoints\1577_act_hand_over_spot: t=9558.060 s, k=4779030, {'controller_fields': 179, 'cloth_arrays': 231}
+[route] resumed at item 27/43 (r107i1_umbrella), 26 done
+loaded {'t': 9558.06, 'pelvis': [3.534, -2.222, 0.753], 'yaw_deg': -89.1, 'hands': {'left': [3.79, -2.221, 0.523], 'right': [3.261, -2.406, 0.712]}, 'mode': 'stand'} touch {35: 2, 36: 2}
+PUT {'put': {'turn_deg': 3.0, 'over_standing': 0.008, 'over_squat': 0.002, 'off': [0.004, -0.001], 'bottom': 0.021, 'yaw_err': 2.0, 'tilt_held': 43.4, 'placed_ok': True, 'final': [3.1, -2.421], 'final_yaw_err': 2.3, 'tilt': 32.8}} state {'t': 9599.0, 'pelvis': [3.538, -2.254, 0.768], 'yaw_deg': -90.7, 'hands': {'left': [3.794, -2.257, 0.539], 'right': [3.286, -2.249, 0.537]}, 'mode': 'stand'} fell False
+C:\Users\raresense\sim_home\runs\1120_114552_scout_hall_AI_operated\look\u06_entry.jpg C:\Users\raresense\sim_home\runs\1120_114552_scout_hall_AI_operated\tele\0034_u06_put.jpg

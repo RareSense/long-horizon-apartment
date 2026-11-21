@@ -1,0 +1,4031 @@
+{
+ "title": "Hollow colliders for the open containers of Apartment 1122 (OUR merged model only; the pack is not changed)",
+ "generator": "C:/Users/raresense/sim_home/apartment/full_plan/make_hollow_colliders.py",
+ "basis": "by geometry, not verified in simulation",
+ "how_to_apply": "In the room builder, for each body listed: remove the geoms in remove_geoms (the pack's solid convex hull) and add the boxes (MJCF: type box, size = half sizes, pos/quat in the BODY frame, quat w x y z, mass 0, group 3, invisible). The body's explicit <inertial> stays, so mass and inertia are unchanged. Visual mesh unchanged. make_hollow_colliders.apply_to_body(el, entry) does it on the ElementTree body element; run it before the builder sets contype/conaffinity of loose bodies.",
+ "why": "The pack collides every dish as ONE solid convex hull (no inside): a jaw cannot enter a cup, so a rim pinch is impossible until the collider is hollow.",
+ "rules": {
+  "min_wall_m": 0.003,
+  "min_open_depth_m": 0.015,
+  "wall_sectors": "8 (outer radius up to 5 cm), 10 (up to 8 cm), 12 (larger); 1 or 2 tilted segments high",
+  "floor": "1 square box (base radius under 6 cm) or 4 bars turned 45 deg (octagon); 2 layers when the solid base widens by over 1 cm",
+  "handles": "one box per handle / spout (at most 2)",
+  "outer_face": "halfway between the inscribed and the circumscribed polygon of the outer surface (within about 1.5 mm of it), inner face on the inner surface (inside clear), walls at least 3 mm"
+ },
+ "counts": {
+  "bodies": 16,
+  "geoms_total": 156,
+  "geoms_per_body": {
+   "r43i1_measuring_cup": 10,
+   "r44i1_mug": 10,
+   "r49i1_canister": 9,
+   "r59i1_pitcher": 12,
+   "r63i1_glass": 9,
+   "r66i1_cup": 10,
+   "r66i2_cup": 10,
+   "r66i3_cup": 10,
+   "r66i4_cup": 10,
+   "r66i5_cup": 10,
+   "r138i1_cup": 9,
+   "r171i1_glass": 9,
+   "r173i1_tumbler": 9,
+   "r177i1_bowl": 11,
+   "r183i1_cup": 9,
+   "r197i1_cup": 9
+  }
+ },
+ "kept_solid": {
+  "r65i1_bowl": "no opening at the top in the visual mesh (closed or lidded, or stored upside down / packed): kept solid",
+  "r65i2_bowl": "no opening at the top in the visual mesh (closed or lidded, or stored upside down / packed): kept solid",
+  "r65i3_bowl": "no opening at the top in the visual mesh (closed or lidded, or stored upside down / packed): kept solid",
+  "r65i4_bowl": "no opening at the top in the visual mesh (closed or lidded, or stored upside down / packed): kept solid",
+  "r67i1_plate": "no opening at the top in the visual mesh (closed or lidded, or stored upside down / packed): kept solid",
+  "r67i2_plate": "no opening at the top in the visual mesh (closed or lidded, or stored upside down / packed): kept solid",
+  "r67i3_plate": "no opening at the top in the visual mesh (closed or lidded, or stored upside down / packed): kept solid",
+  "r67i4_plate": "no opening at the top in the visual mesh (closed or lidded, or stored upside down / packed): kept solid",
+  "r67i5_plate": "no opening at the top in the visual mesh (closed or lidded, or stored upside down / packed): kept solid",
+  "r67i6_plate": "no opening at the top in the visual mesh (closed or lidded, or stored upside down / packed): kept solid",
+  "r81i1_glass_spoon": "no opening at the top in the visual mesh (closed or lidded, or stored upside down / packed): kept solid",
+  "r89i1_salad_bowl": "open only 1.2 cm deep (rim inner radius 11.3 cm, 8.0 cm high): filled to near the rim (contents in the mesh): kept solid",
+  "r90i1_plate": "no opening at the top in the visual mesh (closed or lidded, or stored upside down / packed): kept solid",
+  "r91i1_tan_plate": "open only 1.2 cm deep (rim inner radius 10.4 cm, 2.4 cm high): plate / lid: kept solid",
+  "r146i1_bowl": "open only 1.2 cm deep (rim inner radius 8.9 cm, 8.0 cm high): filled to near the rim (contents in the mesh): kept solid",
+  "r148i1_pink_lid": "open only 1.2 cm deep (rim inner radius 4.4 cm, 2.4 cm high): plate / lid: kept solid",
+  "r152i1_sippy_cup": "no opening at the top in the visual mesh (closed or lidded, or stored upside down / packed): kept solid"
+ },
+ "bodies": {
+  "r43i1_measuring_cup": {
+   "id": "object_0151",
+   "body": "object_0151_body",
+   "cls": "dish",
+   "mass_kg": 0.12,
+   "opening": "upright",
+   "remove_geoms": [
+    "object_0151_collision_00"
+   ],
+   "condim": 3,
+   "friction": [
+    0.6,
+    0.0,
+    0.0
+   ],
+   "inertial_unchanged": {
+    "mass": 0.12,
+    "pos": "0 0 0",
+    "diaginertia": "0.000181 0.000234448443 0.000215448443"
+   },
+   "n_geoms": 10,
+   "geoms": [
+    {
+     "name": "object_0151_hollow_w00",
+     "role": "wall",
+     "size": [
+      0.00181,
+      0.01793,
+      0.0515
+     ],
+     "pos": [
+      0.0285,
+      -0.0,
+      -0.0
+     ],
+     "quat": [
+      0.9999999,
+      0.0,
+      0.0003289,
+      0.0
+     ]
+    },
+    {
+     "name": "object_0151_hollow_w01",
+     "role": "wall",
+     "size": [
+      0.00181,
+      0.01793,
+      0.0515
+     ],
+     "pos": [
+      0.01635,
+      0.02932,
+      -0.0
+     ],
+     "quat": [
+      0.9238795,
+      -0.0001259,
+      0.0003038,
+      0.3826834
+     ]
+    },
+    {
+     "name": "object_0151_hollow_w02",
+     "role": "wall",
+     "size": [
+      0.00181,
+      0.01793,
+      0.0515
+     ],
+     "pos": [
+      -0.01298,
+      0.04147,
+      -0.0
+     ],
+     "quat": [
+      0.7071067,
+      -0.0002326,
+      0.0002326,
+      0.7071067
+     ]
+    },
+    {
+     "name": "object_0151_hollow_w03",
+     "role": "wall",
+     "size": [
+      0.00181,
+      0.01793,
+      0.0515
+     ],
+     "pos": [
+      -0.0423,
+      0.02932,
+      -0.0
+     ],
+     "quat": [
+      0.3826834,
+      -0.0003038,
+      0.0001259,
+      0.9238795
+     ]
+    },
+    {
+     "name": "object_0151_hollow_w04",
+     "role": "wall",
+     "size": [
+      0.00181,
+      0.01793,
+      0.0515
+     ],
+     "pos": [
+      -0.05445,
+      -0.0,
+      -0.0
+     ],
+     "quat": [
+      0.0,
+      -0.0003289,
+      0.0,
+      0.9999999
+     ]
+    },
+    {
+     "name": "object_0151_hollow_w05",
+     "role": "wall",
+     "size": [
+      0.00181,
+      0.01793,
+      0.0515
+     ],
+     "pos": [
+      -0.0423,
+      -0.02932,
+      -0.0
+     ],
+     "quat": [
+      0.3826834,
+      0.0003038,
+      0.0001259,
+      -0.9238795
+     ]
+    },
+    {
+     "name": "object_0151_hollow_w06",
+     "role": "wall",
+     "size": [
+      0.00181,
+      0.01793,
+      0.0515
+     ],
+     "pos": [
+      -0.01298,
+      -0.04147,
+      -0.0
+     ],
+     "quat": [
+      0.7071067,
+      0.0002326,
+      0.0002326,
+      -0.7071067
+     ]
+    },
+    {
+     "name": "object_0151_hollow_w07",
+     "role": "wall",
+     "size": [
+      0.00181,
+      0.01793,
+      0.0515
+     ],
+     "pos": [
+      0.01635,
+      -0.02932,
+      -0.0
+     ],
+     "quat": [
+      0.9238795,
+      0.0001259,
+      0.0003038,
+      -0.3826834
+     ]
+    },
+    {
+     "name": "object_0151_hollow_f08",
+     "role": "floor",
+     "size": [
+      0.0318,
+      0.0318,
+      0.004
+     ],
+     "pos": [
+      -0.01298,
+      -0.0,
+      -0.046
+     ],
+     "quat": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "name": "object_0151_hollow_h09",
+     "role": "handle",
+     "size": [
+      0.02032,
+      0.006,
+      0.03246
+     ],
+     "pos": [
+      0.03888,
+      0.02994,
+      0.0
+     ],
+     "quat": [
+      0.9658879,
+      0.0,
+      0.0,
+      0.2589606
+     ]
+    }
+   ],
+   "geometry": {
+    "depth_open_cm": 9.2,
+    "rim_inner_radius_cm": 3.97,
+    "height_cm": 10.0,
+    "floor_or_contents_above_bottom_cm": 0.8,
+    "n_wall_sectors": 8,
+    "wall_segments": 1,
+    "filled": false,
+    "wall_thickness_mm": [
+     3.6
+    ],
+    "wall_thickness_from_mesh_mm": 5.3,
+    "inner_radius_top_cm": 3.97,
+    "inner_radius_bottom_cm": 3.97,
+    "floor_layers": 1,
+    "handles": 1
+   },
+   "qc": {
+    "cavity_probe_points": 9360,
+    "cavity_points_inside_shell": 0,
+    "visual_points_within_3mm_of_shell_pct": 99.2,
+    "visual_points_over_6mm_from_shell_pct": 0.0,
+    "mujoco_check": {
+     "visual_points_within_3mm_pct": 99.2,
+     "cavity_points_inside_shell": 0,
+     "cavity_points": 3520
+    }
+   },
+   "basis": "by geometry, not verified"
+  },
+  "r44i1_mug": {
+   "id": "object_0152",
+   "body": "object_0152_body",
+   "cls": "dish",
+   "mass_kg": 0.32,
+   "opening": "upright",
+   "remove_geoms": [
+    "object_0152_collision_00"
+   ],
+   "condim": 3,
+   "friction": [
+    0.6,
+    0.0,
+    0.0
+   ],
+   "inertial_unchanged": {
+    "mass": 0.32,
+    "pos": "0 0 0",
+    "diaginertia": "0.000481025904 0.000658479153 0.000606171723"
+   },
+   "n_geoms": 10,
+   "geoms": [
+    {
+     "name": "object_0152_hollow_w00",
+     "role": "wall",
+     "size": [
+      0.00181,
+      0.01793,
+      0.0515
+     ],
+     "pos": [
+      0.05725,
+      0.0,
+      -0.0
+     ],
+     "quat": [
+      1.0,
+      0.0,
+      0.0002911,
+      0.0
+     ]
+    },
+    {
+     "name": "object_0152_hollow_w01",
+     "role": "wall",
+     "size": [
+      0.00181,
+      0.01793,
+      0.0515
+     ],
+     "pos": [
+      0.0451,
+      0.02932,
+      -0.0
+     ],
+     "quat": [
+      0.9238795,
+      -0.0001114,
+      0.0002689,
+      0.3826834
+     ]
+    },
+    {
+     "name": "object_0152_hollow_w02",
+     "role": "wall",
+     "size": [
+      0.00181,
+      0.01793,
+      0.0515
+     ],
+     "pos": [
+      0.01578,
+      0.04147,
+      -0.0
+     ],
+     "quat": [
+      0.7071068,
+      -0.0002058,
+      0.0002058,
+      0.7071068
+     ]
+    },
+    {
+     "name": "object_0152_hollow_w03",
+     "role": "wall",
+     "size": [
+      0.00181,
+      0.01793,
+      0.0515
+     ],
+     "pos": [
+      -0.01355,
+      0.02932,
+      -0.0
+     ],
+     "quat": [
+      0.3826834,
+      -0.0002689,
+      0.0001114,
+      0.9238795
+     ]
+    },
+    {
+     "name": "object_0152_hollow_w04",
+     "role": "wall",
+     "size": [
+      0.00181,
+      0.01793,
+      0.0515
+     ],
+     "pos": [
+      -0.02569,
+      0.0,
+      -0.0
+     ],
+     "quat": [
+      0.0,
+      -0.0002911,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "name": "object_0152_hollow_w05",
+     "role": "wall",
+     "size": [
+      0.00181,
+      0.01793,
+      0.0515
+     ],
+     "pos": [
+      -0.01355,
+      -0.02932,
+      -0.0
+     ],
+     "quat": [
+      0.3826834,
+      0.0002689,
+      0.0001114,
+      -0.9238795
+     ]
+    },
+    {
+     "name": "object_0152_hollow_w06",
+     "role": "wall",
+     "size": [
+      0.00181,
+      0.01793,
+      0.0515
+     ],
+     "pos": [
+      0.01578,
+      -0.04147,
+      -0.0
+     ],
+     "quat": [
+      0.7071068,
+      0.0002058,
+      0.0002058,
+      -0.7071068
+     ]
+    },
+    {
+     "name": "object_0152_hollow_w07",
+     "role": "wall",
+     "size": [
+      0.00181,
+      0.01793,
+      0.0515
+     ],
+     "pos": [
+      0.0451,
+      -0.02932,
+      -0.0
+     ],
+     "quat": [
+      0.9238795,
+      0.0001114,
+      0.0002689,
+      -0.3826834
+     ]
+    },
+    {
+     "name": "object_0152_hollow_f08",
+     "role": "floor",
+     "size": [
+      0.03181,
+      0.03181,
+      0.004
+     ],
+     "pos": [
+      0.01578,
+      0.0,
+      -0.046
+     ],
+     "quat": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "name": "object_0152_hollow_h09",
+     "role": "handle",
+     "size": [
+      0.02032,
+      0.006,
+      0.03246
+     ],
+     "pos": [
+      -0.04049,
+      -0.02048,
+      -0.0
+     ],
+     "quat": [
+      0.1737925,
+      -0.0,
+      -0.0,
+      -0.9847823
+     ]
+    }
+   ],
+   "geometry": {
+    "depth_open_cm": 9.2,
+    "rim_inner_radius_cm": 3.97,
+    "height_cm": 10.0,
+    "floor_or_contents_above_bottom_cm": 0.8,
+    "n_wall_sectors": 8,
+    "wall_segments": 1,
+    "filled": false,
+    "wall_thickness_mm": [
+     3.6
+    ],
+    "wall_thickness_from_mesh_mm": 5.3,
+    "inner_radius_top_cm": 3.97,
+    "inner_radius_bottom_cm": 3.97,
+    "floor_layers": 1,
+    "handles": 1
+   },
+   "qc": {
+    "cavity_probe_points": 9360,
+    "cavity_points_inside_shell": 0,
+    "visual_points_within_3mm_of_shell_pct": 99.3,
+    "visual_points_over_6mm_from_shell_pct": 0.0,
+    "mujoco_check": {
+     "visual_points_within_3mm_pct": 99.3,
+     "cavity_points_inside_shell": 0,
+     "cavity_points": 3520
+    }
+   },
+   "basis": "by geometry, not verified"
+  },
+  "r49i1_canister": {
+   "id": "object_0158",
+   "body": "object_0158_body",
+   "cls": "dish",
+   "mass_kg": 0.35,
+   "opening": "upright",
+   "remove_geoms": [
+    "object_0158_collision_00"
+   ],
+   "condim": 3,
+   "friction": [
+    0.6,
+    0.0,
+    0.0
+   ],
+   "inertial_unchanged": {
+    "mass": 0.35,
+    "pos": "0 0 0",
+    "diaginertia": "0.000422916667 0.000422916667 0.0004725"
+   },
+   "n_geoms": 9,
+   "geoms": [
+    {
+     "name": "object_0158_hollow_w00",
+     "role": "wall",
+     "size": [
+      0.00181,
+      0.01793,
+      0.0415
+     ],
+     "pos": [
+      0.04147,
+      0.0,
+      0.0
+     ],
+     "quat": [
+      1.0,
+      0.0,
+      -1e-06,
+      0.0
+     ]
+    },
+    {
+     "name": "object_0158_hollow_w01",
+     "role": "wall",
+     "size": [
+      0.00181,
+      0.01793,
+      0.0415
+     ],
+     "pos": [
+      0.02932,
+      0.02932,
+      0.0
+     ],
+     "quat": [
+      0.9238795,
+      4e-07,
+      -9e-07,
+      0.3826834
+     ]
+    },
+    {
+     "name": "object_0158_hollow_w02",
+     "role": "wall",
+     "size": [
+      0.00181,
+      0.01793,
+      0.0415
+     ],
+     "pos": [
+      -0.0,
+      0.04147,
+      0.0
+     ],
+     "quat": [
+      0.7071068,
+      7e-07,
+      -7e-07,
+      0.7071068
+     ]
+    },
+    {
+     "name": "object_0158_hollow_w03",
+     "role": "wall",
+     "size": [
+      0.00181,
+      0.01793,
+      0.0415
+     ],
+     "pos": [
+      -0.02932,
+      0.02932,
+      0.0
+     ],
+     "quat": [
+      0.3826834,
+      9e-07,
+      -4e-07,
+      0.9238795
+     ]
+    },
+    {
+     "name": "object_0158_hollow_w04",
+     "role": "wall",
+     "size": [
+      0.00181,
+      0.01793,
+      0.0415
+     ],
+     "pos": [
+      -0.04147,
+      0.0,
+      0.0
+     ],
+     "quat": [
+      0.0,
+      1e-06,
+      -0.0,
+      1.0
+     ]
+    },
+    {
+     "name": "object_0158_hollow_w05",
+     "role": "wall",
+     "size": [
+      0.00181,
+      0.01793,
+      0.0415
+     ],
+     "pos": [
+      -0.02932,
+      -0.02932,
+      0.0
+     ],
+     "quat": [
+      0.3826834,
+      -9e-07,
+      -4e-07,
+      -0.9238795
+     ]
+    },
+    {
+     "name": "object_0158_hollow_w06",
+     "role": "wall",
+     "size": [
+      0.00181,
+      0.01793,
+      0.0415
+     ],
+     "pos": [
+      -0.0,
+      -0.04147,
+      0.0
+     ],
+     "quat": [
+      0.7071068,
+      -7e-07,
+      -7e-07,
+      -0.7071068
+     ]
+    },
+    {
+     "name": "object_0158_hollow_w07",
+     "role": "wall",
+     "size": [
+      0.00181,
+      0.01793,
+      0.0415
+     ],
+     "pos": [
+      0.02932,
+      -0.02932,
+      0.0
+     ],
+     "quat": [
+      0.9238795,
+      -4e-07,
+      -9e-07,
+      -0.3826834
+     ]
+    },
+    {
+     "name": "object_0158_hollow_f08",
+     "role": "floor",
+     "size": [
+      0.03181,
+      0.03181,
+      0.004
+     ],
+     "pos": [
+      -0.0,
+      0.0,
+      -0.036
+     ],
+     "quat": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+     ]
+    }
+   ],
+   "geometry": {
+    "depth_open_cm": 7.2,
+    "rim_inner_radius_cm": 3.97,
+    "height_cm": 8.0,
+    "floor_or_contents_above_bottom_cm": 0.8,
+    "n_wall_sectors": 8,
+    "wall_segments": 1,
+    "filled": false,
+    "wall_thickness_mm": [
+     3.6
+    ],
+    "wall_thickness_from_mesh_mm": 5.3,
+    "inner_radius_top_cm": 3.97,
+    "inner_radius_bottom_cm": 3.97,
+    "floor_layers": 1,
+    "handles": 0
+   },
+   "qc": {
+    "cavity_probe_points": 7176,
+    "cavity_points_inside_shell": 0,
+    "visual_points_within_3mm_of_shell_pct": 99.1,
+    "visual_points_over_6mm_from_shell_pct": 0.0,
+    "mujoco_check": {
+     "visual_points_within_3mm_pct": 99.1,
+     "cavity_points_inside_shell": 0,
+     "cavity_points": 2720
+    }
+   },
+   "basis": "by geometry, not verified"
+  },
+  "r59i1_pitcher": {
+   "id": "object_0168",
+   "body": "object_0168_body",
+   "cls": "container",
+   "mass_kg": 0.25,
+   "opening": "upright",
+   "remove_geoms": [
+    "object_0168_collision_00"
+   ],
+   "condim": 3,
+   "friction": [
+    0.6,
+    0.0,
+    0.0
+   ],
+   "inertial_unchanged": {
+    "mass": 0.25,
+    "pos": "0 0 0",
+    "diaginertia": "0.000760416667 0.000942149554 0.000885899554"
+   },
+   "n_geoms": 12,
+   "geoms": [
+    {
+     "name": "object_0168_hollow_w00",
+     "role": "wall",
+     "size": [
+      0.00228,
+      0.01903,
+      0.07169
+     ],
+     "pos": [
+      0.04124,
+      1e-05,
+      -0.00017
+     ],
+     "quat": [
+      0.9993205,
+      0.0,
+      0.036859,
+      0.0
+     ]
+    },
+    {
+     "name": "object_0168_hollow_w01",
+     "role": "wall",
+     "size": [
+      0.00228,
+      0.01903,
+      0.07169
+     ],
+     "pos": [
+      0.03049,
+      0.03308,
+      -0.00017
+     ],
+     "quat": [
+      0.9504102,
+      -0.0113901,
+      0.035055,
+      0.308807
+     ]
+    },
+    {
+     "name": "object_0168_hollow_w02",
+     "role": "wall",
+     "size": [
+      0.00228,
+      0.01903,
+      0.07169
+     ],
+     "pos": [
+      0.00236,
+      0.05352,
+      -0.00017
+     ],
+     "quat": [
+      0.8084672,
+      -0.0216652,
+      0.0298196,
+      0.5873858
+     ]
+    },
+    {
+     "name": "object_0168_hollow_w03",
+     "role": "wall",
+     "size": [
+      0.00228,
+      0.01903,
+      0.07169
+     ],
+     "pos": [
+      -0.03242,
+      0.05352,
+      -0.00017
+     ],
+     "quat": [
+      0.5873858,
+      -0.0298196,
+      0.0216652,
+      0.8084672
+     ]
+    },
+    {
+     "name": "object_0168_hollow_w04",
+     "role": "wall",
+     "size": [
+      0.00228,
+      0.01903,
+      0.07169
+     ],
+     "pos": [
+      -0.06055,
+      0.03308,
+      -0.00017
+     ],
+     "quat": [
+      0.308807,
+      -0.035055,
+      0.0113901,
+      0.9504102
+     ]
+    },
+    {
+     "name": "object_0168_hollow_w05",
+     "role": "wall",
+     "size": [
+      0.00228,
+      0.01903,
+      0.07169
+     ],
+     "pos": [
+      -0.0713,
+      1e-05,
+      -0.00017
+     ],
+     "quat": [
+      0.0,
+      -0.036859,
+      0.0,
+      0.9993205
+     ]
+    },
+    {
+     "name": "object_0168_hollow_w06",
+     "role": "wall",
+     "size": [
+      0.00228,
+      0.01903,
+      0.07169
+     ],
+     "pos": [
+      -0.06055,
+      -0.03307,
+      -0.00017
+     ],
+     "quat": [
+      0.308807,
+      0.035055,
+      0.0113901,
+      -0.9504102
+     ]
+    },
+    {
+     "name": "object_0168_hollow_w07",
+     "role": "wall",
+     "size": [
+      0.00228,
+      0.01903,
+      0.07169
+     ],
+     "pos": [
+      -0.03242,
+      -0.05351,
+      -0.00017
+     ],
+     "quat": [
+      0.5873858,
+      0.0298196,
+      0.0216652,
+      -0.8084672
+     ]
+    },
+    {
+     "name": "object_0168_hollow_w08",
+     "role": "wall",
+     "size": [
+      0.00228,
+      0.01903,
+      0.07169
+     ],
+     "pos": [
+      0.00236,
+      -0.05351,
+      -0.00017
+     ],
+     "quat": [
+      0.8084672,
+      0.0216652,
+      0.0298196,
+      -0.5873858
+     ]
+    },
+    {
+     "name": "object_0168_hollow_w09",
+     "role": "wall",
+     "size": [
+      0.00228,
+      0.01903,
+      0.07169
+     ],
+     "pos": [
+      0.03049,
+      -0.03307,
+      -0.00017
+     ],
+     "quat": [
+      0.9504102,
+      0.0113901,
+      0.035055,
+      -0.308807
+     ]
+    },
+    {
+     "name": "object_0168_hollow_f10",
+     "role": "floor",
+     "size": [
+      0.03903,
+      0.03903,
+      0.003
+     ],
+     "pos": [
+      -0.01503,
+      1e-05,
+      -0.067
+     ],
+     "quat": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "name": "object_0168_hollow_h11",
+     "role": "handle",
+     "size": [
+      0.02185,
+      0.006,
+      0.05367
+     ],
+     "pos": [
+      0.05819,
+      -0.0,
+      -0.00104
+     ],
+     "quat": [
+      1.0,
+      0.0,
+      0.0,
+      1.7e-05
+     ]
+    }
+   ],
+   "geometry": {
+    "depth_open_cm": 13.4,
+    "rim_inner_radius_cm": 5.89,
+    "height_cm": 14.0,
+    "floor_or_contents_above_bottom_cm": 0.6,
+    "n_wall_sectors": 10,
+    "wall_segments": 1,
+    "filled": false,
+    "wall_thickness_mm": [
+     4.6
+    ],
+    "wall_thickness_from_mesh_mm": 6.0,
+    "inner_radius_top_cm": 5.92,
+    "inner_radius_bottom_cm": 4.99,
+    "floor_layers": 1,
+    "handles": 1
+   },
+   "qc": {
+    "cavity_probe_points": 18744,
+    "cavity_points_inside_shell": 6,
+    "visual_points_within_3mm_of_shell_pct": 99.1,
+    "visual_points_over_6mm_from_shell_pct": 0.0,
+    "mujoco_check": {
+     "visual_points_within_3mm_pct": 99.1,
+     "cavity_points_inside_shell": 12,
+     "cavity_points": 7088
+    }
+   },
+   "basis": "by geometry, not verified"
+  },
+  "r63i1_glass": {
+   "id": "object_0172",
+   "body": "object_0172_body",
+   "cls": "dish",
+   "mass_kg": 0.25,
+   "opening": "upright",
+   "remove_geoms": [
+    "object_0172_collision_00"
+   ],
+   "condim": 3,
+   "friction": [
+    0.6,
+    0.0,
+    0.0
+   ],
+   "inertial_unchanged": {
+    "mass": 0.25,
+    "pos": "0 0 0",
+    "diaginertia": "0.000433333333 0.000433333333 0.000266666667"
+   },
+   "n_geoms": 9,
+   "geoms": [
+    {
+     "name": "object_0172_hollow_w00",
+     "role": "wall",
+     "size": [
+      0.00188,
+      0.01593,
+      0.0615
+     ],
+     "pos": [
+      0.03658,
+      0.0,
+      0.0
+     ],
+     "quat": [
+      1.0,
+      0.0,
+      1e-07,
+      0.0
+     ]
+    },
+    {
+     "name": "object_0172_hollow_w01",
+     "role": "wall",
+     "size": [
+      0.00188,
+      0.01593,
+      0.0615
+     ],
+     "pos": [
+      0.02587,
+      0.02587,
+      0.0
+     ],
+     "quat": [
+      0.9238795,
+      -0.0,
+      1e-07,
+      0.3826834
+     ]
+    },
+    {
+     "name": "object_0172_hollow_w02",
+     "role": "wall",
+     "size": [
+      0.00188,
+      0.01593,
+      0.0615
+     ],
+     "pos": [
+      -0.0,
+      0.03658,
+      0.0
+     ],
+     "quat": [
+      0.7071068,
+      -1e-07,
+      1e-07,
+      0.7071068
+     ]
+    },
+    {
+     "name": "object_0172_hollow_w03",
+     "role": "wall",
+     "size": [
+      0.00188,
+      0.01593,
+      0.0615
+     ],
+     "pos": [
+      -0.02587,
+      0.02587,
+      0.0
+     ],
+     "quat": [
+      0.3826834,
+      -1e-07,
+      0.0,
+      0.9238795
+     ]
+    },
+    {
+     "name": "object_0172_hollow_w04",
+     "role": "wall",
+     "size": [
+      0.00188,
+      0.01593,
+      0.0615
+     ],
+     "pos": [
+      -0.03658,
+      0.0,
+      0.0
+     ],
+     "quat": [
+      0.0,
+      -1e-07,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "name": "object_0172_hollow_w05",
+     "role": "wall",
+     "size": [
+      0.00188,
+      0.01593,
+      0.0615
+     ],
+     "pos": [
+      -0.02587,
+      -0.02587,
+      0.0
+     ],
+     "quat": [
+      0.3826834,
+      1e-07,
+      0.0,
+      -0.9238795
+     ]
+    },
+    {
+     "name": "object_0172_hollow_w06",
+     "role": "wall",
+     "size": [
+      0.00188,
+      0.01593,
+      0.0615
+     ],
+     "pos": [
+      -0.0,
+      -0.03658,
+      0.0
+     ],
+     "quat": [
+      0.7071068,
+      1e-07,
+      1e-07,
+      -0.7071068
+     ]
+    },
+    {
+     "name": "object_0172_hollow_w07",
+     "role": "wall",
+     "size": [
+      0.00188,
+      0.01593,
+      0.0615
+     ],
+     "pos": [
+      0.02587,
+      -0.02587,
+      0.0
+     ],
+     "quat": [
+      0.9238795,
+      0.0,
+      1e-07,
+      -0.3826834
+     ]
+    },
+    {
+     "name": "object_0172_hollow_f08",
+     "role": "floor",
+     "size": [
+      0.02828,
+      0.02828,
+      0.004
+     ],
+     "pos": [
+      -0.0,
+      0.0,
+      -0.056
+     ],
+     "quat": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+     ]
+    }
+   ],
+   "geometry": {
+    "depth_open_cm": 11.2,
+    "rim_inner_radius_cm": 3.47,
+    "height_cm": 12.0,
+    "floor_or_contents_above_bottom_cm": 0.8,
+    "n_wall_sectors": 8,
+    "wall_segments": 1,
+    "filled": false,
+    "wall_thickness_mm": [
+     3.8
+    ],
+    "wall_thickness_from_mesh_mm": 5.3,
+    "inner_radius_top_cm": 3.47,
+    "inner_radius_bottom_cm": 3.47,
+    "floor_layers": 1,
+    "handles": 0
+   },
+   "qc": {
+    "cavity_probe_points": 9504,
+    "cavity_points_inside_shell": 0,
+    "visual_points_within_3mm_of_shell_pct": 99.9,
+    "visual_points_over_6mm_from_shell_pct": 0.0,
+    "mujoco_check": {
+     "visual_points_within_3mm_pct": 99.9,
+     "cavity_points_inside_shell": 0,
+     "cavity_points": 3888
+    }
+   },
+   "basis": "by geometry, not verified"
+  },
+  "r66i1_cup": {
+   "id": "object_0182",
+   "body": "object_0182_body",
+   "cls": "dish",
+   "mass_kg": 0.25,
+   "opening": "upside down",
+   "remove_geoms": [
+    "object_0182_collision_00"
+   ],
+   "condim": 3,
+   "friction": [
+    0.6,
+    0.0,
+    0.0
+   ],
+   "inertial_unchanged": {
+    "mass": 0.25,
+    "pos": "0 0 0",
+    "diaginertia": "0.000328666667 0.00046592884 0.00037792884"
+   },
+   "n_geoms": 10,
+   "geoms": [
+    {
+     "name": "object_0182_hollow_w00",
+     "role": "wall",
+     "size": [
+      0.00191,
+      0.01514,
+      0.0515
+     ],
+     "pos": [
+      0.01704,
+      0.0,
+      0.0
+     ],
+     "quat": [
+      0.0,
+      1.0,
+      0.0,
+      0.0002495
+     ]
+    },
+    {
+     "name": "object_0182_hollow_w01",
+     "role": "wall",
+     "size": [
+      0.00191,
+      0.01514,
+      0.0515
+     ],
+     "pos": [
+      0.00689,
+      -0.02449,
+      0.0
+     ],
+     "quat": [
+      9.55e-05,
+      0.9238795,
+      -0.3826834,
+      0.0002305
+     ]
+    },
+    {
+     "name": "object_0182_hollow_w02",
+     "role": "wall",
+     "size": [
+      0.00191,
+      0.01514,
+      0.0515
+     ],
+     "pos": [
+      -0.0176,
+      -0.03463,
+      0.0
+     ],
+     "quat": [
+      0.0001765,
+      0.7071068,
+      -0.7071068,
+      0.0001765
+     ]
+    },
+    {
+     "name": "object_0182_hollow_w03",
+     "role": "wall",
+     "size": [
+      0.00191,
+      0.01514,
+      0.0515
+     ],
+     "pos": [
+      -0.04209,
+      -0.02449,
+      0.0
+     ],
+     "quat": [
+      0.0002305,
+      0.3826834,
+      -0.9238795,
+      9.55e-05
+     ]
+    },
+    {
+     "name": "object_0182_hollow_w04",
+     "role": "wall",
+     "size": [
+      0.00191,
+      0.01514,
+      0.0515
+     ],
+     "pos": [
+      -0.05223,
+      0.0,
+      0.0
+     ],
+     "quat": [
+      0.0002495,
+      0.0,
+      -1.0,
+      0.0
+     ]
+    },
+    {
+     "name": "object_0182_hollow_w05",
+     "role": "wall",
+     "size": [
+      0.00191,
+      0.01514,
+      0.0515
+     ],
+     "pos": [
+      -0.04209,
+      0.02449,
+      0.0
+     ],
+     "quat": [
+      0.0002305,
+      -0.3826834,
+      -0.9238795,
+      -9.55e-05
+     ]
+    },
+    {
+     "name": "object_0182_hollow_w06",
+     "role": "wall",
+     "size": [
+      0.00191,
+      0.01514,
+      0.0515
+     ],
+     "pos": [
+      -0.0176,
+      0.03464,
+      0.0
+     ],
+     "quat": [
+      0.0001765,
+      -0.7071068,
+      -0.7071068,
+      -0.0001765
+     ]
+    },
+    {
+     "name": "object_0182_hollow_w07",
+     "role": "wall",
+     "size": [
+      0.00191,
+      0.01514,
+      0.0515
+     ],
+     "pos": [
+      0.00689,
+      0.02449,
+      0.0
+     ],
+     "quat": [
+      9.55e-05,
+      -0.9238795,
+      -0.3826834,
+      -0.0002305
+     ]
+    },
+    {
+     "name": "object_0182_hollow_f08",
+     "role": "floor",
+     "size": [
+      0.02685,
+      0.02685,
+      0.004
+     ],
+     "pos": [
+      -0.0176,
+      0.0,
+      0.046
+     ],
+     "quat": [
+      0.0,
+      1.0,
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "name": "object_0182_hollow_h09",
+     "role": "handle",
+     "size": [
+      0.02005,
+      0.00601,
+      0.03246
+     ],
+     "pos": [
+      0.03555,
+      0.0,
+      -0.0
+     ],
+     "quat": [
+      0.0,
+      0.9999999,
+      -0.0004042,
+      0.0
+     ]
+    }
+   ],
+   "geometry": {
+    "depth_open_cm": 9.2,
+    "rim_inner_radius_cm": 3.27,
+    "height_cm": 10.0,
+    "floor_or_contents_above_bottom_cm": 0.8,
+    "n_wall_sectors": 8,
+    "wall_segments": 1,
+    "filled": false,
+    "wall_thickness_mm": [
+     3.8
+    ],
+    "wall_thickness_from_mesh_mm": 5.3,
+    "inner_radius_top_cm": 3.27,
+    "inner_radius_bottom_cm": 3.27,
+    "floor_layers": 1,
+    "handles": 1
+   },
+   "qc": {
+    "cavity_probe_points": 7920,
+    "cavity_points_inside_shell": 0,
+    "visual_points_within_3mm_of_shell_pct": 100.0,
+    "visual_points_over_6mm_from_shell_pct": 0.0,
+    "mujoco_check": {
+     "visual_points_within_3mm_pct": 100.0,
+     "cavity_points_inside_shell": 0,
+     "cavity_points": 2816
+    }
+   },
+   "basis": "by geometry, not verified",
+   "note": "stored upside down in the open dishwasher's top rack: in place, frozen in today's room; listed for completeness"
+  },
+  "r66i2_cup": {
+   "id": "object_0183",
+   "body": "object_0183_body",
+   "cls": "dish",
+   "mass_kg": 0.25,
+   "opening": "upside down",
+   "remove_geoms": [
+    "object_0183_collision_00"
+   ],
+   "condim": 3,
+   "friction": [
+    0.6,
+    0.0,
+    0.0
+   ],
+   "inertial_unchanged": {
+    "mass": 0.25,
+    "pos": "0 0 0",
+    "diaginertia": "0.000328666667 0.00046592884 0.00037792884"
+   },
+   "n_geoms": 10,
+   "geoms": [
+    {
+     "name": "object_0183_hollow_w00",
+     "role": "wall",
+     "size": [
+      0.00191,
+      0.01514,
+      0.0515
+     ],
+     "pos": [
+      0.01704,
+      0.0,
+      0.0
+     ],
+     "quat": [
+      0.0,
+      1.0,
+      0.0,
+      0.0002495
+     ]
+    },
+    {
+     "name": "object_0183_hollow_w01",
+     "role": "wall",
+     "size": [
+      0.00191,
+      0.01514,
+      0.0515
+     ],
+     "pos": [
+      0.00689,
+      -0.02449,
+      0.0
+     ],
+     "quat": [
+      9.55e-05,
+      0.9238795,
+      -0.3826834,
+      0.0002305
+     ]
+    },
+    {
+     "name": "object_0183_hollow_w02",
+     "role": "wall",
+     "size": [
+      0.00191,
+      0.01514,
+      0.0515
+     ],
+     "pos": [
+      -0.0176,
+      -0.03463,
+      0.0
+     ],
+     "quat": [
+      0.0001765,
+      0.7071068,
+      -0.7071068,
+      0.0001765
+     ]
+    },
+    {
+     "name": "object_0183_hollow_w03",
+     "role": "wall",
+     "size": [
+      0.00191,
+      0.01514,
+      0.0515
+     ],
+     "pos": [
+      -0.04209,
+      -0.02449,
+      0.0
+     ],
+     "quat": [
+      0.0002305,
+      0.3826834,
+      -0.9238795,
+      9.55e-05
+     ]
+    },
+    {
+     "name": "object_0183_hollow_w04",
+     "role": "wall",
+     "size": [
+      0.00191,
+      0.01514,
+      0.0515
+     ],
+     "pos": [
+      -0.05223,
+      0.0,
+      0.0
+     ],
+     "quat": [
+      0.0002495,
+      0.0,
+      -1.0,
+      0.0
+     ]
+    },
+    {
+     "name": "object_0183_hollow_w05",
+     "role": "wall",
+     "size": [
+      0.00191,
+      0.01514,
+      0.0515
+     ],
+     "pos": [
+      -0.04209,
+      0.02449,
+      0.0
+     ],
+     "quat": [
+      0.0002305,
+      -0.3826834,
+      -0.9238795,
+      -9.55e-05
+     ]
+    },
+    {
+     "name": "object_0183_hollow_w06",
+     "role": "wall",
+     "size": [
+      0.00191,
+      0.01514,
+      0.0515
+     ],
+     "pos": [
+      -0.0176,
+      0.03464,
+      0.0
+     ],
+     "quat": [
+      0.0001765,
+      -0.7071068,
+      -0.7071068,
+      -0.0001765
+     ]
+    },
+    {
+     "name": "object_0183_hollow_w07",
+     "role": "wall",
+     "size": [
+      0.00191,
+      0.01514,
+      0.0515
+     ],
+     "pos": [
+      0.00689,
+      0.02449,
+      0.0
+     ],
+     "quat": [
+      9.55e-05,
+      -0.9238795,
+      -0.3826834,
+      -0.0002305
+     ]
+    },
+    {
+     "name": "object_0183_hollow_f08",
+     "role": "floor",
+     "size": [
+      0.02685,
+      0.02685,
+      0.004
+     ],
+     "pos": [
+      -0.0176,
+      0.0,
+      0.046
+     ],
+     "quat": [
+      0.0,
+      1.0,
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "name": "object_0183_hollow_h09",
+     "role": "handle",
+     "size": [
+      0.02005,
+      0.00601,
+      0.03246
+     ],
+     "pos": [
+      0.03555,
+      0.0,
+      -0.0
+     ],
+     "quat": [
+      0.0,
+      0.9999999,
+      -0.0004042,
+      0.0
+     ]
+    }
+   ],
+   "geometry": {
+    "depth_open_cm": 9.2,
+    "rim_inner_radius_cm": 3.27,
+    "height_cm": 10.0,
+    "floor_or_contents_above_bottom_cm": 0.8,
+    "n_wall_sectors": 8,
+    "wall_segments": 1,
+    "filled": false,
+    "wall_thickness_mm": [
+     3.8
+    ],
+    "wall_thickness_from_mesh_mm": 5.3,
+    "inner_radius_top_cm": 3.27,
+    "inner_radius_bottom_cm": 3.27,
+    "floor_layers": 1,
+    "handles": 1
+   },
+   "qc": {
+    "cavity_probe_points": 7920,
+    "cavity_points_inside_shell": 0,
+    "visual_points_within_3mm_of_shell_pct": 100.0,
+    "visual_points_over_6mm_from_shell_pct": 0.0,
+    "mujoco_check": {
+     "visual_points_within_3mm_pct": 100.0,
+     "cavity_points_inside_shell": 0,
+     "cavity_points": 2816
+    }
+   },
+   "basis": "by geometry, not verified",
+   "note": "stored upside down in the open dishwasher's top rack: in place, frozen in today's room; listed for completeness"
+  },
+  "r66i3_cup": {
+   "id": "object_0184",
+   "body": "object_0184_body",
+   "cls": "dish",
+   "mass_kg": 0.25,
+   "opening": "upside down",
+   "remove_geoms": [
+    "object_0184_collision_00"
+   ],
+   "condim": 3,
+   "friction": [
+    0.6,
+    0.0,
+    0.0
+   ],
+   "inertial_unchanged": {
+    "mass": 0.25,
+    "pos": "0 0 0",
+    "diaginertia": "0.000328666667 0.00046592884 0.00037792884"
+   },
+   "n_geoms": 10,
+   "geoms": [
+    {
+     "name": "object_0184_hollow_w00",
+     "role": "wall",
+     "size": [
+      0.00191,
+      0.01514,
+      0.0515
+     ],
+     "pos": [
+      0.01704,
+      0.0,
+      0.0
+     ],
+     "quat": [
+      0.0,
+      1.0,
+      0.0,
+      0.0002495
+     ]
+    },
+    {
+     "name": "object_0184_hollow_w01",
+     "role": "wall",
+     "size": [
+      0.00191,
+      0.01514,
+      0.0515
+     ],
+     "pos": [
+      0.00689,
+      -0.02449,
+      0.0
+     ],
+     "quat": [
+      9.55e-05,
+      0.9238795,
+      -0.3826834,
+      0.0002305
+     ]
+    },
+    {
+     "name": "object_0184_hollow_w02",
+     "role": "wall",
+     "size": [
+      0.00191,
+      0.01514,
+      0.0515
+     ],
+     "pos": [
+      -0.0176,
+      -0.03463,
+      0.0
+     ],
+     "quat": [
+      0.0001765,
+      0.7071068,
+      -0.7071068,
+      0.0001765
+     ]
+    },
+    {
+     "name": "object_0184_hollow_w03",
+     "role": "wall",
+     "size": [
+      0.00191,
+      0.01514,
+      0.0515
+     ],
+     "pos": [
+      -0.04209,
+      -0.02449,
+      0.0
+     ],
+     "quat": [
+      0.0002305,
+      0.3826834,
+      -0.9238795,
+      9.55e-05
+     ]
+    },
+    {
+     "name": "object_0184_hollow_w04",
+     "role": "wall",
+     "size": [
+      0.00191,
+      0.01514,
+      0.0515
+     ],
+     "pos": [
+      -0.05223,
+      0.0,
+      0.0
+     ],
+     "quat": [
+      0.0002495,
+      0.0,
+      -1.0,
+      0.0
+     ]
+    },
+    {
+     "name": "object_0184_hollow_w05",
+     "role": "wall",
+     "size": [
+      0.00191,
+      0.01514,
+      0.0515
+     ],
+     "pos": [
+      -0.04209,
+      0.02449,
+      0.0
+     ],
+     "quat": [
+      0.0002305,
+      -0.3826834,
+      -0.9238795,
+      -9.55e-05
+     ]
+    },
+    {
+     "name": "object_0184_hollow_w06",
+     "role": "wall",
+     "size": [
+      0.00191,
+      0.01514,
+      0.0515
+     ],
+     "pos": [
+      -0.0176,
+      0.03464,
+      0.0
+     ],
+     "quat": [
+      0.0001765,
+      -0.7071068,
+      -0.7071068,
+      -0.0001765
+     ]
+    },
+    {
+     "name": "object_0184_hollow_w07",
+     "role": "wall",
+     "size": [
+      0.00191,
+      0.01514,
+      0.0515
+     ],
+     "pos": [
+      0.00689,
+      0.02449,
+      0.0
+     ],
+     "quat": [
+      9.55e-05,
+      -0.9238795,
+      -0.3826834,
+      -0.0002305
+     ]
+    },
+    {
+     "name": "object_0184_hollow_f08",
+     "role": "floor",
+     "size": [
+      0.02685,
+      0.02685,
+      0.004
+     ],
+     "pos": [
+      -0.0176,
+      0.0,
+      0.046
+     ],
+     "quat": [
+      0.0,
+      1.0,
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "name": "object_0184_hollow_h09",
+     "role": "handle",
+     "size": [
+      0.02005,
+      0.00601,
+      0.03246
+     ],
+     "pos": [
+      0.03555,
+      0.0,
+      -0.0
+     ],
+     "quat": [
+      0.0,
+      0.9999999,
+      -0.0004042,
+      0.0
+     ]
+    }
+   ],
+   "geometry": {
+    "depth_open_cm": 9.2,
+    "rim_inner_radius_cm": 3.27,
+    "height_cm": 10.0,
+    "floor_or_contents_above_bottom_cm": 0.8,
+    "n_wall_sectors": 8,
+    "wall_segments": 1,
+    "filled": false,
+    "wall_thickness_mm": [
+     3.8
+    ],
+    "wall_thickness_from_mesh_mm": 5.3,
+    "inner_radius_top_cm": 3.27,
+    "inner_radius_bottom_cm": 3.27,
+    "floor_layers": 1,
+    "handles": 1
+   },
+   "qc": {
+    "cavity_probe_points": 7920,
+    "cavity_points_inside_shell": 0,
+    "visual_points_within_3mm_of_shell_pct": 100.0,
+    "visual_points_over_6mm_from_shell_pct": 0.0,
+    "mujoco_check": {
+     "visual_points_within_3mm_pct": 100.0,
+     "cavity_points_inside_shell": 0,
+     "cavity_points": 2816
+    }
+   },
+   "basis": "by geometry, not verified",
+   "note": "stored upside down in the open dishwasher's top rack: in place, frozen in today's room; listed for completeness"
+  },
+  "r66i4_cup": {
+   "id": "object_0185",
+   "body": "object_0185_body",
+   "cls": "dish",
+   "mass_kg": 0.25,
+   "opening": "upside down",
+   "remove_geoms": [
+    "object_0185_collision_00"
+   ],
+   "condim": 3,
+   "friction": [
+    0.6,
+    0.0,
+    0.0
+   ],
+   "inertial_unchanged": {
+    "mass": 0.25,
+    "pos": "0 0 0",
+    "diaginertia": "0.000328666667 0.00046592884 0.00037792884"
+   },
+   "n_geoms": 10,
+   "geoms": [
+    {
+     "name": "object_0185_hollow_w00",
+     "role": "wall",
+     "size": [
+      0.00191,
+      0.01514,
+      0.0515
+     ],
+     "pos": [
+      0.01704,
+      0.0,
+      0.0
+     ],
+     "quat": [
+      0.0,
+      1.0,
+      0.0,
+      0.0002495
+     ]
+    },
+    {
+     "name": "object_0185_hollow_w01",
+     "role": "wall",
+     "size": [
+      0.00191,
+      0.01514,
+      0.0515
+     ],
+     "pos": [
+      0.00689,
+      -0.02449,
+      0.0
+     ],
+     "quat": [
+      9.55e-05,
+      0.9238795,
+      -0.3826834,
+      0.0002305
+     ]
+    },
+    {
+     "name": "object_0185_hollow_w02",
+     "role": "wall",
+     "size": [
+      0.00191,
+      0.01514,
+      0.0515
+     ],
+     "pos": [
+      -0.0176,
+      -0.03463,
+      0.0
+     ],
+     "quat": [
+      0.0001765,
+      0.7071068,
+      -0.7071068,
+      0.0001765
+     ]
+    },
+    {
+     "name": "object_0185_hollow_w03",
+     "role": "wall",
+     "size": [
+      0.00191,
+      0.01514,
+      0.0515
+     ],
+     "pos": [
+      -0.04209,
+      -0.02449,
+      0.0
+     ],
+     "quat": [
+      0.0002305,
+      0.3826834,
+      -0.9238795,
+      9.55e-05
+     ]
+    },
+    {
+     "name": "object_0185_hollow_w04",
+     "role": "wall",
+     "size": [
+      0.00191,
+      0.01514,
+      0.0515
+     ],
+     "pos": [
+      -0.05223,
+      0.0,
+      0.0
+     ],
+     "quat": [
+      0.0002495,
+      0.0,
+      -1.0,
+      0.0
+     ]
+    },
+    {
+     "name": "object_0185_hollow_w05",
+     "role": "wall",
+     "size": [
+      0.00191,
+      0.01514,
+      0.0515
+     ],
+     "pos": [
+      -0.04209,
+      0.02449,
+      0.0
+     ],
+     "quat": [
+      0.0002305,
+      -0.3826834,
+      -0.9238795,
+      -9.55e-05
+     ]
+    },
+    {
+     "name": "object_0185_hollow_w06",
+     "role": "wall",
+     "size": [
+      0.00191,
+      0.01514,
+      0.0515
+     ],
+     "pos": [
+      -0.0176,
+      0.03464,
+      0.0
+     ],
+     "quat": [
+      0.0001765,
+      -0.7071068,
+      -0.7071068,
+      -0.0001765
+     ]
+    },
+    {
+     "name": "object_0185_hollow_w07",
+     "role": "wall",
+     "size": [
+      0.00191,
+      0.01514,
+      0.0515
+     ],
+     "pos": [
+      0.00689,
+      0.02449,
+      0.0
+     ],
+     "quat": [
+      9.55e-05,
+      -0.9238795,
+      -0.3826834,
+      -0.0002305
+     ]
+    },
+    {
+     "name": "object_0185_hollow_f08",
+     "role": "floor",
+     "size": [
+      0.02685,
+      0.02685,
+      0.004
+     ],
+     "pos": [
+      -0.0176,
+      0.0,
+      0.046
+     ],
+     "quat": [
+      0.0,
+      1.0,
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "name": "object_0185_hollow_h09",
+     "role": "handle",
+     "size": [
+      0.02005,
+      0.00601,
+      0.03246
+     ],
+     "pos": [
+      0.03555,
+      0.0,
+      -0.0
+     ],
+     "quat": [
+      0.0,
+      0.9999999,
+      -0.0004042,
+      0.0
+     ]
+    }
+   ],
+   "geometry": {
+    "depth_open_cm": 9.2,
+    "rim_inner_radius_cm": 3.27,
+    "height_cm": 10.0,
+    "floor_or_contents_above_bottom_cm": 0.8,
+    "n_wall_sectors": 8,
+    "wall_segments": 1,
+    "filled": false,
+    "wall_thickness_mm": [
+     3.8
+    ],
+    "wall_thickness_from_mesh_mm": 5.3,
+    "inner_radius_top_cm": 3.27,
+    "inner_radius_bottom_cm": 3.27,
+    "floor_layers": 1,
+    "handles": 1
+   },
+   "qc": {
+    "cavity_probe_points": 7920,
+    "cavity_points_inside_shell": 0,
+    "visual_points_within_3mm_of_shell_pct": 100.0,
+    "visual_points_over_6mm_from_shell_pct": 0.0,
+    "mujoco_check": {
+     "visual_points_within_3mm_pct": 100.0,
+     "cavity_points_inside_shell": 0,
+     "cavity_points": 2816
+    }
+   },
+   "basis": "by geometry, not verified",
+   "note": "stored upside down in the open dishwasher's top rack: in place, frozen in today's room; listed for completeness"
+  },
+  "r66i5_cup": {
+   "id": "object_0186",
+   "body": "object_0186_body",
+   "cls": "dish",
+   "mass_kg": 0.25,
+   "opening": "upside down",
+   "remove_geoms": [
+    "object_0186_collision_00"
+   ],
+   "condim": 3,
+   "friction": [
+    0.6,
+    0.0,
+    0.0
+   ],
+   "inertial_unchanged": {
+    "mass": 0.25,
+    "pos": "0 0 0",
+    "diaginertia": "0.000328666667 0.00046592884 0.00037792884"
+   },
+   "n_geoms": 10,
+   "geoms": [
+    {
+     "name": "object_0186_hollow_w00",
+     "role": "wall",
+     "size": [
+      0.00191,
+      0.01514,
+      0.0515
+     ],
+     "pos": [
+      0.01704,
+      0.0,
+      0.0
+     ],
+     "quat": [
+      0.0,
+      1.0,
+      0.0,
+      0.0002495
+     ]
+    },
+    {
+     "name": "object_0186_hollow_w01",
+     "role": "wall",
+     "size": [
+      0.00191,
+      0.01514,
+      0.0515
+     ],
+     "pos": [
+      0.00689,
+      -0.02449,
+      0.0
+     ],
+     "quat": [
+      9.55e-05,
+      0.9238795,
+      -0.3826834,
+      0.0002305
+     ]
+    },
+    {
+     "name": "object_0186_hollow_w02",
+     "role": "wall",
+     "size": [
+      0.00191,
+      0.01514,
+      0.0515
+     ],
+     "pos": [
+      -0.0176,
+      -0.03463,
+      0.0
+     ],
+     "quat": [
+      0.0001765,
+      0.7071068,
+      -0.7071068,
+      0.0001765
+     ]
+    },
+    {
+     "name": "object_0186_hollow_w03",
+     "role": "wall",
+     "size": [
+      0.00191,
+      0.01514,
+      0.0515
+     ],
+     "pos": [
+      -0.04209,
+      -0.02449,
+      0.0
+     ],
+     "quat": [
+      0.0002305,
+      0.3826834,
+      -0.9238795,
+      9.55e-05
+     ]
+    },
+    {
+     "name": "object_0186_hollow_w04",
+     "role": "wall",
+     "size": [
+      0.00191,
+      0.01514,
+      0.0515
+     ],
+     "pos": [
+      -0.05223,
+      0.0,
+      0.0
+     ],
+     "quat": [
+      0.0002495,
+      0.0,
+      -1.0,
+      0.0
+     ]
+    },
+    {
+     "name": "object_0186_hollow_w05",
+     "role": "wall",
+     "size": [
+      0.00191,
+      0.01514,
+      0.0515
+     ],
+     "pos": [
+      -0.04209,
+      0.02449,
+      0.0
+     ],
+     "quat": [
+      0.0002305,
+      -0.3826834,
+      -0.9238795,
+      -9.55e-05
+     ]
+    },
+    {
+     "name": "object_0186_hollow_w06",
+     "role": "wall",
+     "size": [
+      0.00191,
+      0.01514,
+      0.0515
+     ],
+     "pos": [
+      -0.0176,
+      0.03464,
+      0.0
+     ],
+     "quat": [
+      0.0001765,
+      -0.7071068,
+      -0.7071068,
+      -0.0001765
+     ]
+    },
+    {
+     "name": "object_0186_hollow_w07",
+     "role": "wall",
+     "size": [
+      0.00191,
+      0.01514,
+      0.0515
+     ],
+     "pos": [
+      0.00689,
+      0.02449,
+      0.0
+     ],
+     "quat": [
+      9.55e-05,
+      -0.9238795,
+      -0.3826834,
+      -0.0002305
+     ]
+    },
+    {
+     "name": "object_0186_hollow_f08",
+     "role": "floor",
+     "size": [
+      0.02685,
+      0.02685,
+      0.004
+     ],
+     "pos": [
+      -0.0176,
+      0.0,
+      0.046
+     ],
+     "quat": [
+      0.0,
+      1.0,
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "name": "object_0186_hollow_h09",
+     "role": "handle",
+     "size": [
+      0.02005,
+      0.00601,
+      0.03246
+     ],
+     "pos": [
+      0.03555,
+      0.0,
+      -0.0
+     ],
+     "quat": [
+      0.0,
+      0.9999999,
+      -0.0004042,
+      0.0
+     ]
+    }
+   ],
+   "geometry": {
+    "depth_open_cm": 9.2,
+    "rim_inner_radius_cm": 3.27,
+    "height_cm": 10.0,
+    "floor_or_contents_above_bottom_cm": 0.8,
+    "n_wall_sectors": 8,
+    "wall_segments": 1,
+    "filled": false,
+    "wall_thickness_mm": [
+     3.8
+    ],
+    "wall_thickness_from_mesh_mm": 5.3,
+    "inner_radius_top_cm": 3.27,
+    "inner_radius_bottom_cm": 3.27,
+    "floor_layers": 1,
+    "handles": 1
+   },
+   "qc": {
+    "cavity_probe_points": 7920,
+    "cavity_points_inside_shell": 0,
+    "visual_points_within_3mm_of_shell_pct": 100.0,
+    "visual_points_over_6mm_from_shell_pct": 0.0,
+    "mujoco_check": {
+     "visual_points_within_3mm_pct": 100.0,
+     "cavity_points_inside_shell": 0,
+     "cavity_points": 2816
+    }
+   },
+   "basis": "by geometry, not verified",
+   "note": "stored upside down in the open dishwasher's top rack: in place, frozen in today's room; listed for completeness"
+  },
+  "r138i1_cup": {
+   "id": "object_0272",
+   "body": "object_0272_body",
+   "cls": "dish",
+   "mass_kg": 0.05,
+   "opening": "upright",
+   "remove_geoms": [
+    "object_0272_collision_00"
+   ],
+   "condim": 3,
+   "friction": [
+    0.6,
+    0.0,
+    0.0
+   ],
+   "inertial_unchanged": {
+    "mass": 0.05,
+    "pos": "0 0 0",
+    "diaginertia": "4.08333333e-05 4.08333333e-05 4.08333333e-05"
+   },
+   "n_geoms": 9,
+   "geoms": [
+    {
+     "name": "object_0272_hollow_w00",
+     "role": "wall",
+     "size": [
+      0.00196,
+      0.01394,
+      0.0365
+     ],
+     "pos": [
+      0.0317,
+      0.0,
+      -0.0
+     ],
+     "quat": [
+      1.0,
+      0.0,
+      1.7e-06,
+      0.0
+     ]
+    },
+    {
+     "name": "object_0272_hollow_w01",
+     "role": "wall",
+     "size": [
+      0.00196,
+      0.01394,
+      0.0365
+     ],
+     "pos": [
+      0.02242,
+      0.02242,
+      -0.0
+     ],
+     "quat": [
+      0.9238795,
+      -7e-07,
+      1.6e-06,
+      0.3826834
+     ]
+    },
+    {
+     "name": "object_0272_hollow_w02",
+     "role": "wall",
+     "size": [
+      0.00196,
+      0.01394,
+      0.0365
+     ],
+     "pos": [
+      0.0,
+      0.0317,
+      -0.0
+     ],
+     "quat": [
+      0.7071068,
+      -1.2e-06,
+      1.2e-06,
+      0.7071068
+     ]
+    },
+    {
+     "name": "object_0272_hollow_w03",
+     "role": "wall",
+     "size": [
+      0.00196,
+      0.01394,
+      0.0365
+     ],
+     "pos": [
+      -0.02242,
+      0.02242,
+      -0.0
+     ],
+     "quat": [
+      0.3826834,
+      -1.6e-06,
+      7e-07,
+      0.9238795
+     ]
+    },
+    {
+     "name": "object_0272_hollow_w04",
+     "role": "wall",
+     "size": [
+      0.00196,
+      0.01394,
+      0.0365
+     ],
+     "pos": [
+      -0.0317,
+      0.0,
+      -0.0
+     ],
+     "quat": [
+      0.0,
+      -1.7e-06,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "name": "object_0272_hollow_w05",
+     "role": "wall",
+     "size": [
+      0.00196,
+      0.01394,
+      0.0365
+     ],
+     "pos": [
+      -0.02242,
+      -0.02241,
+      -0.0
+     ],
+     "quat": [
+      0.3826834,
+      1.6e-06,
+      7e-07,
+      -0.9238795
+     ]
+    },
+    {
+     "name": "object_0272_hollow_w06",
+     "role": "wall",
+     "size": [
+      0.00196,
+      0.01394,
+      0.0365
+     ],
+     "pos": [
+      0.0,
+      -0.0317,
+      -0.0
+     ],
+     "quat": [
+      0.7071068,
+      1.2e-06,
+      1.2e-06,
+      -0.7071068
+     ]
+    },
+    {
+     "name": "object_0272_hollow_w07",
+     "role": "wall",
+     "size": [
+      0.00196,
+      0.01394,
+      0.0365
+     ],
+     "pos": [
+      0.02242,
+      -0.02241,
+      -0.0
+     ],
+     "quat": [
+      0.9238795,
+      7e-07,
+      1.6e-06,
+      -0.3826834
+     ]
+    },
+    {
+     "name": "object_0272_hollow_f08",
+     "role": "floor",
+     "size": [
+      0.02473,
+      0.02473,
+      0.004
+     ],
+     "pos": [
+      0.0,
+      0.0,
+      -0.031
+     ],
+     "quat": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+     ]
+    }
+   ],
+   "geometry": {
+    "depth_open_cm": 6.2,
+    "rim_inner_radius_cm": 2.97,
+    "height_cm": 7.0,
+    "floor_or_contents_above_bottom_cm": 0.8,
+    "n_wall_sectors": 8,
+    "wall_segments": 1,
+    "filled": false,
+    "wall_thickness_mm": [
+     3.9
+    ],
+    "wall_thickness_from_mesh_mm": 5.2,
+    "inner_radius_top_cm": 2.97,
+    "inner_radius_bottom_cm": 2.97,
+    "floor_layers": 1,
+    "handles": 0
+   },
+   "qc": {
+    "cavity_probe_points": 4800,
+    "cavity_points_inside_shell": 0,
+    "visual_points_within_3mm_of_shell_pct": 100.0,
+    "visual_points_over_6mm_from_shell_pct": 0.0,
+    "mujoco_check": {
+     "visual_points_within_3mm_pct": 100.0,
+     "cavity_points_inside_shell": 0,
+     "cavity_points": 1680
+    }
+   },
+   "basis": "by geometry, not verified"
+  },
+  "r171i1_glass": {
+   "id": "object_0297",
+   "body": "object_0297_body",
+   "cls": "dish",
+   "mass_kg": 0.25,
+   "opening": "upright",
+   "remove_geoms": [
+    "object_0297_collision_00"
+   ],
+   "condim": 3,
+   "friction": [
+    0.6,
+    0.0,
+    0.0
+   ],
+   "inertial_unchanged": {
+    "mass": 0.25,
+    "pos": "0 0 0",
+    "diaginertia": "0.000433333333 0.000433333333 0.000266666667"
+   },
+   "n_geoms": 9,
+   "geoms": [
+    {
+     "name": "object_0297_hollow_w00",
+     "role": "wall",
+     "size": [
+      0.00188,
+      0.01593,
+      0.0615
+     ],
+     "pos": [
+      0.03658,
+      0.0,
+      0.0
+     ],
+     "quat": [
+      1.0,
+      0.0,
+      1e-07,
+      0.0
+     ]
+    },
+    {
+     "name": "object_0297_hollow_w01",
+     "role": "wall",
+     "size": [
+      0.00188,
+      0.01593,
+      0.0615
+     ],
+     "pos": [
+      0.02587,
+      0.02587,
+      0.0
+     ],
+     "quat": [
+      0.9238795,
+      -0.0,
+      1e-07,
+      0.3826834
+     ]
+    },
+    {
+     "name": "object_0297_hollow_w02",
+     "role": "wall",
+     "size": [
+      0.00188,
+      0.01593,
+      0.0615
+     ],
+     "pos": [
+      -0.0,
+      0.03658,
+      0.0
+     ],
+     "quat": [
+      0.7071068,
+      -1e-07,
+      1e-07,
+      0.7071068
+     ]
+    },
+    {
+     "name": "object_0297_hollow_w03",
+     "role": "wall",
+     "size": [
+      0.00188,
+      0.01593,
+      0.0615
+     ],
+     "pos": [
+      -0.02587,
+      0.02587,
+      0.0
+     ],
+     "quat": [
+      0.3826834,
+      -1e-07,
+      0.0,
+      0.9238795
+     ]
+    },
+    {
+     "name": "object_0297_hollow_w04",
+     "role": "wall",
+     "size": [
+      0.00188,
+      0.01593,
+      0.0615
+     ],
+     "pos": [
+      -0.03658,
+      0.0,
+      0.0
+     ],
+     "quat": [
+      0.0,
+      -1e-07,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "name": "object_0297_hollow_w05",
+     "role": "wall",
+     "size": [
+      0.00188,
+      0.01593,
+      0.0615
+     ],
+     "pos": [
+      -0.02587,
+      -0.02587,
+      0.0
+     ],
+     "quat": [
+      0.3826834,
+      1e-07,
+      0.0,
+      -0.9238795
+     ]
+    },
+    {
+     "name": "object_0297_hollow_w06",
+     "role": "wall",
+     "size": [
+      0.00188,
+      0.01593,
+      0.0615
+     ],
+     "pos": [
+      -0.0,
+      -0.03658,
+      0.0
+     ],
+     "quat": [
+      0.7071068,
+      1e-07,
+      1e-07,
+      -0.7071068
+     ]
+    },
+    {
+     "name": "object_0297_hollow_w07",
+     "role": "wall",
+     "size": [
+      0.00188,
+      0.01593,
+      0.0615
+     ],
+     "pos": [
+      0.02587,
+      -0.02587,
+      0.0
+     ],
+     "quat": [
+      0.9238795,
+      0.0,
+      1e-07,
+      -0.3826834
+     ]
+    },
+    {
+     "name": "object_0297_hollow_f08",
+     "role": "floor",
+     "size": [
+      0.02828,
+      0.02828,
+      0.004
+     ],
+     "pos": [
+      -0.0,
+      0.0,
+      -0.056
+     ],
+     "quat": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+     ]
+    }
+   ],
+   "geometry": {
+    "depth_open_cm": 11.2,
+    "rim_inner_radius_cm": 3.47,
+    "height_cm": 12.0,
+    "floor_or_contents_above_bottom_cm": 0.8,
+    "n_wall_sectors": 8,
+    "wall_segments": 1,
+    "filled": false,
+    "wall_thickness_mm": [
+     3.8
+    ],
+    "wall_thickness_from_mesh_mm": 5.3,
+    "inner_radius_top_cm": 3.47,
+    "inner_radius_bottom_cm": 3.47,
+    "floor_layers": 1,
+    "handles": 0
+   },
+   "qc": {
+    "cavity_probe_points": 9504,
+    "cavity_points_inside_shell": 0,
+    "visual_points_within_3mm_of_shell_pct": 99.9,
+    "visual_points_over_6mm_from_shell_pct": 0.0,
+    "mujoco_check": {
+     "visual_points_within_3mm_pct": 99.9,
+     "cavity_points_inside_shell": 0,
+     "cavity_points": 3888
+    }
+   },
+   "basis": "by geometry, not verified"
+  },
+  "r173i1_tumbler": {
+   "id": "object_0299",
+   "body": "object_0299_body",
+   "cls": "dish",
+   "mass_kg": 0.12,
+   "opening": "lying on its side",
+   "remove_geoms": [
+    "object_0299_collision_00"
+   ],
+   "condim": 3,
+   "friction": [
+    0.6,
+    0.0,
+    0.0
+   ],
+   "inertial_unchanged": {
+    "mass": 0.12,
+    "pos": "0 0 0",
+    "diaginertia": "0.000128 0.000388 0.000388"
+   },
+   "n_geoms": 9,
+   "geoms": [
+    {
+     "name": "object_0299_hollow_w00",
+     "role": "wall",
+     "size": [
+      0.00189,
+      0.01593,
+      0.09157
+     ],
+     "pos": [
+      -0.0,
+      0.00016,
+      0.03657
+     ],
+     "quat": [
+      0.0006508,
+      0.7069869,
+      -0.0006506,
+      0.7072261
+     ]
+    },
+    {
+     "name": "object_0299_hollow_w01",
+     "role": "wall",
+     "size": [
+      0.00189,
+      0.01593,
+      0.09157
+     ],
+     "pos": [
+      -5e-05,
+      -0.0257,
+      0.02586
+     ],
+     "quat": [
+      0.2699509,
+      -0.6529216,
+      0.2712448,
+      -0.6536407
+     ]
+    },
+    {
+     "name": "object_0299_hollow_w02",
+     "role": "wall",
+     "size": [
+      0.00189,
+      0.01593,
+      0.09157
+     ],
+     "pos": [
+      -7e-05,
+      -0.03641,
+      0.0
+     ],
+     "quat": [
+      0.499455,
+      -0.499455,
+      0.5005444,
+      -0.5005444
+     ]
+    },
+    {
+     "name": "object_0299_hollow_w03",
+     "role": "wall",
+     "size": [
+      0.00189,
+      0.01593,
+      0.09157
+     ],
+     "pos": [
+      -5e-05,
+      -0.0257,
+      -0.02586
+     ],
+     "quat": [
+      0.6529216,
+      -0.2699509,
+      0.6536407,
+      -0.2712448
+     ]
+    },
+    {
+     "name": "object_0299_hollow_w04",
+     "role": "wall",
+     "size": [
+      0.00189,
+      0.01593,
+      0.09157
+     ],
+     "pos": [
+      -0.0,
+      0.00016,
+      -0.03657
+     ],
+     "quat": [
+      0.7069869,
+      0.0006508,
+      0.7072261,
+      -0.0006506
+     ]
+    },
+    {
+     "name": "object_0299_hollow_w05",
+     "role": "wall",
+     "size": [
+      0.00189,
+      0.01593,
+      0.09157
+     ],
+     "pos": [
+      5e-05,
+      0.02602,
+      -0.02586
+     ],
+     "quat": [
+      0.6534198,
+      0.2711535,
+      0.6531427,
+      0.2700426
+     ]
+    },
+    {
+     "name": "object_0299_hollow_w06",
+     "role": "wall",
+     "size": [
+      0.00189,
+      0.01593,
+      0.09157
+     ],
+     "pos": [
+      7e-05,
+      0.03673,
+      0.0
+     ],
+     "quat": [
+      0.5003754,
+      0.5003754,
+      0.4996243,
+      0.4996243
+     ]
+    },
+    {
+     "name": "object_0299_hollow_w07",
+     "role": "wall",
+     "size": [
+      0.00189,
+      0.01593,
+      0.09157
+     ],
+     "pos": [
+      5e-05,
+      0.02602,
+      0.02586
+     ],
+     "quat": [
+      0.2711535,
+      0.6534198,
+      0.2700426,
+      0.6531427
+     ]
+    },
+    {
+     "name": "object_0299_hollow_f08",
+     "role": "floor",
+     "size": [
+      0.02826,
+      0.02826,
+      0.00405
+     ],
+     "pos": [
+      -0.08602,
+      0.00032,
+      0.0
+     ],
+     "quat": [
+      0.0006507,
+      0.7071065,
+      -0.0006507,
+      0.7071065
+     ]
+    }
+   ],
+   "geometry": {
+    "depth_open_cm": 17.2,
+    "rim_inner_radius_cm": 3.47,
+    "height_cm": 18.0,
+    "floor_or_contents_above_bottom_cm": 0.8,
+    "n_wall_sectors": 8,
+    "wall_segments": 1,
+    "filled": false,
+    "wall_thickness_mm": [
+     3.8
+    ],
+    "wall_thickness_from_mesh_mm": 5.3,
+    "inner_radius_top_cm": 3.47,
+    "inner_radius_bottom_cm": 3.47,
+    "floor_layers": 1,
+    "handles": 0
+   },
+   "qc": {
+    "cavity_probe_points": 14784,
+    "cavity_points_inside_shell": 0,
+    "visual_points_within_3mm_of_shell_pct": 99.9,
+    "visual_points_over_6mm_from_shell_pct": 0.0,
+    "mujoco_check": {
+     "visual_points_within_3mm_pct": 99.9,
+     "cavity_points_inside_shell": 0,
+     "cavity_points": 6048
+    }
+   },
+   "basis": "by geometry, not verified"
+  },
+  "r177i1_bowl": {
+   "id": "object_0303",
+   "body": "object_0303_body",
+   "cls": "dish",
+   "mass_kg": 0.15,
+   "opening": "upright",
+   "remove_geoms": [
+    "object_0303_collision_00"
+   ],
+   "condim": 3,
+   "friction": [
+    0.6,
+    0.0,
+    0.0
+   ],
+   "inertial_unchanged": {
+    "mass": 0.15,
+    "pos": "0 0 0",
+    "diaginertia": "0.00021125 0.00021125 0.00036"
+   },
+   "n_geoms": 11,
+   "geoms": [
+    {
+     "name": "object_0303_hollow_w00",
+     "role": "wall",
+     "size": [
+      0.00358,
+      0.01344,
+      0.03351
+     ],
+     "pos": [
+      0.03494,
+      -0.0,
+      -0.00223
+     ],
+     "quat": [
+      0.9436389,
+      0.0,
+      0.3309767,
+      0.0
+     ]
+    },
+    {
+     "name": "object_0303_hollow_w01",
+     "role": "wall",
+     "size": [
+      0.00358,
+      0.01344,
+      0.03351
+     ],
+     "pos": [
+      0.02826,
+      0.02056,
+      -0.00223
+     ],
+     "quat": [
+      0.897454,
+      -0.1022774,
+      0.3147775,
+      0.2916005
+     ]
+    },
+    {
+     "name": "object_0303_hollow_w02",
+     "role": "wall",
+     "size": [
+      0.00358,
+      0.01344,
+      0.03351
+     ],
+     "pos": [
+      0.01077,
+      0.03327,
+      -0.00223
+     ],
+     "quat": [
+      0.7634199,
+      -0.1945432,
+      0.2677657,
+      0.5546571
+     ]
+    },
+    {
+     "name": "object_0303_hollow_w03",
+     "role": "wall",
+     "size": [
+      0.00358,
+      0.01344,
+      0.03351
+     ],
+     "pos": [
+      -0.01085,
+      0.03327,
+      -0.00223
+     ],
+     "quat": [
+      0.5546571,
+      -0.2677657,
+      0.1945432,
+      0.7634199
+     ]
+    },
+    {
+     "name": "object_0303_hollow_w04",
+     "role": "wall",
+     "size": [
+      0.00358,
+      0.01344,
+      0.03351
+     ],
+     "pos": [
+      -0.02834,
+      0.02056,
+      -0.00223
+     ],
+     "quat": [
+      0.2916005,
+      -0.3147775,
+      0.1022774,
+      0.897454
+     ]
+    },
+    {
+     "name": "object_0303_hollow_w05",
+     "role": "wall",
+     "size": [
+      0.00358,
+      0.01344,
+      0.03351
+     ],
+     "pos": [
+      -0.03502,
+      -0.0,
+      -0.00223
+     ],
+     "quat": [
+      0.0,
+      -0.3309767,
+      0.0,
+      0.9436389
+     ]
+    },
+    {
+     "name": "object_0303_hollow_w06",
+     "role": "wall",
+     "size": [
+      0.00358,
+      0.01344,
+      0.03351
+     ],
+     "pos": [
+      -0.02834,
+      -0.02056,
+      -0.00223
+     ],
+     "quat": [
+      0.2916005,
+      0.3147775,
+      0.1022774,
+      -0.897454
+     ]
+    },
+    {
+     "name": "object_0303_hollow_w07",
+     "role": "wall",
+     "size": [
+      0.00358,
+      0.01344,
+      0.03351
+     ],
+     "pos": [
+      -0.01085,
+      -0.03327,
+      -0.00223
+     ],
+     "quat": [
+      0.5546571,
+      0.2677657,
+      0.1945432,
+      -0.7634199
+     ]
+    },
+    {
+     "name": "object_0303_hollow_w08",
+     "role": "wall",
+     "size": [
+      0.00358,
+      0.01344,
+      0.03351
+     ],
+     "pos": [
+      0.01077,
+      -0.03327,
+      -0.00223
+     ],
+     "quat": [
+      0.7634199,
+      0.1945432,
+      0.2677657,
+      -0.5546571
+     ]
+    },
+    {
+     "name": "object_0303_hollow_w09",
+     "role": "wall",
+     "size": [
+      0.00358,
+      0.01344,
+      0.03351
+     ],
+     "pos": [
+      0.02826,
+      -0.02056,
+      -0.00223
+     ],
+     "quat": [
+      0.897454,
+      0.1022774,
+      0.3147775,
+      -0.2916005
+     ]
+    },
+    {
+     "name": "object_0303_hollow_f10",
+     "role": "floor",
+     "size": [
+      0.02008,
+      0.02008,
+      0.007
+     ],
+     "pos": [
+      -4e-05,
+      -0.0,
+      -0.018
+     ],
+     "quat": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+     ]
+    }
+   ],
+   "geometry": {
+    "depth_open_cm": 3.6,
+    "rim_inner_radius_cm": 4.9,
+    "height_cm": 5.0,
+    "floor_or_contents_above_bottom_cm": 1.4,
+    "n_wall_sectors": 10,
+    "wall_segments": 1,
+    "filled": false,
+    "wall_thickness_mm": [
+     7.2
+    ],
+    "wall_thickness_from_mesh_mm": 10.2,
+    "inner_radius_top_cm": 5.22,
+    "inner_radius_bottom_cm": 2.98,
+    "floor_layers": 1,
+    "handles": 0
+   },
+   "qc": {
+    "cavity_probe_points": 3384,
+    "cavity_points_inside_shell": 0,
+    "visual_points_within_3mm_of_shell_pct": 98.4,
+    "visual_points_over_6mm_from_shell_pct": 0.0,
+    "mujoco_check": {
+     "visual_points_within_3mm_pct": 98.4,
+     "cavity_points_inside_shell": 0,
+     "cavity_points": 1200
+    }
+   },
+   "basis": "by geometry, not verified"
+  },
+  "r183i1_cup": {
+   "id": "object_0309",
+   "body": "object_0309_body",
+   "cls": "dish",
+   "mass_kg": 0.05,
+   "opening": "upright",
+   "remove_geoms": [
+    "object_0309_collision_00"
+   ],
+   "condim": 3,
+   "friction": [
+    0.6,
+    0.0,
+    0.0
+   ],
+   "inertial_unchanged": {
+    "mass": 0.05,
+    "pos": "0 0 0",
+    "diaginertia": "6.83333333e-05 6.83333333e-05 5.33333333e-05"
+   },
+   "n_geoms": 9,
+   "geoms": [
+    {
+     "name": "object_0309_hollow_w00",
+     "role": "wall",
+     "size": [
+      0.00188,
+      0.01593,
+      0.0515
+     ],
+     "pos": [
+      0.03658,
+      0.0,
+      -0.0
+     ],
+     "quat": [
+      1.0,
+      0.0,
+      0.000207,
+      0.0
+     ]
+    },
+    {
+     "name": "object_0309_hollow_w01",
+     "role": "wall",
+     "size": [
+      0.00188,
+      0.01593,
+      0.0515
+     ],
+     "pos": [
+      0.02587,
+      0.02587,
+      -0.0
+     ],
+     "quat": [
+      0.9238795,
+      -7.92e-05,
+      0.0001912,
+      0.3826834
+     ]
+    },
+    {
+     "name": "object_0309_hollow_w02",
+     "role": "wall",
+     "size": [
+      0.00188,
+      0.01593,
+      0.0515
+     ],
+     "pos": [
+      -0.0,
+      0.03659,
+      -0.0
+     ],
+     "quat": [
+      0.7071068,
+      -0.0001464,
+      0.0001464,
+      0.7071068
+     ]
+    },
+    {
+     "name": "object_0309_hollow_w03",
+     "role": "wall",
+     "size": [
+      0.00188,
+      0.01593,
+      0.0515
+     ],
+     "pos": [
+      -0.02587,
+      0.02587,
+      -0.0
+     ],
+     "quat": [
+      0.3826834,
+      -0.0001912,
+      7.92e-05,
+      0.9238795
+     ]
+    },
+    {
+     "name": "object_0309_hollow_w04",
+     "role": "wall",
+     "size": [
+      0.00188,
+      0.01593,
+      0.0515
+     ],
+     "pos": [
+      -0.03659,
+      0.0,
+      -0.0
+     ],
+     "quat": [
+      0.0,
+      -0.000207,
+      0.0,
+      1.0
+     ]
+    },
+    {
+     "name": "object_0309_hollow_w05",
+     "role": "wall",
+     "size": [
+      0.00188,
+      0.01593,
+      0.0515
+     ],
+     "pos": [
+      -0.02587,
+      -0.02587,
+      -0.0
+     ],
+     "quat": [
+      0.3826834,
+      0.0001912,
+      7.92e-05,
+      -0.9238795
+     ]
+    },
+    {
+     "name": "object_0309_hollow_w06",
+     "role": "wall",
+     "size": [
+      0.00188,
+      0.01593,
+      0.0515
+     ],
+     "pos": [
+      -0.0,
+      -0.03658,
+      -0.0
+     ],
+     "quat": [
+      0.7071068,
+      0.0001464,
+      0.0001464,
+      -0.7071068
+     ]
+    },
+    {
+     "name": "object_0309_hollow_w07",
+     "role": "wall",
+     "size": [
+      0.00188,
+      0.01593,
+      0.0515
+     ],
+     "pos": [
+      0.02587,
+      -0.02587,
+      -0.0
+     ],
+     "quat": [
+      0.9238795,
+      7.92e-05,
+      0.0001912,
+      -0.3826834
+     ]
+    },
+    {
+     "name": "object_0309_hollow_f08",
+     "role": "floor",
+     "size": [
+      0.02827,
+      0.02827,
+      0.004
+     ],
+     "pos": [
+      -0.0,
+      0.0,
+      -0.046
+     ],
+     "quat": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+     ]
+    }
+   ],
+   "geometry": {
+    "depth_open_cm": 9.2,
+    "rim_inner_radius_cm": 3.47,
+    "height_cm": 10.0,
+    "floor_or_contents_above_bottom_cm": 0.8,
+    "n_wall_sectors": 8,
+    "wall_segments": 1,
+    "filled": false,
+    "wall_thickness_mm": [
+     3.8
+    ],
+    "wall_thickness_from_mesh_mm": 5.3,
+    "inner_radius_top_cm": 3.47,
+    "inner_radius_bottom_cm": 3.47,
+    "floor_layers": 1,
+    "handles": 0
+   },
+   "qc": {
+    "cavity_probe_points": 7920,
+    "cavity_points_inside_shell": 0,
+    "visual_points_within_3mm_of_shell_pct": 99.8,
+    "visual_points_over_6mm_from_shell_pct": 0.0,
+    "mujoco_check": {
+     "visual_points_within_3mm_pct": 99.8,
+     "cavity_points_inside_shell": 0,
+     "cavity_points": 3168
+    }
+   },
+   "basis": "by geometry, not verified"
+  },
+  "r197i1_cup": {
+   "id": "object_0328",
+   "body": "object_0328_body",
+   "cls": "dish",
+   "mass_kg": 0.03,
+   "opening": "upright",
+   "remove_geoms": [
+    "object_0328_collision_00"
+   ],
+   "condim": 3,
+   "friction": [
+    0.6,
+    0.0,
+    0.0
+   ],
+   "inertial_unchanged": {
+    "mass": 0.03,
+    "pos": "0 0 0",
+    "diaginertia": "2.125e-05 2.125e-05 2.45e-05"
+   },
+   "n_geoms": 9,
+   "geoms": [
+    {
+     "name": "object_0328_hollow_w00",
+     "role": "wall",
+     "size": [
+      0.00196,
+      0.01394,
+      0.0315
+     ],
+     "pos": [
+      0.0317,
+      -0.0,
+      0.0
+     ],
+     "quat": [
+      1.0,
+      0.0,
+      -2e-06,
+      0.0
+     ]
+    },
+    {
+     "name": "object_0328_hollow_w01",
+     "role": "wall",
+     "size": [
+      0.00196,
+      0.01394,
+      0.0315
+     ],
+     "pos": [
+      0.02242,
+      0.02241,
+      0.0
+     ],
+     "quat": [
+      0.9238795,
+      7e-07,
+      -1.8e-06,
+      0.3826834
+     ]
+    },
+    {
+     "name": "object_0328_hollow_w02",
+     "role": "wall",
+     "size": [
+      0.00196,
+      0.01394,
+      0.0315
+     ],
+     "pos": [
+      0.0,
+      0.0317,
+      0.0
+     ],
+     "quat": [
+      0.7071068,
+      1.4e-06,
+      -1.4e-06,
+      0.7071068
+     ]
+    },
+    {
+     "name": "object_0328_hollow_w03",
+     "role": "wall",
+     "size": [
+      0.00196,
+      0.01394,
+      0.0315
+     ],
+     "pos": [
+      -0.02241,
+      0.02241,
+      0.0
+     ],
+     "quat": [
+      0.3826834,
+      1.8e-06,
+      -7e-07,
+      0.9238795
+     ]
+    },
+    {
+     "name": "object_0328_hollow_w04",
+     "role": "wall",
+     "size": [
+      0.00196,
+      0.01394,
+      0.0315
+     ],
+     "pos": [
+      -0.0317,
+      -0.0,
+      0.0
+     ],
+     "quat": [
+      0.0,
+      2e-06,
+      -0.0,
+      1.0
+     ]
+    },
+    {
+     "name": "object_0328_hollow_w05",
+     "role": "wall",
+     "size": [
+      0.00196,
+      0.01394,
+      0.0315
+     ],
+     "pos": [
+      -0.02241,
+      -0.02242,
+      0.0
+     ],
+     "quat": [
+      0.3826834,
+      -1.8e-06,
+      -7e-07,
+      -0.9238795
+     ]
+    },
+    {
+     "name": "object_0328_hollow_w06",
+     "role": "wall",
+     "size": [
+      0.00196,
+      0.01394,
+      0.0315
+     ],
+     "pos": [
+      0.0,
+      -0.0317,
+      0.0
+     ],
+     "quat": [
+      0.7071068,
+      -1.4e-06,
+      -1.4e-06,
+      -0.7071068
+     ]
+    },
+    {
+     "name": "object_0328_hollow_w07",
+     "role": "wall",
+     "size": [
+      0.00196,
+      0.01394,
+      0.0315
+     ],
+     "pos": [
+      0.02242,
+      -0.02242,
+      0.0
+     ],
+     "quat": [
+      0.9238795,
+      -7e-07,
+      -1.8e-06,
+      -0.3826834
+     ]
+    },
+    {
+     "name": "object_0328_hollow_f08",
+     "role": "floor",
+     "size": [
+      0.02474,
+      0.02474,
+      0.004
+     ],
+     "pos": [
+      0.0,
+      -0.0,
+      -0.026
+     ],
+     "quat": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+     ]
+    }
+   ],
+   "geometry": {
+    "depth_open_cm": 5.2,
+    "rim_inner_radius_cm": 2.97,
+    "height_cm": 6.0,
+    "floor_or_contents_above_bottom_cm": 0.8,
+    "n_wall_sectors": 8,
+    "wall_segments": 1,
+    "filled": false,
+    "wall_thickness_mm": [
+     3.9
+    ],
+    "wall_thickness_from_mesh_mm": 5.2,
+    "inner_radius_top_cm": 2.97,
+    "inner_radius_bottom_cm": 2.97,
+    "floor_layers": 1,
+    "handles": 0
+   },
+   "qc": {
+    "cavity_probe_points": 3840,
+    "cavity_points_inside_shell": 0,
+    "visual_points_within_3mm_of_shell_pct": 100.0,
+    "visual_points_over_6mm_from_shell_pct": 0.0,
+    "mujoco_check": {
+     "visual_points_within_3mm_pct": 100.0,
+     "cavity_points_inside_shell": 0,
+     "cavity_points": 1344
+    }
+   },
+   "basis": "by geometry, not verified"
+  }
+ }
+}

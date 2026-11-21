@@ -1,0 +1,3 @@
+﻿STOCKING in basket {'inside': 1.0, 'below_rim': 1.0, 'overhang': 0.0, 'lowest': 0.002, 'rim': 0.12}
+RACK r33i1_rack q 0.358 range [-0.0, 0.4]
+RACK r33i2_rack q 0.282 range [-0.0, 0.35]

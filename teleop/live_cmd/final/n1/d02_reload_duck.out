@@ -1,0 +1,13 @@
+[checkpoint] loaded C:\Users\raresense\sim_home\runs\1121_021343_dex1_floor_final_s2\checkpoints\0368_item_r190i1_stocking: t=5183.632 s, k=2591816, {'controller_fields': 177, 'cloth_arrays': 231}
+[final_run] common_b loaded
+RELOADED 0368 rec 36001 {'t': 5186.93, 'pelvis': [-4.816, -1.319, 0.767], 'yaw_deg': -135.6, 'hands': {'left': [-4.636, -1.5, 0.538], 'right': [-4.992, -1.137, 0.537]}, 'mode': 'stand'} route r130i1_light_saber done 14
+ITEM_START r120i2_duck attempt 0 pos 14 route at r120i2_duck state {'t': 5186.93, 'pelvis': [-4.816, -1.319, 0.767], 'yaw_deg': -135.6, 'hands': {'left': [-4.636, -1.5, 0.538], 'right': [-4.992, -1.137, 0.537]}, 'mode': 'stand'}
+[pick] object_0251_body try 1: grip {'ok': True, 'gap': 0.0489, 'jaw1_N': 5.9, 'jaw2_N': 6.0, 'between': 0.51, 'off_axis': 0.002} rose 0.077 -> held
+ITEM_CHECK {'item': 'r120i2_duck', 't': 5285.22, 'kind': 'thing', 'dest': 'object_0312_body', 'centre': [-5.072, -1.352, 0.028], 'ok': True, 'off_spot': 0.216, 'inside': True}
+[checkpoint] 0497_item_r120i2_duck t=5285.22 s, 1.93 MB, 0.394 s
+TOY {'item': 'r120i2_duck', 'pick': {'ok': True, 'side': 'right'}, 'put': {'walk': 0.003, 'held_after_walk': True, 'e_over': [-0.001, -0.004, -0.002], 'in': True, 'at': [-5.072, -1.352, 0.028], 'state': {'t': 5285.22, 'pelvis': [-4.871, -1.088, 0.77], 'yaw_deg': -125.0, 'hands': {'left': [-4.66, -1.232, 0.539], 'right': [-5.086, -0.965, 0.539]}, 'mode': 'stand'}, 'fell': False}, 'in': True, 'fell': False, 'state': {'t': 5285.22, 'pelvis': [-4.871, -1.088, 0.77], 'yaw_deg': -125.0, 'hands': {'left': [-4.66, -1.232, 0.539], 'right': [-5.086, -0.965, 0.539]}, 'mode': 'stand'}, 'done': {'done': 'r120i2_duck', 'ckpt': 'C:\\Users\\raresense\\sim_home\\runs\\1121_021343_dex1_floor_final_s2\\checkpoints\\0497_item_r120i2_duck', 'pruned': 72, 'pos': 15, 'n': 35, 'next': 'r130i1_light_saber'}}
+C:\Users\raresense\sim_home\runs\1121_021343_dex1_floor_final_s2\tele\0072_f12_r120i2_duck_end.jpg
+ITEM_RESULT DONE_ALREADY r120i2_duck
+ZZ_OK True state {'t': 5285.22, 'pelvis': [-4.871, -1.088, 0.77], 'yaw_deg': -125.0, 'hands': {'left': [-4.66, -1.232, 0.539], 'right': [-5.086, -0.965, 0.539]}, 'mode': 'stand'} fell False rec 38949 done 15
+C:\Users\raresense\sim_home\runs\1121_021343_dex1_floor_final_s2\tele\0073_n1_duck_end2.jpg
+__END__

@@ -1,0 +1,9 @@
+open gap 0.079 caught 7 along the closing axis (m, + = toward the far pad): [0.035, 0.031, 0.023, 0.017, -0.002, 0.004, 0.002] uv [[0.38, -0.2], [0.38, -0.18], [0.4, -0.2], [0.4, -0.18], [0.42, -0.18], [0.42, -0.16], [0.44, -0.18]]
+shifted 0.017 now caught 6 along: [0.022, 0.024, 0.011, 0.006, -0.013, -0.004] pad rf [0.323, -0.082, 0.679] pad_low 0.66 touch {'body': 0.0, 'body_who': None, 'held': 0.0, 'held_who': None}
+shifted again 0.009 now caught 5 along: [0.021, 0.024, 0.006, -0.013, -0.007] pad rf [0.323, -0.085, 0.68]
+ck C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\checkpoints\1397_act_g_right_centred_before_close frame 91705
+close_lock {'gap_cm': 1.49, 'F1': 0.9, 'F2': 1.4, 'caught': 0, 'held': 0, 'caught_uv_mean': [0.4, -0.184]}
+left held n 4 uv [[0.04, 0.18], [0.04, 0.2], [0.04, 0.22], [0.06, 0.2]]
+gap 0.0149 at_fingers {'left': 50, 'right': 26} held L/R True False touch {'body': 0.0, 'body_who': None, 'held': 0.0, 'held_who': None} hamper [-2.148, -1.957] tilt 0.282 knees {'left_knee': 0.127, 'right_knee': 0.115} out {'share': 0.032, 'z_lo': 0.502, 'below_rim': 31} fell False
+look C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\look_fb\0021_g21_closed.jpg
+__END__

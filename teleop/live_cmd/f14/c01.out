@@ -1,0 +1,12 @@
+﻿[kitchen] step_mon(st=None), call_mon(fn, label), dw_names(), sink_put / use_sink_put (draft), in_basin, door_face, close_door_follow (draft) loaded
+[island] two_hand_check, roll_nearer, two_hand_pick, two_hand_walk, two_hand_set_down, island_pick loaded
+[two-squeeze] hold_on wrapped for object_0212_body forces now {'left': 0.0, 'right': 0.0, 'others': {'scene_static': 1.16}, 'n_left': 0, 'n_right': 0}
+dishwasher joints {'object_0178_body': 2.95, 'object_0179_body': 3.11, 'object_0180_body': 3.27, 'object_0181_body': 2.96, 'object_0182_body': 3.12, 'object_0183_body': 3.27, 'object_0184_body': 3.12, 'object_0185_body': 3.27, 'object_0186_body': 2.959, 'object_0187_body': 2.886, 'object_0188_body': 2.935, 'object_0189_body': 2.995, 'object_0190_body': 3.054, 'object_0191_body': 3.115, 'object_0192_body': 3.174} tray strip things [] sponge [1.049, -0.046, 0.91] [1.129, 0.174, 0.99]
+robot {'t': 13745.66, 'pelvis': [-3.059, -2.357, 0.673], 'yaw_deg': -79.5, 'hands': {'left': [-2.809, -2.309, 0.443], 'right': [-3.31, -2.401, 0.443]}, 'mode': 'stand'} held {} kit {'ws_gb': 6.52, 'priv_gb': 13.87}
+[call_mon] r83i1_sponges: FAILED MONITOR: right_knee_link pressing furniture/floor 65 N at z 0.26 sim 59.9 s wall 153 s
+RESULT {'item': 'r83i1_sponges', 'status': 'FAILED', 'why': 'MONITOR: right_knee_link pressing furniture/floor 65 N at z 0.26', 'sim_s': 59.9, 'wall_s': 153, 'at': [0.709, 0.092], 'look': 'C:\\Users\\raresense\\sim_home\\runs\\1120_155109_dex1_floor_14\\tele\\0002_end_r83i1_sponges_FAILED.jpg'}
+RECORD {}
+PICKS None
+PUTS None
+SQUEEZE CHECKS []
+sponge now [1.049, -0.046, 0.91] [1.129, 0.174, 0.99] touching ['scene_static', 'scene_static', 'scene_static', 'scene_static'] {'t': 13805.56, 'pelvis': [0.709, 0.092, 0.673], 'yaw_deg': 0.2, 'hands': {'left': [0.706, 0.348, 0.443], 'right': [0.708, -0.162, 0.443]}, 'mode': 'swing'} fell False kit {'ws_gb': 6.52, 'priv_gb': 13.87}

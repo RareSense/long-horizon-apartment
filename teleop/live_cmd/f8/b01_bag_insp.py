@@ -1,0 +1,6 @@
+zz_n = "r196i1_plastic_bag"; zz_b = body_of(zz_n)
+print(floor_first([zz_n]), flush=True)
+print("bag", zz_b, "box", [np.round(v_, 3).tolist() for v_ in obj_box(zz_b)], "dest", DESC["destinations"].get(zz_n), flush=True)
+print("stocking", "dest", DESC["destinations"].get("r190i1_stocking"), "box", [np.round(v_, 3).tolist() for v_ in garment_box("r190i1_stocking")] if "r190i1_stocking" in GARMENTS else None, flush=True)
+print("near bag", [(INFO["bodies"][b_].get("display", b_), np.round(centre(b_), 2).tolist()) for b_ in INFO["bodies"] if np.linalg.norm(centre(b_)[:2] - centre(zz_b)[:2]) < 0.6], flush=True)
+print("state", state(), "kit", kit_mem(), flush=True)

@@ -1,0 +1,2 @@
+PUT {'after_stand': {'lost': False, 'at': [-3.191, -0.871, 0.689]}, 'abort': 'left_knee_link pressing rubbish_bin 31 N', 'at': [0.178, 1.379, 0.717], 'in_bin': False, 'held': True, 'state': {'t': 8639.22, 'pelvis': [-0.059, 1.056, 0.751], 'yaw_deg': 45.1, 'hands': {'left': [0.089, 1.344, 0.73], 'right': [0.115, 0.87, 0.518]}, 'mode': 'swing'}, 'fell': False}
+C:\Users\raresense\sim_home\runs\1120_093820_dex1_floor_12\tele\0050_f12_pouch_put.jpg

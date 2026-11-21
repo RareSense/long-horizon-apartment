@@ -1,0 +1,5 @@
+open {'inside': 1.0, 'below_rim': 0.756, 'overhang': 0.0, 'lowest': 0.01, 'rim': 0.12}
+up {'inside': 1.0, 'below_rim': 1.0, 'overhang': 0.0, 'lowest': 0.01, 'rim': 0.12} fingers {}
+stock {'inside': 1.0, 'below_rim': 1.0, 'overhang': 0.0, 'lowest': 0.01, 'rim': 0.12} check {'item': 'r190i1_stocking', 't': 5183.63, 'kind': 'garment', 'dest': 'r186i1_basket', 'inside': None, 'ok': None} state {'t': 5183.63, 'pelvis': [-4.816, -1.318, 0.767], 'yaw_deg': -135.7, 'hands': {'left': [-4.636, -1.5, 0.537], 'right': [-4.993, -1.135, 0.537]}, 'mode': 'stand'} touch None fell False
+C:\Users\raresense\sim_home\runs\1121_021343_dex1_floor_final_s2\tele\0050_n1_stock_done.jpg
+__END__

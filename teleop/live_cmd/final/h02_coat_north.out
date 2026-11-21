@@ -1,0 +1,22 @@
+ck C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\checkpoints\1636_act_bc_coat_held_right
+no path (-1.55, -1.17, 0.0) no free path to [-1.55, -1.17, 0.0]
+goal (-1.45, -1.17, 0.0)
+walk {'ok': True, 'err_xy': 0.006, 'err_yaw': -0.009, 'seconds': 15.4, 'standing': True, 'steppings': 1, 'way_points': '[[0.96, -1.75], [-1.25, -1.2], [-1.45, -1.17]]'}
+state {'t': 2620.31, 'pelvis': [-1.456, -1.172, 0.733], 'yaw_deg': 0.5, 'hands': {'left': [-1.46, -0.918, 0.502], 'right': [-1.113, -1.299, 0.876]}, 'mode': 'stand'} touch {'body': 0.0, 'body_who': None, 'held': 0.0, 'held_who': None} held True fell False scooter [-1.839, -0.762, 0.493] saber [-1.453, -0.595, 0.018]
+look3 C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\tele\0128_coat_corr.jpg
+MV ('back', [-1.582, -1.19], 0.6, 0.0, None, True)
+MV ('back', [-1.709, -1.191], 0.6, 0.0, None, True)
+MV ('back', [-1.836, -1.189], 0.6, 0.0, None, True)
+MV ('back', [-1.967, -1.191], 0.5, 0.0, None, True)
+MV ('back', [-2.091, -1.189], 0.6, 0.0, None, True)
+MV ('back', [-2.151, -1.19], 0.4, 0.0, None, True)
+MV ('turn', [-2.154, -1.19], -14.5, 0.0, None, True)
+MV ('turn', [-2.157, -1.189], -29.3, 0.0, None, True)
+MV ('turn', [-2.158, -1.187], -44.2, 0.0, None, True)
+MV ('turn', [-2.159, -1.184], -59.0, 0.0, None, True)
+MV ('turn', [-2.16, -1.182], -73.8, 0.0, None, True)
+MV ('turn', [-2.161, -1.179], -88.7, 0.0, None, True)
+END {'t': 2687.45, 'pelvis': [-2.161, -1.179, 0.731], 'yaw_deg': -88.7, 'hands': {'left': [-1.907, -1.171, 0.501], 'right': [-2.283, -1.52, 0.867]}, 'mode': 'stand'} held True fell False lowest 0.014
+near [('r126i1_scooter', [-0.41, 0.33])]
+C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\tele\0141_coat_at_north_pre.jpg
+__END__

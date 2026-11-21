@@ -1,0 +1,6 @@
+op.run(1.5)
+print("state", state(), "touch", contact_report(), "fell", fallen(), "pad", np.round(pad_mid("right"), 3).tolist(), flush=True)
+PRE_ACTION("open_jaws", dict(side="right"))
+open_jaws("right", T=0.3); HELD.pop("right", None); op.run(1.2)
+print("duck", np.round(centre(zz_b), 3).tolist(), "in basket", inside(zz_b, zz_cb), "state", state(), "fell", fallen(), "touch", contact_report(), flush=True)
+print(look3("duck_dropped"), flush=True)

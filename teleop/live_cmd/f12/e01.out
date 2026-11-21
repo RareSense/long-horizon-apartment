@@ -1,0 +1,3 @@
+plan [2.997, -1.357, 2.505] G [2.7, -1.473]
+PINCH {'walk_err': 0.01, 'G_ahead': 0.246, 'e_above': [0.0023, -0.0022, 0.0007], 'e_down': [0.0026, -0.0015, -0.0265], 'grip': {'ok': True, 'gap': 0.0767, 'jaw1_N': 6.8, 'jaw2_N': 7.0}, 'umb_contacts': [], 'state': {'t': 8527.46, 'pelvis': [3.065, -1.414, 0.296], 'yaw_deg': 142.6, 'hands': {'left': [2.698, -1.473, 0.047], 'right': [3.362, -1.322, 0.139]}, 'mode': 'stand'}, 'umb': [2.241, -1.206]}
+C:\Users\raresense\sim_home\runs\1120_093820_dex1_floor_12\tele\f12_e01_pinch.jpg

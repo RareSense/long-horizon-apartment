@@ -1,0 +1,8 @@
+[checkpoint] loaded C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\checkpoints\3284_act_n1_nugget_stance: t=10590.484 s, k=5295242, {'controller_fields': 179, 'cloth_arrays': 231}
+RELOADED nugget_stance rec 222948 {'t': 10593.79, 'pelvis': [2.163, -0.712, 0.673], 'yaw_deg': 89.8, 'hands': {'left': [1.908, -0.713, 0.443], 'right': [2.416, -0.715, 0.442]}, 'mode': 'stand'}
+closer {'t': 10596.27, 'pelvis': [2.162, -0.673, 0.673], 'yaw_deg': 89.8, 'hands': {'left': [1.906, -0.674, 0.444], 'right': [2.415, -0.675, 0.442]}, 'mode': 'stand'} rel [0.321, -0.198]
+NUG {'e_behind': [-0.003, -0.001, 0.001], 'e_level': [-0.001, -0.001, -0.001], 'abort': 'fall'} at [2.361, -0.353, 0.92] state {'t': 10613.77, 'pelvis': [2.15, -1.23, 0.192], 'yaw_deg': 59.0, 'hands': {'left': [1.928, -1.382, 0.025], 'right': [2.304, -1.096, 0.722]}, 'mode': 'stand'}
+ITEM_RESULT FAIL r93i1_nugget {'item': 'r93i1_nugget', 't': 10613.77, 'kind': 'thing', 'dest': 'object_0312_body', 'centre': [2.361, -0.353, 0.92], 'ok': False, 'off_spot': 7.716, 'inside': False} held False fell True state {'t': 10613.77, 'pelvis': [2.15, -1.23, 0.192], 'yaw_deg': 59.0, 'hands': {'left': [1.928, -1.382, 0.025], 'right': [2.304, -1.096, 0.722]}, 'mode': 'stand'}
+FIN False
+C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\tele\0123_n1_nugget_end.jpg
+__END__

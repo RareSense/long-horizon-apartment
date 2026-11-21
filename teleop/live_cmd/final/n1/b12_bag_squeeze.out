@@ -1,0 +1,5 @@
+[island] two_hand_check, roll_nearer, two_hand_pick, two_hand_walk, two_hand_set_down, island_pick loaded
+[two_lib] loaded
+OUT {'short': [0.15, 0.15], 'mL': [-4.353, -1.114], 'mR': [-4.541, -1.183], 'eL': [-0.004, 0.001, -0.001], 'eR': [-0.0, 0.007, -0.01], 'padL': [-4.315, -1.103, 0.025], 'padR': [-4.574, -1.203, 0.034]} bag [-4.447, -1.149, 0.015] state {'t': 5022.97, 'pelvis': [-4.584, -0.833, 0.305], 'yaw_deg': -85.2, 'hands': {'left': [-4.315, -1.103, 0.03], 'right': [-4.574, -1.203, 0.039]}, 'mode': 'stand'} touch None fell False
+C:\Users\raresense\sim_home\runs\1121_021343_dex1_floor_final_s2\tele\0008_n1_bag_paddles.jpg
+__END__

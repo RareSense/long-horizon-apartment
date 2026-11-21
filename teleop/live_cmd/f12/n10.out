@@ -1,0 +1,5 @@
+[drop] object_0287_body into rubbish_bin: in (object centre [0.012, 1.337, 0.031])
+BIN {'puts': "[{'ok': True, 'lost': False, 'over_err': [0.036, 0.057, -0.047], 'centre': [0.012, 1.337, 0.031]}]", 'in': True, 'state': {'t': 11885.78, 'pelvis': [-0.274, 1.086, 0.769], 'yaw_deg': 60.6, 'hands': {'left': [-0.476, 1.207, 0.538], 'right': [-0.054, 0.96, 0.539]}, 'mode': 'stand'}, 'fell': False}
+[checkpoint] 2493_item_r158i1_tissue t=11885.78 s, 3.57 MB, 0.746 s
+DONE {'done': 'r158i1_tissue', 'ckpt': 'C:\\Users\\raresense\\sim_home\\runs\\1120_093820_dex1_floor_12\\checkpoints\\2493_item_r158i1_tissue', 'pruned': 159, 'pos': 31, 'n': 43, 'next': 'r154i1_stick'}
+C:\Users\raresense\sim_home\runs\1120_093820_dex1_floor_12\tele\0087_f12_tissue_bin.jpg

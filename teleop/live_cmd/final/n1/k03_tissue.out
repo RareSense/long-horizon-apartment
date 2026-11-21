@@ -1,0 +1,17 @@
+ITEM_START r158i1_tissue attempt 2 pos 29 route at r158i1_tissue state {'t': 9995.66, 'pelvis': [-3.017, -2.389, 0.673], 'yaw_deg': -84.7, 'hands': {'left': [-2.763, -2.364, 0.443], 'right': [-3.271, -2.411, 0.443]}, 'mode': 'stand'}
+at {'t': 10036.11, 'pelvis': [-2.838, -0.501, 0.671], 'yaw_deg': 124.8, 'hands': {'left': [-3.047, -0.649, 0.442], 'right': [-2.628, -0.358, 0.44]}, 'mode': 'stand'} tissue [-2.86, -0.113, 0.469]
+ck C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\checkpoints\3064_act_n1_tissue_stance
+CORNER {'corner': [-2.865, -0.141], 'ahead': 0.363, 'z': 0.469, 'e_above': [0.004, -0.003, -0.0], 'e_down': [0.0, 0.005, -0.001], 'grip': {'ok': True, 'gap': 0.0374, 'jaw1_N': 2.8, 'jaw2_N': 2.1}, 'fingers': 2, 'rose': 0.099, 'touching': ['right:f1', 'right:f2'], 'held': True}
+ck C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\checkpoints\3075_act_n1_tissue_held
+Traceback (most recent call last):
+  File "E:\urc_final\scripts\isaac_live.py", line 57, in <module>
+    exec(compile(code, "<live>", "exec"), G)
+  File "<live>", line 21, in <module>
+  File "<string>", line 66, in _to_bin
+  File "<string>", line 45, in bin_drop
+  File "<string>", line 1755, in put_away
+  File "<string>", line 245, in w
+  File "<string>", line 1503, in drop_in
+  File "<string>", line 1004, in walk_path
+RuntimeError: no free path to [-0.19, 1.19, 1.05]
+__END__

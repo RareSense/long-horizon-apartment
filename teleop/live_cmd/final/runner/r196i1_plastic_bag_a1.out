@@ -1,0 +1,8 @@
+[chk] item_check + guarded route_checkpoint loaded; SPOT_TOL 0.15
+[final_run] common_b loaded
+[final_run] items ['r68i1_rag', 'r196i1_plastic_bag', 'r190i1_stocking', 'r125i2_flat', 'r130i1_light_saber', 'r120i2_duck', 'r125i1_flat', 'r175i1_cardboard_box', 'r178i1_ball', 'r179i1_toy_pouch', 'r126i1_scooter', 'r149i1_pouch', 'r93i1_nugget', 'r193i4_toy_piece', 'r192i1_ball', 'r193i2_toy_piece', 'r193i1_toy_piece', 'r193i3_toy_piece', 'r120i1_duck', 'r158i1_tissue', 'r105i1_shoe', 'r105i2_shoe', 'r107i1_umbrella', 'r159i1_door', 'r83i1_sponges']
+ITEM_START r196i1_plastic_bag attempt 1 pos 13 route at r196i1_plastic_bag state {'t': 4865.21, 'pelvis': [1.027, -1.996, 0.769], 'yaw_deg': -0.6, 'hands': {'left': [1.028, -1.74, 0.539], 'right': [1.023, -2.249, 0.538]}, 'mode': 'stand'}
+walk ERR foot on a loose thing: r122i1_croc (18 N)
+CORNER {'abort': 'foot on a loose thing: r122i1_croc (42 N)', 'Q': None}
+ITEM_RESULT FAIL r196i1_plastic_bag {'item': 'r196i1_plastic_bag', 't': 4867.06, 'kind': 'thing', 'dest': 'rubbish_bin', 'centre': [-4.447, -1.149, 0.015], 'ok': False, 'off_spot': 5.252, 'inside': False} held False fell False state {'t': 4867.06, 'pelvis': [1.009, -1.98, 0.673], 'yaw_deg': 8.6, 'hands': {'left': [0.969, -1.728, 0.443], 'right': [1.044, -2.23, 0.442]}, 'mode': 'ds'}
+ZZ_OK False

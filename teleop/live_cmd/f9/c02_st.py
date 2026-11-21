@@ -1,0 +1,1 @@
+MON["on"] = False; zz_b = body_of("r125i1_flat"); print("state", state(), "flat", np.round(centre(zz_b), 3).tolist(), "HELD", list(HELD), "MON held", MON["held"], "grip", {s_: grip_check(s_, zz_b).get("ok") for s_ in SIDES}, flush=True)

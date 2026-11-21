@@ -1,0 +1,27 @@
+# night finisher (AI-operated) reload log: rec.n at the reload -> checkpoint loaded (frames before it since the previous kept point are discarded)
+208192 load 3161_item_r125i2_flat_stand (discard runner's 01:10-01:32 attempts after rec ~199468 incl. scooter a2)
+(3386_act_n1_off_croc saved after 2 back steps, kept frames 208192-~211000 are the ones later replayed? NO: see below)
+211713 load 3386_act_n1_off_croc (discard bag k3 try: basket press)
+214423 load 3386_act_n1_off_croc (discard bag k1 try: tipping on the walk)
+218456 load 3480_act_n1_bag_stance (discard bag pinch zp 0.014 / 0.031 tries)
+218919 load 3161_item_r125i2_flat_stand (discard bag pinch 2.55 cm try; the whole bag branch 3161->3480 discarded: bag deferred)
+221774 load 3161 (runner reload after stocking a0: walked into the toy corner, foot on plastic bag; discard)
+s2: 6065 load 0035 (paddle try1 discard); 7678 load 0035 (paddle try2 discard); 8806 load 3161 (pin try + bag walk discarded: whole s2 0..8806 discard); 8836 act 0125 bag removed
+s2: after 8836 the runner's stocking a0 ran in the bag-removed branch (discard); 0125 meta stripped of 'removed' (DISCARDED note)
+s2: 15824 load 0170 (stocking via toy corner discarded); 19205 + 20107 load 0231 (grasp tries with the left hand on the hamper discarded); 24274 load 0306_act_unlock_grip (library let-go on the rim discarded)
+s2: 35901 load 0368 (duck a0 discarded: exit_pocket from the toy corner walked over the bag); 0497 duck done
+s3 (run 1121_034845_dex1_floor_final_s3): frame 100 = s2 0497 duck; runner flat attempt 2 OK -> 0167_item_r125i1_flat; runner box a0 + a1 (single push stroke short, 1.434 of 1.56) discarded by reload of 0167 (runner reload after a0, my reload after a1)
+s3: 39428 load 0570_act_n1_box_part (knee-on-box branch discarded); 0668 box done (rec 43625)
+s3: 0800 ball done; 63061 load 0934_act_n1_pouch_at_basket (first pouch set-down: stand-up FELL, discarded)
+s3: 0986 pouch done; runner toy r193i4 a0-a2 discarded (reload 0986 at my rec ~?); 1251 toy r193i4 done (rec 82472)
+s3: 1338 ball r192, 1437 r193i2, 1535 r193i3, 1632 r193i1 done (no reloads in that batch; r193i1 first stance-less try did nothing)
+s3: runner nugget a0-a2, pouch r149 a0-a1 discarded (reloads of 1632 at 109419/110198/114115/118032)
+s3: runner tissue a0/a1 discarded (reload 1632 at the j02 rec)
+s3: 2182 duck r120i1, 2311 shoe r105i1, 2408 shoe r105i2, 2490 umbrella, 2923 TV door (runner); runner tissue a0-a2 discarded (reloads of 2923: hold refused, tissue turned 12 deg in the close / left hand out of reach)
+s3: 3064 tissue stance, 3075 held (put_away no path: discarded by reload of 3075), 3125 at bin (lean drop knee on bin: discarded by reload of 3125), 3140 tissue done
+s3: 210944 load 3140 (pouch try 1: knee on bin + FALL, discarded); 3152 off bin; 3261 pouch r149 done
+s3: 3284 nugget stance; nugget tries x3 (two falls at hand_in, one surf_item abort) all discarded (reloads of 3284 at 222948 and after; final reload 3261)
+s3: 3415 saber stance (my teleop pick), saber put -> 3677 saber done (earlier saber tries from 3261 discarded: reloads of 3261 at 227808/228104/(m04))
+s3: Fable scooter: reloads 255364 (3697), 258049 (3854), 258835 (3862), 263781 (3966); kept 3862 -> 4072_item_r126i1_scooter
+s4 (run 1121_123451_dex1_floor_final_s4): frame 100 = s3 4072; 0023 nugget stance, 0045 nugget held, 0134 nugget done (no reloads)
+s4: 0135 pre_sponges, 0270 sponges done (rec 19979); then sweep: reload 0135 at rec 19985 (query only) and reload 0270 (chain end) - frames after 19979 are DISCARD

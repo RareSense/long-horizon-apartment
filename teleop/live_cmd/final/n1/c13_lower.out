@@ -1,0 +1,11 @@
+[checkpoint] loaded C:\Users\raresense\sim_home\runs\1121_021343_dex1_floor_final_s2\checkpoints\0306_act_unlock_grip: t=5074.218 s, k=2537109, {'controller_fields': 177, 'cloth_arrays': 230}
+loaded 0306 rec 24274 held ['right'] ['right'] pad [-5.136, -1.372, 0.646] in {'inside': 1.0, 'below_rim': 0.0, 'overhang': 0.0, 'lowest': 0.41, 'rim': 0.12} basket [[-5.347, -1.534, -0.0], [-5.013, -1.264, 0.12]]
+mv [-5.125, -1.364, 0.383] [-0.01, -0.001, -0.015] in {'inside': 1.0, 'below_rim': 0.0, 'overhang': 0.0, 'lowest': 0.148, 'rim': 0.12} touch 0.0
+mv [-5.128, -1.373, 0.386] [-0.021, -0.012, -0.027] in {'inside': 1.0, 'below_rim': 0.0, 'overhang': 0.0, 'lowest': 0.151, 'rim': 0.12} touch 0.0
+mv [-5.13, -1.376, 0.388] [-0.024, -0.014, -0.028] in {'inside': 1.0, 'below_rim': 0.0, 'overhang': 0.0, 'lowest': 0.154, 'rim': 0.12} touch 0.0
+mv [-5.131, -1.377, 0.39] [-0.024, -0.014, -0.028] in {'inside': 1.0, 'below_rim': 0.0, 'overhang': 0.0, 'lowest': 0.156, 'rim': 0.12} touch 0.0
+mv [-5.133, -1.377, 0.392] [-0.025, -0.015, -0.028] in {'inside': 1.0, 'below_rim': 0.0, 'overhang': 0.0, 'lowest': 0.158, 'rim': 0.12} touch 0.0
+mv [-5.134, -1.377, 0.393] [-0.025, -0.015, -0.027] in {'inside': 1.0, 'below_rim': 0.0, 'overhang': 0.0, 'lowest': 0.159, 'rim': 0.12} touch 0.0
+pad [-5.134, -1.377, 0.393] in {'inside': 1.0, 'below_rim': 0.0, 'overhang': 0.0, 'lowest': 0.159, 'rim': 0.12} state {'t': 5127.72, 'pelvis': [-4.759, -1.253, 0.512], 'yaw_deg': -136.2, 'hands': {'left': [-4.554, -1.401, 0.283], 'right': [-5.133, -1.376, 0.398]}, 'mode': 'stand'}
+C:\Users\raresense\sim_home\runs\1121_021343_dex1_floor_final_s2\tele\0041_n1_stock_low.jpg
+__END__

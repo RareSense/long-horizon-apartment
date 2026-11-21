@@ -1,0 +1,20 @@
+# Verify the merged walking fix (plan mode) at 0237 (AI-operated): a 90 deg turn on the spot and a 0.12 m step
+CHAIN = r"C:\Users\raresense\sim_home\runs\1119_211852_dex1_floor_3\checkpoints\0111_item_aside_r193i1_toy_piece"
+exec(open(r"E:\urc_home\scripts\home\live\load_floor.py", encoding="utf-8").read())
+zz_r = {}
+ck_load(ZZ_CK)
+print("gait", gait_on())
+settle_after_load()
+zz_p0, zz_y0 = base()
+zz_h = hand_cmds(())
+ready_to_walk(())
+_turn_on_spot(wrapa(zz_y0 + np.pi / 2), zz_h, tol=0.03)
+_settle_stop(zz_h)
+zz_p1, zz_y1 = base()
+zz_r["turn90"] = dict(moved_cm=round(100 * float(np.linalg.norm(zz_p1[:2] - zz_p0[:2])), 1), yaw_err_deg=round(float(np.degrees(wrapa(zz_y1 - zz_y0 - np.pi / 2))), 1), fell=bool(fallen()), touch=contact_report() if "contact_report" in globals() else None)
+zz_r["turn90_look"] = look3("verify_turn90")
+zz_m1 = tmove(fwd=0.12, tag="verify_step012")
+zz_p2, zz_y2 = base()
+zz_goal = zz_p1[:2] + RM.rz(zz_y1)[:2, :2] @ np.array([0.12, 0.0])
+zz_r["step012"] = dict(err_cm=round(100 * float(np.linalg.norm(zz_p2[:2] - zz_goal)), 1), yaw_err_deg=round(float(np.degrees(wrapa(zz_y2 - zz_y1))), 1), fell=bool(fallen()), look=zz_m1["look"], touch=zz_m1.get("touch"))
+print("VERIFY", zz_r, kit_mem(), flush=True)

@@ -1,0 +1,3 @@
+stood {'t': 498.15, 'pelvis': [0.166, 1.042, 0.758], 'yaw_deg': 88.8, 'hands': {'left': [-0.09, 1.04, 0.529], 'right': [0.459, 1.1, 0.653]}, 'mode': 'stand'} held True
+after {'t': 501.85, 'pelvis': [0.167, 1.108, 0.76], 'yaw_deg': 89.2, 'hands': {'left': [-0.088, 1.108, 0.53], 'right': [0.489, 1.171, 0.645]}, 'mode': 'stand'} touch {'body': 0.0, 'body_who': None, 'held': 0.0, 'held_who': None} held True paper [0.485, 1.144, 0.639] fell False
+look C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\tele\0012_closer_bin.jpg

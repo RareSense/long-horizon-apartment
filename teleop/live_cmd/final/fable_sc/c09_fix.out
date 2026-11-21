@@ -1,0 +1,7 @@
+[fsc lib] loaded, kit private GB 14.9
+before {'bar_rel': [0.349, -0.317], 'deck_deg': 88.5, 'yaw': -96.4, 'along': {'left': 0.118, 'right': -0.089}, 'pad_to_bar': {'left': 0.009, 'right': 0.006}, 'tilt': 22.5} seat {'left': {'seat_mm': -3.8, 'pitch': -4.3, 'lower_N': 17.8, 'upper_N': 2.3}, 'right': {'seat_mm': 5.3, 'pitch': 5.2, 'lower_N': 16.9, 'upper_N': 3.0}}
+[lslide] asked 0.023 along {'left': 0.116, 'right': -0.086} seat {'left': -3.9, 'right': 3.1} pad_to_bar {'left': 0.009, 'right': 0.004} touch {'left': 3, 'right': 2} bar_rel [0.347, -0.329] tilt 22.8 why None
+[latc] moved 0.059 bar_rel [0.35, -0.257] along {'left': 0.117, 'right': -0.088} seat {'left': -3.7, 'right': 5.0} touch {'left': 3, 'right': 2} why None
+after {'bar_rel': [0.35, -0.257], 'deck_deg': 88.0, 'yaw': -96.7, 'along': {'left': 0.117, 'right': -0.088}, 'pad_to_bar': {'left': 0.01, 'right': 0.006}, 'tilt': 22.9} seat {'left': {'seat_mm': -3.7, 'pitch': -4.4, 'lower_N': 17.9, 'upper_N': 2.6}, 'right': {'seat_mm': 5.0, 'pitch': 6.0, 'lower_N': 17.2, 'upper_N': 3.1}} wristL {'wrist_roll': 0.56, 'wrist_pitch': 0.13, 'wrist_yaw': -0.85} qL {'shoulder_pitch': -1.49, 'shoulder_roll': 0.19, 'shoulder_yaw': -0.46, 'elbow': 0.26, 'wrist_roll': 0.56, 'wrist_pitch': 0.13, 'wrist_yaw': -0.85}
+VIEWS C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\tele\fsc_c09_top.jpg C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\tele\fsc_c09_side.jpg LOOK C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\tele\0149_fsc_c09.jpg
+__END__

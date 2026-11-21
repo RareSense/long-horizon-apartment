@@ -1,0 +1,6 @@
+exec(open(r"C:\Users\raresense\sim_home\apartment\live_cmd\fb\zz_tm.py", encoding="utf-8").read())
+zz_r = zz_tmove(fwd=ZZ_FWD, carry=("right",), tag="to_hamper")
+print("tmove", {k_: v_ for k_, v_ in zz_r.items() if k_ != "touch"}, "touch", zz_r.get("touch"), flush=True)
+print("pad rf", np.round(zz_to_rf(pad_mid("right")), 3).tolist(), "pad", np.round(pad_mid("right"), 3).tolist(), "lowest", round(float(zz_w().points(0)[:, 2].min()), 3), "held", cloth_held("right"), "pelvis", state()["pelvis"], "tilt", round(pelvis_tilt(), 3), flush=True)
+print("wall dist pelvis->hamper", round(float(obj_rect(zz_hb()).dist(base()[0][None, :2])[0]), 3), "hamper c", np.round(obj_rect(zz_hb()).c, 3).tolist(), "blanket", in_container(zz_BL, zz_hb()), flush=True)
+print("look", zz_look(np.array([-2.14, -1.80, 0.7]), "step_in", dist=1.6, h=0.8, dirs=(20.0, 160.0), top=False), flush=True)

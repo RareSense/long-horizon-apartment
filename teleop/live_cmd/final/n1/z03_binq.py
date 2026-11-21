@@ -1,0 +1,2 @@
+ck_load(os.path.join(RUN, "checkpoints", [c_ for c_ in sorted(os.listdir(os.path.join(RUN, "checkpoints"))) if c_.endswith("_act_n1_pre_sponges")][-1])); op.run(0.2)
+bn_ = body_of("rubbish_bin"); print("PRE_SPONGES rec", rec.n, "bin", np.round(centre(bn_), 3).tolist(), "tilt", round(box_tilt_deg(bn_), 1), {n_: bool(inside(body_of(n_), bn_)) for n_ in ("r195i3_paper", "r195i1_paper", "r149i1_pouch", "r158i1_tissue")}, flush=True)

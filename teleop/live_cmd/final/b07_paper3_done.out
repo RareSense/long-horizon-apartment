@@ -1,0 +1,12 @@
+ITEM_CHECK {'item': 'r195i3_paper', 't': 293.0, 'kind': 'thing', 'dest': 'rubbish_bin', 'centre': [0.081, 1.429, 0.004], 'ok': True, 'off_spot': 0.054, 'inside': True}
+[checkpoint] 0123_item_r195i3_paper t=293.00 s, 1.11 MB, 0.251 s
+DONE {'done': 'r195i3_paper', 'ckpt': 'C:\\Users\\raresense\\sim_home\\runs\\1120_181556_dex1_floor_final\\checkpoints\\0123_item_r195i3_paper', 'pruned': 54, 'pos': 2, 'n': 36, 'next': 'r195i1_paper'}
+garment r68i1_rag {100: 0.0001, 1799: None, 1800: None, 1801: None}
+garment r116i1_coat_pile {100: 0.0242, 1799: 0.0182, 1800: 0.0182, 1801: 0.0182}
+garment r117i1_blanket {100: 0.0, 1799: None, 1800: None, 1801: None}
+garment r121i1_jacket {100: 0.0261, 1799: 0.019, 1800: 0.019, 1801: 0.019}
+garment r131i1_knit_hat {100: 0.0, 1799: None, 1800: None, 1801: None}
+garment r189i1_santa_hat {100: 0.0001, 1799: None, 1800: None, 1801: None}
+garment r190i1_stocking {100: 0.0001, 1799: None, 1800: None, 1801: None}
+sync_cloth None
+SAY {'done': 2, 'last': 'C:\\Users\\raresense\\sim_home\\runs\\1120_181556_dex1_floor_final\\checkpoints\\0123_item_r195i3_paper', 'next': 'r195i1_paper', 'frame': 7959, 't': 293.0, 'kit': {'ws_gb': 6.33, 'priv_gb': 14.06}}

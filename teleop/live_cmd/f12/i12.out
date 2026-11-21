@@ -1,0 +1,4 @@
+[checkpoint] loaded C:\Users\raresense\sim_home\runs\1120_093820_dex1_floor_12\checkpoints\1071_item_r149i1_pouch: t=8647.224 s, k=4323612, {'controller_fields': 179, 'cloth_arrays': 231}
+[route] resumed at item 24/43 (r105i1_shoe), 23 done
+at load {'t': 8647.22, 'pelvis': [-0.046, 1.083, 0.764], 'yaw_deg': 35.2, 'hands': {'left': [-0.196, 1.292, 0.534], 'right': [0.098, 0.874, 0.533]}, 'mode': 'stand'} knees [0.58]
+tall {'t': 8648.42, 'pelvis': [-0.045, 1.084, 0.768], 'yaw_deg': 35.1, 'hands': {'left': [-0.192, 1.293, 0.538], 'right': [0.099, 0.876, 0.538]}, 'mode': 'stand'} touch {'body': 0.0, 'body_who': None, 'held': 0.0, 'held_who': None} knees [0.53]

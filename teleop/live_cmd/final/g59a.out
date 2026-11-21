@@ -1,0 +1,10 @@
+ck C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\checkpoints\1981_act_g_before_retract frame 126169
+[bigcloth] r116i1_coat_pile retract: ok {'ok': True, 'inside': {'inside': 1.0, 'below_rim': 1.0, 'overhang': 0.0, 'lowest': 0.033, 'rim': 0.59}, 'knees': {'left_knee': 0.152, 'right_knee': 0.159}, 'touch': 0.0, 'fell': False, 'stage': 'retract'}
+RESULT {'ok': True, 'inside': "{'inside': 1.0, 'below_rim': 1.0, 'overhang': 0.0, 'lowest': 0.033, 'rim': 0.59}", 'knees': "{'left_knee': 0.152, 'right_knee': 0.159}", 'touch': 0.0, 'fell': False, 'stage': 'retract', 'ckpt_before': None}
+held L/R False False LOCK {} HELD {} inside {'inside': 1.0, 'below_rim': 1.0, 'overhang': 0.0, 'lowest': 0.033, 'rim': 0.59} out {'n': 0, 'share': 0.0, 'below_rim': 0}
+pads rf {'left': [-0.001, 0.255, 0.532], 'right': [-0.002, -0.255, 0.532]} state {'t': 3197.21, 'pelvis': [-2.149, -1.468, 0.767], 'yaw_deg': -88.6, 'hands': {'left': [-1.895, -1.461, 0.537], 'right': [-2.404, -1.472, 0.537]}, 'mode': 'stand'} touch {'body': 0.0, 'body_who': None, 'held': 0.0, 'held_who': None} tilt 0.0 knees {'left_knee': 0.152, 'right_knee': 0.159} fell False
+others {'r131i1_knit_hat': True, 'r189i1_santa_hat': True, 'r121i1_jacket': True, 'r117i1_blanket': True} hamper [-2.151, -1.959]
+look C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\look_fb\0056_g56_retract.jpg
+jaws {'left': 0.0, 'right': 0.0} LOCK {} HELD {} CARRY_JOINTS False asleep False
+look3 C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\tele\0153_g59_retract.jpg
+__END__

@@ -1,0 +1,8 @@
+[fsc lib] loaded, kit private GB 14.9
+[mv m7] {'turn': 6.6611, 'fwd': -0.1489, 'side': -0.0177} -> at [-1.787, -0.24] yaw -89.4 bar [-2.078, -0.594, 1.084] bar_rel [0.351, -0.295] tilt 22.3 seat {'left': (-6.1, -6.4, 17.6), 'right': (4.0, 5.3, 17.0)} along {'left': 0.12, 'right': -0.087} wheel clear mm 25.5 floor {} wristR {'wrist_roll': 1.14, 'wrist_pitch': 1.18, 'wrist_yaw': -0.41} touch {'body': 0.0, 'body_who': None, 'held': 0.0, 'held_who': None} rec 262740
+[mv m7] LOOK C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\tele\0150_sh_m7.jpg
+[mv m8] {'turn': -0.5685, 'fwd': -0.1489, 'side': -0.0181} -> at [-1.805, -0.091] yaw -88.6 bar [-2.103, -0.446, 1.084] bar_rel [0.347, -0.308] tilt 22.2 seat {'left': (-7.1, -7.3, 17.6), 'right': (4.0, 5.0, 17.1)} along {'left': 0.122, 'right': -0.086} wheel clear mm 25.5 floor {} wristR {'wrist_roll': 1.14, 'wrist_pitch': 1.15, 'wrist_yaw': -0.41} touch {'body': 0.0, 'body_who': None, 'held': 0.0, 'held_who': None} rec 262957
+[mv m8] LOOK C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\tele\0151_sh_m8.jpg
+TOP C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\tele\fsc_c10_map.jpg
+mem 14.9
+__END__

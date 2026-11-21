@@ -1,0 +1,7 @@
+tilt 1.2 bar [-2.164, -0.249, 0.969] deck_deg 83.2 floor pieces {735: 2, 733: 2, 734: 2} centre [-2.142, -0.065, 0.493] state {'t': 11409.71, 'pelvis': [-1.932, 0.017, 0.768], 'yaw_deg': -91.2, 'hands': {'left': [-1.676, 0.006, 0.539], 'right': [-2.183, 0.026, 0.537]}, 'mode': 'stand'}
+scooter contacts (its geom, other body) {(735, '-1'): 2, (733, 'scene_static'): 2, (734, 'scene_static'): 2}
+LOOK C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\tele\0165_fsc_e07_released.jpg
+VIEW C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\tele\fsc_e07_v0.jpg
+VIEW C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\tele\fsc_e07_v1.jpg
+VIEW C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\tele\fsc_e07_v2.jpg
+__END__

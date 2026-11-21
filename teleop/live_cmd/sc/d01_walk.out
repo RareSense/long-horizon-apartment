@@ -1,0 +1,4 @@
+walk {'ok': True, 'err_xy': 0.006, 'err_yaw': -0.005}
+state {'t': 8725.78, 'pelvis': [1.949, -1.094, 0.673], 'yaw_deg': -89.7, 'hands': {'left': [2.204, -1.091, 0.443], 'right': [1.696, -1.093, 0.442]}, 'mode': 'stand'} fell False wall 154
+C:\Users\raresense\sim_home\runs\1120_114552_scout_hall_AI_operated\tele\0004_d01_at_duck_approach.jpg
+duck [2.055, -1.697, 0.041] gp {'point': [2.053, -1.694, 0.07], 'z': 0.06975406519991055, 'top': 0.08175406519991055, 'closes': [array([-0.34202014,  0.93969262,  0.        ])], 'width': 0.04199227322484145, 'at': [-0.0005496534594442299, 0.002829068163530006, 0.029001584329174903], 'wall': False}

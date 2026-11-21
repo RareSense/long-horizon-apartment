@@ -1,0 +1,4 @@
+ITEM_CHECK {'item': 'r178i1_ball', 't': 6519.24, 'kind': 'thing', 'dest': 'object_0312_body', 'centre': [-5.101, -1.46, 0.03], 'ok': True, 'off_spot': 0.019, 'inside': True}
+[checkpoint] 0800_item_r178i1_ball t=6519.24 s, 2.08 MB, 0.439 s
+ITEM DONE {'done': 'r178i1_ball', 'ckpt': 'C:\\Users\\raresense\\sim_home\\runs\\1121_034845_dex1_floor_final_s3\\checkpoints\\0800_item_r178i1_ball', 'pruned': 90, 'pos': 18, 'n': 35, 'next': 'r130i1_light_saber'} done 18 rec 52706 kit {'ws_gb': 6.6, 'priv_gb': 14.02}
+__END__

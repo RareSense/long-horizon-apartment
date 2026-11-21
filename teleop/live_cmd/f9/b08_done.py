@@ -1,0 +1,2 @@
+zz_d = tele_item_done("r120i2_duck", note="Autonomous go_item: its back-off step put the left fingers on the stick r154 on the coffee table (36 N, monitor stop) -> reloaded 0840; library pick_floor (tight) held first try; the library put into the basket had no stance (tight too) -> AI teleop: two short moves west (the right foot touched the light saber r130 lying at its spot by the basket, 7-19 N, saber unmoved), hand over the basket middle at 0.75 m, jaws open: duck in the basket. AI-operated.")
+print("ITEM DONE", zz_d, "kit", kit_mem(), flush=True)

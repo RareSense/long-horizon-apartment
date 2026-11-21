@@ -1,0 +1,7 @@
+BACK {'t': 791.72, 'pelvis': [-2.671, -1.069, 0.742], 'yaw_deg': -120.6, 'hands': {'left': [-2.685, -1.393, 0.771], 'right': [-2.885, -0.934, 0.511]}, 'mode': 'stand'} touch {'body': 0.0, 'body_who': None, 'held': 0.0, 'held_who': None} ball [-2.845, -1.314, 0.036]
+PUT {'ok': True, 'lost': False, 'over_err': '[0.015, -0.021, 0.01]', 'centre': '[-2.821, -0.57, 0.025]'}
+END None {'t': 847.54, 'pelvis': [-2.515, -0.749, 0.67], 'yaw_deg': 90.6, 'hands': {'left': [-2.77, -0.753, 0.441], 'right': [-2.262, -0.748, 0.44]}, 'mode': 'stand'} toy [-2.821, -0.57, 0.025] ball [-2.846, -1.314, 0.036] held {'left': False, 'right': False} fell False touch {'body': 0.0, 'body_who': None, 'held': 0.0, 'held_who': None}
+C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\tele\0020_aside3_end.jpg
+[checkpoint] 0372_item_aside_r193i3_toy_piece t=847.54 s, 1.24 MB, 0.227 s
+CK C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\checkpoints\0372_item_aside_r193i3_toy_piece
+__END__

@@ -1,0 +1,7 @@
+state {'t': 6993.75, 'pelvis': [-3.22, -1.768, 0.67], 'yaw_deg': 139.5, 'hands': {'left': [-3.384, -1.963, 0.441], 'right': [-3.054, -1.576, 0.44]}, 'mode': 'stand'} held {'left': False, 'right': False}
+static r141i1_rug rug c [-3.42, -1.17] size [3.05, 2.13] z1 0.01
+static r145i1_base table c [-3.68, -0.91] size [1.1, 0.64] z1 0.45
+static r145i1_lift_top lid c [-3.68, -0.91] size [1.1, 0.64] z1 0.48
+static r159i1_door door c [-3.39, -2.58] size [0.02, 0.5] z1 0.47
+static r194i1_strap cable c [-3.47, -0.33] size [0.61, 0.12] z1 0.02
+__END__

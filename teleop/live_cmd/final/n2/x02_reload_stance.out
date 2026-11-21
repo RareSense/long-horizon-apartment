@@ -1,0 +1,6 @@
+[checkpoint] loaded C:\Users\raresense\sim_home\runs\1121_123451_dex1_floor_final_s4\checkpoints\0272_act_x_fix_start: t=12098.270 s, k=6049135, {'controller_fields': 179, 'cloth_arrays': 231}
+RELOADED 0272 at rec 21422 (discard 21322 branch: pick_floor pouch aborted, wrist on the bin) {'t': 12101.57, 'pelvis': [1.525, 0.969, 0.673], 'yaw_deg': 89.5, 'hands': {'left': [1.269, 0.969, 0.443], 'right': [1.778, 0.965, 0.442]}, 'mode': 'stand'}
+pouch corners [[0.117, 1.156], [0.21, 1.131], [0.248, 1.275], [0.156, 1.299]] zlo -0.002 ztop 0.032
+far corner [0.21, 1.131] stance [0.01, 0.881, 1.571]
+at {'t': 12131.27, 'pelvis': [0.004, 0.878, 0.673], 'yaw_deg': 90.2, 'hands': {'left': [-0.252, 0.875, 0.444], 'right': [0.257, 0.876, 0.442]}, 'mode': 'stand'} corner rel [0.253, -0.207] pouch [0.196, 1.204, 0.018] bin [0.116, 1.448, 0.208] tilt 3.0 rec 22313
+C:\Users\raresense\sim_home\runs\1121_123451_dex1_floor_final_s4\tele\0019_x02_stance.jpg

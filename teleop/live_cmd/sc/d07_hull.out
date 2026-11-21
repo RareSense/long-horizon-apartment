@@ -1,0 +1,10 @@
+[checkpoint] loaded C:\Users\raresense\sim_home\runs\1120_114552_scout_hall_AI_operated\checkpoints\0005_act_walk_path: t=8658.770 s, k=4329385, {'controller_fields': 179, 'cloth_arrays': 231}
+[route] resumed at item 24/43 (r105i1_shoe), 23 done
+LOADED C:\Users\raresense\sim_home\runs\1120_114552_scout_hall_AI_operated\checkpoints\0005_act_walk_path {'t': 8661.07, 'pelvis': [-0.22, 0.962, 0.769], 'yaw_deg': 35.0, 'hands': {'left': [-0.368, 1.171, 0.539], 'right': [-0.076, 0.754, 0.538]}, 'mode': 'stand'} route head ['r105i1_shoe', 'r105i2_shoe', 'r107i1_umbrella'] done 23
+geom 983 type 7 nv 93
+z 0.0 0.02 x [2.01, 2.081] y [-1.729, -1.673] n 10
+z 0.02 0.04 x [2.008, 2.083] y [-1.734, -1.669] n 41
+z 0.04 0.055 x [2.018, 2.023] y [-1.718, -1.71] n 2
+z 0.055 0.07 x [2.058, 2.099] y [-1.71, -1.668] n 12
+z 0.07 0.085 x [2.051, 2.082] y [-1.709, -1.671] n 12
+JAW {'JAW_OPEN': 0.04, 'JAW_MAX': None, 'OPEN_GAP': None}

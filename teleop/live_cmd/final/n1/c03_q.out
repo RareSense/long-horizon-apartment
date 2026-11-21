@@ -1,0 +1,12 @@
+rec 12969 route head ['r190i1_stocking', 'r130i1_light_saber', 'r120i2_duck', 'r125i1_flat', 'r175i1_cardboard_box', 'r178i1_ball', 'r179i1_toy_pouch', 'r126i1_scooter']
+r190i1_stocking no body
+r130i1_light_saber [-1.453, -0.595, 0.018] box [-1.79, -0.98] [-1.11, -0.21] dest floor
+r120i2_duck [-5.047, -1.189, 0.041] box [-5.08, -1.23] [-5.01, -1.14] dest r186i1_basket
+r125i1_flat [-5.5, -0.429, 0.028] box [-5.58, -0.56] [-5.42, -0.3] dest r119i1_mat
+r175i1_cardboard_box [-5.256, 1.387, 0.125] box [-5.41, 1.25] [-5.1, 1.53] dest against the wall by the two-tier table (floor)
+r186i1_basket [-5.18, -1.399, 0.06] box [-5.35, -1.53] [-5.01, -1.26] dest None
+r178i1_ball [-6.141, -2.33, 0.76] box [-6.18, -2.37] [-6.1, -2.29] dest r186i1_basket
+r179i1_toy_pouch [-6.187, -2.192, 0.823] box [-6.28, -2.25] [-6.1, -2.13] dest r186i1_basket
+tv door q 0.0 box [[-3.71, -2.89, -0.02], [-3.08, -2.26, 0.6]]
+stocking garment? True
+__END__

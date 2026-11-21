@@ -1,0 +1,7 @@
+[fsc lib] loaded, kit private GB 14.9
+[latc] moved 0.06 bar_rel [0.341, -0.238] along {'left': 0.123, 'right': -0.087} seat {'left': -5.8, 'right': 4.5} touch {'left': 3, 'right': 2} why None
+[prepitch] seat {'left': (-5.5, -9.9), 'right': (5.2, 4.9)} touch {'left': 3, 'right': 2} why None
+[mv m9] {'turn': -1.3413, 'fwd': -0.1491, 'side': -0.0164} -> at [-1.827, 0.057] yaw -88.5 bar [-2.074, -0.295, 1.084] bar_rel [0.345, -0.257] tilt 22.8 seat {'left': (-7.1, -6.0, 17.5), 'right': (3.6, 3.8, 17.1)} along {'left': 0.125, 'right': -0.087} wheel clear mm 25.0 floor {} wristR {'wrist_roll': 1.09, 'wrist_pitch': 1.28, 'wrist_yaw': -0.41} touch {'body': 0.0, 'body_who': None, 'held': 0.0, 'held_who': None} rec 264337
+[mv m9] LOOK C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\tele\0154_sh_m9.jpg
+TOP C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\tele\fsc_d01_map.jpg
+__END__

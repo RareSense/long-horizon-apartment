@@ -1,0 +1,5 @@
+[checkpoint] 2132_start_before_scout_duck t=11055.53 s, 3.39 MB, 0.721 s
+[hall] duck_to_basket, shoe_to_mat loaded (scout, AI-operated)
+[checkpoint] 2244_item_r120i1_duck t=11339.97 s, 3.46 MB, 0.684 s
+DUCK {'status': 'done', 'wall_s': 790, 'look': 'C:\\Users\\raresense\\sim_home\\runs\\1120_093820_dex1_floor_12\\tele\\0081_end_r120i1_duck_done.jpg'}
+state {'t': 11339.97, 'pelvis': [-4.874, -1.077, 0.767], 'yaw_deg': -125.6, 'hands': {'left': [-4.665, -1.225, 0.538], 'right': [-5.079, -0.928, 0.537]}, 'mode': 'stand'} fell False in True route next ['r191i1_toy_vehicle', 'r87i1_wrapper', 'r105i1_shoe']

@@ -1,0 +1,14 @@
+before r193i1_toy_piece [-2.5, -1.35, 0.025]
+[aside] r193i1_toy_piece: no stance with normal clearances -> tight clearances
+[pick] object_0319_body try 1: grip {'ok': True, 'gap': 0.0648, 'jaw1_N': 5.8, 'jaw2_N': 6.0, 'between': 0.51, 'off_axis': 0.001} rose 0.079 -> held
+ITEM_CHECK {'item': 'aside_r193i1_toy_piece', 't': 748.01, 'ok': None, 'err': 'None'}
+[checkpoint] 0321_item_aside_r193i1_toy_piece t=748.01 s, 1.22 MB, 0.214 s
+ASIDE {'item': 'aside r193i1_toy_piece', 'spot': [-2.927, -0.581], 'status': 'done', 'at': [-2.97, -0.586, 0.025], 'ckpt': 'C:\\Users\\raresense\\sim_home\\runs\\1120_181556_dex1_floor_final\\checkpoints\\0321_item_aside_r193i1_toy_piece', 'sim_s': 201.2, 'wall_s': 447, 'pelvis': [-2.595, -0.606]}
+after r193i1_toy_piece [-2.97, -0.586, 0.025] state {'t': 748.01, 'pelvis': [-2.595, -0.606, 0.67], 'yaw_deg': 122.0, 'hands': {'left': [-2.81, -0.743, 0.44], 'right': [-2.38, -0.472, 0.44]}, 'mode': 'stand'} held {'left': False, 'right': False} fell False
+[checkpoint] 0322_item_aside_r193i1_toy_piece t=748.01 s, 1.22 MB, 0.3 s
+CK C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\checkpoints\0322_item_aside_r193i1_toy_piece
+before r193i3_toy_piece [-2.6, -1.47, 0.025]
+[pick] object_0321_body try 1: grip {'ok': True, 'gap': 0.0656, 'jaw1_N': 5.9, 'jaw2_N': 5.9, 'between': 0.48, 'off_axis': 0.001} rose 0.078 -> held
+ASIDE {'item': 'aside r193i3_toy_piece', 'spot': [-2.79, -0.605], 'status': 'FAILED', 'why': 'foot on a loose thing: r192i1_ball (6 N)', 'sim_s': 42.1, 'wall_s': 95, 'pelvis': [-2.748, -1.141]}
+after r193i3_toy_piece [-2.903, -1.467, 0.724] state {'t': 790.11, 'pelvis': [-2.748, -1.141, 0.748], 'yaw_deg': -163.8, 'hands': {'left': [-2.909, -1.47, 0.736], 'right': [-2.802, -0.892, 0.515]}, 'mode': 'swing'} held {'left': True, 'right': False} fell False
+C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\tele\0017_asides_end.jpg

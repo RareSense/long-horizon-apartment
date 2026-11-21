@@ -1,0 +1,14 @@
+ck C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\checkpoints\3881_act_fsc_gripped rec 259412
+[lift 0] bar z 1.007 tilt 7.0 seat {'left': {'seat_mm': 2.1, 'pitch': 3.6, 'lower_N': 16.5, 'upper_N': 3.6}, 'right': {'seat_mm': 6.7, 'pitch': 6.7, 'lower_N': 16.7, 'upper_N': 3.7}} touch {'left': 3, 'right': 8}
+[lift 1] bar z 1.037 tilt 13.5 seat {'left': {'seat_mm': 1.7, 'pitch': 5.6, 'lower_N': 16.7, 'upper_N': 2.7}, 'right': {'seat_mm': 5.5, 'pitch': 7.4, 'lower_N': 16.5, 'upper_N': 3.1}} touch {'left': 4, 'right': 2}
+[lift 2] bar z 1.067 tilt 20.9 seat {'left': {'seat_mm': 0.2, 'pitch': 0.8, 'lower_N': 16.4, 'upper_N': 3.6}, 'right': {'seat_mm': 3.8, 'pitch': 5.4, 'lower_N': 17.0, 'upper_N': 3.1}} touch {'left': 2, 'right': 2}
+[lift 3] bar z 1.082 tilt 22.3 seat {'left': {'seat_mm': 0.0, 'pitch': -0.5, 'lower_N': 17.3, 'upper_N': 2.6}, 'right': {'seat_mm': 3.2, 'pitch': 2.9, 'lower_N': 17.5, 'upper_N': 2.7}} touch {'left': 2, 'right': 2}
+LIFT {'pel': [-1.662, -1.041, 0.685], 'yaw': 177.3, 'bar': [-2.019, -0.749, 1.082], 'bar_rel': [0.37, -0.275], 'deck_deg': -5.5, 'tilt': 22.3, 'lowest': 0.008, 'box': [[-2.49, -0.96], [-1.55, -0.54]], 'in_jaws': True, 'touch': {'left': 2, 'right': 2}, 'pad_to_bar': {'left': 0.0, 'right': 0.003}, 'along': {'left': 0.096, 'right': -0.09}, 'gap': {'left': 0.0231, 'right': 0.0232}}
+seat {'left': {'seat_mm': 0.0, 'pitch': -0.5, 'lower_N': 17.3, 'upper_N': 2.6}, 'right': {'seat_mm': 3.2, 'pitch': 2.9, 'lower_N': 17.5, 'upper_N': 2.7}} on floor {}
+[lifted] pelvis [-1.662 -1.041  0.685] yaw 177.3 bar c [-2.019 -0.749] z 1.082 bar_rel [ 0.37  -0.275] box [[-2.49, -0.958, 0.008], [-1.546, -0.539, 1.136]] why None fallen False
+[lifted] left pad [-2.028 -0.845  1.083] err [0. 0. 0.] err body [0. 0.] rel pelvis [ 0.375 -0.178] fingers [-0.66  0.75 -0.01] touch {25: 1, 26: 1} gap 0.0231 q {'shoulder_pitch': -1.84, 'shoulder_roll': 0.19, 'shoulder_yaw': -1.1, 'elbow': 0.52, 'wrist_roll': -0.01, 'wrist_pitch': 0.44, 'wrist_yaw': -0.28}
+[lifted] right pad [-2.007 -0.66   1.083] err [0. 0. 0.] err body [0. 0.] rel pelvis [ 0.362 -0.364] fingers [-1.    0.08  0.05] touch {35: 1, 36: 1} gap 0.0232 q {'shoulder_pitch': -1.23, 'shoulder_roll': -0.71, 'shoulder_yaw': -1.19, 'elbow': 0.45, 'wrist_roll': 1.77, 'wrist_pitch': 0.96, 'wrist_yaw': -1.21}
+[lifted] contacts {'body': 0.0, 'body_who': None, 'held': 0.0, 'held_who': None} rec 259657
+VIEWS C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\tele\fsc_c02_top.jpg C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\tele\fsc_c02_side.jpg LOOK C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\tele\0142_fsc_c02.jpg
+mem 14.89
+__END__

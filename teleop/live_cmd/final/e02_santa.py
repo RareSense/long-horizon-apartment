@@ -1,0 +1,5 @@
+exec(open(r"C:\Users\raresense\sim_home\apartment\live_cmd\final\chk.py", encoding="utf-8").read())
+print("knit hat check", item_check("r131i1_knit_hat"), flush=True)
+ZZ = go_item("r189i1_santa_hat")
+print("HELD", {s_: HOLD.holding(s_) for s_ in SIDES}, "fell", fallen(), "touch", contact_report(), flush=True)
+print("SAY", say_item(), flush=True)

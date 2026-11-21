@@ -1,0 +1,27 @@
+ITEM_START r120i2_duck attempt 0 pos 14 route at r120i2_duck state {'t': 5183.63, 'pelvis': [-4.816, -1.318, 0.767], 'yaw_deg': -135.7, 'hands': {'left': [-4.636, -1.5, 0.537], 'right': [-4.993, -1.135, 0.537]}, 'mode': 'stand'}
+MV ('px_s0', [-4.802, -1.302], -120.8, 0.0, None)
+MV ('px_s1', [-4.802, -1.299], -106.0, 0.0, None)
+MV ('px_s2', [-4.802, -1.297], -91.2, 0.0, None)
+MV ('px_y0', [-4.801, -1.19], -91.2, 0.0, None)
+MV ('px_e0', [-4.802, -1.188], -76.4, 0.0, None)
+MV ('px_e1', [-4.805, -1.186], -61.6, 0.0, None)
+MV ('px_e2', [-4.808, -1.185], -46.7, 0.0, None)
+MV ('px_e3', [-4.81, -1.185], -31.9, 0.0, None)
+MV ('px_e4', [-4.813, -1.184], -17.1, 0.0, None)
+MV ('px_e5', [-4.816, -1.184], -2.3, 0.0, None)
+MV ('px_east0', [-4.695, -1.191], -0.3, 0.0, None)
+MV ('px_east1', [-4.573, -1.191], -0.3, 0.0, None)
+MV ('px_east2', [-4.477, -1.191], -0.3, 0.0, None)
+MV ('px_east3', [-4.471, -1.192], -0.3, 0.0, None)
+MV ('px_east4', [-4.473, -1.213], -0.2, 0.0, None)
+MV ('px_east5', [-4.473, -1.217], -0.2, 0.0, None)
+MV ('px_east6', [-4.472, -1.212], -0.1, 0.0, None)
+MV ('px_east7', [-4.469, -1.192], -0.3, 0.0, None)
+MV ('px_east8', [-4.487, -1.17], -0.3, 0.0, None)
+OUT True {'t': 5460.09, 'pelvis': [-4.487, -1.17, 0.671], 'yaw_deg': -0.3, 'hands': {'left': [-4.487, -0.915, 0.441], 'right': [-4.49, -1.423, 0.44]}, 'mode': 'stand'}
+TOY {'item': 'r120i2_duck', 'abort_pick': 'foot on a loose thing: r196i1_plastic_bag (4 N)', 'in': False, 'fell': False, 'state': {'t': 5462.29, 'pelvis': [-4.517, -1.115, 0.674], 'yaw_deg': 26.3, 'hands': {'left': [-4.648, -0.906, 0.446], 'right': [-4.384, -1.339, 0.442]}, 'mode': 'swing'}}
+C:\Users\raresense\sim_home\runs\1121_021343_dex1_floor_final_s2\tele\0070_f12_r120i2_duck_end.jpg
+ITEM_RESULT FAIL r120i2_duck {'item': 'r120i2_duck', 't': 5462.29, 'kind': 'thing', 'dest': 'object_0312_body', 'centre': [-5.048, -1.187, 0.041], 'ok': False, 'off_spot': 0.304, 'inside': False} held False fell False state {'t': 5462.29, 'pelvis': [-4.517, -1.115, 0.674], 'yaw_deg': 26.3, 'hands': {'left': [-4.648, -0.906, 0.446], 'right': [-4.384, -1.339, 0.442]}, 'mode': 'swing'}
+ZZ_OK False state {'t': 5462.29, 'pelvis': [-4.517, -1.115, 0.674], 'yaw_deg': 26.3, 'hands': {'left': [-4.648, -0.906, 0.446], 'right': [-4.384, -1.339, 0.442]}, 'mode': 'swing'} fell False rec 35901 done 14
+C:\Users\raresense\sim_home\runs\1121_021343_dex1_floor_final_s2\tele\0071_n1_duck_end.jpg
+__END__

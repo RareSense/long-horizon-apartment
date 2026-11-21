@@ -1,0 +1,24 @@
+MV ({'turn': 15.0, 'tag': 'coat_turn0'}, [-2.147, -1.073], -73.9, 0.0, None)
+MV ({'turn': 15.0, 'tag': 'coat_turn1'}, [-2.15, -1.071], -59.1, 0.0, None)
+MV ({'turn': 15.0, 'tag': 'coat_turn2'}, [-2.152, -1.07], -44.3, 0.0, None)
+MV ({'turn': 15.0, 'tag': 'coat_turn3'}, [-2.155, -1.069], -29.5, 0.0, None)
+MV ({'turn': 15.0, 'tag': 'coat_turn4'}, [-2.158, -1.069], -14.7, 0.0, None)
+MV ({'turn': 14.660744800742064, 'tag': 'coat_turn5'}, [-2.159, -1.067], -0.5, 0.0, None)
+MV ({'fwd': 0.12, 'side': -0.04, 'turn': 0.4677588280617817, 'tag': 'coat_east0'}, [-2.04, -1.109], -0.5, 0.0, None)
+MV ({'fwd': 0.12, 'side': -0.04, 'turn': 0.5332373096336093, 'tag': 'coat_east1'}, [-1.923, -1.15], -0.5, 0.0, None)
+MV ({'fwd': 0.12, 'side': -0.04, 'turn': 0.5393587255308889, 'tag': 'coat_east2'}, [-1.8, -1.192], -0.5, 0.0, None)
+MV ({'fwd': 0.12, 'side': 0.0020410997776698636, 'turn': 0.5275455193985361, 'tag': 'coat_east3'}, [-1.677, -1.191], -0.5, 0.0, None)
+MV ({'fwd': 0.12, 'side': 0.0010925417287188655, 'turn': 0.5275760966739702, 'tag': 'coat_east4'}, [-1.555, -1.189], -0.5, 0.0, None)
+MV ({'fwd': 0.1047133298020797, 'side': -0.0012213566462606629, 'turn': 0.47808830038953076, 'tag': 'coat_east5'}, [-1.447, -1.192], -0.5, 0.0, None)
+OUT True {'t': 3269.61, 'pelvis': [-1.447, -1.192, 0.673], 'yaw_deg': -0.5, 'hands': {'left': [-1.446, -0.938, 0.443], 'right': [-1.451, -1.446, 0.443]}, 'mode': 'stand'}
+sandal [-0.24, -2.37, 0.023] dest r119i1_mat spot [1.449, -2.417, 0.01]
+[pick] object_0255_body try 1: grip {'ok': True, 'gap': 0.0625, 'jaw1_N': 6.1, 'jaw2_N': 5.9, 'between': 0.51, 'off_axis': 0.001} rose 0.079 -> held
+PICK {'pick': {'ok': True, 'side': 'left'}} {'t': 3324.43, 'pelvis': [-0.425, -2.093, 0.639], 'yaw_deg': -109.3, 'hands': {'left': [-0.379, -2.427, 0.78], 'right': [-0.658, -1.992, 0.404]}, 'mode': 'stand'}
+at put stance {'t': 3367.93, 'pelvis': [1.374, -2.087, 0.743], 'yaw_deg': 178.1, 'hands': {'left': [1.06, -2.24, 0.771], 'right': [1.382, -1.834, 0.511]}, 'mode': 'stand'} touch {'body': 0.0, 'body_who': None, 'held': 0.0, 'held_who': None}
+RES {'pick': {'ok': True, 'side': 'left'}, 'walk': 0.009, 'bottom': 0.009, 'sandal': [1.282, -2.336, 0.034], 'state': {'t': 3512.73, 'pelvis': [1.332, -2.08, 0.768], 'yaw_deg': 179.9, 'hands': {'left': [1.333, -2.334, 0.538], 'right': [1.334, -1.826, 0.537]}, 'mode': 'stand'}, 'fell': False, 'touch': {'body': 0.0, 'body_who': None, 'held': 0.0, 'held_who': None}, 'held': {'left': False, 'right': False}, 'check': {'item': 'r124i1_sandal', 't': 3512.73, 'kind': 'thing', 'dest': 'r119i1_mat', 'centre': [1.282, -2.336, 0.034], 'ok': True, 'off_spot': 0.186}}
+C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\tele\0167_sandal_end.jpg
+ITEM_CHECK {'item': 'r124i1_sandal', 't': 3512.73, 'kind': 'thing', 'dest': 'r119i1_mat', 'centre': [1.282, -2.336, 0.034], 'ok': True, 'off_spot': 0.186}
+[checkpoint] 2136_item_r124i1_sandal t=3512.73 s, 1.57 MB, 0.417 s
+DONE {'done': 'r124i1_sandal', 'ckpt': 'C:\\Users\\raresense\\sim_home\\runs\\1120_181556_dex1_floor_final\\checkpoints\\2136_item_r124i1_sandal', 'pruned': 99, 'pos': 9, 'n': 36, 'next': 'r122i1_croc'}
+SAY {'done': 9, 'last': 'C:\\Users\\raresense\\sim_home\\runs\\1120_181556_dex1_floor_final\\checkpoints\\2136_item_r124i1_sandal', 'next': 'r122i1_croc', 'frame': 136222, 't': 3512.7, 'kit': {'ws_gb': 1.46, 'priv_gb': 12.83}}
+__END__

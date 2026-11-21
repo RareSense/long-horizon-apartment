@@ -1,0 +1,5 @@
+scooter box [-2.369, -0.438, -0.001] [-2.009, 0.188, 0.987] tilt 1.2 on_floor pieces 3 touch {'left': 0, 'right': 0}
+pads {'left': [-1.91, -0.259, 1.277], 'right': [-2.3, -0.199, 1.132]} ext ['hold_left', 'hold_right']
+contacts robot-scooter []
+C:\Users\raresense\sim_home\runs\1120_093820_dex1_floor_12\tele\f12_t06_east.jpg
+C:\Users\raresense\sim_home\runs\1120_093820_dex1_floor_12\tele\f12_t06_south.jpg

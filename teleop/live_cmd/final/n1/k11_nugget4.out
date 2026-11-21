@@ -1,0 +1,12 @@
+ITEM_START r93i1_nugget attempt 0 pos 33 route at r93i1_nugget state {'t': 11432.33, 'pelvis': [-1.615, 0.34, 0.673], 'yaw_deg': -91.4, 'hands': {'left': [-1.36, 0.336, 0.443], 'right': [-1.868, 0.348, 0.442]}, 'mode': 'stand'}
+at {'t': 11497.4, 'pelvis': [2.167, -0.672, 0.673], 'yaw_deg': 89.5, 'hands': {'left': [1.912, -0.671, 0.443], 'right': [2.42, -0.675, 0.443]}, 'mode': 'stand'} nugget [2.357, -0.354, 0.92] rel [0.319, -0.187]
+ck C:\Users\raresense\sim_home\runs\1121_123451_dex1_floor_final_s4\checkpoints\0023_act_n1_nugget_stance
+zp 0.932 box z 0.901 0.939
+in [-0.001, 0.003, -0.0] touch None {'t': 11534.78, 'pelvis': [2.165, -0.701, 0.645], 'yaw_deg': 89.9, 'hands': {'left': [1.909, -0.716, 0.411], 'right': [2.358, -0.362, 0.932]}, 'mode': 'stand'}
+NUG {'e_behind': [-0.002, -0.008, 0.036], 'e_level': [-0.003, 0.0, 0.026], 'e_in': [-0.001, 0.003, -0.0], 'grip': {'ok': True, 'gap': 0.0213, 'jaw1_N': 3.1, 'jaw2_N': 2.9}, 'fingers': 2, 'rose': 0.049, 'held': True} at [2.383, -0.433, 0.97] state {'t': 11540.59, 'pelvis': [2.16, -0.69, 0.639], 'yaw_deg': 89.9, 'hands': {'left': [1.905, -0.705, 0.405], 'right': [2.383, -0.441, 0.981]}, 'mode': 'stand'}
+ck C:\Users\raresense\sim_home\runs\1121_123451_dex1_floor_final_s4\checkpoints\0045_act_n1_nugget_held
+BASKET {'walk': 0.004, 'held_after_walk': True, 'e_over': [0.145, -0.127, -0.015], 'abort': 'hand not over the basket: [0.145, -0.127, -0.015]', 'at': [-5.278, -1.261, 0.304], 'state': {'t': 11697.45, 'pelvis': [-4.814, -0.963, 0.306], 'yaw_deg': -122.6, 'hands': {'left': [-4.502, -0.952, 0.151], 'right': [-5.27, -1.265, 0.316]}, 'mode': 'stand'}, 'fell': False}
+ITEM_RESULT FAIL r93i1_nugget {'item': 'r93i1_nugget', 't': 11697.45, 'kind': 'thing', 'dest': 'object_0312_body', 'centre': [-5.278, -1.261, 0.304], 'ok': False, 'off_spot': 0.113, 'inside': False} held True fell False state {'t': 11697.45, 'pelvis': [-4.814, -0.963, 0.306], 'yaw_deg': -122.6, 'hands': {'left': [-4.502, -0.952, 0.151], 'right': [-5.27, -1.265, 0.316]}, 'mode': 'stand'}
+FIN False
+C:\Users\raresense\sim_home\runs\1121_123451_dex1_floor_final_s4\tele\0001_n1_nugget_end.jpg
+__END__

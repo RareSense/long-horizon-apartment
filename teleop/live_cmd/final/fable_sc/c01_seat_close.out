@@ -1,0 +1,16 @@
+on_err {'left': [-0.0, 0.004, -0.0], 'right': [0.001, -0.0, -0.0]}
+[on] pelvis [-1.671 -1.039  0.713] yaw 177.2 bar c [-2.024 -0.751] z 0.969 bar_rel [ 0.366 -0.27 ] box [[-2.154, -0.945, -0.001], [-1.524, -0.579, 0.987]] why None fallen False
+[on] left pad [-2.026 -0.848  0.969] err [-0.     0.004 -0.   ] err body [ 0.001 -0.004] rel pelvis [ 0.364 -0.173] fingers [-0.66  0.75  0.  ] touch {} gap 0.0789 q {'shoulder_pitch': -1.24, 'shoulder_roll': 0.11, 'shoulder_yaw': -1.12, 'elbow': 0.23, 'wrist_roll': 0.48, 'wrist_pitch': 0.56, 'wrist_yaw': -0.14}
+[on] right pad [-2.012 -0.661  0.969] err [ 0.001 -0.    -0.   ] err body [-0.001  0.   ] rel pelvis [ 0.358 -0.36 ] fingers [-1.    0.06  0.01] touch {} gap 0.0789 q {'shoulder_pitch': -0.77, 'shoulder_roll': -0.47, 'shoulder_yaw': -1.38, 'elbow': 0.33, 'wrist_roll': 1.77, 'wrist_pitch': 1.19, 'wrist_yaw': -0.89}
+[on] contacts {'body': 0.0, 'body_who': None, 'held': 0.0, 'held_who': None} rec 259388
+in_jaws open (False, {'left': 0, 'right': 0}, {'left': 0.003, 'right': 0.007}, {'left': 0.097, 'right': -0.09}) seat {'left': {'seat_mm': 2.5, 'pitch': 0.1, 'lower_N': -0.0, 'upper_N': 0.0}, 'right': {'seat_mm': 6.7, 'pitch': 0.3, 'lower_N': -0.0, 'upper_N': 0.0}}
+VIEWS C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\tele\fsc_c01_open_top.jpg C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\tele\fsc_c01_open_side.jpg LOOK C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\tele\0140_fsc_c01_open.jpg
+GRIP ok True {'left': {'ok': True, 'gap': 0.0226, 'jaw1_N': 7.1, 'jaw2_N': 7.1}, 'right': {'ok': True, 'gap': 0.0226, 'jaw1_N': 7.1, 'jaw2_N': 6.9}} touch {'left': 8, 'right': 8} pad_to_bar {'left': 0.004, 'right': 0.007} along {'left': 0.097, 'right': -0.09}
+seat {'left': {'seat_mm': 2.5, 'pitch': 0.4, 'lower_N': 7.1, 'upper_N': 7.1}, 'right': {'seat_mm': 7.0, 'pitch': 0.1, 'lower_N': 7.1, 'upper_N': 6.9}}
+[closed] pelvis [-1.671 -1.039  0.713] yaw 177.2 bar c [-2.024 -0.751] z 0.969 bar_rel [ 0.366 -0.27 ] box [[-2.154, -0.945, -0.001], [-1.524, -0.579, 0.987]] why None fallen False
+[closed] left pad [-2.026 -0.848  0.969] err [0. 0. 0.] err body [0. 0.] rel pelvis [ 0.364 -0.174] fingers [-0.66  0.75  0.01] touch {25: 4, 26: 4} gap 0.0226 q {'shoulder_pitch': -1.25, 'shoulder_roll': 0.11, 'shoulder_yaw': -1.13, 'elbow': 0.23, 'wrist_roll': 0.47, 'wrist_pitch': 0.57, 'wrist_yaw': -0.12}
+[closed] right pad [-2.011 -0.661  0.969] err [0. 0. 0.] err body [0. 0.] rel pelvis [ 0.358 -0.361] fingers [-1.    0.06  0.  ] touch {35: 4, 36: 4} gap 0.0226 q {'shoulder_pitch': -0.78, 'shoulder_roll': -0.47, 'shoulder_yaw': -1.4, 'elbow': 0.33, 'wrist_roll': 1.77, 'wrist_pitch': 1.2, 'wrist_yaw': -0.91}
+[closed] contacts {'body': 0.0, 'body_who': None, 'held': 0.0, 'held_who': None} rec 259412
+VIEWS C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\tele\fsc_c01_top.jpg C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\tele\fsc_c01_side.jpg LOOK C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\tele\0141_fsc_c01.jpg
+mem 14.89
+__END__

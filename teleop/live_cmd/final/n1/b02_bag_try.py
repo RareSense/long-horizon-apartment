@@ -1,0 +1,6 @@
+print("ck", ck_save("n1_off_croc", kind="act", info=dict(note="2 x 0.12 m back off the croc after 3161 (AI-operated)")), flush=True)
+_start_item("r196i1_plastic_bag")
+zz_b = body_of("r196i1_plastic_bag")
+zz_o = corner_pinch_try(zz_b, 3, "left")
+print("TRY", {k_: v_ for k_, v_ in zz_o.items()}, flush=True)
+print("held", HOLD.holding("left"), "touch", contact_report()["body_who"], flush=True)

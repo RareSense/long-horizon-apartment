@@ -1,0 +1,175 @@
+[
+ [
+  "tidy_all",
+  {
+   "names": [
+    "r195i3_paper"
+   ],
+   "pairs": true
+  }
+ ],
+ [
+  "garments",
+  [
+   "r131i1_knit_hat",
+   "r121i1_jacket",
+   "r116i1_coat_pile",
+   "r117i1_blanket",
+   "r68i1_rag"
+  ]
+ ],
+ [
+  "tidy_all",
+  {
+   "names": [
+    "r124i1_sandal",
+    "r105i1_shoe",
+    "r105i2_shoe"
+   ],
+   "pairs": true
+  }
+ ],
+ [
+  "close_dishwasher",
+  {
+   "racks": [
+    "r33i1_rack",
+    "r33i2_rack"
+   ],
+   "door": "r32i1_door",
+   "stand_scene": [
+    3.5,
+    1.5
+   ],
+   "stand_world": [
+    2.6,
+    1.05
+   ],
+   "optional": true
+  }
+ ],
+ [
+  "tidy_surface",
+  {
+   "names": [
+    "r81i1_glass_spoon",
+    "r89i1_salad_bowl",
+    "r90i1_plate",
+    "r91i1_tan_plate",
+    "r63i1_glass",
+    "r92i1_pink_container"
+   ],
+   "pairs": true
+  }
+ ],
+ [
+  "tidy_surface",
+  {
+   "names": [
+    "r83i1_sponges"
+   ],
+   "pairs": true
+  }
+ ],
+ [
+  "tidy_surface",
+  {
+   "names": [
+    "r93i1_nugget",
+    "r120i1_duck"
+   ],
+   "pairs": true
+  }
+ ],
+ [
+  "tidy_surface",
+  {
+   "names": [
+    "r120i2_duck",
+    "r179i1_toy_pouch",
+    "r178i1_ball"
+   ],
+   "pairs": true
+  }
+ ],
+ [
+  "tidy_surface",
+  {
+   "names": [
+    "r191i1_toy_vehicle",
+    "r139i1_toy_car",
+    "r193i2_toy_piece",
+    "r190i1_stocking",
+    "r193i4_toy_piece",
+    "r193i3_toy_piece",
+    "r192i1_ball",
+    "r193i1_toy_piece"
+   ],
+   "pairs": true
+  }
+ ],
+ [
+  "tidy_all",
+  {
+   "names": [
+    "r188i1_dollhouse",
+    "r130i1_light_saber"
+   ],
+   "pairs": false
+  }
+ ],
+ [
+  "garments",
+  [
+   "r189i1_santa_hat"
+  ]
+ ],
+ [
+  "tidy_surface",
+  {
+   "names": [
+    "r195i1_paper",
+    "r196i1_plastic_bag",
+    "r158i1_tissue"
+   ],
+   "pairs": true
+  }
+ ],
+ [
+  "tidy_all",
+  {
+   "names": [
+    "r125i2_flat",
+    "r125i1_flat"
+   ],
+   "pairs": true
+  }
+ ],
+ [
+  "tidy_surface",
+  {
+   "names": [
+    "r138i1_cup",
+    "r147i1_purple_container",
+    "r173i1_tumbler",
+    "r171i1_glass",
+    "r197i1_cup",
+    "r148i1_pink_lid",
+    "r177i1_bowl",
+    "r155i1_kids_bottle",
+    "r151i1_spoon"
+   ],
+   "pairs": true
+  }
+ ],
+ [
+  "tidy_surface",
+  {
+   "names": [
+    "r87i1_wrapper",
+    "r149i1_pouch"
+   ],
+   "pairs": true
+  }
+ ]
+]

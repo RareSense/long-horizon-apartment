@@ -1,0 +1,2 @@
+PICK {'corner': [-2.869, -0.145], 'ahead': 0.386, 'z': 0.469, 'e_above': [-0.003, 0.003, -0.001], 'e_down': [-0.015, 0.007, -0.008], 'abort': 'pads not at the corner: [-0.015, 0.007, -0.008]'} state {'t': 11740.23, 'pelvis': [-2.599, -0.493, 0.611], 'yaw_deg': 151.1, 'hands': {'left': [-2.621, -0.775, 0.407], 'right': [-2.866, -0.14, 0.483]}, 'mode': 'stand'}
+C:\Users\raresense\sim_home\runs\1120_093820_dex1_floor_12\tele\f12_tissue_pick.jpg

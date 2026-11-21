@@ -1,0 +1,4 @@
+ITEM_CHECK {'item': 'r179i1_toy_pouch', 't': 6905.93, 'kind': 'thing', 'dest': 'object_0312_body', 'centre': [-5.141, -1.337, 0.144], 'ok': True, 'off_spot': 0.065, 'inside': True}
+[checkpoint] 0986_item_r179i1_toy_pouch t=6905.93 s, 2.29 MB, 0.483 s
+ITEM DONE {'done': 'r179i1_toy_pouch', 'ckpt': 'C:\\Users\\raresense\\sim_home\\runs\\1121_034845_dex1_floor_final_s3\\checkpoints\\0986_item_r179i1_toy_pouch', 'pruned': 122, 'pos': 19, 'n': 35, 'next': 'r130i1_light_saber'} done 19 rec 65268 kit {'ws_gb': 6.65, 'priv_gb': 14.08}
+__END__

@@ -1,0 +1,4 @@
+[checkpoint] loaded C:\Users\raresense\sim_home\runs\1121_123451_dex1_floor_final_s4\checkpoints\0270_item_r83i1_sponges: t=12094.968 s, k=6047484, {'controller_fields': 179, 'cloth_arrays': 231}
+[route] resumed at item 36/35 (end), 35 done
+CHAIN END reloaded rec 20085 done 35 route left [] {'t': 12098.27, 'pelvis': [1.525, 0.969, 0.673], 'yaw_deg': 89.5, 'hands': {'left': [1.269, 0.969, 0.443], 'right': [1.778, 0.965, 0.442]}, 'mode': 'stand'}
+__END__

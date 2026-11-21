@@ -1,0 +1,2 @@
+FIX {'held_stand': True, 'move': [-0.028, -0.076], 'abort': 'held thing object_0319_body lost (no finger on it for 0.4 s)', 'inside': False, 'held': True, 'state': {'t': 10308.09, 'pelvis': [-4.997, -0.873, 0.272], 'yaw_deg': -130.1, 'hands': {'left': [-4.964, -1.243, 0.04], 'right': [-5.091, -0.574, 0.121]}, 'mode': 'stand'}, 'fell': False}
+C:\Users\raresense\sim_home\runs\1120_093820_dex1_floor_12\tele\0075_f12_r193i1_fix.jpg

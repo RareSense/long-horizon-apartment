@@ -1,0 +1,8 @@
+zz_cks = sorted(_gl.glob(r"C:\Users\raresense\sim_home\runs\1119_220839_dex1_floor_4\checkpoints\*_act_sc_hands_to"))
+ck_load(zz_cks[-2]); MON["on"] = False; print("loaded", zz_cks[-2], state())
+print("ctrl attrs", [a_ for a_ in dir(ts.ctrl) if "post" in a_.lower() or "height" in a_.lower() or "lean" in a_.lower()])
+print("loco attrs", [a_ for a_ in dir(ts.loco) if "height" in a_.lower() or "lean" in a_.lower() or "post" in a_.lower()])
+op.send(dict(cmd="posture", height=0.0, lean=0.0, duration=0.6)); op.run(0.8)
+print("after posture 0", state())
+zz_e = sc_hands_to(zz_b, "pre")
+print("after pre", zz_e, state(), "knees", round(float(d.qpos[10]), 2), round(float(d.qpos[16]), 2))

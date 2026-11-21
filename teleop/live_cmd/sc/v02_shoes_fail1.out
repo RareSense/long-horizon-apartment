@@ -1,0 +1,7 @@
+[hall] duck_to_basket, shoe_to_mat loaded (scout, AI-operated)
+[checkpoint] loaded C:\Users\raresense\sim_home\runs\1120_114552_scout_hall_AI_operated\checkpoints\0642_item_r120i1_duck: t=8920.228 s, k=4460114, {'controller_fields': 179, 'cloth_arrays': 231}
+[route] resumed at item 25/43 (r105i1_shoe), 24 done
+LOADED C:\Users\raresense\sim_home\runs\1120_114552_scout_hall_AI_operated\checkpoints\0642_item_r120i1_duck {'t': 8922.53, 'pelvis': [-4.873, -1.079, 0.768], 'yaw_deg': -125.8, 'hands': {'left': [-4.665, -1.227, 0.538], 'right': [-5.077, -0.929, 0.537]}, 'mode': 'stand'} route head ['r105i1_shoe', 'r105i2_shoe', 'r107i1_umbrella'] done 24
+RESULT r105i1_shoe {'item': 'r105i1_shoe', 'approach': {'ok': True, 'err_xy': 0.006}, 'pick': {'stance_err': [0.001, 0.0], 'reach': [0.167, 0.271], 'e_above': [-0.002, 0.0, -0.0], 'e_down': [-0.0, 0.001, -0.001], 'grip': {'ok': True, 'gap': 0.0608, 'jaw1_N': 4.8, 'jaw2_N': 5.1}, 'touch': 2, 'close_dz': -0.0001, 'close_dtilt': 0.2, 'tries': 1, 'look_hold': 'C:\\Users\\raresense\\sim_home\\runs\\1120_114552_scout_hall_AI_operated\\grasps\\hold_r105i1_shoe_t9076.jpg', 'rose': 0.074}, 'put_stance': [1.471, -1.734, -1.571], 'status': 'FAILED', 'why': 'foot on a loose thing: r105i2_shoe (45 N)', 'sim_s': 163.6, 'wall_s': 399, 'at': [3.728, -1.837], 'fell': False, 'look': 'C:\\Users\\raresense\\sim_home\\runs\\1120_114552_scout_hall_AI_operated\\tele\\0030_end_r105i1_shoe_FAILED.jpg'}
+ROUTE r105i1_shoe {}
+C:\Users\raresense\sim_home\runs\1120_114552_scout_hall_AI_operated\look\v02_mat_above.jpg

@@ -1,0 +1,14 @@
+# secrets / local config
+.env
+.env.*
+*.ork
+*.pem
+*.key
+# python
+__pycache__/
+*.pyc
+# big media live on Google Drive (see DRIVE_MANIFEST.md)
+*.mp4
+*.mov
+*.mkv
+*.zip

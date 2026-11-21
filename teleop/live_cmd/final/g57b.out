@@ -1,0 +1,9 @@
+ck C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\checkpoints\1916_act_g_both_up_before_lowering frame 122228
+both to {'left': (0.52, 0.0, 0.82), 'right': (0.5, -0.1, 0.82)} pads rf {'left': [0.494, 0.002, 0.821], 'right': [0.492, -0.1, 0.82]} held L/R True True out {'n': 0, 'share': 0.0, 'below_rim': 0} inside {'inside': 1.0, 'below_rim': 0.514, 'overhang': 0.0, 'lowest': 0.073, 'rim': 0.59} touch 0.0 knees {'left_knee': 0.142, 'right_knee': 0.132} tilt 0.238 fell False
+both to {'left': (0.5, 0.0, 0.78), 'right': (0.48, -0.1, 0.76)} pads rf {'left': [0.473, 0.002, 0.781], 'right': [0.46, -0.099, 0.76]} held L/R True True out {'n': 0, 'share': 0.0, 'below_rim': 0} inside {'inside': 1.0, 'below_rim': 0.594, 'overhang': 0.0, 'lowest': 0.034, 'rim': 0.59} touch 0.0 knees {'left_knee': 0.148, 'right_knee': 0.138} tilt 0.212 fell False
+left fingers rf [0.84, -0.31, -0.44] close rf [0.53, 0.65, 0.55] pads z 0.775 0.786 pad r from centre 0.111
+right fingers rf [0.85, 0.15, -0.51] close rf [-0.07, 0.98, 0.16] pads z 0.758 0.762 pad r from centre 0.117
+cloth r max 0.217 share with r > 0.22: 0.0 their z lo/hi None lowest 0.034 top 0.793
+others {'r131i1_knit_hat': True, 'r189i1_santa_hat': True, 'r121i1_jacket': True, 'r117i1_blanket': True} hamper [-2.151, -1.959]
+look C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\look_fb\0053_g57_both.jpg
+__END__

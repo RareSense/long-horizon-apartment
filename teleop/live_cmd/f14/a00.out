@@ -1,0 +1,15 @@
+﻿[aside] set_aside(name, spot) loaded
+[ops] floor_first, go_item, kit_mem, step_to, flat_corners, corner_pinch_plan, corner_pinch_try loaded
+[ops] remove_bodies loaded
+[scooter] park_scooter_sofa(), item_done_auto(), sc_take2, sc_regrip, sc_pivot_step, sc_fwd_step, sc_state loaded
+[checkpoint] loaded C:/Users/raresense/sim_home/runs/1120_150110_dex1_floor_13/checkpoints/0412_item_r107i1_umbrella: t=12794.146 s, k=6397073, {'controller_fields': 179, 'cloth_arrays': 231}
+[route] resumed at item 35/43 (r154i1_stick), 34 done
+{'hold': False, 'hold_c': [0.2, 0.12], 'hold_dmax': [0.03, 0.025], 'hold_emax': 0.15, 'hold_tol': 0.015, 'hold_extra': 6, 'hold_meas': 'feet', 'plan': True, 'plan_dmax': [0.015, 0.012], 'plan_k': 12.0, 'plan_tol': 0.006, 'plan_ds_max': 0.45, 'plan_stop_tol': 0.008, 'plan_extra': 6, 'plan_emax': 0.15, 'plan_lead': 0.04, 'plan_width': 0.85, 'plan_gain': 1.0, 'plan_rate': 1.0}
+['r154i1_stick', 'r191i1_toy_vehicle', 'r87i1_wrapper', 'r83i1_sponges', 'r186i1_basket', 'r186i1_basket', 'r159i1_door', 'r100i1_towel', 'r123i1_slipper']
+{'t': 12795.65, 'pelvis': [3.541, -2.096, 0.673], 'yaw_deg': -90.0, 'hands': {'left': [3.796, -2.093, 0.443], 'right': [3.288, -2.094, 0.442]}, 'mode': 'stand'} {'ws_gb': 6.41, 'priv_gb': 13.74}
+[bigcloth] bigcloth_into(name, cont=None, s1='right', start=None, stop_after=None); stages ('grasp', 'carry', 'step_in', 'first_end', 'strand', 'lift2', 'free1', 'fold', 'both_up', 'lower_release', 'retract')
+[slab] slab_hull, slab_yaw, slab_entry, slab_push loaded
+[u00] umbrella two-corner helpers loaded
+RUN C:\Users\raresense\sim_home\runs\1120_155109_dex1_floor_14 route head ['r154i1_stick', 'r191i1_toy_vehicle', 'r87i1_wrapper', 'r83i1_sponges', 'r186i1_basket', 'r186i1_basket', 'r159i1_door', 'r100i1_towel'] done 34
+kit {'ws_gb': 6.41, 'priv_gb': 13.74} state {'t': 12797.45, 'pelvis': [3.541, -2.095, 0.673], 'yaw_deg': -90.0, 'hands': {'left': [3.796, -2.093, 0.443], 'right': [3.288, -2.094, 0.442]}, 'mode': 'stand'} hold_guard True actions log True
+chain end loaded (AI-operated) C:/Users/raresense/sim_home/runs/1120_150110_dex1_floor_13/checkpoints/0412_item_r107i1_umbrella

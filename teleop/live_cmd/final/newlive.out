@@ -1,0 +1,14 @@
+18:15:56 [slot] home took ISAAC_SLOT.lock
+ISAAC READY 47960 pid 34748 RAM 12.0 / commit 27.6 GB
+[home] boot ready: load_room(json), snap(), close(), Rec, state()
+Traceback (most recent call last):
+  File "E:\urc_final\scripts\isaac_live.py", line 57, in <module>
+    exec(compile(code, "<live>", "exec"), G)
+  File "<live>", line 2, in <module>
+  File "<string>", line 12, in <module>
+  File "<string>", line 100, in load_room
+  File "E:\urc_final\scripts\..\src\urc\tasks\home\room.py", line 108, in load
+    d = json.load(open(path, encoding="utf-8"))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'E:urc_finalroomsapartment_1122_full.json'
+RUN C:\Users\raresense\sim_home\runs\1120_181556_1120_dex1_floor_final

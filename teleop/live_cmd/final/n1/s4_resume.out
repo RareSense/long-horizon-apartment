@@ -1,0 +1,16 @@
+[aside] set_aside(name, spot) loaded
+[ops] floor_first, go_item, kit_mem, step_to, flat_corners, corner_pinch_plan, corner_pinch_try loaded
+[ops] remove_bodies loaded
+[scooter] park_scooter_sofa(), item_done_auto(), sc_take2, sc_regrip, sc_pivot_step, sc_fwd_step, sc_state loaded
+[checkpoint] loaded C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\checkpoints\4072_item_r126i1_scooter: t=11429.032 s, k=5714516, {'controller_fields': 179, 'cloth_arrays': 231}
+[route] resumed at item 34/35 (r93i1_nugget), 33 done
+{'hold': False, 'hold_c': [0.2, 0.12], 'hold_dmax': [0.03, 0.025], 'hold_emax': 0.15, 'hold_tol': 0.015, 'hold_extra': 6, 'hold_meas': 'feet', 'plan': True, 'plan_dmax': [0.015, 0.012], 'plan_k': 12.0, 'plan_tol': 0.006, 'plan_ds_max': 0.45, 'plan_stop_tol': 0.008, 'plan_extra': 6, 'plan_emax': 0.15, 'plan_lead': 0.04, 'plan_width': 0.85, 'plan_gain': 1.0, 'plan_rate': 1.0}
+[bigcloth] bigcloth_into(name, cont=None, s1='right', start=None, stop_after=None); stages ('grasp', 'carry', 'step_in', 'first_end', 'strand', 'lift2', 'free1', 'fold', 'both_up', 'lower_release', 'retract')
+[slab] slab_hull, slab_yaw, slab_entry, slab_push loaded
+[u00] umbrella two-corner helpers loaded
+RESUMED C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\checkpoints\4072_item_r126i1_scooter RUN C:\Users\raresense\sim_home\runs\1121_123451_dex1_floor_final_s4 route at r93i1_nugget done 33 state {'t': 11432.33, 'pelvis': [-1.615, 0.34, 0.673], 'yaw_deg': -91.4, 'hands': {'left': [-1.36, 0.336, 0.443], 'right': [-1.868, 0.348, 0.442]}, 'mode': 'stand'}
+[chk] item_check + guarded route_checkpoint loaded; SPOT_TOL 0.15
+[final_run] common_b loaded
+[final_run] items ['r68i1_rag', 'r196i1_plastic_bag', 'r190i1_stocking', 'r125i2_flat', 'r130i1_light_saber', 'r120i2_duck', 'r125i1_flat', 'r175i1_cardboard_box', 'r178i1_ball', 'r179i1_toy_pouch', 'r126i1_scooter', 'r149i1_pouch', 'r93i1_nugget', 'r193i4_toy_piece', 'r192i1_ball', 'r193i2_toy_piece', 'r193i1_toy_piece', 'r193i3_toy_piece', 'r120i1_duck', 'r158i1_tissue', 'r105i1_shoe', 'r105i2_shoe', 'r107i1_umbrella', 'r159i1_door', 'r83i1_sponges']
+READY 100 C:\Users\raresense\sim_home\runs\1121_123451_dex1_floor_final_s4 {'t': 11432.33, 'pelvis': [-1.615, 0.34, 0.673], 'yaw_deg': -91.4, 'hands': {'left': [-1.36, 0.336, 0.443], 'right': [-1.868, 0.348, 0.442]}, 'mode': 'stand'} kit {'ws_gb': 5.62, 'priv_gb': 12.91}
+__END__

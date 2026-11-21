@@ -1,0 +1,19 @@
+left to (0.44, -0.02, 1.08) {'err': [0.0, 0.002, -0.001], 'pad': [-2.128, -1.826, 1.081], 'pad_rf': [0.439, -0.018, 1.081], 'tilt': 0.346} held L True out {'share': 0.038, 'z_lo': 0.487, 'below_rim': 46} touch 0.0 knees {'left_knee': 0.101, 'right_knee': 0.09} fell False
+fold target (1766, [0.316, -0.12, 0.665], 0.665) out {'share': 0.04, 'z_lo': 0.494, 'below_rim': 44} inside {'inside': 0.96, 'below_rim': 0.096, 'overhang': 0.049, 'lowest': 0.393, 'rim': 0.59}
+  outside high 1766 rf [0.316, -0.12, 0.665] uv [0.4, -0.16] r 0.262
+  outside high 1924 rf [0.307, -0.043, 0.664] uv [0.48, -0.12] r 0.261
+  outside high 1845 rf [0.308, -0.087, 0.659] uv [0.44, -0.14] r 0.263
+  outside high 1884 rf [0.301, -0.069, 0.654] uv [0.46, -0.14] r 0.268
+  outside high 1805 rf [0.308, -0.106, 0.653] uv [0.42, -0.16] r 0.266
+  outside high 1765 rf [0.312, -0.108, 0.649] uv [0.4, -0.18] r 0.263
+  outside high 1923 rf [0.303, -0.051, 0.646] uv [0.48, -0.14] r 0.265
+  outside high 1804 rf [0.295, -0.117, 0.643] uv [0.42, -0.18] r 0.281
+  outside high 1844 rf [0.307, -0.092, 0.64] uv [0.44, -0.16] r 0.264
+  outside high 1962 rf [0.305, -0.033, 0.637] uv [0.5, -0.14] r 0.263
+  outside high 1883 rf [0.295, -0.076, 0.637] uv [0.46, -0.16] r 0.274
+  outside high 1843 rf [0.296, -0.103, 0.628] uv [0.44, -0.18] r 0.278
+  outside high 1922 rf [0.3, -0.059, 0.628] uv [0.48, -0.16] r 0.268
+  outside high 1803 rf [0.299, -0.109, 0.625] uv [0.42, -0.2] r 0.276
+pads rf {'left': [0.436, -0.017, 1.081], 'right': [0.298, -0.091, 1.093]} tilt 0.343 pelvis [-2.147, -1.387, 0.676]
+look C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\look_fb\0013_g13_lback.jpg
+__END__

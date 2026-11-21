@@ -1,0 +1,6 @@
+[surface] object_0287_body approach 1: pads [-0.013, 0.008, -0.008] from the grasp point -> NOT closing
+TIDY r158i1_tissue {'ok': False, 'error': 'abort: right_Dex1_finger_link_1 pressing furniture/floor 68 N at z 0.45'}
+picks None
+puts []
+at [-2.863, -0.117, 0.469] held {'left': False, 'right': False} state {'t': 11724.06, 'pelvis': [-2.606, -0.496, 0.615], 'yaw_deg': 149.9, 'hands': {'left': [-2.63, -0.778, 0.41], 'right': [-2.796, -0.127, 0.467]}, 'mode': 'stand'} fell False
+C:\Users\raresense\sim_home\runs\1120_093820_dex1_floor_12\tele\0084_f12_r158i1_tissue_end.jpg

@@ -1,0 +1,16 @@
+ck C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\checkpoints\1686_act_bc_coat_at_north_pre
+[bigcloth] r116i1_coat_pile step_in: ok {'ok': True, 'wall_gap': 0.271, 'knees': {'left_knee': 0.112, 'right_knee': 0.109}, 'touch': 0.0, 'lowest': 0.464, 'stage': 'step_in'}
+[bigcloth] r116i1_coat_pile first_end: ok {'ok': True, 'lowered': {'inside': {'inside': 0.885, 'below_rim': 0.706, 'overhang': 0.067, 'lowest': 0.122, 'rim': 0.59}, 'out': {'share': 0.115, 'z_lo': 0.288, 'below_rim': 290}}, 'pad_rf': [0.414, -0.052, 1.25], 'knees': {'left_knee': 0.111, 'right_knee': 0.106}, 'tilt': 0.23, 'stage': 'first_end'}
+[bigcloth] r116i1_coat_pile strand: FAILED {'ok': False, 'why': 'hand not at the strand', 'target': 550, 'step': {'left': 0.138, 'caught': 0, 'touch': 0.0}, 'stage': 'strand'}
+RESULT {'ok': True, 'wall_gap': 0.271, 'knees': "{'left_knee': 0.112, 'right_knee': 0.109}", 'touch': 0.0, 'lowest': 0.464, 'stage': 'step_in', 'ckpt_before': None}
+RESULT {'ok': True, 'lowered': "{'inside': {'inside': 0.885, 'below_rim': 0.706, 'overhang': 0.067, 'lowest': 0.122, 'rim': 0.59}, 'out': {'share': 0.115, 'z_lo': 0.288, 'below_rim': 290}}", 'pad_rf': '[0.414, -0.052, 1.25]', 'knees': "{'left_knee': 0.111, 'right_knee': 0.106}", 'tilt': 0.23, 'stage': 'first_end', 'ckpt_before': 'C:\\Users\\raresense\\sim_home\\runs\\1120_181556_dex1_floor_final\\checkpoints\\1696_act_bc_stage_first_end'}
+RESULT {'ok': False, 'why': 'hand not at the strand', 'target': 550, 'step': "{'left': 0.138, 'caught': 0, 'touch': 0.0}", 'stage': 'strand', 'ckpt_before': 'C:\\Users\\raresense\\sim_home\\runs\\1120_181556_dex1_floor_final\\checkpoints\\1785_act_bc_stage_strand'}
+inside {'inside': 0.913, 'below_rim': 0.091, 'overhang': 0.04, 'lowest': 0.427, 'rim': 0.59} out {'share': 0.087, 'z_lo': 0.427, 'below_rim': 175} state {'t': 2988.71, 'pelvis': [-2.153, -1.384, 0.692], 'yaw_deg': -86.0, 'hands': {'left': [-2.163, -1.729, 0.798], 'right': [-2.195, -1.834, 1.25]}, 'mode': 'stand'} touch {'body': 0.0, 'body_who': None, 'held': 0.0, 'held_who': None} LOCK ['right'] HELD {'right': {'cloth': 'r116i1_coat_pile'}} fell False
+r131i1_knit_hat {'item': 'r131i1_knit_hat', 't': 2988.71, 'kind': 'garment', 'dest': 'r133i1_laundry_basket', 'inside': 1.0, 'ok': True}
+r189i1_santa_hat {'item': 'r189i1_santa_hat', 't': 2988.71, 'kind': 'garment', 'dest': 'r133i1_laundry_basket', 'inside': 1.0, 'ok': True}
+r121i1_jacket {'item': 'r121i1_jacket', 't': 2988.71, 'kind': 'garment', 'dest': 'r133i1_laundry_basket', 'inside': 1.0, 'ok': True}
+look3 C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\tele\0148_coat_north_strand.jpg
+between pads now 0
+manual close {'gap_cm': -0.0, 'F1': 0.0, 'F2': 0.0, 'caught': 0, 'held': 0} held L/R False True
+look C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\tele\0149_coat_strand_closed.jpg
+__END__

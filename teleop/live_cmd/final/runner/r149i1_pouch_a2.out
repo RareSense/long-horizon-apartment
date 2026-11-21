@@ -1,0 +1,12 @@
+[chk] item_check + guarded route_checkpoint loaded; SPOT_TOL 0.15
+[final_run] common_b loaded
+[final_run] items ['r68i1_rag', 'r196i1_plastic_bag', 'r190i1_stocking', 'r125i2_flat', 'r130i1_light_saber', 'r120i2_duck', 'r125i1_flat', 'r175i1_cardboard_box', 'r178i1_ball', 'r179i1_toy_pouch', 'r126i1_scooter', 'r149i1_pouch', 'r93i1_nugget', 'r193i4_toy_piece', 'r192i1_ball', 'r193i2_toy_piece', 'r193i1_toy_piece', 'r193i3_toy_piece', 'r120i1_duck', 'r158i1_tissue', 'r105i1_shoe', 'r105i2_shoe', 'r107i1_umbrella', 'r159i1_door', 'r83i1_sponges']
+ITEM_START r149i1_pouch attempt 2 pos 12 route at r149i1_pouch state {'t': 4353.22, 'pelvis': [-2.529, -2.222, 0.772], 'yaw_deg': 59.5, 'hands': {'left': [-2.747, -2.094, 0.541], 'right': [-2.181, -2.307, 0.609]}, 'mode': 'stand'}
+TIDY r149i1_pouch {'obj': 'object_0277_body', 'display': 'r149i1_pouch', 'into': 'rubbish_bin', 'ok': False, 'how': 'surface', 'error': 'no section the open jaws can take from above', 'sim_s': 0.0, 'wall_s': 0.0}
+picks [{'obj': 'object_0277_body', 'side': 'auto', 'ok': False, 'how': 'top_down', 'error': 'no section the open jaws can take from above', 'tries': 0}]
+puts []
+at [-3.305, -0.854, 0.49] held {'left': False, 'right': False} state {'t': 4353.22, 'pelvis': [-2.529, -2.222, 0.772], 'yaw_deg': 59.5, 'hands': {'left': [-2.747, -2.094, 0.541], 'right': [-2.181, -2.307, 0.609]}, 'mode': 'stand'} fell False
+C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\tele\0193_f12_r149i1_pouch_end.jpg
+CORNER {'corner': [-3.34, -0.935], 'ahead': 0.715, 'z': 0.494, 'abort': 'right_Dex1_base_link pressing r133i1_laundry_basket 20 N', 'Q': {'right': [0.6291568563427283, -0.32274084048495555, 0.6291568563427284, 0.32274084048495555]}}
+ITEM_RESULT FAIL r149i1_pouch {'item': 'r149i1_pouch', 't': 4355.67, 'kind': 'thing', 'dest': 'rubbish_bin', 'centre': [-3.305, -0.854, 0.49], 'ok': False, 'off_spot': 4.128, 'inside': False} held False fell False state {'t': 4355.67, 'pelvis': [-2.529, -2.223, 0.767], 'yaw_deg': 59.7, 'hands': {'left': [-2.749, -2.096, 0.537], 'right': [-2.178, -2.303, 0.618]}, 'mode': 'stand'}
+ZZ_OK False

@@ -1,0 +1,8 @@
+[checkpoint] loaded C:\Users\raresense\sim_home\runs\1121_123451_dex1_floor_final_s4\checkpoints\0327_act_x_pouch_at_bin: t=12182.994 s, k=6091497, {'controller_fields': 179, 'cloth_arrays': 231}
+RELOADED 0327 at rec 24675 (discard 24614 branch: over-check False, stepped back holding) {'t': 12185.0, 'pelvis': [0.091, 1.042, 0.765], 'yaw_deg': 89.6, 'hands': {'left': [-0.165, 1.042, 0.535], 'right': [0.334, 1.202, 0.578]}, 'mode': 'stand'} held True pouch [0.298, 1.261, 0.573]
+pass 0 delta [-0.18, 0.18] over (False, [0.223, 0.258], [0.163, 0.163])
+pass 1 delta [-0.012, 0.072] over (False, [0.146, 0.078], [0.163, 0.163])
+pass 2 delta [-0.01, 0.053] over (True, [0.127, 0.072], [0.163, 0.163])
+over (True, [0.121, 0.07], [0.163, 0.163]) [0.127, 1.394, 0.691]
+pouch [0.132, 1.369, 0.025] inside True held False bin [0.118, 1.441, 0.2] tilt 0.0 state {'t': 12227.45, 'pelvis': [0.092, 1.06, 0.769], 'yaw_deg': 89.6, 'hands': {'left': [-0.163, 1.06, 0.539], 'right': [0.341, 1.057, 0.538]}, 'mode': 'stand'} fell False rec 25948
+C:\Users\raresense\sim_home\runs\1121_123451_dex1_floor_final_s4\tele\0024_x05_pouch_drop2.jpg

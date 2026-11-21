@@ -1,0 +1,25 @@
+# reload ZZ_CK (bad branch dropped) and look at the right hand's hold (AI-operated)
+CK_RELOAD = os.path.join(CK_DIR, ZZ_CK)
+print("frame before load", rec.n, flush=True)
+ck_load(CK_RELOAD); gait_on(); op.run(0.3); sync_cloth(force=True)
+print("RELOADED", CK_RELOAD, "frame", rec.n, flush=True)
+print("held L/R", cloth_held("left"), cloth_held("right"), "LOCK", {s_: len(LOCK[s_][1]) for s_ in LOCK}, "HELD", HELD, "inside", in_container(zz_BL, zz_hb()), "out", bc_out(zz_BL, zz_hb()), flush=True)
+print("state", state(), "tilt", round(pelvis_tilt(), 3), "knees", zz_knees(), "touch", contact_report(), "fell", fallen(), flush=True)
+p_, y_ = base(); Rb_ = RM.rz(y_)
+for s_ in SIDES:
+    a_, b_ = pads(s_); Rn_ = ts.ee_pose(s_)[1]
+    print(s_, "pad rf", np.round(zz_to_rf(pad_mid(s_)), 3).tolist(), "pads rf", np.round(zz_to_rf(a_), 3).tolist(), np.round(zz_to_rf(b_), 3).tolist(), "fingers rf", np.round(Rb_.T @ Rn_[:, 0], 2).tolist(), "close rf", np.round(Rb_.T @ Rn_[:, 1], 2).tolist(),
+          "gap", round(gap(s_), 4), "at_f", zz_w().at_fingers(s_), flush=True)
+P_ = zz_w().points(0); U_ = zz_uv(); B_ = np.array([zz_to_rf(q_xyz) for q_xyz in P_])
+pm_ = zz_to_rf(pad_mid("right"))
+s_ = np.flatnonzero(np.linalg.norm(B_ - pm_, axis=1) < 0.07)
+print("cloth within 7 cm of the right pad middle: n", len(s_), "rel lo", np.round((B_[s_] - pm_).min(0), 3).tolist(), "hi", np.round((B_[s_] - pm_).max(0), 3).tolist(), "uv lo/hi", np.round(U_[s_].min(0), 2).tolist(), np.round(U_[s_].max(0), 2).tolist(), flush=True)
+ab_ = np.flatnonzero(B_[:, 2] > pm_[2] - 0.01)
+print("cloth above the right pad height: n", len(ab_), "rf lo", np.round(B_[ab_].min(0), 3).tolist() if len(ab_) else None, "hi", np.round(B_[ab_].max(0), 3).tolist() if len(ab_) else None, "uv lo/hi", np.round(U_[ab_].min(0), 2).tolist() if len(ab_) else None, np.round(U_[ab_].max(0), 2).tolist() if len(ab_) else None, flush=True)
+print("look right hand", look_hand("right", "g09_right"), flush=True)
+cc_ = pad_mid("right")
+t_ = [os.path.join(zz_LOOK_DIR, f"_c{i}.jpg") for i in range(3)]
+close(t_[0], cc_ + np.array([0.45, 0.25, 0.15]), cc_, "from the east")
+close(t_[1], cc_ + np.array([-0.45, 0.25, 0.15]), cc_, "from the west")
+close(t_[2], cc_ + np.array([-0.05, -0.5, 0.2]), cc_, "from the south")
+print("look", zz_img(t_, "g09_right"), flush=True)

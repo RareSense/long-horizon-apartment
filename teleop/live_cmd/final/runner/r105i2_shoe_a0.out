@@ -1,0 +1,10 @@
+[chk] item_check + guarded route_checkpoint loaded; SPOT_TOL 0.15
+[final_run] common_b loaded
+[final_run] items ['r68i1_rag', 'r196i1_plastic_bag', 'r190i1_stocking', 'r125i2_flat', 'r130i1_light_saber', 'r120i2_duck', 'r125i1_flat', 'r175i1_cardboard_box', 'r178i1_ball', 'r179i1_toy_pouch', 'r126i1_scooter', 'r149i1_pouch', 'r93i1_nugget', 'r193i4_toy_piece', 'r192i1_ball', 'r193i2_toy_piece', 'r193i1_toy_piece', 'r193i3_toy_piece', 'r120i1_duck', 'r158i1_tissue', 'r105i1_shoe', 'r105i2_shoe', 'r107i1_umbrella', 'r159i1_door', 'r83i1_sponges']
+ITEM_START r105i2_shoe attempt 0 pos 26 route at r105i2_shoe state {'t': 8640.09, 'pelvis': [1.467, -1.593, 0.673], 'yaw_deg': -89.4, 'hands': {'left': [1.723, -1.588, 0.443], 'right': [1.215, -1.593, 0.442]}, 'mode': 'stand'}
+[hall] duck_to_basket, shoe_to_mat, umbrella_to_entry loaded (scout, AI-operated)
+ITEM_CHECK {'item': 'r105i2_shoe', 't': 8850.52, 'kind': 'thing', 'dest': 'r119i1_mat', 'centre': [1.642, -1.988, 0.057], 'ok': True, 'off_spot': 0.227}
+[checkpoint] 2408_item_r105i2_shoe t=8850.52 s, 2.74 MB, 0.706 s
+SHOE {'status': 'done'}
+ITEM_RESULT DONE_ALREADY r105i2_shoe
+ZZ_OK True

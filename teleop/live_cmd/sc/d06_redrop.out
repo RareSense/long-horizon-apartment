@@ -1,0 +1,7 @@
+[checkpoint] loaded C:\Users\raresense\sim_home\runs\1120_114552_scout_hall_AI_operated\checkpoints\0154_act_squat_put: t=9031.234 s, k=4515617, {'controller_fields': 179, 'cloth_arrays': 231}
+[route] resumed at item 24/43 (r105i1_shoe), 23 done
+loaded {'t': 9031.23, 'pelvis': [-4.81, -1.002, 0.507], 'yaw_deg': -122.6, 'hands': {'left': [-5.02, -1.323, 0.42], 'right': [-4.957, -0.771, 0.291]}, 'mode': 'stand'} held True {25: 2, 26: 2}
+try -0.3 {'err': [-0.077, -0.022, -0.025], 'over': True, 'squat': -0.3, 'duck': [-5.117, -1.402, 0.287], 'dev': [0.063, 0.008]}
+try -0.38 {'err': [-0.025, -0.001, -0.0], 'over': True, 'squat': -0.38, 'duck': [-5.167, -1.419, 0.263], 'dev': [0.011, 0.018]}
+DROP {'err': [-0.025, -0.001, -0.0], 'over': True, 'squat': -0.38, 'duck': [-5.167, -1.419, 0.263], 'dev': [0.011, 0.018], 'inside': True} state {'t': 9066.75, 'pelvis': [-4.868, -1.057, 0.67], 'yaw_deg': -125.5, 'hands': {'left': [-4.659, -1.204, 0.44], 'right': [-5.072, -0.908, 0.44]}, 'mode': 'stand'} fell False duck [-5.207, -1.351, 0.031] wall 105
+C:\Users\raresense\sim_home\runs\1120_114552_scout_hall_AI_operated\look\d06_basket_w.jpg

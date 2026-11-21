@@ -1,0 +1,10 @@
+blanket {'inside': 1.0, 'below_rim': 1.0, 'overhang': 0.0, 'lowest': 0.034, 'rim': 0.59} asleep False
+item_check blanket {'item': 'r117i1_blanket', 't': 2461.5, 'kind': 'garment', 'dest': 'r133i1_laundry_basket', 'inside': 1.0, 'ok': True}
+r131i1_knit_hat {'item': 'r131i1_knit_hat', 't': 2461.5, 'kind': 'garment', 'dest': 'r133i1_laundry_basket', 'inside': 1.0, 'ok': True}
+r189i1_santa_hat {'item': 'r189i1_santa_hat', 't': 2461.5, 'kind': 'garment', 'dest': 'r133i1_laundry_basket', 'inside': 1.0, 'ok': True}
+r121i1_jacket {'item': 'r121i1_jacket', 't': 2461.5, 'kind': 'garment', 'dest': 'r133i1_laundry_basket', 'inside': 1.0, 'ok': True}
+LOCK {} HELD {} jaws {'left': 0.0, 'right': 0.0} fallen False touch {'body': 0.0, 'body_who': None, 'held': 0.0, 'held_who': None} state {'t': 2461.5, 'pelvis': [-2.149, -1.469, 0.767], 'yaw_deg': -88.6, 'hands': {'left': [-1.895, -1.462, 0.537], 'right': [-2.404, -1.472, 0.537]}, 'mode': 'stand'} hamper [-2.148, -1.957] route item r117i1_blanket
+ALL CRITERIA True
+look3 C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\tele\0109_g42_done.jpg
+look C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\look_fb\0041_g42_done.jpg
+__END__

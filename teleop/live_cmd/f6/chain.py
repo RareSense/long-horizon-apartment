@@ -1,0 +1,5 @@
+zz_m = route_v3_resume(CHAIN)
+print(gait_on())
+settle_after_load()
+print(state(), kit_mem(), flush=True)
+exec(open(r"C:\Users\raresense\sim_home\apartment\live_cmd\f6\items.py", encoding="utf-8").read())

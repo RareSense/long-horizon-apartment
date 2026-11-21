@@ -1,0 +1,12 @@
+[chk] item_check + guarded route_checkpoint loaded; SPOT_TOL 0.15
+[final_run] common_b loaded
+[final_run] items ['r68i1_rag', 'r196i1_plastic_bag', 'r190i1_stocking', 'r125i2_flat', 'r130i1_light_saber', 'r120i2_duck', 'r125i1_flat', 'r175i1_cardboard_box', 'r178i1_ball', 'r179i1_toy_pouch', 'r126i1_scooter', 'r149i1_pouch', 'r93i1_nugget', 'r193i4_toy_piece', 'r192i1_ball', 'r193i2_toy_piece', 'r193i1_toy_piece', 'r193i3_toy_piece', 'r120i1_duck', 'r158i1_tissue', 'r105i1_shoe', 'r105i2_shoe', 'r107i1_umbrella', 'r159i1_door', 'r83i1_sponges']
+ITEM_START r125i1_flat attempt 2 pos 15 route at r125i1_flat state {'t': 5288.52, 'pelvis': [-4.871, -1.088, 0.768], 'yaw_deg': -124.7, 'hands': {'left': [-4.659, -1.232, 0.538], 'right': [-5.078, -0.943, 0.537]}, 'mode': 'stand'}
+[pick] object_0257_body try 1: grip {'ok': True, 'gap': 0.0705, 'jaw1_N': 5.7, 'jaw2_N': 6.3, 'between': 0.5, 'off_axis': 0.0} rose 0.079 -> held
+PICKPUT {'item': 'r125i1_flat', 'pick': {'ok': True, 'side': 'right'}, 'put': {'ok': False, 'lost': False, 'over_err': [-0.258, -0.036, -0.218], 'inside': True}, 'at': [1.598, -1.811, 0.601], 'zaxis': [-0.63, -0.72, 0.28], 'fell': False, 'touch': 0.0, 'look': 'C:\\Users\\raresense\\sim_home\\runs\\1121_034845_dex1_floor_final_s3\\tele\\0001_put_r125i1_flat.jpg'}
+LOWER_PUT {'bottom': 0.012, 'off_xy': [-0.021, -0.069], 'at': [1.481, -1.944, 0.038], 'state': {'t': 5654.23, 'pelvis': [1.47, -1.736, 0.769], 'yaw_deg': -30.4, 'hands': {'left': [1.599, -1.515, 0.539], 'right': [1.339, -1.955, 0.539]}, 'mode': 'stand'}, 'fell': False, 'touch': 0.0, 'held': {'left': False, 'right': False}, 'check': {'item': 'r125i1_flat', 't': 5654.23, 'kind': 'thing', 'dest': 'r119i1_mat', 'centre': [1.481, -1.944, 0.038], 'ok': True, 'off_spot': 0.403}}
+ITEM_RESULT OK r125i1_flat {'item': 'r125i1_flat', 't': 5654.23, 'kind': 'thing', 'dest': 'r119i1_mat', 'centre': [1.481, -1.944, 0.038], 'ok': True, 'off_spot': 0.403} held False fell False state {'t': 5654.23, 'pelvis': [1.47, -1.736, 0.769], 'yaw_deg': -30.4, 'hands': {'left': [1.599, -1.515, 0.539], 'right': [1.339, -1.955, 0.539]}, 'mode': 'stand'}
+ITEM_CHECK {'item': 'r125i1_flat', 't': 5654.23, 'kind': 'thing', 'dest': 'r119i1_mat', 'centre': [1.481, -1.944, 0.038], 'ok': True, 'off_spot': 0.403}
+[checkpoint] 0167_item_r125i1_flat t=5654.23 s, 1.99 MB, 0.425 s
+ITEM_DONE {'done': 'r125i1_flat', 'ckpt': 'C:\\Users\\raresense\\sim_home\\runs\\1121_034845_dex1_floor_final_s3\\checkpoints\\0167_item_r125i1_flat', 'pruned': 113, 'pos': 16, 'n': 35, 'next': 'r130i1_light_saber'}
+ZZ_OK True

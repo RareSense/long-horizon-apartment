@@ -1,0 +1,8 @@
+ck C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\checkpoints\1303_act_g_before_right_release frame 86217
+released: at_fingers R 17 16 caught R 3 held L True LOCK ['left'] HELD {'left': {'cloth': 'r117i1_blanket'}} inside {'inside': 0.959, 'below_rim': 0.018, 'overhang': 0.05, 'lowest': 0.492, 'rim': 0.59} out {'share': 0.041, 'z_lo': 0.492, 'below_rim': 35}
+back 0 pad rf [0.351, -0.1, 1.058] at_f R 0 out {'share': 0.051, 'z_lo': 0.492, 'below_rim': 36} top 1.19 touch 0.0 fell False
+back 1 pad rf [0.32, -0.095, 1.07] at_f R 0 out {'share': 0.048, 'z_lo': 0.492, 'below_rim': 35} top 1.19 touch 0.0 fell False
+back 2 pad rf [0.298, -0.094, 1.083] at_f R 0 out {'share': 0.036, 'z_lo': 0.493, 'below_rim': 33} top 1.189 touch 0.0 fell False
+held L True pads rf {'left': [0.482, -0.021, 1.158], 'right': [0.298, -0.094, 1.083]} tilt 0.379 knees {'left_knee': 0.094, 'right_knee': 0.081}
+look C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\look_fb\0011_g11_rrel.jpg
+__END__

@@ -1,0 +1,4 @@
+bin box [-0.091, 1.196, -0.0] [0.334, 1.62, 0.4] pouch box [0.08, 1.261, 0.694] [0.302, 1.484, 0.737]
+state {'t': 8640.72, 'pelvis': [-0.094, 1.093, 0.753], 'yaw_deg': 35.7, 'hands': {'left': [0.098, 1.357, 0.728], 'right': [0.047, 0.886, 0.521]}, 'mode': 'settle'} fell False touch {'body': 4.2, 'body_who': ['left_knee_link', 'rubbish_bin'], 'held': 0.0, 'held_who': None}
+pouch over the opening with 3 cm margin: True
+C:\Users\raresense\sim_home\runs\1120_093820_dex1_floor_12\tele\f12_bin_top.jpg

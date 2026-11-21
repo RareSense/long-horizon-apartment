@@ -1,0 +1,12 @@
+bag mass 0.01 friction [[1.0, 0.0, 0.0], [0.6, 0.0, 0.0]]
+stance 0.3 [-4.549, -0.867] free True
+stance 0.33 [-4.56, -0.839] free True
+stance 0.36 [-4.57, -0.81] free True
+ITEM_START r196i1_plastic_bag attempt 0 pos 13 route at r196i1_plastic_bag state {'t': 4865.21, 'pelvis': [1.027, -1.996, 0.769], 'yaw_deg': -0.6, 'hands': {'left': [1.028, -1.74, 0.539], 'right': [1.023, -2.249, 0.538]}, 'mode': 'stand'}
+CLEAR_FEET r125i2_flat rel [0.152, -0.258]
+CLEAR_FEET r122i1_croc rel [0.211, -0.095]
+walk {'ok': True, 'err_xy': 0.002}
+state {'t': 4973.36, 'pelvis': [-4.558, -0.838, 0.671], 'yaw_deg': -69.6, 'hands': {'left': [-4.319, -0.747, 0.442], 'right': [-4.795, -0.925, 0.44]}, 'mode': 'stand'} fell False touch None bag [-4.447, -1.149, 0.015] rec 3344
+ck C:\Users\raresense\sim_home\runs\1121_021343_dex1_floor_final_s2\checkpoints\0035_act_n1_bag_north_stance
+C:\Users\raresense\sim_home\runs\1121_021343_dex1_floor_final_s2\tele\0003_n1_b11.jpg
+__END__

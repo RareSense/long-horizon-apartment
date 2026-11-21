@@ -1,0 +1,12 @@
+ck C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\checkpoints\3854_act_fsc_at_stance rec 257713
+targets {'left': [-1.969, -0.908, 0.969], 'right': [-1.928, -0.667, 0.969]}
+pre_err {'left': [0.022, -0.001, -0.001], 'right': [0.001, -0.057, 0.015]}
+[pre] pelvis [-1.761 -1.039  0.717] yaw 177.2 bar c [-2.024 -0.751] z 0.969 why None
+[pre] left pad [-1.992 -0.908  0.97 ] err world [ 0.022 -0.001 -0.001] err body (fwd,left) [-0.022 -0.   ] pad rel pelvis [ 0.236 -0.12 ] finger dir [-0.58  0.81 -0.01] touch {}
+[pre] left joints (q, lo, hi) {'shoulder_pitch': (-0.45, -3.09, 2.67), 'shoulder_roll': (0.03, -1.59, 2.25), 'shoulder_yaw': (-0.88, -2.62, 2.62), 'elbow': (-0.64, -1.05, 2.09), 'wrist_roll': (1.37, -1.97, 1.97), 'wrist_pitch': (0.32, -1.61, 1.61), 'wrist_yaw': (-0.87, -1.61, 1.61)}
+[pre] right pad [-1.93  -0.609  0.954] err world [ 0.001 -0.057  0.015] err body (fwd,left) [-0.004  0.057] pad rel pelvis [ 0.189 -0.421] finger dir [-0.98 -0.18  0.05] touch {}
+[pre] right joints (q, lo, hi) {'shoulder_pitch': (0.33, -3.09, 2.67), 'shoulder_roll': (-1.45, -2.25, 1.59), 'shoulder_yaw': (-0.45, -2.62, 2.62), 'elbow': (1.17, -1.05, 2.09), 'wrist_roll': (1.78, -1.97, 1.97), 'wrist_pitch': (1.45, -1.61, 1.61), 'wrist_yaw': (1.25, -1.61, 1.61)}
+[pre] contacts {'body': 0.0, 'body_who': None, 'held': 0.0, 'held_who': None}
+rec 258049 LOOK C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\tele\0134_fsc_a02_pre.jpg
+TOP C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\tele\fsc_a02_top.jpg C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\tele\fsc_a02_north.jpg
+__END__

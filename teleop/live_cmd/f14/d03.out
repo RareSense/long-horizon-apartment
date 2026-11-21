@@ -1,0 +1,14 @@
+﻿GARMENT r68i1_rag {'inside': 1.0, 'below_rim': 1.0, 'overhang': 0.0, 'lowest': 0.034, 'rim': 0.59}
+GARMENT r116i1_coat_pile {'inside': 0.993, 'below_rim': 0.978, 'overhang': 0.032, 'lowest': 0.024, 'rim': 0.59}
+GARMENT r117i1_blanket {'inside': 1.0, 'below_rim': 1.0, 'overhang': 0.0, 'lowest': 0.034, 'rim': 0.59}
+GARMENT r121i1_jacket {'inside': 1.0, 'below_rim': 1.0, 'overhang': 0.0, 'lowest': 0.03, 'rim': 0.59}
+GARMENT r131i1_knit_hat {'inside': 1.0, 'below_rim': 1.0, 'overhang': 0.0, 'lowest': 0.034, 'rim': 0.59}
+GARMENT r189i1_santa_hat {'inside': 1.0, 'below_rim': 1.0, 'overhang': 0.0, 'lowest': 0.034, 'rim': 0.59}
+GARMENT r190i1_stocking {'inside': 0.0, 'below_rim': 1.0, 'overhang': 2.995, 'lowest': 0.002, 'rim': 0.59}
+DW_DOOR r32i1_door q -1.571 range [-1.571, 0.0]
+DW_RACKS ('r33i1_rack', 'r33i2_rack')
+saber box [-5.317, -1.614, -0.085] [-4.764, -0.879, 0.138] basket box [-5.353, -1.549, -0.0] [-5.005, -1.263, 0.12]
+C:\Users\raresense\sim_home\runs\1120_155109_dex1_floor_14\look\f14_d03_toy_corner.jpg
+C:\Users\raresense\sim_home\runs\1120_155109_dex1_floor_14\look\f14_d03_hamper.jpg
+C:\Users\raresense\sim_home\runs\1120_155109_dex1_floor_14\look\f14_d03_mat.jpg
+C:\Users\raresense\sim_home\runs\1120_155109_dex1_floor_14\look\f14_d03_bin.jpg

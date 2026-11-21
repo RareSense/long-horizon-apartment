@@ -1,0 +1,12 @@
+[chk] item_check + guarded route_checkpoint loaded; SPOT_TOL 0.15
+knit hat check {'item': 'r131i1_knit_hat', 't': 1061.37, 'kind': 'garment', 'dest': 'r133i1_laundry_basket', 'inside': 1.0, 'ok': True}
+[cloth] r189i1_santa_hat try 1: {'point': [-3.065000057220459, -1.559000015258789, 0.0], 'gap_cm': 1.04, 'F1': 20.0, 'F2': 21.1, 'caught': 18, 'held': 31, 'rose': 0.075, 'ok': True, 'stretch': (1.322, 1.068)} -> held
+[cloth] r189i1_santa_hat into r133i1_laundry_basket: {'inside': 1.0, 'below_rim': 1.0, 'overhang': 0.0, 'lowest': 0.034, 'rim': 0.59} -> in
+ITEM_CHECK {'item': 'r189i1_santa_hat', 't': 1187.27, 'kind': 'garment', 'dest': 'r133i1_laundry_basket', 'inside': 1.0, 'ok': True}
+[checkpoint] 0529_item_r189i1_santa_hat t=1187.27 s, 1.33 MB, 0.238 s
+ITEM r189i1_santa_hat done why None sim 125.9 wall 374 at [-2.416, -1.583]
+  route {'done': 'r189i1_santa_hat', 'ckpt': 'C:\\Users\\raresense\\sim_home\\runs\\1120_181556_dex1_floor_final\\checkpoints\\0529_item_r189i1_santa_hat', 'pos': 5}
+  look C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\tele\0022_end_r189i1_santa_hat_done.jpg | done 5 | next ['r121i1_jacket', 'r117i1_blanket', 'r116i1_coat_pile', 'r124i1_sandal'] | mem {'ws_gb': 6.18, 'priv_gb': 12.76}
+HELD {'left': False, 'right': False} fell False touch {'body': 0.0, 'body_who': None, 'held': 0.0, 'held_who': None}
+SAY {'done': 5, 'last': 'C:\\Users\\raresense\\sim_home\\runs\\1120_181556_dex1_floor_final\\checkpoints\\0529_item_r189i1_santa_hat', 'next': 'r121i1_jacket', 'frame': 34892, 't': 1187.3, 'kit': {'ws_gb': 6.18, 'priv_gb': 12.76}}
+__END__

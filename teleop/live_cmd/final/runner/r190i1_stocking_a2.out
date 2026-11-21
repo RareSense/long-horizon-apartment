@@ -1,0 +1,9 @@
+[chk] item_check + guarded route_checkpoint loaded; SPOT_TOL 0.15
+[final_run] common_b loaded
+[final_run] items ['r68i1_rag', 'r196i1_plastic_bag', 'r190i1_stocking', 'r125i2_flat', 'r130i1_light_saber', 'r120i2_duck', 'r125i1_flat', 'r175i1_cardboard_box', 'r178i1_ball', 'r179i1_toy_pouch', 'r126i1_scooter', 'r149i1_pouch', 'r93i1_nugget', 'r193i4_toy_piece', 'r192i1_ball', 'r193i2_toy_piece', 'r193i1_toy_piece', 'r193i3_toy_piece', 'r120i1_duck', 'r158i1_tissue', 'r105i1_shoe', 'r105i2_shoe', 'r107i1_umbrella', 'r159i1_door', 'r83i1_sponges']
+ITEM_START r190i1_stocking attempt 2 pos 13 route at r190i1_stocking state {'t': 4865.21, 'pelvis': [1.027, -1.996, 0.769], 'yaw_deg': -0.6, 'hands': {'left': [1.028, -1.74, 0.539], 'right': [1.023, -2.249, 0.538]}, 'mode': 'stand'}
+ITEM r190i1_stocking FAILED why foot on a loose thing: r122i1_croc (18 N) sim 2.1 wall 14 at [1.007, -1.973]
+  route {}
+  look C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\tele\0258_end_r190i1_stocking_FAILED.jpg | done 13 | next ['r190i1_stocking', 'r196i1_plastic_bag', 'r130i1_light_saber', 'r120i2_duck'] | mem {'ws_gb': 2.04, 'priv_gb': 12.84}
+ITEM_RESULT FAIL r190i1_stocking {'item': 'r190i1_stocking', 't': 4867.31, 'kind': 'garment', 'dest': 'r186i1_basket', 'inside': None, 'ok': None} held False fell False state {'t': 4867.31, 'pelvis': [1.007, -1.973, 0.672], 'yaw_deg': 7.6, 'hands': {'left': [0.972, -1.72, 0.442], 'right': [1.038, -2.224, 0.441]}, 'mode': 'swing'}
+ZZ_OK False

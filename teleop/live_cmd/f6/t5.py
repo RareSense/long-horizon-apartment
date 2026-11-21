@@ -1,0 +1,5 @@
+PRE_ACTION("tele_rest_hand", dict(side="left"))
+rest_hands(("left",)); HELD.pop("left", None)
+op.run(1.0)
+print("rest", state(), contact_report(), "dist hand-hamper", round(float(obj_rect(zz_hb).dist(ts.ee_pose("left")[0][None, :2])[0]), 3), flush=True)
+print("look", look3("hat_rested"), flush=True)

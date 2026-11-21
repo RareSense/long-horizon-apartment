@@ -1,0 +1,9 @@
+[checkpoint] loaded C:/Users/raresense/sim_home/runs/1120_084921_dex1_floor_11/checkpoints/0373_item_r179i1_toy_pouch: t=7884.458 s, k=3942229, {'controller_fields': 179, 'cloth_arrays': 231}
+[route] resumed at item 22/65 (r106i1_umbrella), 21 done
+{'hold': False, 'hold_c': [0.2, 0.12], 'hold_dmax': [0.03, 0.025], 'hold_emax': 0.15, 'hold_tol': 0.015, 'hold_extra': 6, 'hold_meas': 'feet', 'plan': True, 'plan_dmax': [0.015, 0.012], 'plan_k': 12.0, 'plan_tol': 0.006, 'plan_ds_max': 0.45, 'plan_stop_tol': 0.008, 'plan_extra': 6, 'plan_emax': 0.15, 'plan_lead': 0.04, 'plan_width': 0.85, 'plan_gain': 1.0, 'plan_rate': 1.0}
+route head ['r106i1_umbrella', 'r139i1_toy_car', 'r105i1_shoe', 'r105i2_shoe', 'r107i1_umbrella', 'r127i1_scooter'] done 21 state {'t': 7887.76, 'pelvis': [-4.722, -0.891, 0.671], 'yaw_deg': -121.1, 'hands': {'left': [-4.502, -1.021, 0.441], 'right': [-4.938, -0.759, 0.44]}, 'mode': 'stand'}
+scooter box [[-2.427, -0.992, -0.001], [-1.775, -0.575, 0.987]]
+loose in x -2.4..-1.2 y -1.1..0.9: []
+walk {'ok': True, 'err_xy': 0.003, 'err_yaw': -0.003}
+state {'t': 7949.15, 'pelvis': [-2.002, 1.002, 0.673], 'yaw_deg': -84.1, 'hands': {'left': [-1.748, 1.03, 0.443], 'right': [-2.254, 0.977, 0.443]}, 'mode': 'stand'} fell False
+C:\Users\raresense\sim_home\runs\1120_093820_dex1_floor_12\tele\0008_f12_scooter_start.jpg

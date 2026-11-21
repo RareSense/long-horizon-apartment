@@ -1,0 +1,13 @@
+[kitchen] step_mon(st=None), call_mon(fn, label), dw_names(), sink_put / use_sink_put (draft), in_basin, door_face, close_door_follow (draft) loaded
+ROUTE[POS] ['close_dishwasher', {'racks': ['r33i1_rack', 'r33i2_rack'], 'door': 'r32i1_door', 'stand_scene': [3.5, 1.5], 'stand_world': [2.6, 1.05], 'optional': True}]
+[dishwasher] r33i1_rack pushed from 0.010 to 0.358
+[dishwasher] r33i2_rack pushed from 0.000 to 0.269
+[dishwasher] shut: door 90.0 deg, racks {'r33i1_rack': 0.3583, 'r33i2_rack': 0.2823}
+ITEM_CHECK {'item': 'close_dishwasher', 't': 4105.51, 'kind': 'dishwasher', 'q': {'r32i1_door': (-1.571, -1.571)}, 'ok': True}
+[checkpoint] 2491_item_close_dishwasher t=4105.51 s, 1.61 MB, 0.311 s
+[step_mon] close_dishwasher close_dishwasher: done  sim 348.7 s wall 958 s
+STEP {'item': 'close_dishwasher', 'kind': 'close_dishwasher', 'record': {'step': ['close_dishwasher', {'racks': ['r33i1_rack', 'r33i2_rack'], 'door': 'r32i1_door', 'stand_scene': [3.5, 1.5], 'stand_world': [2.6, 1.05], 'optional': True}], 'ok': True, 'how': 'close_dishwasher', 'phases': [('racks', {'r33i1_rack': 0.3583, 'r33i2_rack': 0.2692}, True), ('right jaws placed', [-0.005, 0.001, -0.004]), ('right lift', 53.5), ('both hands', 57.8, [0.001, 0.0, -0.0]), ('right out', 58.1), ('step forward', 90.0), ('side step', 0.0, 90.0)], 'feet_back': (0.026, [2.491, 0.948]), 'left_out_err': [0.003, 0.003, 0.0041], 'door_deg': 90.0, 'racks': {'r33i1_rack': 0.3583, 'r33i2_rack': 0.2823}, 'footprints': {'r32i1_door': [np.float64(2.824), np.float64(3.396), np.float64(1.38), np.float64(1.432), np.float64(0.11), np.float64(0.83)], 'r33i1_rack': [np.float64(2.865), np.float64(3.355), np.float64(1.458), np.f
+check {'item': 'close_dishwasher', 't': 4105.51, 'kind': 'dishwasher', 'q': {'r32i1_door': (-1.571, -1.571)}, 'ok': True} state {'t': 4105.51, 'pelvis': [2.543, 0.96, 0.673], 'yaw_deg': 0.5, 'hands': {'left': [2.538, 1.216, 0.443], 'right': [2.543, 0.707, 0.442]}, 'mode': 'stand'} done 11 next ['r68i1_rag', 'r196i1_plastic_bag', 'r190i1_stocking']
+look C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\tele\0171_after_close_dishwasher.jpg
+SAY {'done': 11, 'last': 'C:\\Users\\raresense\\sim_home\\runs\\1120_181556_dex1_floor_final\\checkpoints\\2491_item_close_dishwasher', 'next': 'r68i1_rag', 'frame': 154006, 't': 4105.5, 'kit': {'ws_gb': 6.18, 'priv_gb': 12.58}}
+__END__

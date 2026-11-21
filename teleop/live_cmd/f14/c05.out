@@ -1,0 +1,5 @@
+﻿tray object_0225_body [1.37, 1.48, 0.0] [1.77, 1.98, 0.755] sponge [1.436, 1.493, 0.755] [1.661, 1.589, 0.835] touching ['object_0225_body', 'object_0225_body', 'object_0225_body', 'object_0225_body'] inside_xy True
+C:\Users\raresense\sim_home\runs\1120_155109_dex1_floor_14\look\f14_c05_sponge_on_tray.jpg
+[checkpoint] 0557_item_r83i1_sponges t=14038.21 s, 3.96 MB, 0.735 s
+DONE {'done': 'r83i1_sponges', 'ckpt': 'C:\\Users\\raresense\\sim_home\\runs\\1120_155109_dex1_floor_14\\checkpoints\\0557_item_r83i1_sponges', 'pruned': 88, 'pos': 36, 'n': 43, 'next': 'r154i1_stick'}
+state {'t': 14038.21, 'pelvis': [1.527, 0.969, 0.673], 'yaw_deg': 89.7, 'hands': {'left': [1.272, 0.968, 0.443], 'right': [1.78, 0.966, 0.442]}, 'mode': 'stand'} kit {'ws_gb': 6.16, 'priv_gb': 13.91}

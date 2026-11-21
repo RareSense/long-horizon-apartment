@@ -1,0 +1,5 @@
+zz_m = route_v3_resume(r"C:\Users\raresense\sim_home\runs\1120_032422_dex1_floor_7\checkpoints\0599_item_r122i1_croc")
+gait_on(); settle_after_load()
+print("loaded", state(), "done", len(DONE), "fell", fallen(), flush=True)
+print(floor_first(["close_dishwasher"])[:4], flush=True)
+print("ROUTE[POS]", ROUTE[POS], flush=True)

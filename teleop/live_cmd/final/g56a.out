@@ -1,0 +1,8 @@
+ck C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\checkpoints\1870_act_g_before_lift2 frame 119706
+[bigcloth] r116i1_coat_pile lift2: ok {'ok': True, 'out': {'share': 0.0, 'z_lo': None, 'below_rim': 0}, 'knees': {'left_knee': 0.1, 'right_knee': 0.088}, 'tilt': 0.385, 'stage': 'lift2'}
+RESULT {'ok': True, 'out': "{'share': 0.0, 'z_lo': None, 'below_rim': 0}", 'knees': "{'left_knee': 0.1, 'right_knee': 0.088}", 'tilt': 0.385, 'stage': 'lift2', 'ckpt_before': None}
+held L/R True True LOCK {'right': 4, 'left': 5} HELD {'right': {'cloth': 'r116i1_coat_pile'}, 'left': {'cloth': 'r116i1_coat_pile'}} inside {'inside': 1.0, 'below_rim': 0.038, 'overhang': 0.0, 'lowest': 0.5, 'rim': 0.59} out {'n': 0, 'share': 0.0, 'below_rim': 0}
+pads rf {'left': [0.485, -0.012, 1.155], 'right': [0.444, -0.077, 1.249]} state {'t': 2996.25, 'pelvis': [-2.15, -1.374, 0.663], 'yaw_deg': -85.9, 'hands': {'left': [-2.126, -1.854, 1.153], 'right': [-2.196, -1.818, 1.247]}, 'mode': 'stand'} touch {'body': 0.0, 'body_who': None, 'held': 0.0, 'held_who': None} tilt 0.385 knees {'left_knee': 0.1, 'right_knee': 0.088} fell False
+others {'r131i1_knit_hat': True, 'r189i1_santa_hat': True, 'r121i1_jacket': True, 'r117i1_blanket': True} hamper [-2.151, -1.959]
+look C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\look_fb\0051_g56_lift2.jpg
+__END__

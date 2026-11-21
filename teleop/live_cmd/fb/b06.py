@@ -1,0 +1,10 @@
+zz_r = zz_pads_to(zz_sd, zz_rf((0.25, -0.03, 1.20)), Q=None, speed=0.08)
+op.run(2.0)
+zz_P = zz_w().points(0)
+print("right to", zz_r, "hang", zz_hang(zz_sd), "lowest", round(float(zz_P[:, 2].min()), 3), contact_report(), flush=True)
+print("C rf", np.round(zz_to_rf(zz_P[994]), 3).tolist(), "bunch@C", zz_bunch(float(zz_P[994][2])), flush=True)
+zz_s = np.abs(zz_P[:, 2] - zz_P[994][2]) < 0.04
+zz_B = np.array([zz_to_rf(p_) for p_ in zz_P[zz_s]])
+print("bunch rf at C height: x", np.round([zz_B[:, 0].min(), zz_B[:, 0].max()], 3).tolist(), "y", np.round([zz_B[:, 1].min(), zz_B[:, 1].max()], 3).tolist(), flush=True)
+print("left pad rf", np.round(zz_to_rf(pad_mid("left")), 3).tolist(), "left ee R", np.round(ts.ee_pose("left")[1], 2).tolist(), flush=True)
+print("look", zz_look(zz_P[994], "E_raised_close", dist=1.0, h=0.25, dirs=(120.0, 210.0, 300.0, 30.0)), flush=True)

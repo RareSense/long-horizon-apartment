@@ -1,0 +1,2 @@
+state {'t': 8767.08, 'pelvis': [1.75, -0.649, 0.669], 'yaw_deg': 95.5, 'hands': {'left': [1.626, -0.704, 0.511], 'right': [1.991, -0.583, 0.435]}, 'mode': 'stand'} fell False touch {'body': 0.0, 'body_who': None, 'held': 0.0, 'held_who': None}
+C:\Users\raresense\sim_home\runs\1120_093820_dex1_floor_12\tele\0062_f12_wrap_settle.jpg

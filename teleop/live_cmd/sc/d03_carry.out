@@ -1,0 +1,3 @@
+walk {'ok': True, 'err_xy': 0.004, 'err_yaw': 0.006}
+state {'t': 9016.68, 'pelvis': [-4.849, -1.046, 0.745], 'yaw_deg': -125.4, 'hands': {'left': [-4.914, -1.352, 0.751], 'right': [-5.051, -0.893, 0.514]}, 'mode': 'stand'} fell False duck [-4.911, -1.354, 0.708] held True touch {25: 2, 26: 2} wall 254
+C:\Users\raresense\sim_home\runs\1120_114552_scout_hall_AI_operated\tele\0006_d03_duck_at_basket.jpg

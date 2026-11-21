@@ -1,0 +1,3 @@
+print({n_: in_container(n_, laundry_body())["inside"] for n_ in GARMENTS}, flush=True)
+zz_d = tele_item_done("r68i1_rag", note="Edge grasp bc_grasp_at uv(-0.10,0) (flat rag) from (3.10,0.66); library drop_in_cloth carry: first try the zero-velocity carrying hand hit object_0225 (76 N) -> reloaded 0891, CARRY_JOINTS True; second try reached the hamper with the rag over the opening but the right knee pressed the hamper 45 N on the last step in (monitor stop) -> AI teleop: let go there (rag 100% inside, below rim), back off. Hamper pushed 2.3 cm. AI-operated.")
+print("ITEM DONE", zz_d, flush=True)

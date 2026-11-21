@@ -1,0 +1,15 @@
+[checkpoint] loaded C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\checkpoints\3284_act_n1_nugget_stance: t=10590.484 s, k=5295242, {'controller_fields': 179, 'cloth_arrays': 231}
+RELOADED nugget_stance rec 223647 {'t': 10593.79, 'pelvis': [2.163, -0.712, 0.673], 'yaw_deg': 89.8, 'hands': {'left': [1.908, -0.713, 0.443], 'right': [2.416, -0.715, 0.442]}, 'mode': 'stand'}
+[surface] object_0224_body approach 1: pads [0.126, 0.067, 0.051] from the grasp point -> NOT closing
+TIDY r93i1_nugget {'ok': False, 'error': 'abort: left_Dex1_base_link pressing furniture/floor 64 N at z 0.91'}
+picks None
+puts []
+at [2.361, -0.353, 0.92] held {'left': False, 'right': False} state {'t': 10652.64, 'pelvis': [2.168, -0.706, 0.732], 'yaw_deg': 30.7, 'hands': {'left': [2.238, -0.414, 0.884], 'right': [2.219, -0.969, 0.512]}, 'mode': 'stand'} fell False
+C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\tele\0124_f12_r93i1_nugget_end.jpg
+SURF {'ok': False, 'error': 'abort: left_Dex1_base_link pressing furniture/floor 64 N at z 0.91'}
+after surf {'t': 10652.64, 'pelvis': [2.168, -0.706, 0.732], 'yaw_deg': 30.7, 'hands': {'left': [2.238, -0.414, 0.884], 'right': [2.219, -0.969, 0.512]}, 'mode': 'stand'} rel [0.346, 0.206] held {'left': False, 'right': False} fell False
+NUG {'abort': 'left_Dex1_base_link pressing furniture/floor 122 N at z 0.91'} at [2.361, -0.353, 0.92] state {'t': 10652.69, 'pelvis': [2.171, -0.708, 0.739], 'yaw_deg': 30.9, 'hands': {'left': [2.254, -0.417, 0.9], 'right': [2.224, -0.969, 0.519]}, 'mode': 'stand'}
+ITEM_RESULT FAIL r93i1_nugget {'item': 'r93i1_nugget', 't': 10652.69, 'kind': 'thing', 'dest': 'object_0312_body', 'centre': [2.361, -0.353, 0.92], 'ok': False, 'off_spot': 7.715, 'inside': False} held False fell False state {'t': 10652.69, 'pelvis': [2.171, -0.708, 0.739], 'yaw_deg': 30.9, 'hands': {'left': [2.254, -0.417, 0.9], 'right': [2.224, -0.969, 0.519]}, 'mode': 'stand'}
+FIN False
+C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\tele\0125_n1_nugget_end.jpg
+__END__

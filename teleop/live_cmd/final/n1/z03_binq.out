@@ -1,0 +1,3 @@
+[checkpoint] loaded C:\Users\raresense\sim_home\runs\1121_123451_dex1_floor_final_s4\checkpoints\0135_act_n1_pre_sponges: t=11775.498 s, k=5887749, {'controller_fields': 179, 'cloth_arrays': 231}
+PRE_SPONGES rec 19985 bin [0.112, 1.45, 0.213] tilt 4.9 {'r195i3_paper': False, 'r195i1_paper': False, 'r149i1_pouch': True, 'r158i1_tissue': True}
+__END__

@@ -1,0 +1,4 @@
+near [('r126i1_scooter', [0.64, 0.2]), ('r192i1_ball', [-0.47, -0.08]), ('r193i1_toy_piece', [-0.41, 0.66]), ('r193i3_toy_piece', [-0.26, 0.64])]
+STEP_TO False [([-2.256, -0.957], 43.8), ([-2.169, -0.871], 43.8), 'right_knee_link pressing r126i1_scooter 39 N'] {'t': 1515.84, 'pelvis': [-2.119, -0.854, 0.676], 'yaw_deg': 43.6, 'hands': {'left': [-2.293, -0.671, 0.444], 'right': [-1.943, -1.039, 0.448]}, 'mode': 'ds'} touch {'body': 39.2, 'body_who': ['right_knee_link', 'object_0259_body'], 'held': 0.0, 'held_who': None} fell False
+C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\tele\0032_bl_out.jpg
+__END__

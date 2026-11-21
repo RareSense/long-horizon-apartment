@@ -1,0 +1,14 @@
+[aside] set_aside(name, spot) loaded
+[ops] floor_first, go_item, kit_mem, step_to, flat_corners, corner_pinch_plan, corner_pinch_try loaded
+[ops] remove_bodies loaded
+[scooter] park_scooter_sofa(), item_done_auto(), sc_take2, sc_regrip, sc_pivot_step, sc_fwd_step, sc_state loaded
+[checkpoint] loaded C:/Users/raresense/sim_home/runs/1120_093820_dex1_floor_12/checkpoints/2493_item_r158i1_tissue: t=11885.782 s, k=5942891, {'controller_fields': 179, 'cloth_arrays': 231}
+[route] resumed at item 32/43 (r154i1_stick), 31 done
+{'hold': False, 'hold_c': [0.2, 0.12], 'hold_dmax': [0.03, 0.025], 'hold_emax': 0.15, 'hold_tol': 0.015, 'hold_extra': 6, 'hold_meas': 'feet', 'plan': True, 'plan_dmax': [0.015, 0.012], 'plan_k': 12.0, 'plan_tol': 0.006, 'plan_ds_max': 0.45, 'plan_stop_tol': 0.008, 'plan_extra': 6, 'plan_emax': 0.15, 'plan_lead': 0.04, 'plan_width': 0.85, 'plan_gain': 1.0, 'plan_rate': 1.0}
+['r154i1_stick', 'r191i1_toy_vehicle', 'r87i1_wrapper', 'r105i1_shoe', 'r105i2_shoe', 'r107i1_umbrella', 'r83i1_sponges', 'r186i1_basket', 'r186i1_basket', 'r159i1_door']
+{'t': 11887.28, 'pelvis': [-0.274, 1.086, 0.769], 'yaw_deg': 60.6, 'hands': {'left': [-0.475, 1.207, 0.538], 'right': [-0.055, 0.96, 0.538]}, 'mode': 'stand'} {'ws_gb': 6.46, 'priv_gb': 13.96}
+[bigcloth] bigcloth_into(name, cont=None, s1='right', start=None, stop_after=None); stages ('grasp', 'carry', 'step_in', 'first_end', 'strand', 'lift2', 'free1', 'fold', 'both_up', 'lower_release', 'retract')
+[slab] slab_hull, slab_yaw, slab_entry, slab_push loaded
+[u00] umbrella two-corner helpers loaded
+RUN C:\Users\raresense\sim_home\runs\1120_150110_dex1_floor_13 route head ['r154i1_stick', 'r191i1_toy_vehicle', 'r87i1_wrapper', 'r105i1_shoe', 'r105i2_shoe', 'r107i1_umbrella', 'r83i1_sponges', 'r186i1_basket'] done 31
+kit {'ws_gb': 6.46, 'priv_gb': 13.88} state {'t': 11889.08, 'pelvis': [-0.273, 1.085, 0.769], 'yaw_deg': 60.2, 'hands': {'left': [-0.496, 1.21, 0.539], 'right': [-0.054, 0.957, 0.538]}, 'mode': 'stand'} hold_guard True actions log True

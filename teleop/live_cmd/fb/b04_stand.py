@@ -1,0 +1,6 @@
+phase(f"take {zz_BL}: stand up")
+stand_with(zz_sd)
+op.run(1.0)
+print(zz_stat(), "hang", zz_hang(zz_sd), "cloth_held", cloth_held(zz_sd), flush=True)
+print("look", look3("stood_with_E"), flush=True)
+print("look2", zz_look(pad_mid(zz_sd) - np.array([0, 0, 0.4]), "held_E_standing", dist=1.5, h=0.5, dirs=(120.0, 210.0, 300.0)), flush=True)

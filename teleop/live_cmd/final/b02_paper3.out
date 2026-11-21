@@ -1,0 +1,6 @@
+[jaws] r195i3_paper: bin drop possible with ['left', 'right'] -> pick with auto
+[pick] object_0326_body try 1: grip {'ok': True, 'gap': 0.0688, 'jaw1_N': 6.1, 'jaw2_N': 6.2, 'between': 0.51, 'off_axis': 0.001} rose 0.080 -> held
+ITEM r195i3_paper FAILED why left_knee_link pressing rubbish_bin 25 N sim 78.5 wall 188 at [0.116, 1.082]
+  route {}
+  look C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\tele\0004_end_r195i3_paper_FAILED.jpg | done 1 | next ['r195i3_paper', 'r195i1_paper', 'r131i1_knit_hat', 'r189i1_santa_hat'] | mem {'ws_gb': 0.04, 'priv_gb': 0.05}
+SAY {'done': 1, 'last': 'C:\\Users\\raresense\\sim_home\\runs\\1120_181556_dex1_floor_final\\checkpoints\\0063_item_r123i1_slipper', 'next': 'r195i3_paper', 'frame': 6565, 't': 246.5, 'kit': {'ws_gb': 0.08, 'priv_gb': 0.12}} HELD {'left': True, 'right': False} fell False

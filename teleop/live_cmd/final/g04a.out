@@ -1,0 +1,5 @@
+step 0 {'left': 0.046, 'in_pads': ([-0.016, 0.023, 0.005], 0.045), 'caught': 0, 'caught_uv': None, 'pad_rf': [0.286, -0.06, 0.758], 'tilt': 0.282, 'touch': 0.0} tgt rf [0.307, -0.077, 0.753] pads rf [0.283, -0.105, 0.758] [0.288, -0.014, 0.758] fell False
+step 1 {'left': 0.034, 'in_pads': ([-0.023, 0.005, 0.005], 0.045), 'caught': 2, 'caught_uv': [0.05, 0.2], 'pad_rf': [0.311, -0.052, 0.755], 'tilt': 0.284, 'touch': 0.0} tgt rf [0.315, -0.076, 0.75] pads rf [0.309, -0.097, 0.755] [0.313, -0.007, 0.755] fell False
+caught uv: [[0.04, 0.2], [0.06, 0.2]] knees {'left_knee': 0.113, 'right_knee': 0.104} right held True blanket {'inside': 0.681, 'below_rim': 0.263, 'overhang': 0.066, 'lowest': 0.302, 'rim': 0.59}
+look C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\look_fb\0004_g04_in.jpg
+__END__

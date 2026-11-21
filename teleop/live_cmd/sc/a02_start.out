@@ -1,0 +1,4 @@
+[checkpoint] loaded C:\Users\raresense\sim_home\runs\1120_093820_dex1_floor_12\checkpoints\1071_item_r149i1_pouch: t=8647.224 s, k=4323612, {'controller_fields': 179, 'cloth_arrays': 231}
+[route] resumed at item 24/43 (r105i1_shoe), 23 done
+[checkpoint] 0537_start_scout_start t=8658.77 s, 2.81 MB, 0.547 s
+START C:\Users\raresense\sim_home\runs\1120_114552_scout_hall_AI_operated\checkpoints\0537_start_scout_start {'t': 8658.77, 'pelvis': [-0.22, 0.962, 0.769], 'yaw_deg': 35.0, 'hands': {'left': [-0.368, 1.171, 0.539], 'right': [-0.076, 0.754, 0.538]}, 'mode': 'stand'} fell False

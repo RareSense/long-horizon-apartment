@@ -1,0 +1,12 @@
+[fsc lib] loaded, kit private GB 14.91
+[latc] moved 0.029 bar_rel [0.345, -0.246] along {'left': 0.126, 'right': -0.087} seat {'left': -7.2, 'right': 3.3} touch {'left': 3, 'right': 2} why None
+[prepitch] seat {'left': (-6.9, -8.2), 'right': (3.5, 4.5)} touch {'left': 3, 'right': 2} why None
+[mv m11] {'turn': -1.9085, 'fwd': -0.1737, 'side': -0.021} -> at [-1.878, 0.377] yaw -89.5 bar [-2.153, 0.029, 1.085] bar_rel [0.345, -0.28] tilt 23.0 seat {'left': (-8.2, -10.0, 17.6), 'right': (4.2, 4.0, 17.1)} along {'left': 0.128, 'right': -0.086} wheel clear mm 26.6 floor {} wristR {'wrist_roll': 1.21, 'wrist_pitch': 1.28, 'wrist_yaw': -0.55} touch {'body': 0.0, 'body_who': None, 'held': 0.0, 'held_who': None} rec 265006
+[mv m11] LOOK C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\tele\0156_sh_m11.jpg
+[latc] moved 0.03 bar_rel [0.346, -0.246] along {'left': 0.128, 'right': -0.086} seat {'left': -7.6, 'right': 3.9} touch {'left': 3, 'right': 2} why None
+[prepitch] seat {'left': (-7.4, -11.3), 'right': (4.0, 3.6)} touch {'left': 3, 'right': 2} why None
+[mv m12] {'turn': -0.5754, 'fwd': -0.1741, 'side': -0.0177} -> at [-1.898, 0.549] yaw -89.5 bar [-2.159, 0.2, 1.078] bar_rel [0.345, -0.266] tilt 23.1 seat {'left': (-8.0, -6.9, 17.2), 'right': (3.5, 4.1, 17.2)} along {'left': 0.131, 'right': -0.086} wheel clear mm 19.2 floor {} wristR {'wrist_roll': 1.11, 'wrist_pitch': 1.32, 'wrist_yaw': -0.4} touch {'body': 0.0, 'body_who': None, 'held': 0.0, 'held_who': None} rec 265367
+[mv m12] LOOK C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\tele\0157_sh_m12.jpg
+TOP C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\tele\fsc_d03_map.jpg
+state {'pel': [-1.897, 0.548, 0.683], 'yaw': -89.5, 'bar': [-2.159, 0.2, 1.078], 'bar_rel': [0.345, -0.266], 'tilt': 23.1, 'along': {'left': 0.131, 'right': -0.086}, 'pad_to_bar': {'left': 0.014, 'right': 0.005}, 'touch': {'left': 3, 'right': 2}} seat {'left': {'seat_mm': -8.0, 'pitch': -6.9, 'lower_N': 17.2, 'upper_N': 2.3}, 'right': {'seat_mm': 3.5, 'pitch': 4.1, 'lower_N': 17.2, 'upper_N': 2.7}} mem 14.91
+__END__

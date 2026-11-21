@@ -1,0 +1,16 @@
+frame before load 98045
+[checkpoint] loaded C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\checkpoints\1518_act_g_before_left_release_in: t=2333.514 s, k=1166757, {'controller_fields': 176, 'cloth_arrays': 227}
+RELOADED C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\checkpoints\1518_act_g_before_left_release_in frame 98054
+held L/R True False LOCK {'left': 4} HELD {'left': {'cloth': 'r117i1_blanket'}} inside {'inside': 1.0, 'below_rim': 0.764, 'overhang': 0.0, 'lowest': 0.034, 'rim': 0.59} out {'share': 0.0, 'z_lo': None, 'below_rim': 0} fell False
+left cloth within 0.07 of the pad middle: n 109 | closing axis world [0.98, 0.18, -0.02] fingers world [0.1, -0.64, -0.76] across world [-0.15, 0.74, -0.65]
+   along fingers -0.06:   .  .  .  .  .  .  .  .
+   along fingers -0.04:   .  .  .  1  .  .  .  .
+   along fingers -0.02:   .  .  .  6  5  .  .  .
+   along fingers +0.00:   .  .  3  8  5  .  .  .
+   along fingers +0.02:   .  1  4  7 10  2  2  .
+   along fingers +0.04:   .  3  7  5 11  7  4  .
+   along fingers +0.06:   .  .  2  5  6  5  .  .
+   across range of those points [-0.055, 0.068] (pads at closing axis -/+ 0.010)
+left pad rf [0.457, 0.006, 0.76] fingers rf [0.65, -0.02, -0.76] gap 0.0075 held uv [[0.04, 0.18], [0.04, 0.2], [0.04, 0.22], [0.06, 0.2]]
+look hand C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\tele\0102_g38_left.jpg
+__END__

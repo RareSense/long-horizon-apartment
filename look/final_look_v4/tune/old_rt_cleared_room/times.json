@@ -1,0 +1,42 @@
+{
+ "ms_per_frame": {
+  "room_photo161418_rt_1080.png": 83.8,
+  "room_photo161423_rt_1080.png": 99.8,
+  "kitchen_photo161414_rt_1080.png": 83.4,
+  "room_rt_1080.png": 86.5,
+  "head_rt_1080.png": 78.0,
+  "closeup_toy_basket_rt_1080.png": 90.8,
+  "closeup_shoe_mat_rt_1080.png": 84.5,
+  "closeup_rubbish_bin_rt_1080.png": 91.3,
+  "closeup_hamper_garments_rt_1080.png": 85.6,
+  "closeup_robot_rt_1080.png": 83.9,
+  "detail_sofa_rug_floor_rt_1080.png": 86.4,
+  "detail_brick_window_curtain_rt_1080.png": 79.4,
+  "detail_kitchen_wood_granite_rt_1080.png": 82.8,
+  "closeup_coffee_table_rt_1080.png": 88.0,
+  "closeup_kitchen_counter_rt_1080.png": 87.8
+ },
+ "note": "AI-operated. 1920x1080 RaytracedLighting + DLAA, reflections/translucency/GI/AO/sampled lighting on",
+ "state": {
+  "t": 11888.08,
+  "pelvis": [
+   -0.273,
+   1.085,
+   0.769
+  ],
+  "yaw_deg": 60.2,
+  "hands": {
+   "left": [
+    -0.496,
+    1.21,
+    0.539
+   ],
+   "right": [
+    -0.054,
+    0.957,
+    0.538
+   ]
+  },
+  "mode": "stand"
+ }
+}

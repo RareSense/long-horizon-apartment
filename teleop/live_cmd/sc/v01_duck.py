@@ -1,0 +1,5 @@
+exec(open(r"E:\urc_scout\scripts\home\live\hall.py", encoding="utf-8").read())
+LD = "0537_start_scout_start"; exec(open(r"C:\Users\raresense\sim_home\apartment\live_cmd\sc\ld.py", encoding="utf-8").read())
+ZR = duck_to_basket()
+print("RESULT", {k_: v_ for k_, v_ in ZR.items() if k_ != "route"}, flush=True)
+print("ROUTE", {k_: v_ for k_, v_ in (ZR.get("route") or {}).items() if k_ in ("ckpt", "done", "pos", "next")}, flush=True)

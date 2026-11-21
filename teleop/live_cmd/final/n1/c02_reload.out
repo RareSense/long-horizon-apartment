@@ -1,0 +1,15 @@
+[checkpoint] loaded C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\checkpoints\3161_item_r125i2_flat_stand: t=4861.910 s, k=2430955, {'controller_fields': 177, 'cloth_arrays': 230}
+[route] resumed at item 14/36 (r196i1_plastic_bag), 13 done
+RELOADED 3161 rec 12969 route head ['r190i1_stocking', 'r130i1_light_saber', 'r120i2_duck', 'r125i1_flat', 'r175i1_cardboard_box', 'r178i1_ball']
+r196i1_plastic_bag [-4.447, -1.149, 0.015] box [-4.57, -1.25] [-4.33, -1.04] dest rubbish_bin
+Traceback (most recent call last):
+  File "E:\urc_final\scripts\isaac_live.py", line 57, in <module>
+    exec(compile(code, "<live>", "exec"), G)
+  File "<live>", line 14, in <module>
+  File "<string>", line 240, in obj_box
+TypeError: body(): incompatible function arguments. The following argument types are supported:
+    1. (self: mujoco._structs.MjModel, arg0: typing.SupportsInt | typing.SupportsIndex) -> mujoco::python::MjModelBodyViews
+    2. (self: mujoco._structs.MjModel, name: str = '') -> mujoco::python::MjModelBodyViews
+
+Invoked with: <mujoco._structs.MjModel object at 0x000001CCC071AF70>, None
+__END__

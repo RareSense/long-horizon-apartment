@@ -1,0 +1,9 @@
+ck C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\checkpoints\1518_act_g_before_left_release_in frame 97798 pads z 0.76 0.76
+released left : at_fingers 16 16 caught 7 LOCK [] HELD {} inside {'inside': 0.999, 'below_rim': 0.89, 'overhang': 0.0, 'lowest': 0.034, 'rim': 0.59} out {'share': 0.001, 'z_lo': 0.614, 'below_rim': 0}
+back 0 pad rf [0.452, 0.002, 0.787] at_f 13 out {'share': 0.0, 'z_lo': None, 'below_rim': 0} top 0.809 inside {'inside': 1.0, 'below_rim': 0.878, 'overhang': 0.0, 'lowest': 0.034, 'rim': 0.59} touch 0.0 fell False
+back 1 pad rf [0.444, -0.001, 0.813] at_f 12 out {'share': 0.0, 'z_lo': None, 'below_rim': 0} top 0.83 inside {'inside': 1.0, 'below_rim': 0.87, 'overhang': 0.0, 'lowest': 0.034, 'rim': 0.59} touch 0.0 fell False
+back 2 pad rf [0.435, -0.003, 0.84] at_f 11 out {'share': 0.0, 'z_lo': None, 'below_rim': 0} top 0.853 inside {'inside': 1.0, 'below_rim': 0.85, 'overhang': 0.0, 'lowest': 0.034, 'rim': 0.59} touch 0.0 fell False
+back 3 pad rf [0.425, -0.005, 0.866] at_f 11 out {'share': 0.0, 'z_lo': None, 'below_rim': 0} top 0.878 inside {'inside': 1.0, 'below_rim': 0.83, 'overhang': 0.0, 'lowest': 0.034, 'rim': 0.59} touch 0.0 fell False
+held L/R False False pads rf {'left': [0.425, -0.005, 0.866], 'right': [0.263, -0.289, 0.951]} tilt 0.304 knees {'left_knee': 0.122, 'right_knee': 0.104}
+look C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\look_fb\0038_g35_rel_left.jpg
+__END__

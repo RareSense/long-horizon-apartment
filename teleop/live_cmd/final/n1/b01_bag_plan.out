@@ -1,0 +1,10 @@
+bag corners [[-4.515, -1.253], [-4.327, -1.185], [-4.378, -1.044], [-4.567, -1.113]] c [-4.447, -1.149] z 0.0098 0.0209 zpad 0.0142
+0 left [{'stance': [-4.329, -1.494, 1.136], 'free': True}, {'stance': [-4.676, -0.958, -2.006], 'free': True}]
+0 right [{'stance': [-4.819, -1.267, 1.136], 'free': True}, {'stance': [-4.186, -1.186, -2.006], 'free': False}]
+1 left [{'stance': [-4.086, -0.999, 2.707], 'free': False}, {'stance': [-4.622, -1.345, -0.435], 'free': True}]
+1 right [{'stance': [-4.314, -1.489, 2.707], 'free': True}, {'stance': [-4.395, -0.856, -0.435], 'free': False}]
+2 left [{'stance': [-4.564, -0.803, -2.006], 'free': True}, {'stance': [-4.218, -1.339, 1.136], 'free': False}]
+2 right [{'stance': [-4.075, -1.031, -2.006], 'free': False}, {'stance': [-4.708, -1.111, 1.136], 'free': True}]
+3 left [{'stance': [-4.807, -1.299, -0.435], 'free': True}, {'stance': [-4.271, -0.952, 2.707], 'free': False}]
+3 right [{'stance': [-4.58, -0.809, -0.435], 'free': True}, {'stance': [-4.499, -1.442, 2.707], 'free': True}]
+__END__

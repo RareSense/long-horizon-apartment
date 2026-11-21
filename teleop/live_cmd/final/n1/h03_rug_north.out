@@ -1,0 +1,35 @@
+[rug_lib] loaded
+ITEM_START r193i3_toy_piece attempt 2 pos 22 route at r193i3_toy_piece state {'t': 7569.23, 'pelvis': [-4.87, -1.067, 0.765], 'yaw_deg': -125.4, 'hands': {'left': [-4.666, -1.34, 0.573], 'right': [-5.075, -0.919, 0.534]}, 'mode': 'stand'}
+FORCED stance r193i3_toy_piece [-2.584, -0.785] 80.0
+FORCED stance r193i3_toy_piece [-2.551, -0.744] 90.0
+FORCED stance r193i3_toy_piece [-2.623, -0.819] 70.0
+FORCED stance r193i3_toy_piece [-2.526, -0.688] 100.0
+FORCED stance r193i3_toy_piece [-2.673, -0.855] 60.0
+FORCED stance r193i3_toy_piece [-2.75, -0.846] 40.0
+FORCED stance r193i3_toy_piece [-2.49, -0.63] 120.0
+[pick] object_0321_body try 1: grip {'ok': True, 'gap': 0.0589, 'jaw1_N': 5.9, 'jaw2_N': 6.1, 'between': 0.5, 'off_axis': 0.001} rose 0.078 -> held
+ck C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\checkpoints\1479_act_n1_r193i3_toy_piece_held
+RUG {'item': 'r193i3_toy_piece', 'pick': {'ok': True, 'side': 'left'}, 'put': {'walk': 0.004, 'held_after_walk': True, 'e_over': [-0.002, 0.017, 0.0], 'in': True, 'at': [-5.11, -1.444, 0.142], 'state': {'t': 7791.8, 'pelvis': [-4.871, -1.066, 0.765], 'yaw_deg': -125.5, 'hands': {'left': [-4.671, -1.344, 0.575], 'right': [-5.076, -0.918, 0.534]}, 'mode': 'stand'}, 'fell': False}, 'in': True, 'fell': False, 'state': {'t': 7791.8, 'pelvis': [-4.871, -1.066, 0.765], 'yaw_deg': -125.5, 'hands': {'left': [-4.671, -1.344, 0.575], 'right': [-5.076, -0.918, 0.534]}, 'mode': 'stand'}}
+C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\tele\0091_n1_r193i3_toy_piece_end.jpg
+ITEM_RESULT OK r193i3_toy_piece {'item': 'r193i3_toy_piece', 't': 7791.8, 'kind': 'thing', 'dest': 'object_0312_body', 'centre': [-5.11, -1.444, 0.142], 'ok': True, 'off_spot': 0.074, 'inside': True} held False fell False state {'t': 7791.8, 'pelvis': [-4.871, -1.066, 0.765], 'yaw_deg': -125.5, 'hands': {'left': [-4.671, -1.344, 0.575], 'right': [-5.076, -0.918, 0.534]}, 'mode': 'stand'}
+ITEM_CHECK {'item': 'r193i3_toy_piece', 't': 7791.8, 'kind': 'thing', 'dest': 'object_0312_body', 'centre': [-5.11, -1.444, 0.142], 'ok': True, 'off_spot': 0.074, 'inside': True}
+[checkpoint] 1535_item_r193i3_toy_piece t=7791.80 s, 2.47 MB, 0.546 s
+ITEM_DONE {'done': 'r193i3_toy_piece', 'ckpt': 'C:\\Users\\raresense\\sim_home\\runs\\1121_034845_dex1_floor_final_s3\\checkpoints\\1535_item_r193i3_toy_piece', 'pruned': 72, 'pos': 23, 'n': 35, 'next': 'r193i1_toy_piece'}
+RUG_RESULT r193i3_toy_piece True done 23 rec 101186 kit {'ws_gb': 6.77, 'priv_gb': 14.22}
+ITEM_START r193i1_toy_piece attempt 2 pos 23 route at r193i1_toy_piece state {'t': 7791.8, 'pelvis': [-4.871, -1.066, 0.765], 'yaw_deg': -125.5, 'hands': {'left': [-4.671, -1.344, 0.575], 'right': [-5.076, -0.918, 0.534]}, 'mode': 'stand'}
+FORCED stance r193i1_toy_piece [-2.651, -0.598] 120.0
+FORCED stance r193i1_toy_piece [-2.651, -0.546] 130.0
+FORCED stance r193i1_toy_piece [-2.657, -0.657] 110.0
+FORCED stance r193i1_toy_piece [-2.669, -0.487] 140.0
+FORCED stance r193i1_toy_piece [-2.675, -0.704] 100.0
+FORCED stance r193i1_toy_piece [-2.739, -0.752] 80.0
+[pick] object_0319_body try 1: grip {'ok': True, 'gap': 0.0589, 'jaw1_N': 5.9, 'jaw2_N': 6.1, 'between': 0.5, 'off_axis': 0.001} rose 0.078 -> held
+ck C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\checkpoints\1577_act_n1_r193i1_toy_piece_held
+RUG {'item': 'r193i1_toy_piece', 'pick': {'ok': True, 'side': 'left'}, 'put': {'walk': 0.006, 'held_after_walk': True, 'e_over': [-0.003, -0.002, 0.002], 'in': True, 'at': [-5.121, -1.389, 0.185], 'state': {'t': 8014.6, 'pelvis': [-4.874, -1.063, 0.765], 'yaw_deg': -125.4, 'hands': {'left': [-4.69, -1.342, 0.571], 'right': [-5.079, -0.915, 0.534]}, 'mode': 'stand'}, 'fell': False}, 'in': True, 'fell': False, 'state': {'t': 8014.6, 'pelvis': [-4.874, -1.063, 0.765], 'yaw_deg': -125.4, 'hands': {'left': [-4.69, -1.342, 0.571], 'right': [-5.079, -0.915, 0.534]}, 'mode': 'stand'}}
+C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\tele\0092_n1_r193i1_toy_piece_end.jpg
+ITEM_RESULT OK r193i1_toy_piece {'item': 'r193i1_toy_piece', 't': 8014.6, 'kind': 'thing', 'dest': 'object_0312_body', 'centre': [-5.121, -1.389, 0.185], 'ok': True, 'off_spot': 0.067, 'inside': True} held False fell False state {'t': 8014.6, 'pelvis': [-4.874, -1.063, 0.765], 'yaw_deg': -125.4, 'hands': {'left': [-4.69, -1.342, 0.571], 'right': [-5.079, -0.915, 0.534]}, 'mode': 'stand'}
+ITEM_CHECK {'item': 'r193i1_toy_piece', 't': 8014.6, 'kind': 'thing', 'dest': 'object_0312_body', 'centre': [-5.121, -1.389, 0.185], 'ok': True, 'off_spot': 0.067, 'inside': True}
+[checkpoint] 1632_item_r193i1_toy_piece t=8014.60 s, 2.53 MB, 0.592 s
+ITEM_DONE {'done': 'r193i1_toy_piece', 'ckpt': 'C:\\Users\\raresense\\sim_home\\runs\\1121_034845_dex1_floor_final_s3\\checkpoints\\1632_item_r193i1_toy_piece', 'pruned': 72, 'pos': 24, 'n': 35, 'next': 'r130i1_light_saber'}
+RUG_RESULT r193i1_toy_piece True done 24 rec 107869 kit {'ws_gb': 6.8, 'priv_gb': 14.25}
+__END__

@@ -1,0 +1,27 @@
+ck C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\checkpoints\3892_act_fsc_lifted rec 259657
+  near object_0057_body  [-4.46, 0.6, -0.04] [-1.9, 3.16, 2.51]
+  near object_0059_body  [-5.15, 0.6, -0.04] [-2.59, 3.16, 2.51]
+  near object_0124_body  [-3.75, -0.09, 0.31] [-2.95, 0.7, 1.1]
+  near object_0125_body  [-3.18, -0.09, 0.3] [-2.39, 0.71, 1.1]
+  near object_0127_body  [-4.33, -1.55, -0.18] [-3.05, -0.27, 1.11]
+  near object_0130_body  [-4.19, -3.79, 0.09] [-2.66, -2.27, 1.64]
+  near object_0141_body  [-2.81, -3.71, -0.35] [-1.4, -2.29, 1.06]
+  near object_0229_body  [-2.23, 0.73, -0.55] [-0.46, 2.49, 1.22]
+  near object_0231_body  [-1.26, 0.85, -0.08] [-0.25, 1.86, 0.93]
+  near object_0254_body r123i1_slipper [-0.86, -2.29, -0.0] [-0.71, -2.15, 0.05]
+  near object_0261_body  [-1.23, -2.93, -0.24] [-0.51, -2.21, 0.47]
+  near object_0265_body  [-2.13, -2.05, -0.18] [-1.29, -1.21, 0.66]
+  near object_0267_body  [-2.49, -2.91, -0.14] [-1.81, -2.23, 0.54]
+  near object_0268_body  [-2.15, -2.85, -0.21] [-0.91, -1.61, 1.03]
+  near object_0269_body r136i1_book [-1.76, -2.47, 0.47] [-1.48, -2.23, 0.49]
+  near object_0270_body r136i2_book [-1.78, -2.48, 0.49] [-1.47, -2.21, 0.51]
+  near object_0271_body r137i1_succulent [-1.48, -2.17, 0.47] [-1.38, -2.06, 0.64]
+  near object_0284_body r156i1_clementines [-3.47, -0.27, 0.44] [-3.14, 0.05, 0.56]
+  near object_0285_body r157i1_paper [-3.34, -0.08, 0.45] [-3.09, 0.12, 0.46]
+  near object_0286_body r157i2_paper [-3.13, -0.05, 0.44] [-2.87, 0.18, 0.46]
+  near object_0323_body  [-3.8, -0.65, -0.31] [-3.15, -0.01, 0.34]
+  near object_0329_body  [-2.04, -2.84, -0.77] [-0.49, -1.3, 0.78]
+  near r133i1_laundry_basket r133i1_laundry_basket [-2.45, -2.41, 0.01] [-1.72, -1.68, 0.67]
+grid: 'Rect' object is not subscriptable
+MAP C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\tele\fsc_c03_map.jpg
+__END__

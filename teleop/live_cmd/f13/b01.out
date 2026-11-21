@@ -1,0 +1,13 @@
+paper [-0.034, 1.568, 0.014] in bin False [[-0.096, 1.506, -0.012], [0.029, 1.629, 0.041]]
+[pick] object_0324_body try 1: grip {'ok': True, 'gap': 0.0567, 'jaw1_N': 5.8, 'jaw2_N': 5.8, 'between': 0.48, 'off_axis': 0.006} rose 0.080 -> held
+PICK {'pick': {'ok': True, 'side': 'left'}} held {'left': True, 'right': False} refused []
+Traceback (most recent call last):
+  File "E:\urc_home\scripts\isaac_live.py", line 57, in <module>
+    exec(compile(code, "<live>", "exec"), G)
+  File "<live>", line 20, in <module>
+  File "<string>", line 45, in bin_drop
+  File "<string>", line 1755, in put_away
+  File "<string>", line 194, in w
+  File "<string>", line 1503, in drop_in
+  File "<string>", line 1004, in walk_path
+RuntimeError: no free path to [0.13, 1.79, -2.09]

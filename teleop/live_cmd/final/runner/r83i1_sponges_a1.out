@@ -1,0 +1,11 @@
+[chk] item_check + guarded route_checkpoint loaded; SPOT_TOL 0.15
+[final_run] common_b loaded
+[final_run] items ['r68i1_rag', 'r196i1_plastic_bag', 'r190i1_stocking', 'r125i2_flat', 'r130i1_light_saber', 'r120i2_duck', 'r125i1_flat', 'r175i1_cardboard_box', 'r178i1_ball', 'r179i1_toy_pouch', 'r126i1_scooter', 'r149i1_pouch', 'r93i1_nugget', 'r193i4_toy_piece', 'r192i1_ball', 'r193i2_toy_piece', 'r193i1_toy_piece', 'r193i3_toy_piece', 'r120i1_duck', 'r158i1_tissue', 'r105i1_shoe', 'r105i2_shoe', 'r107i1_umbrella', 'r159i1_door', 'r83i1_sponges']
+ITEM_START r83i1_sponges attempt 1 pos 12 route at r83i1_sponges state {'t': 4353.22, 'pelvis': [-2.529, -2.222, 0.772], 'yaw_deg': 59.5, 'hands': {'left': [-2.747, -2.094, 0.541], 'right': [-2.181, -2.307, 0.609]}, 'mode': 'stand'}
+[kitchen] step_mon(st=None), call_mon(fn, label), dw_names(), sink_put / use_sink_put (draft), in_basin, door_face, close_door_follow (draft) loaded
+[island] two_hand_check, roll_nearer, two_hand_pick, two_hand_walk, two_hand_set_down, island_pick loaded
+[two-squeeze] hold_on wrapped for object_0212_body forces now {'left': 0.0, 'right': 0.0, 'others': {'scene_static': 1.16}, 'n_left': 0, 'n_right': 0}
+[call_mon] r83i1_sponges: FAILED MONITOR: right_hip_yaw_link pressing r133i1_laundry_basket 26 N sim 0.2 s wall 4 s
+SPONGES {'item': 'r83i1_sponges', 'status': 'FAILED', 'why': 'MONITOR: right_hip_yaw_link pressing r133i1_laundry_basket 26 N', 'sim_s': 0.2, 'wall_s': 4, 'at': [-2.534, -2.229], 'look': 'C:\\Users\\raresense\\sim_home\\runs\\1120_181556_dex1_floor_final\\tele\\0224_end_r83i1_sponges_FAILED.jpg'}
+ITEM_RESULT FAIL r83i1_sponges {'item': 'r83i1_sponges', 't': 4353.47, 'kind': 'thing', 'dest': 'r94i1_tray_table', 'centre': [1.089, 0.064, 0.95], 'ok': False, 'off_spot': 1.901} held False fell False state {'t': 4353.47, 'pelvis': [-2.534, -2.229, 0.759], 'yaw_deg': 59.1, 'hands': {'left': [-2.749, -2.101, 0.525], 'right': [-2.179, -2.304, 0.61]}, 'mode': 'stand'}
+ZZ_OK False

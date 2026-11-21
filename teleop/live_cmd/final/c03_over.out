@@ -1,0 +1,2 @@
+OVER {'e0': [-0.0, 0.008, -0.024], 'pad0': [0.329, 1.32, 0.584], 'e1': [-0.058, 0.115, -0.143], 'pad1': [0.227, 1.372, 0.642], 'over': True, 'paper': [0.201, 1.372, 0.645], 'state': {'t': 527.35, 'pelvis': [0.19, 1.085, 0.758], 'yaw_deg': 89.3, 'hands': {'left': [-0.065, 1.083, 0.528], 'right': [0.228, 1.371, 0.647]}, 'mode': 'stand'}, 'touch': {'body': 0.0, 'body_who': None, 'held': 0.0, 'held_who': None}, 'held': True, 'fell': False}
+C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\tele\0013_paper1_over.jpg

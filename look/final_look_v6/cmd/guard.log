@@ -1,0 +1,19 @@
+17:39:33 guard start
+17:39:33 RAM 12.0 commit 27.5 kit 7.7 C: 11.8
+17:40:33 RAM 10.3 commit 21.4 kit 13.9 C: 11.8
+17:41:33 RAM 10.3 commit 21.3 kit 14.3 C: 11.8
+17:42:33 RAM 10.0 commit 19.6 kit 15.7 C: 11.7
+17:43:33 RAM 9.9 commit 19.2 kit 15.9 C: 11.7
+17:43:36 STOP: kit private 16.0 GB
+17:43:41 guard end
+17:44:19 guard start
+17:44:19 RAM 11.9 commit 27.4 kit 7.7 C: 11.8
+17:45:19 RAM 10.1 commit 22.3 kit 13.0 C: 11.7
+17:46:19 RAM 10.3 commit 20.8 kit 14.6 C: 11.7
+17:47:19 RAM 10.4 commit 19.9 kit 15.3 C: 11.7
+17:47:34 guard end
+17:47:48 guard start
+17:47:48 RAM 12.2 commit 27.6 kit 7.7 C: 11.7
+17:48:48 RAM 10.3 commit 21.9 kit 13.4 C: 11.7
+17:49:48 RAM 10.3 commit 19.3 kit 15.9 C: 11.7
+17:50:33 guard end

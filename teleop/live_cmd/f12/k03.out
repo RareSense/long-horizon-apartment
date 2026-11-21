@@ -1,0 +1,2 @@
+BASKET {'walk': 0.004, 'held_after_walk': True, 'e_over': [0.002, -0.31, -0.191], 'in': False, 'at': [-5.122, -1.093, 0.01], 'state': {'t': 9137.28, 'pelvis': [-4.847, -1.044, 0.767], 'yaw_deg': -125.5, 'hands': {'left': [-4.638, -1.19, 0.537], 'right': [-5.063, -0.902, 0.538]}, 'mode': 'stand'}, 'fell': False}
+C:\Users\raresense\sim_home\runs\1120_093820_dex1_floor_12\tele\0065_f12_nugget_basket.jpg

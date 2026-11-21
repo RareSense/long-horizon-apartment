@@ -1,0 +1,120 @@
+[
+ [
+  "garments",
+  [
+   "r121i1_jacket",
+   "r131i1_knit_hat",
+   "r116i1_coat_pile",
+   "r117i1_blanket"
+  ]
+ ],
+ [
+  "tidy_all",
+  {
+   "names": [
+    "r124i1_sandal"
+   ],
+   "pairs": true
+  }
+ ],
+ [
+  "tidy_all",
+  {
+   "names": [
+    "r107i1_umbrella"
+   ],
+   "pairs": true
+  }
+ ],
+ [
+  "tidy_surface",
+  {
+   "names": [
+    "r81i1_glass_spoon"
+   ],
+   "pairs": true
+  }
+ ],
+ [
+  "tidy_all",
+  {
+   "names": [
+    "r120i1_duck"
+   ],
+   "pairs": true
+  }
+ ],
+ [
+  "tidy_surface",
+  {
+   "names": [
+    "r120i2_duck",
+    "r178i1_ball"
+   ],
+   "pairs": true
+  }
+ ],
+ [
+  "tidy_surface",
+  {
+   "names": [
+    "r139i1_toy_car"
+   ],
+   "pairs": true
+  }
+ ],
+ [
+  "tidy_all",
+  {
+   "names": [
+    "r188i1_dollhouse",
+    "r130i1_light_saber"
+   ],
+   "pairs": false
+  }
+ ],
+ [
+  "tidy_surface",
+  {
+   "names": [
+    "r158i1_tissue"
+   ],
+   "pairs": true
+  }
+ ],
+ [
+  "tidy_all",
+  {
+   "names": [
+    "r125i2_flat",
+    "r125i1_flat"
+   ],
+   "pairs": true
+  }
+ ],
+ [
+  "tidy_surface",
+  {
+   "names": [
+    "r138i1_cup",
+    "r147i1_purple_container",
+    "r197i1_cup",
+    "r155i1_kids_bottle"
+   ],
+   "pairs": true
+  }
+ ],
+ [
+  "tidy_surface",
+  {
+   "names": [
+    "r193i2_toy_piece",
+    "r190i1_stocking",
+    "r192i1_ball",
+    "r193i3_toy_piece",
+    "r193i1_toy_piece"
+   ],
+   "pairs": true
+  }
+ ]
+]

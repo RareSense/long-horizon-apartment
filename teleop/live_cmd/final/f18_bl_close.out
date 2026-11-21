@@ -1,0 +1,4 @@
+between pads now 2 pad rf [0.347, -0.005, 0.798] tgt rf [0.42, -0.024, 0.759]
+close {'gap_cm': 0.1, 'F1': 3.5, 'F2': 3.5, 'caught': 0, 'held': 0} held L/R False True
+look C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\tele\0069_bl_strand_closed.jpg
+__END__

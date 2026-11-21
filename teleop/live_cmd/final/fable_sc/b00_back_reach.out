@@ -1,0 +1,18 @@
+REC before reload 258049
+[checkpoint] loaded C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\checkpoints\3854_act_fsc_at_stance: t=11162.362 s, k=5581181, {'controller_fields': 179, 'cloth_arrays': 231}
+RELOADED 3854 rec 258164 {'t': 11166.16, 'pelvis': [-1.777, -1.0, 0.673], 'yaw_deg': 176.9, 'hands': {'left': [-1.789, -1.255, 0.443], 'right': [-1.762, -0.746, 0.442]}, 'mode': 'stand'}
+[scooter_hang] sh_stance, sh_grip, sh_load_on, sh_raise, sh_lift, sh_level_Q, sh_seat, sh_trim, sh_recentre, sh_move, sh_wheel, sh_on_floor, sh_finish_standing, sh_set_down_walk, sh_release, sh_moves_to, park_scooter_hang, sh_state loaded
+[fsc lib] loaded, kit private GB 14.87
+back [-1.652, -1.008] 176.9 {'body': 0.0, 'body_who': None, 'held': 0.0, 'held_who': None} why None
+[back] pelvis [-1.652 -1.008  0.673] yaw 176.9 bar c [-2.024 -0.751] z 0.969 bar_rel [ 0.385 -0.237] box [[-2.154, -0.945, -0.001], [-1.524, -0.579, 0.987]] why None fallen False
+[back] left pad [-1.665 -1.264  0.439] err [0. 0. 0.] err body [0. 0.] rel pelvis [-0.001  0.256] fingers [-0.1  -0.2  -0.97] touch {} gap 0.079 q {'shoulder_pitch': 0.2, 'shoulder_roll': 0.2, 'shoulder_yaw': 0.0, 'elbow': 1.28, 'wrist_roll': -0.0, 'wrist_pitch': 0.0, 'wrist_yaw': 0.0}
+[back] right pad [-1.637 -0.754  0.438] err [0. 0. 0.] err body [0. 0.] rel pelvis [-0.001 -0.255] fingers [-0.08  0.2  -0.98] touch {} gap -0.001 q {'shoulder_pitch': 0.2, 'shoulder_roll': -0.2, 'shoulder_yaw': 0.0, 'elbow': 1.28, 'wrist_roll': 0.0, 'wrist_pitch': 0.0, 'wrist_yaw': 0.0}
+[back] contacts {'body': 0.0, 'body_who': None, 'held': 0.0, 'held_who': None} rec 258275
+ck C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\checkpoints\3862_act_fsc_stance_back
+pre_err {'left': [-0.001, -0.003, -0.004], 'right': [0.004, -0.002, -0.001]}
+[pre] pelvis [-1.604 -1.036  0.714] yaw 176.9 bar c [-2.024 -0.751] z 0.969 bar_rel [ 0.434 -0.262] box [[-2.154, -0.945, -0.001], [-1.524, -0.579, 0.987]] why None fallen False
+[pre] left pad [-1.969 -0.906  0.973] err [-0.001 -0.003 -0.004] err body [0.    0.003] rel pelvis [ 0.371 -0.111] fingers [-0.65  0.76 -0.02] touch {} gap 0.0789 q {'shoulder_pitch': -0.91, 'shoulder_roll': 0.18, 'shoulder_yaw': -0.67, 'elbow': 0.04, 'wrist_roll': 0.88, 'wrist_pitch': 0.21, 'wrist_yaw': -0.48}
+[pre] right pad [-1.933 -0.664  0.97 ] err [ 0.004 -0.002 -0.001] err body [-0.004  0.002] rel pelvis [ 0.348 -0.354] fingers [-1.    0.06  0.  ] touch {} gap 0.0789 q {'shoulder_pitch': -0.93, 'shoulder_roll': -0.43, 'shoulder_yaw': -1.65, 'elbow': 0.29, 'wrist_roll': 1.78, 'wrist_pitch': 1.42, 'wrist_yaw': -1.14}
+[pre] contacts {'body': 0.0, 'body_who': None, 'held': 0.0, 'held_who': None} rec 258502
+VIEWS C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\tele\fsc_b00_top.jpg C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\tele\fsc_b00_side.jpg LOOK C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\tele\0136_fsc_b00.jpg
+__END__

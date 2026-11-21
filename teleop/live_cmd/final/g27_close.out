@@ -1,0 +1,18 @@
+ck C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\checkpoints\1445_act_g_right_above_handle_before_close frame 93898
+  t 0.25 gap 0.0644 F1 0.0 F2 0.7 pen 0.045 n (0, 2) e 0.00
+  t 0.50 gap 0.0493 F1 0.0 F2 0.7 pen 0.046 n (0, 2) e 0.00
+  t 0.75 gap 0.0344 F1 0.0 F2 0.8 pen 0.048 n (0, 2) e 0.00
+  t 1.00 gap 0.0193 F1 0.0 F2 0.9 pen 0.050 n (0, 2) e 0.00
+  t 1.25 gap 0.0044 F1 5.4 F2 5.2 pen 0.207 n (3, 3) e 0.22
+  t 1.50 gap 0.0014 F1 10.0 F2 9.7 pen 0.349 n (3, 3) e 0.95
+between the pads 3 uv [[-0.5, 0.04], [-0.5, 0.06], [0.36, -0.12]]
+lock 3 gap 0.007 jaw 0.004
+left held n 4 uv [[0.04, 0.18], [0.04, 0.2], [0.04, 0.22], [0.06, 0.2]]
+right held n 3 uv [[-0.5, 0.04], [-0.5, 0.06], [0.36, -0.12]]
+  point (0.5, -0.375) dist to the right hold 0.291
+  point (0.5, 0.0) dist to the right hold 0.184
+  point (0.4, -0.375) dist to the right hold 0.258
+  point (0.3, -0.375) dist to the right hold 0.262
+at_fingers {'left': 50, 'right': 28} held L/R True True HELD {'left': {'cloth': 'r117i1_blanket'}, 'right': {'cloth': 'r117i1_blanket'}} touch {'body': 0.0, 'body_who': None, 'held': 0.0, 'held_who': None} tilt 0.306 knees {'left_knee': 0.123, 'right_knee': 0.11} out {'share': 0.019, 'z_lo': 0.534, 'below_rim': 13} hamper [-2.148, -1.957] fell False
+look C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\look_fb\0032_g27_closed.jpg
+__END__

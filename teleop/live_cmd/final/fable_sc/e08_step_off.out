@@ -1,0 +1,10 @@
+ck C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\checkpoints\4064_act_fsc_released
+off {'side': 0.15} -> [-1.777, 0.037] -91.4 {'body': 0.0, 'body_who': None, 'held': 0.0, 'held_who': None} fell False why None
+off {'side': 0.15} -> [-1.623, 0.035] -91.4 {'body': 0.0, 'body_who': None, 'held': 0.0, 'held_who': None} fell False why None
+off {'fwd': -0.15} -> [-1.618, 0.187] -91.4 {'body': 0.0, 'body_who': None, 'held': 0.0, 'held_who': None} fell False why None
+off {'fwd': -0.15} -> [-1.616, 0.34] -91.4 {'body': 0.0, 'body_who': None, 'held': 0.0, 'held_who': None} fell False why None
+scooter: tilt 1.2 bar [-2.164, -0.249, 0.969] floor {735: 2, 733: 2, 734: 2} box before [[-2.342, -0.387, -0.001], [-1.942, 0.258, 0.987]] now [[-2.342, -0.387, -0.001], [-1.942, 0.258, 0.987]] centre [-2.142, -0.065, 0.493]
+robot {'t': 11429.03, 'pelvis': [-1.616, 0.34, 0.673], 'yaw_deg': -91.4, 'hands': {'left': [-1.361, 0.335, 0.443], 'right': [-1.869, 0.348, 0.443]}, 'mode': 'stand'} fallen False held False rec 267435
+LOOK C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\tele\0170_fsc_e08_off.jpg
+VIEW C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\tele\fsc_e08_east.jpg
+__END__

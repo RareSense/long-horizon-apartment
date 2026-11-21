@@ -1,0 +1,4 @@
+state {'t': 11033.63, 'pelvis': [-4.823, -0.985, 0.271], 'yaw_deg': -123.3, 'hands': {'left': [-4.513, -0.982, 0.108], 'right': [-5.108, -1.263, 0.289]}, 'mode': 'stand'} hold {'left': False, 'right': True} fingers 0 veh [-5.104, -1.184, 0.328]
+lowered [-0.006, 0.012, -0.223] veh [-5.115, -1.212, 0.307]
+after {'t': 11055.53, 'pelvis': [-4.873, -1.077, 0.769], 'yaw_deg': -125.8, 'hands': {'left': [-4.665, -1.225, 0.539], 'right': [-5.081, -0.935, 0.538]}, 'mode': 'stand'} fell False veh [-5.172, -1.246, 0.036] in False touch 0.0
+C:\Users\raresense\sim_home\runs\1120_093820_dex1_floor_12\tele\0080_f12_vehicle_down.jpg

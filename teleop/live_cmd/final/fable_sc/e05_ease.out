@@ -1,0 +1,17 @@
+ck C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\checkpoints\4057_act_fsc_before_ease
+[ease 0] t 11400.89 tilt 3.8 bar [-2.22, -0.234, 0.971] floor {735: 1, 733: 1} touch {'left': 3, 'right': 2} gap {'left': 0.0226, 'right': 0.0241} pads z {'left': 0.983, 'right': 0.967} why None
+[ease 1] t 11401.09 tilt 3.8 bar [-2.219, -0.234, 0.971] floor {735: 1, 733: 1} touch {'left': 3, 'right': 2} gap {'left': 0.0226, 'right': 0.0242} pads z {'left': 0.983, 'right': 0.968} why None
+[ease 2] t 11401.29 tilt 3.8 bar [-2.219, -0.234, 0.971] floor {735: 1, 733: 1} touch {'left': 3, 'right': 2} gap {'left': 0.0227, 'right': 0.0243} pads z {'left': 0.983, 'right': 0.968} why None
+[ease 3] t 11401.49 tilt 3.8 bar [-2.219, -0.234, 0.971] floor {735: 1, 733: 1} touch {'left': 3, 'right': 2} gap {'left': 0.0227, 'right': 0.0244} pads z {'left': 0.983, 'right': 0.968} why None
+[ease 4] t 11401.69 tilt 3.8 bar [-2.22, -0.233, 0.971] floor {735: 1, 733: 1} touch {'left': 3, 'right': 2} gap {'left': 0.0228, 'right': 0.0245} pads z {'left': 0.983, 'right': 0.967} why None
+[ease 5] t 11401.89 tilt 3.9 bar [-2.22, -0.233, 0.971] floor {735: 1, 733: 1} touch {'left': 3, 'right': 2} gap {'left': 0.0229, 'right': 0.0245} pads z {'left': 0.983, 'right': 0.967} why None
+[ease 6] t 11402.09 tilt 3.9 bar [-2.221, -0.233, 0.971] floor {735: 1, 733: 1} touch {'left': 3, 'right': 2} gap {'left': 0.0229, 'right': 0.0245} pads z {'left': 0.983, 'right': 0.967} why None
+[ease 7] t 11402.29 tilt 3.9 bar [-2.221, -0.233, 0.971] floor {735: 1, 733: 1} touch {'left': 3, 'right': 2} gap {'left': 0.0229, 'right': 0.0245} pads z {'left': 0.983, 'right': 0.967} why None
+[ease 8] t 11402.49 tilt 3.9 bar [-2.221, -0.233, 0.972] floor {735: 1, 733: 1} touch {'left': 3, 'right': 2} gap {'left': 0.0229, 'right': 0.0244} pads z {'left': 0.983, 'right': 0.967} why None
+[ease 9] t 11402.69 tilt 4.0 bar [-2.222, -0.232, 0.972] floor {735: 1, 733: 1} touch {'left': 3, 'right': 2} gap {'left': 0.0229, 'right': 0.0243} pads z {'left': 0.983, 'right': 0.967} why None
+[ease 10] t 11402.89 tilt 4.0 bar [-2.222, -0.232, 0.972] floor {735: 1, 733: 1} touch {'left': 3, 'right': 2} gap {'left': 0.0229, 'right': 0.0242} pads z {'left': 0.983, 'right': 0.967} why None
+[ease 11] t 11403.09 tilt 4.0 bar [-2.222, -0.232, 0.972] floor {735: 1, 733: 1} touch {'left': 3, 'right': 2} gap {'left': 0.0229, 'right': 0.0241} pads z {'left': 0.983, 'right': 0.967} why None
+[eased] pel [-1.891, 0.074, 0.719] yaw -90.2 bar [-2.222, -0.232, 0.972] bar_rel [0.308, -0.33] tilt 4.0 along {'left': 0.132, 'right': -0.08} pad_to_bar {'left': 0.026, 'right': 0.005} touch {'left': 3, 'right': 2} seat {'left': (-14.3, 11.3, 1.0, 5.3), 'right': (0.5, 20.4, 1.3, 4.5)} wheel x 0.413 / 0.44 wheel z-r mm 0.3 floor {735: 1, 733: 1} wristR {'wrist_roll': 0.96, 'wrist_pitch': 1.27, 'wrist_yaw': 0.99} wristL {'wrist_roll': 0.39, 'wrist_pitch': -0.02, 'wrist_yaw': 0.24} why None rec 266657
+box [-2.398, -0.387, -0.011] [-1.945, 0.274, 1.001] centre [-2.172, -0.056, 0.495] fallen False
+VIEWS C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\tele\fsc_e05_top.jpg C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\tele\fsc_e05_side.jpg LOOK C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\tele\0164_fsc_e05.jpg
+__END__

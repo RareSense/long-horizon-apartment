@@ -1,0 +1,5 @@
+tissue contacts [('scene_static', [-2.868, -0.113, 0.45], [0.01, 0.01, -1.0], 0.02), ('scene_static', [-2.862, -0.122, 0.45], [0.01, 0.01, -1.0], 0.02), ('scene_static', [-2.857, -0.109, 0.45], [0.01, 0.01, -1.0], 0.01)]
+static r143i1_sofa [-2.42, 0.2, 0.36] half [0.08, 0.4, 0.26] z1 0.626
+static r143i1_sofa [-3.35, 0.14, 0.38] half [0.85, 0.3, 0.08] z1 0.45
+static r144i3_cushion [-2.78, 0.31, 0.7] half [0.27, 0.13, 0.25] z1 0.951
+C:\Users\raresense\sim_home\runs\1120_093820_dex1_floor_12\tele\f12_tissue_top.jpg

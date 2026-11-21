@@ -1,0 +1,7 @@
+[chk] item_check + guarded route_checkpoint loaded; SPOT_TOL 0.15
+[final_run] common_b loaded
+[final_run] items ['r68i1_rag', 'r196i1_plastic_bag', 'r190i1_stocking', 'r125i2_flat', 'r130i1_light_saber', 'r120i2_duck', 'r125i1_flat', 'r175i1_cardboard_box', 'r178i1_ball', 'r179i1_toy_pouch', 'r126i1_scooter', 'r149i1_pouch', 'r93i1_nugget', 'r193i4_toy_piece', 'r192i1_ball', 'r193i2_toy_piece', 'r193i1_toy_piece', 'r193i3_toy_piece', 'r120i1_duck', 'r158i1_tissue', 'r105i1_shoe', 'r105i2_shoe', 'r107i1_umbrella', 'r159i1_door', 'r83i1_sponges']
+ITEM_START r196i1_plastic_bag attempt 0 pos 12 route at r196i1_plastic_bag state {'t': 4470.76, 'pelvis': [-1.447, -1.19, 0.673], 'yaw_deg': 0.2, 'hands': {'left': [-1.45, -0.935, 0.443], 'right': [-1.448, -1.445, 0.443]}, 'mode': 'stand'}
+CORNER {'corner': [-4.567, -1.113], 'ahead': -0.006, 'z': 0.029, 'e_above': [0.028, 0.056, -0.345], 'e_down': [0.026, 0.052, -0.398], 'abort': 'pads not at the corner: [0.026, 0.052, -0.398]', 'Q': {'left': [0.6904539090116528, 0.15255621760691457, 0.6904539090116528, -0.15255621760691457]}}
+ITEM_RESULT FAIL r196i1_plastic_bag {'item': 'r196i1_plastic_bag', 't': 4603.68, 'kind': 'thing', 'dest': 'rubbish_bin', 'centre': [-4.447, -1.149, 0.015], 'ok': False, 'off_spot': 5.252, 'inside': False} held False fell False state {'t': 4603.68, 'pelvis': [-4.652, -1.367, 0.673], 'yaw_deg': -22.5, 'hands': {'left': [-4.577, -1.172, 0.431], 'right': [-4.761, -1.596, 0.439]}, 'mode': 'stand'}
+ZZ_OK False

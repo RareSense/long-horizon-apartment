@@ -1,0 +1,6 @@
+ERROR Traceback (most recent call last):
+  File "<string>", line 4, in <module>
+  File "<string>", line 3
+    LD = os.path.join(RUN, "checkpoints", "0095_item_r107i1_umbrella"); exec(open(r"C:SERS
+                                                                                  ^
+SyntaxError: unterminated string literal (detected at line 3)

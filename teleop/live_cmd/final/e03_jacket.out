@@ -1,0 +1,10 @@
+[jaws] r121i1_jacket: no cloth grasp stance with normal clearances -> tight clearances
+[cloth] r121i1_jacket try 1: {'point': [0.4860000014305115, -1.2359999418258667, 0.0], 'gap_cm': 0.1, 'F1': 3.5, 'F2': 3.4, 'caught': 0, 'held': 0, 'rose': 0.0, 'ok': False, 'stretch': (1.089, 1.021)} -> MISS
+[cloth] r121i1_jacket try 2: {'point': [0.04600000008940697, -1.1330000162124634, 0.0], 'gap_cm': 0.91, 'F1': 9.7, 'F2': 9.5, 'caught': 4, 'held': 4, 'rose': 0.059, 'ok': True, 'stretch': (1.256, 1.046)} -> held
+ITEM r121i1_jacket FAILED why no progress: item over 240.0 s sim 240.0 wall 774 at [-2.206, -1.412]
+  route {}
+  look C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\tele\0023_end_r121i1_jacket_FAILED.jpg | done 5 | next ['r121i1_jacket', 'r117i1_blanket', 'r116i1_coat_pile', 'r124i1_sandal'] | mem {'ws_gb': 6.18, 'priv_gb': 12.76}
+HELD {'left': False, 'right': False} LOCK ['right'] fell False touch {'body': 0.0, 'body_who': None, 'held': 0.0, 'held_who': None}
+jacket check {'item': 'r121i1_jacket', 't': 1427.32, 'kind': 'garment', 'dest': 'r133i1_laundry_basket', 'inside': 0.0, 'ok': False}
+SAY {'done': 5, 'last': 'C:\\Users\\raresense\\sim_home\\runs\\1120_181556_dex1_floor_final\\checkpoints\\0529_item_r189i1_santa_hat', 'next': 'r121i1_jacket', 'frame': 42093, 't': 1427.3, 'kit': {'ws_gb': 6.18, 'priv_gb': 12.76}}
+__END__

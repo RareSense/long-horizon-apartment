@@ -1,0 +1,7 @@
+stance [-1.778 -1.001  3.081] pre [-1.379 -1.025  3.081]
+at pre [-1.38, -1.027, 0.673] 176.9 why None
+after walk {'t': 11162.36, 'pelvis': [-1.777, -1.0, 0.673], 'yaw_deg': 176.8, 'hands': {'left': [-1.789, -1.255, 0.443], 'right': [-1.762, -0.746, 0.442]}, 'mode': 'stand'} why None
+pelvis [-1.777 -1.     0.673] yaw 176.8 bar_rel (ahead, left) [ 0.26  -0.235] want [0.26, -0.235] box [[-2.154, -0.945, -0.001], [-1.524, -0.579, 0.987]] fallen False
+touch {'body': 0.0, 'body_who': None, 'held': 0.0, 'held_who': None}
+rec 257713 LOOK C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\tele\0133_fsc_a01_stance.jpg
+__END__

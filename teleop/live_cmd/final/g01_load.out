@@ -1,0 +1,26 @@
+[zz] helpers loaded
+[zz] grasp steps loaded
+[zz] arm helpers loaded
+[zz] pin helpers loaded
+frame before load 80574
+[checkpoint] loaded C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\checkpoints\1164_act_bc_stage_strand: t=1906.158 s, k=953079, {'controller_fields': 176, 'cloth_arrays': 227}
+RELOADED C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\checkpoints\1164_act_bc_stage_strand frame 80584
+stat {'state': {'t': 1906.46, 'pelvis': [-2.159, -1.423, 0.71], 'yaw_deg': -87.4, 'hands': {'left': [-1.906, -1.406, 0.477], 'right': [-2.192, -1.833, 1.25]}, 'mode': 'stand'}, 'blanket': {'inside': 0.666, 'below_rim': 0.265, 'overhang': 0.071, 'lowest': 0.301, 'rim': 0.59}, 'box': [[-2.4240000247955322, -1.9589999914169312, 0.3009999990463257], [-2.0929999351501465, -1.6410000324249268, 1.2630000114440918]], 'at_fingers': {'left': 0, 'right': 29}, 'lock': {'right': 3}, 'held': {'right': {'cloth': 'r117i1_blanket'}}, 'jaw': {'left': 0.0, 'right': 0.0046}, 'touch': {'body': 0.0, 'body_who': None, 'held': 0.0, 'held_who': None}, 'asleep': False}
+hamper c [-2.148, -1.957] r 0.25587585436807964 rim 0.5899781519690476 rf of centre [0.535, -0.013, 0.6] wall gap 0.279
+left pad rf [-0.005, 0.255, 0.473]
+right pad rf [0.413, -0.05, 1.25]
+right held n 3 uv mean [-0.43, 0.01]
+strand z 0.62 {'n': 114, 'rf_c': [0.338, -0.143, 0.62], 'rf_lo': [0.226, -0.251, 0.596], 'rf_hi': [0.525, 0.012, 0.645], 'uv_mean': [0.2, -0.03], 'uv_lo': [0.12, -0.38], 'uv_hi': [0.26, 0.38]}
+strand z 0.68 {'n': 133, 'rf_c': [0.355, -0.105, 0.679], 'rf_lo': [0.248, -0.23, 0.655], 'rf_hi': [0.528, 0.039, 0.704], 'uv_mean': [0.12, 0.04], 'uv_lo': [0.0, -0.38], 'uv_hi': [0.18, 0.38]}
+strand z 0.75 {'n': 120, 'rf_c': [0.384, -0.095, 0.749], 'rf_lo': [0.276, -0.176, 0.725], 'rf_hi': [0.523, 0.046, 0.774], 'uv_mean': [0.03, -0.01], 'uv_lo': [-0.1, -0.38], 'uv_hi': [0.12, 0.38]}
+strand z 0.82 {'n': 120, 'rf_c': [0.393, -0.08, 0.82], 'rf_lo': [0.299, -0.177, 0.796], 'rf_hi': [0.514, 0.025, 0.845], 'uv_mean': [-0.05, 0.01], 'uv_lo': [-0.2, -0.38], 'uv_hi': [0.04, 0.38]}
+strand z 0.9 {'n': 152, 'rf_c': [0.403, -0.085, 0.901], 'rf_lo': [0.305, -0.165, 0.875], 'rf_hi': [0.502, 0.023, 0.924], 'uv_mean': [-0.2, -0.03], 'uv_lo': [-0.5, -0.38], 'uv_hi': [-0.04, 0.38]}
+strand z 1.0 {'n': 125, 'rf_c': [0.41, -0.077, 0.999], 'rf_lo': [0.336, -0.141, 0.975], 'rf_hi': [0.498, 0.022, 1.024], 'uv_mean': [-0.29, 0.0], 'uv_lo': [-0.5, -0.3], 'uv_hi': [-0.14, 0.3]}
+strand z 1.1 {'n': 87, 'rf_c': [0.416, -0.064, 1.1], 'rf_lo': [0.368, -0.111, 1.075], 'rf_hi': [0.48, 0.014, 1.123], 'uv_mean': [-0.36, 0.01], 'uv_lo': [-0.5, -0.2], 'uv_hi': [-0.24, 0.2]}
+out {'share': 0.334, 'z_lo': 0.301, 'below_rim': 527} knees {'left_knee': 0.11, 'right_knee': 0.105} tilt 0.231 fell False
+r131i1_knit_hat {'item': 'r131i1_knit_hat', 't': 1906.46, 'kind': 'garment', 'dest': 'r133i1_laundry_basket', 'inside': 1.0, 'ok': True}
+r189i1_santa_hat {'item': 'r189i1_santa_hat', 't': 1906.46, 'kind': 'garment', 'dest': 'r133i1_laundry_basket', 'inside': 1.0, 'ok': True}
+r121i1_jacket {'item': 'r121i1_jacket', 't': 1906.46, 'kind': 'garment', 'dest': 'r133i1_laundry_basket', 'inside': 1.0, 'ok': True}
+look C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\look_fb\0001_g01.jpg
+look3 C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\tele\0096_g01_reload.jpg
+__END__

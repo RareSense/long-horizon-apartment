@@ -1,0 +1,6 @@
+lo_, hi_ = obj_box(SB)
+print("scooter box", np.round(lo_, 3).tolist(), np.round(hi_, 3).tolist(), "tilt", sh_state(SB)["tilt"], "on_floor pieces", len(sh_on_floor(SB)), "touch", {s_: sum(finger_touch(s_, SB).values()) for s_ in SIDES}, flush=True)
+print("pads", {s_: np.round(pad_mid(s_), 3).tolist() for s_ in SIDES}, "ext", list(ts.ctrl.ext), flush=True)
+print("contacts robot-scooter", [c_ for c_ in umb_contacts("object_0259_body") if c_[0] not in ("world", "scene_static")], flush=True)
+print(close(os.path.join(TELE_DIR, "f12_t06_east.jpg"), np.array([-1.0, 0.0, 1.3]), np.array([-2.2, -0.05, 0.35]), "scooter from east"), flush=True)
+print(close(os.path.join(TELE_DIR, "f12_t06_south.jpg"), np.array([-2.0, -1.4, 1.2]), np.array([-2.2, -0.05, 0.35]), "scooter from south"), flush=True)

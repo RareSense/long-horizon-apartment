@@ -1,0 +1,4 @@
+rest_hands(SIDES); op.run(1.0)
+_bring("r179i1_toy_pouch")
+zz_d = tele_item_done("r179i1_toy_pouch", note="AI-operated night finisher, coordinator-approved two-hand contact-verified hold: sill stance (-5.87,-2.20,180), closed jaws fingers down as paddles 3 cm outside the N/S faces, op.squeeze 10 N (10.6/10.8 N), lifted 5.4 cm with only the two hands touching it; hold_on refused by the jaw-pinch guard (1 finger a hand) so it was carried by the squeeze friction alone (7-8 N a hand) by tmove steps round the south (way points (-5.3,-2.14) (-4.7,-2.0) (-4.8,-1.15)) to (-4.85,-1.05,-125); squat+lean stages with _two_track over (-5.10,-1.36), arms down, opened 0.17 m over the basket bottom: inside. First set-down's stand-up FELL (reloaded the act ckpt at the basket); second: gradual stand (5 posture stages, hands rising).")
+print("ITEM DONE", zz_d, "done", len(DONE), "rec", rec.n, "kit", kit_mem(), flush=True)

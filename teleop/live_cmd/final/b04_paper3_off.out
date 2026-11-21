@@ -1,0 +1,3 @@
+before {'t': 246.92, 'pelvis': [0.074, 1.1, 0.75], 'yaw_deg': 61.7, 'hands': {'left': [0.075, 1.427, 0.761], 'right': [0.289, 0.973, 0.519]}, 'mode': 'swing'} bin [0.1, 1.48, 0.2] touch {'body': 21.9, 'body_who': ['left_knee_link', 'rubbish_bin'], 'held': 0.0, 'held_who': None}
+after {'t': 250.79, 'pelvis': [0.09, 1.001, 0.746], 'yaw_deg': 61.1, 'hands': {'left': [0.107, 1.32, 0.763], 'right': [0.309, 0.872, 0.515]}, 'mode': 'stand'} touch {'body': 0.0, 'body_who': None, 'held': 0.0, 'held_who': None} held True fell False
+look C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\tele\0006_off_bin.jpg

@@ -1,0 +1,4 @@
+[slab] slab_hull, slab_yaw, slab_entry, slab_push loaded
+[u00] umbrella two-corner helpers loaded
+WRAP {'abort': 'left_knee_link pressing furniture/floor 103 N at z 0.24', 'at': [1.69, -0.222, 0.93], 'state': {'t': 8764.77, 'pelvis': [1.786, -0.647, 0.668], 'yaw_deg': 90.1, 'hands': {'left': [1.638, -0.688, 0.515], 'right': [2.047, -0.567, 0.441]}, 'mode': 'swing'}}
+C:\Users\raresense\sim_home\runs\1120_093820_dex1_floor_12\tele\0061_f12_wrapper_pick.jpg

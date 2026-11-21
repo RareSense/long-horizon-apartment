@@ -1,0 +1,12 @@
+zz_r = zz_pads_to(zz_o, zz_rf((0.32, 0.20, 0.80)), Q=zz_QL, speed=0.08, step=0.05)
+print("left back", zz_r, "at_fingers", zz_w().at_fingers(zz_o), flush=True)
+op.run(3.0)
+zz_P = zz_w().points(0); zz_U = zz_uv()
+zc_ = float(zz_P[994][2])
+print("C rf", np.round(zz_to_rf(zz_P[994]), 3).tolist(), flush=True)
+s_ = np.flatnonzero(np.abs(zz_P[:, 2] - zc_) < 0.012)
+B_ = np.array([zz_to_rf(zz_P[i_]) for i_ in s_])
+o_ = np.argsort(np.arctan2(B_[:, 1] - B_[:, 1].mean(), B_[:, 0] - B_[:, 0].mean()))
+print("cross-section at C height (rf x, y | uv):", flush=True)
+for i_ in o_:
+    print(f"  {B_[i_,0]:.3f} {B_[i_,1]:.3f} | {zz_U[s_[i_],0]:+.2f} {zz_U[s_[i_],1]:+.2f}", flush=True)

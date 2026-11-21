@@ -1,0 +1,8 @@
+[checkpoint] loaded C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\checkpoints\3261_item_r149i1_pouch: t=10523.330 s, k=5261665, {'controller_fields': 179, 'cloth_arrays': 231}
+RELOADED 3261 rec 228104 {'t': 10527.03, 'pelvis': [0.11, 0.821, 0.769], 'yaw_deg': 89.7, 'hands': {'left': [-0.146, 0.82, 0.539], 'right': [0.363, 0.818, 0.538]}, 'mode': 'stand'}
+ITEM_START r130i1_light_saber attempt 2 pos 31 route at r130i1_light_saber state {'t': 10527.03, 'pelvis': [0.11, 0.821, 0.769], 'yaw_deg': 89.7, 'hands': {'left': [-0.146, 0.82, 0.539], 'right': [0.363, 0.818, 0.538]}, 'mode': 'stand'}
+FORCED saber stance [-1.161, -0.435] 150.0 point [-1.443, -0.584, 0.02]
+PICKPUT {'item': 'r130i1_light_saber', 'abort': 'foot on a loose thing: r130i1_light_saber (62 N)', 'at': [-1.453, -0.595, 0.017], 'zaxis': [0.13, -0.23, -0.97], 'fell': False, 'touch': 0.0, 'look': 'C:\\Users\\raresense\\sim_home\\runs\\1121_034845_dex1_floor_final_s3\\tele\\0127_put_r130i1_light_saber.jpg'}
+ITEM_RESULT FAIL r130i1_light_saber {'item': 'r130i1_light_saber', 't': 10576.58, 'kind': 'thing', 'dest': 'floor', 'centre': [-1.453, -0.595, 0.017], 'ok': False, 'off_spot': 3.56} held False fell False state {'t': 10576.58, 'pelvis': [-1.069, -0.474, 0.672], 'yaw_deg': 149.4, 'hands': {'left': [-1.197, -0.695, 0.443], 'right': [-0.938, -0.257, 0.441]}, 'mode': 'ds'}
+ZZ_OK False saber [-1.453, -0.595, 0.017] check {'item': 'r130i1_light_saber', 't': 10576.58, 'kind': 'thing', 'dest': 'floor', 'centre': [-1.453, -0.595, 0.017], 'ok': False, 'off_spot': 3.56} state {'t': 10576.58, 'pelvis': [-1.069, -0.474, 0.672], 'yaw_deg': 149.4, 'hands': {'left': [-1.197, -0.695, 0.443], 'right': [-0.938, -0.257, 0.441]}, 'mode': 'ds'} fell False rec 229590
+__END__

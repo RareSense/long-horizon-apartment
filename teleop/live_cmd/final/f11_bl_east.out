@@ -1,0 +1,12 @@
+MV ('turn', [-2.43, -1.128], 0.6, 0.0)
+MV ('side', [-2.431, -1.178], 0.7, 0.0)
+MV ('fwd', [-2.311, -1.169], 0.5, 0.0, None)
+MV ('fwd', [-2.188, -1.169], 0.5, 0.0, None)
+MV ('fwd', [-2.066, -1.169], 0.5, 0.0, None)
+MV ('fwd', [-1.946, -1.169], 0.5, 0.0, None)
+MV ('fwd', [-1.82, -1.169], 0.5, 0.0, None)
+MV ('fwd', [-1.697, -1.169], 0.5, 0.0, None)
+MV ('fwd', [-1.604, -1.169], 0.5, 0.0, None)
+END {'t': 1532.36, 'pelvis': [-1.604, -1.169, 0.673], 'yaw_deg': 0.5, 'hands': {'left': [-1.607, -0.915, 0.443], 'right': [-1.603, -1.423, 0.443]}, 'mode': 'stand'} near [('r126i1_scooter', [-0.23, 0.41]), ('r130i1_light_saber', [0.16, 0.57])] fell False scooter [-1.839, -0.762, 0.493]
+C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\tele\0054_bl_east_end.jpg
+__END__

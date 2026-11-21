@@ -1,0 +1,6 @@
+released [-4.957, -1.237, 0.025] {'t': 10317.14, 'pelvis': [-5.057, -0.976, 0.768], 'yaw_deg': -125.4, 'hands': {'left': [-4.852, -1.125, 0.538], 'right': [-5.262, -0.827, 0.537]}, 'mode': 'stand'}
+[grasp QC] hold_guard on hold_on, close_jaws records the close
+[pick] object_0319_body try 1: grip {'ok': True, 'gap': 0.0738, 'jaw1_N': 6.2, 'jaw2_N': 5.4, 'between': 0.5, 'off_axis': 0.004} rose 0.077 -> held
+[checkpoint] 1874_item_r193i1_toy_piece t=10425.70 s, 3.22 MB, 0.647 s
+TOY {'item': 'r193i1_toy_piece', 'pick': {'ok': True, 'side': 'right'}, 'put': {'walk': 0.007, 'held_after_walk': True, 'e_over': [0.0, -0.004, -0.003], 'in': True, 'at': [-5.132, -1.383, 0.155], 'state': {'t': 10425.7, 'pelvis': [-4.87, -1.083, 0.769], 'yaw_deg': -124.7, 'hands': {'left': [-4.658, -1.226, 0.539], 'right': [-5.084, -0.958, 0.538]}, 'mode': 'stand'}, 'fell': False}, 'in': True, 'fell': False, 'state': {'t': 10425.7, 'pelvis': [-4.87, -1.083, 0.769], 'yaw_deg': -124.7, 'hands': {'left': [-4.658, -1.226, 0.539], 'right': [-5.084, -0.958, 0.538]}, 'mode': 'stand'}, 'done': {'done': 'r193i1_toy_piece', 'ckpt': 'C:\\Users\\raresense\\sim_home\\runs\\1120_093820_dex1_floor_12\\checkpoints\\1874_item_r193i1_toy_piece', 'pruned': 128, 'pos': 28, 'n': 43, 'next': 'r87i1_wrapper'}}
+C:\Users\raresense\sim_home\runs\1120_093820_dex1_floor_12\tele\0076_f12_r193i1_toy_piece_end.jpg

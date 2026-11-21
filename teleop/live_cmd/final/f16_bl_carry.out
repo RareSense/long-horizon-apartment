@@ -1,0 +1,7 @@
+ck C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\checkpoints\0800_act_bc_blanket_held_right
+[bigcloth] r117i1_blanket carry: ok {'ok': True, 'pre': [-2.878, -2.153, 0.262], 'at': [-2.875, -2.154], 'yaw_err_deg': -0.7, 'err_xy': 0.003, 'held': True, 'mon': None, 'stage': 'carry'}
+RESULT [{'ok': True, 'pre': [-2.878, -2.153, 0.262], 'at': [-2.875, -2.154], 'yaw_err_deg': -0.7, 'err_xy': 0.003, 'held': True, 'mon': None, 'stage': 'carry', 'ckpt_before': None}]
+state {'t': 1726.49, 'pelvis': [-2.875, -2.154, 0.719], 'yaw_deg': 14.3, 'hands': {'left': [-2.94, -1.909, 0.488], 'right': [-2.507, -2.191, 1.026]}, 'mode': 'stand'} touch {'body': 0.0, 'body_who': None, 'held': 0.0, 'held_who': None} held R True fell False lowest 0.004
+scooter [-1.839, -0.762, 0.493] saber [-1.453, -0.595, 0.018]
+look3 C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\tele\0061_bl_carried.jpg
+__END__

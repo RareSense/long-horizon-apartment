@@ -1,0 +1,5 @@
+﻿door q -1.561 shut range end [-1.571, 0.0] off deg 0.58
+C:\Users\raresense\sim_home\runs\1120_155109_dex1_floor_14\look\f14_b02_door_shut.jpg
+[checkpoint] 0429_item_r159i1_door t=13745.66 s, 3.88 MB, 0.71 s
+DONE {'done': 'r159i1_door', 'ckpt': 'C:\\Users\\raresense\\sim_home\\runs\\1120_155109_dex1_floor_14\\checkpoints\\0429_item_r159i1_door', 'pruned': 259, 'pos': 35, 'n': 43, 'next': 'r154i1_stick'}
+state {'t': 13745.66, 'pelvis': [-3.059, -2.357, 0.673], 'yaw_deg': -79.5, 'hands': {'left': [-2.809, -2.309, 0.443], 'right': [-3.31, -2.401, 0.443]}, 'mode': 'stand'} kit {'ws_gb': 6.52, 'priv_gb': 13.87}

@@ -1,0 +1,12 @@
+ck C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\checkpoints\1243_act_g_left_at_fold_before_close frame 82975
+close_lock {'gap_cm': 0.76, 'F1': 12.4, 'F2': 12.8, 'caught': 4, 'held': 4, 'caught_uv_mean': [0.045, 0.2]}
+held n 4 uv lo [0.04, 0.18] hi [0.06, 0.22] mean [0.05, 0.2]
+  corner (0.5, 0.375) nearest held dist 0.474
+  corner (0.5, -0.375) nearest held dist 0.721
+  corner (0.5, 0.0) nearest held dist 0.483
+  corner (-0.5, 0.375) nearest held dist 0.562
+  corner (-0.5, -0.375) nearest held dist 0.774
+at_fingers {'left': 21, 'right': 29} held L/R True True touch {'body': 0.0, 'body_who': None, 'held': 0.0, 'held_who': None} tilt 0.287 knees {'left_knee': 0.114, 'right_knee': 0.104} fell False
+pad rf [0.339, -0.051, 0.756] pads z 0.756 0.756 gap 0.0076
+look C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\look_fb\0006_g06_closed.jpg
+__END__

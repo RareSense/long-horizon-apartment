@@ -1,0 +1,6 @@
+[checkpoint] loaded C:\Users\raresense\sim_home\runs\1121_021343_dex1_floor_final_s2\checkpoints\0035_act_n1_bag_north_stance: t=4973.356 s, k=2486678, {'controller_fields': 177, 'cloth_arrays': 230}
+RELOADED 0035 rec 7678
+walk {'ok': True, 'err_xy': 0.007}
+state {'t': 5004.95, 'pelvis': [-4.812, -1.303, 0.671], 'yaw_deg': -25.3, 'hands': {'left': [-4.705, -1.072, 0.441], 'right': [-4.922, -1.531, 0.441]}, 'mode': 'stand'} fell False touch None bag [-4.447, -1.149, 0.015] rec 8526
+ck C:\Users\raresense\sim_home\runs\1121_021343_dex1_floor_final_s2\checkpoints\0118_act_n1_bag_k3_stance
+__END__

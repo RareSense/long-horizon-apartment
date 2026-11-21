@@ -1,0 +1,8 @@
+[hall] duck_to_basket, shoe_to_mat, umbrella_to_entry loaded (scout, AI-operated)
+[checkpoint] loaded C:\Users\raresense\sim_home\runs\1120_150255_scout_hall2_AI_operated\checkpoints\0095_item_r107i1_umbrella: t=9617.542 s, k=4808771, {'controller_fields': 179, 'cloth_arrays': 231}
+[route] resumed at item 28/43 (r83i1_sponges), 27 done
+LOADED C:\Users\raresense\sim_home\runs\1120_150255_scout_hall2_AI_operated\checkpoints\0095_item_r107i1_umbrella {'t': 9619.84, 'pelvis': [3.541, -2.096, 0.673], 'yaw_deg': -90.9, 'hands': {'left': [3.797, -2.098, 0.443], 'right': [3.288, -2.09, 0.442]}, 'mode': 'stand'} route head ['r83i1_sponges', 'r186i1_basket', 'r192i1_ball'] done 27
+corner [-1.121, 1.305] G [-1.103, 1.313] stance [-1.403, 1.073, 0.0]
+PINCH {'walk': 0.007, 'e_above': [0.016, -0.0, 0.0], 'e_down': [0.029, -0.0, 0.0], 'grip': {'ok': True, 'gap': 0.009, 'jaw1_N': 5.3, 'jaw2_N': 4.6}, 'fingers': 2, 'dz': 0.0, 'dtilt': 0.0, 'look_hold': 'C:\\Users\\raresense\\sim_home\\runs\\1120_150255_scout_hall2_AI_operated\\grasps\\hold_r100i1_towel_t9730.jpg'}
+RES {'walk': 0.007, 'e_above': [0.016, -0.0, 0.0], 'e_down': [0.029, -0.0, 0.0], 'grip': {'ok': True, 'gap': 0.009, 'jaw1_N': 5.3, 'jaw2_N': 4.6}, 'fingers': 2, 'dz': 0.0, 'dtilt': 0.0, 'look_hold': 'C:\\Users\\raresense\\sim_home\\runs\\1120_150255_scout_hall2_AI_operated\\grasps\\hold_r100i1_towel_t9730.jpg', 'rose': 0.05, 'tilt_after': 10.5} state {'t': 9733.05, 'pelvis': [-1.444, 1.077, 0.644], 'yaw_deg': 0.1, 'hands': {'left': [-1.154, 1.307, 0.71], 'right': [-1.462, 0.824, 0.409]}, 'mode': 'stand'} towel [-0.955, 1.402, 0.47] touch {25: 2, 26: 1}
+C:\Users\raresense\sim_home\runs\1120_150255_scout_hall2_AI_operated\look\t03_pinch.jpg

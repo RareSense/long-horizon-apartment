@@ -1,0 +1,5 @@
+[hall] duck_to_basket, shoe_to_mat loaded (scout, AI-operated)
+[checkpoint] loaded C:\Users\raresense\sim_home\runs\1120_114552_scout_hall_AI_operated\checkpoints\0537_start_scout_start: t=8658.770 s, k=4329385, {'controller_fields': 179, 'cloth_arrays': 231}
+[route] resumed at item 24/43 (r105i1_shoe), 23 done
+LOADED C:\Users\raresense\sim_home\runs\1120_114552_scout_hall_AI_operated\checkpoints\0537_start_scout_start {'t': 8661.07, 'pelvis': [-0.22, 0.962, 0.769], 'yaw_deg': 35.0, 'hands': {'left': [-0.368, 1.171, 0.539], 'right': [-0.076, 0.754, 0.538]}, 'mode': 'stand'} route head ['r105i1_shoe', 'r105i2_shoe', 'r107i1_umbrella'] done 23
+PICK {'stance_err': [-0.0, -0.002], 'reach': [0.228, 0.269], 'e_above': [0.0, 0.002, -0.0], 'e_down': [0.002, -0.0, -0.003], 'grip': {'ok': True, 'gap': 0.0569, 'jaw1_N': 5.2, 'jaw2_N': 4.5}, 'touch': 2, 'close_dz': -0.0003, 'close_dtilt': 4.9, 'tries': 1, 'look_hold': 'C:\\Users\\raresense\\sim_home\\runs\\1120_114552_scout_hall_AI_operated\\grasps\\hold_r120i1_duck_t8751.jpg', 'rose': 0.076}

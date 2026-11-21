@@ -1,0 +1,32 @@
+route head ['r93i1_nugget', 'r83i1_sponges'] done 33
+r93i1_nugget [2.357, -0.354, 0.92] [[2.342, -0.37, 0.901], [2.373, -0.337, 0.939]]
+r83i1_sponges [1.089, 0.064, 0.95] [[1.049, -0.046, 0.91], [1.129, 0.174, 0.99]]
+static r8i1_track light_fixture c [1.9, 0.0] size [1.4, 0.07] z1 2.75
+static r9i1_spot light_fixture c [1.37, -0.0] size [0.11, 0.06] z1 2.28
+static r9i2_spot light_fixture c [1.77, -0.0] size [0.09, 0.06] z1 2.28
+static r9i3_spot light_fixture c [2.12, -0.0] size [0.11, 0.06] z1 2.28
+static r9i4_spot light_fixture c [2.48, -0.0] size [0.12, 0.06] z1 2.28
+static r35i1_carcass cabinet c [1.83, 0.01] size [1.74, 0.77] z1 0.87
+static r35i1_end_frame cabinet c [2.41, 0.01] size [0.58, 0.77] z1 0.87
+static r36i1_drawer drawer c [2.47, 0.01] size [0.54, 0.77] z1 0.84
+static r36i2_drawer drawer c [2.47, 0.01] size [0.54, 0.77] z1 0.6
+static r36i3_drawer drawer c [2.47, 0.01] size [0.54, 0.77] z1 0.34
+static r35i1_top countertop c [1.83, 0.02] size [1.8, 0.82] z1 0.91
+static r72i1_chips_can container c [1.65, 0.1] size [0.08, 0.08] z1 1.17
+static r73i1_apples food c [1.25, 0.27] size [0.24, 0.19] z1 1.21
+static r74i1_milk_jug container c [1.88, 0.35] size [0.17, 0.15] z1 1.16
+static r75i1_bottle container c [1.74, 0.31] size [0.08, 0.08] z1 1.11
+static r75i2_bottle container c [1.76, 0.19] size [0.08, 0.08] z1 1.11
+static r76i1_cotton_vase decor c [2.02, 0.19] size [0.11, 0.15] z1 1.31
+static r77i1_iron appliance c [2.07, -0.01] size [0.14, 0.12] z1 1.17
+static r79i1_water_bottle container c [2.1, 0.31] size [0.07, 0.07] z1 1.13
+static r80i1_orange_cap_bottle container c [2.17, 0.1] size [0.06, 0.06] z1 1.03
+static r82i1_juice_box container c [1.05, 0.31] size [0.06, 0.04] z1 1.02
+static r83i2_sponges package c [1.37, -0.39] size [0.22, 0.08] z1 0.99
+static r84i1_succulent plant c [1.37, 0.13] size [0.09, 0.09] z1 1.02
+static r85i1_red_snack_bag food_package c [1.46, -0.01] size [0.22, 0.19] z1 0.95
+static r86i1_cables cable c [1.51, 0.29] size [0.26, 0.18] z1 0.93
+static r88i1_small_box container c [1.72, -0.05] size [0.13, 0.1] z1 0.95
+static r88i2_small_box container c [1.84, -0.17] size [0.14, 0.12] z1 0.95
+static r99i1_stool stool c [1.25, -0.84] size [0.41, 0.36] z1 0.61
+__END__

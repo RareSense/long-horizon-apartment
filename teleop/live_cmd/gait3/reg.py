@@ -1,0 +1,5 @@
+exec(open(r"C:\Users\raresense\sim_home\apartment\live_cmd\gait3\setup.py", encoding="utf-8").read())
+print("GAIT", gt_reload_gait(hold=False, plan=True))
+GREG = dict(tuck=False, only=None)
+exec(open(r"E:\urc_gait\scripts\home\gait\gait_regress.py", encoding="utf-8").read())
+print(kit_mem())

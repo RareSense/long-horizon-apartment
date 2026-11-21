@@ -1,0 +1,17 @@
+mv [-5.277, -1.292, 0.314] [0.031, 0.0, 0.001] nug [-5.28, -1.291, 0.303] touch None
+mv [-5.303, -1.319, 0.315] [0.055, -0.001, -0.0] nug [-5.306, -1.317, 0.303] touch None
+mv [-5.298, -1.34, 0.314] [0.023, -0.007, 0.0] nug [-5.3, -1.339, 0.302] touch None
+mv [-5.291, -1.349, 0.314] [0.022, -0.019, 0.0] nug [-5.293, -1.348, 0.302] touch None
+mv [-5.287, -1.354, 0.313] [0.023, -0.023, 0.001] nug [-5.288, -1.353, 0.301] touch None
+mv [-5.284, -1.357, 0.313] [0.025, -0.025, 0.001] nug [-5.285, -1.356, 0.301] touch None
+mv [-5.281, -1.358, 0.312] [0.026, -0.027, 0.001] nug [-5.283, -1.357, 0.299] touch None
+mv [-5.28, -1.359, 0.31] [0.027, -0.028, 0.001] nug [-5.282, -1.357, 0.298] touch None
+over True [-5.282, -1.357, 0.298]
+nugget [-5.229, -1.326, 0.017] inside True state {'t': 11775.5, 'pelvis': [-4.857, -1.051, 0.767], 'yaw_deg': -124.0, 'hands': {'left': [-4.644, -1.192, 0.537], 'right': [-5.065, -0.909, 0.537]}, 'mode': 'stand'} fell False touch None
+ITEM_RESULT OK r93i1_nugget {'item': 'r93i1_nugget', 't': 11775.5, 'kind': 'thing', 'dest': 'object_0312_body', 'centre': [-5.229, -1.326, 0.017], 'ok': True, 'off_spot': 0.075, 'inside': True} held False fell False state {'t': 11775.5, 'pelvis': [-4.857, -1.051, 0.767], 'yaw_deg': -124.0, 'hands': {'left': [-4.644, -1.192, 0.537], 'right': [-5.065, -0.909, 0.537]}, 'mode': 'stand'}
+ITEM_CHECK {'item': 'r93i1_nugget', 't': 11775.5, 'kind': 'thing', 'dest': 'object_0312_body', 'centre': [-5.229, -1.326, 0.017], 'ok': True, 'off_spot': 0.075, 'inside': True}
+[checkpoint] 0134_item_r93i1_nugget t=11775.50 s, 3.36 MB, 0.718 s
+ITEM_DONE {'done': 'r93i1_nugget', 'ckpt': 'C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0134_item_r93i1_nugget', 'pruned': 84, 'pos': 34, 'n': 35, 'next': 'r83i1_sponges'}
+FIN True
+C:\Users\raresense\sim_home\runs\1121_123451_dex1_floor_final_s4\tele\0010_n1_nugget_in.jpg
+__END__

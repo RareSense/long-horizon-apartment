@@ -1,0 +1,6 @@
+right to (0.28, -0.18, 0.98) {'err': [-0.0, 0.021, -0.0], 'pad': [-2.281, -1.72, 0.98], 'pad_rf': [0.307, -0.189, 0.98], 'tilt': 0.293} at_f R 0 out {'share': 0.003, 'z_lo': 0.637, 'below_rim': 0} touch 0.0 fell False
+right to (0.18, -0.26, 0.95) {'err': [-0.003, 0.095, -0.001], 'pad': [-2.371, -1.703, 0.951], 'pad_rf': [0.266, -0.286, 0.951], 'tilt': 0.279} at_f R 0 out {'share': 0.001, 'z_lo': 0.618, 'below_rim': 0} touch 0.0 fell False
+left to (0.5, 0.0, 0.76) {'err': [-0.0, -0.044, 0.0], 'pad': [-2.046, -1.834, 0.76], 'pad_rf': [0.457, 0.006, 0.76], 'tilt': 0.289} fingers rf [0.65, -0.02, -0.76] close rf [0.01, 1.0, -0.02] pads z 0.76 0.76 held L True inside {'inside': 1.0, 'below_rim': 0.764, 'overhang': 0.0, 'lowest': 0.034, 'rim': 0.59} out {'share': 0.0, 'z_lo': None, 'below_rim': 0} touch 0.0 knees {'left_knee': 0.127, 'right_knee': 0.109} fell False
+left pad r from centre 0.16 tilt 0.289 pelvis [-2.139, -1.387, 0.697]
+look C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\look_fb\0037_g36_prep_left.jpg
+__END__

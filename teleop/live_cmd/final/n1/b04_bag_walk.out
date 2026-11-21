@@ -1,0 +1,9 @@
+[checkpoint] loaded C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\checkpoints\3386_act_n1_off_croc: t=4873.726 s, k=2436863, {'controller_fields': 177, 'cloth_arrays': 230}
+RELOADED 3386 at rec 214423 {'t': 4877.03, 'pelvis': [0.75, -1.992, 0.673], 'yaw_deg': -0.6, 'hands': {'left': [0.751, -1.737, 0.443], 'right': [0.745, -2.245, 0.442]}, 'mode': 'stand'}
+ITEM_START r196i1_plastic_bag attempt 0 pos 13 route at r196i1_plastic_bag state {'t': 4877.03, 'pelvis': [0.75, -1.992, 0.673], 'yaw_deg': -0.6, 'hands': {'left': [0.751, -1.737, 0.443], 'right': [0.745, -2.245, 0.442]}, 'mode': 'stand'}
+walk {'ok': True, 'err_xy': 0.002}
+state {'t': 4980.15, 'pelvis': [-4.809, -1.301, 0.671], 'yaw_deg': -25.2, 'hands': {'left': [-4.701, -1.069, 0.441], 'right': [-4.918, -1.529, 0.441]}, 'mode': 'stand'} fell False touch None
+basket box [[-5.347, -1.534, -0.0], [-5.013, -1.264, 0.12]]
+ck C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\checkpoints\3480_act_n1_bag_stance
+C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\tele\0275_n1_b04.jpg
+__END__

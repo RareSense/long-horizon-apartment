@@ -1,0 +1,2837 @@
+[
+ {
+  "run": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4",
+  "from_ckpt": null,
+  "start_frame": 0,
+  "saves": []
+ },
+ {
+  "run": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4",
+  "from_ckpt": "C:\\Users\\raresense\\sim_home\\runs\\1121_034845_dex1_floor_final_s3\\checkpoints\\4072_item_r126i1_scooter",
+  "start_frame": 0,
+  "saves": [
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0000_act_rest_hands",
+    "frames": 46,
+    "t": 11430.534
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0001_act_walk_path",
+    "frames": 100,
+    "t": 11432.334
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0002_roll_t11434.0",
+    "frames": 151,
+    "t": 11434.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0003_roll_t11439.0",
+    "frames": 301,
+    "t": 11439.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0004_roll_t11444.0",
+    "frames": 451,
+    "t": 11444.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0005_roll_t11449.0",
+    "frames": 601,
+    "t": 11449.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0006_roll_t11454.0",
+    "frames": 751,
+    "t": 11454.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0007_act_walk",
+    "frames": 871,
+    "t": 11458.036
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0008_roll_t11459.0",
+    "frames": 901,
+    "t": 11459.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0009_act__turn_on_spot",
+    "frames": 941,
+    "t": 11460.388
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0010_roll_t11464.0",
+    "frames": 1051,
+    "t": 11464.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0011_act_walk_leg",
+    "frames": 1195,
+    "t": 11468.848
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0012_roll_t11469.0",
+    "frames": 1201,
+    "t": 11469.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0013_roll_t11474.0",
+    "frames": 1351,
+    "t": 11474.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0014_act_walk",
+    "frames": 1369,
+    "t": 11474.65
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0015_act__turn_on_spot",
+    "frames": 1441,
+    "t": 11477.038
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0016_roll_t11479.0",
+    "frames": 1501,
+    "t": 11479.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0017_roll_t11484.0",
+    "frames": 1651,
+    "t": 11484.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0018_act_walk_leg",
+    "frames": 1658,
+    "t": 11484.274
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0019_act_walk",
+    "frames": 1766,
+    "t": 11487.876
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0020_roll_t11489.0",
+    "frames": 1801,
+    "t": 11489.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0021_act__turn_on_spot",
+    "frames": 1834,
+    "t": 11490.154
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0022_roll_t11494.0",
+    "frames": 1951,
+    "t": 11494.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0023_act_n1_nugget_stance",
+    "frames": 2051,
+    "t": 11497.396
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0024_act_hand_behind",
+    "frames": 2060,
+    "t": 11497.696
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0025_roll_t11499.0",
+    "frames": 2101,
+    "t": 11499.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0026_act_hand_move",
+    "frames": 2188,
+    "t": 11501.946
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0027_roll_t11504.0",
+    "frames": 2251,
+    "t": 11504.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0028_act_hand_move",
+    "frames": 2315,
+    "t": 11506.196
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0029_roll_t11509.0",
+    "frames": 2401,
+    "t": 11509.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0030_act_hand_level",
+    "frames": 2443,
+    "t": 11510.446
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0031_roll_t11514.0",
+    "frames": 2551,
+    "t": 11514.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0032_act_hand_move",
+    "frames": 2570,
+    "t": 11514.696
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0033_act_hand_move",
+    "frames": 2698,
+    "t": 11518.946
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0034_roll_t11519.0",
+    "frames": 2701,
+    "t": 11519.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0035_act_hand_in",
+    "frames": 2825,
+    "t": 11523.196
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0036_roll_t11524.0",
+    "frames": 2851,
+    "t": 11524.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0037_act_hand_move",
+    "frames": 2953,
+    "t": 11527.446
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0038_roll_t11529.0",
+    "frames": 3001,
+    "t": 11529.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0039_act_hand_move",
+    "frames": 3080,
+    "t": 11531.696
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0040_roll_t11534.0",
+    "frames": 3151,
+    "t": 11534.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0041_act_close_jaws",
+    "frames": 3173,
+    "t": 11534.78
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0042_act_lift",
+    "frames": 3197,
+    "t": 11535.58
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0043_act_pull_back",
+    "frames": 3248,
+    "t": 11537.294
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0044_roll_t11539.0",
+    "frames": 3301,
+    "t": 11539.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0045_act_n1_nugget_held",
+    "frames": 3347,
+    "t": 11540.594
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0046_act_walk_path",
+    "frames": 3395,
+    "t": 11542.194
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0047_roll_t11544.0",
+    "frames": 3451,
+    "t": 11544.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0048_roll_t11549.0",
+    "frames": 3601,
+    "t": 11549.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0049_roll_t11554.0",
+    "frames": 3751,
+    "t": 11554.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0050_act_walk",
+    "frames": 3885,
+    "t": 11558.508
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0051_roll_t11559.0",
+    "frames": 3901,
+    "t": 11559.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0052_act__turn_on_spot",
+    "frames": 3955,
+    "t": 11560.858
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0053_roll_t11564.0",
+    "frames": 4051,
+    "t": 11564.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0054_roll_t11569.0",
+    "frames": 4201,
+    "t": 11569.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0055_act_walk_leg",
+    "frames": 4220,
+    "t": 11569.696
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0056_roll_t11574.0",
+    "frames": 4351,
+    "t": 11574.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0057_act_walk_leg",
+    "frames": 4478,
+    "t": 11578.298
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0058_roll_t11579.0",
+    "frames": 4501,
+    "t": 11579.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0059_roll_t11584.0",
+    "frames": 4651,
+    "t": 11584.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0060_roll_t11589.0",
+    "frames": 4801,
+    "t": 11589.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0061_roll_t11594.0",
+    "frames": 4951,
+    "t": 11594.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0062_roll_t11599.0",
+    "frames": 5101,
+    "t": 11599.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0063_act_walk_leg",
+    "frames": 5105,
+    "t": 11599.166
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0064_roll_t11604.0",
+    "frames": 5251,
+    "t": 11604.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0065_roll_t11609.0",
+    "frames": 5401,
+    "t": 11609.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0066_roll_t11614.0",
+    "frames": 5551,
+    "t": 11614.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0067_act_walk_leg",
+    "frames": 5551,
+    "t": 11614.04
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0068_roll_t11619.0",
+    "frames": 5701,
+    "t": 11619.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0069_roll_t11624.0",
+    "frames": 5851,
+    "t": 11624.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0070_roll_t11629.0",
+    "frames": 6001,
+    "t": 11629.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0071_act_walk",
+    "frames": 6135,
+    "t": 11633.512
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0072_roll_t11634.0",
+    "frames": 6151,
+    "t": 11634.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0073_act__turn_on_spot",
+    "frames": 6201,
+    "t": 11635.714
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0074_roll_t11639.0",
+    "frames": 6301,
+    "t": 11639.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0075_roll_t11644.0",
+    "frames": 6451,
+    "t": 11644.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0076_act_walk_leg",
+    "frames": 6491,
+    "t": 11645.398
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0077_roll_t11649.0",
+    "frames": 6601,
+    "t": 11649.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0078_roll_t11654.0",
+    "frames": 6751,
+    "t": 11654.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0079_act_walk",
+    "frames": 6849,
+    "t": 11657.3
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0080_roll_t11659.0",
+    "frames": 6901,
+    "t": 11659.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0081_act__turn_on_spot",
+    "frames": 6913,
+    "t": 11659.462
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0082_roll_t11664.0",
+    "frames": 7051,
+    "t": 11664.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0083_act_squat",
+    "frames": 7126,
+    "t": 11666.548
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0084_roll_t11669.0",
+    "frames": 7201,
+    "t": 11669.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0085_act_hand_over_basket",
+    "frames": 7234,
+    "t": 11670.148
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0086_roll_t11674.0",
+    "frames": 7351,
+    "t": 11674.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0087_act_hand_move",
+    "frames": 7361,
+    "t": 11674.398
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0088_act_hand_move",
+    "frames": 7489,
+    "t": 11678.648
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0089_roll_t11679.0",
+    "frames": 7501,
+    "t": 11679.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0090_act_squat_deep",
+    "frames": 7616,
+    "t": 11682.898
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0091_roll_t11684.0",
+    "frames": 7651,
+    "t": 11684.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0092_act_servo_pads",
+    "frames": 7670,
+    "t": 11684.698
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0093_act_hand_move",
+    "frames": 7798,
+    "t": 11688.948
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0094_roll_t11689.0",
+    "frames": 7801,
+    "t": 11689.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0095_act_hand_move",
+    "frames": 7925,
+    "t": 11693.198
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0096_roll_t11694.0",
+    "frames": 7951,
+    "t": 11694.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0097_act_tele_hand",
+    "frames": 8053,
+    "t": 11697.448
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0098_roll_t11699.0",
+    "frames": 8101,
+    "t": 11699.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0099_act_hand_move",
+    "frames": 8180,
+    "t": 11701.698
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0100_roll_t11704.0",
+    "frames": 8251,
+    "t": 11704.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0101_act_tele_hand",
+    "frames": 8308,
+    "t": 11705.948
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0102_roll_t11709.0",
+    "frames": 8401,
+    "t": 11709.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0103_act_hand_move",
+    "frames": 8435,
+    "t": 11710.198
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0104_roll_t11714.0",
+    "frames": 8551,
+    "t": 11714.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0105_act_tele_hand",
+    "frames": 8563,
+    "t": 11714.448
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0106_act_hand_move",
+    "frames": 8690,
+    "t": 11718.698
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0107_roll_t11719.0",
+    "frames": 8701,
+    "t": 11719.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0108_act_tele_hand",
+    "frames": 8818,
+    "t": 11722.948
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0109_roll_t11724.0",
+    "frames": 8851,
+    "t": 11724.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0110_act_hand_move",
+    "frames": 8945,
+    "t": 11727.198
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0111_roll_t11729.0",
+    "frames": 9001,
+    "t": 11729.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0112_act_tele_hand",
+    "frames": 9073,
+    "t": 11731.448
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0113_roll_t11734.0",
+    "frames": 9151,
+    "t": 11734.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0114_act_hand_move",
+    "frames": 9200,
+    "t": 11735.698
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0115_roll_t11739.0",
+    "frames": 9301,
+    "t": 11739.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0116_act_tele_hand",
+    "frames": 9328,
+    "t": 11739.948
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0117_roll_t11744.0",
+    "frames": 9451,
+    "t": 11744.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0118_act_hand_move",
+    "frames": 9455,
+    "t": 11744.198
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0119_act_tele_hand",
+    "frames": 9583,
+    "t": 11748.448
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0120_roll_t11749.0",
+    "frames": 9601,
+    "t": 11749.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0121_act_hand_move",
+    "frames": 9710,
+    "t": 11752.698
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0122_roll_t11754.0",
+    "frames": 9751,
+    "t": 11754.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0123_act_tele_hand",
+    "frames": 9838,
+    "t": 11756.948
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0124_roll_t11759.0",
+    "frames": 9901,
+    "t": 11759.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0125_act_hand_move",
+    "frames": 9965,
+    "t": 11761.198
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0126_roll_t11764.0",
+    "frames": 10051,
+    "t": 11764.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0127_act_open_jaws",
+    "frames": 10093,
+    "t": 11765.448
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0128_act_hand_up",
+    "frames": 10138,
+    "t": 11766.948
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0129_roll_t11769.0",
+    "frames": 10201,
+    "t": 11769.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0130_act_stand",
+    "frames": 10265,
+    "t": 11771.198
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0131_act_crouch",
+    "frames": 10313,
+    "t": 11772.798
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0132_roll_t11774.0",
+    "frames": 10351,
+    "t": 11774.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0133_act_rest_hands",
+    "frames": 10361,
+    "t": 11774.398
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0134_item_r93i1_nugget",
+    "frames": 10394,
+    "t": 11775.498
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0135_act_n1_pre_sponges",
+    "frames": 10394,
+    "t": 11775.498
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0136_act_walk_leg",
+    "frames": 10424,
+    "t": 11776.498
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0137_roll_t11779.0",
+    "frames": 10501,
+    "t": 11779.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0138_roll_t11784.0",
+    "frames": 10651,
+    "t": 11784.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0139_roll_t11789.0",
+    "frames": 10801,
+    "t": 11789.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0140_roll_t11794.0",
+    "frames": 10951,
+    "t": 11794.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0141_roll_t11799.0",
+    "frames": 11101,
+    "t": 11799.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0142_act_walk",
+    "frames": 11111,
+    "t": 11799.392
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0143_act__turn_on_spot",
+    "frames": 11173,
+    "t": 11801.458
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0144_roll_t11804.0",
+    "frames": 11251,
+    "t": 11804.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0145_roll_t11809.0",
+    "frames": 11401,
+    "t": 11809.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0146_act_walk_leg",
+    "frames": 11451,
+    "t": 11810.728
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0147_roll_t11814.0",
+    "frames": 11551,
+    "t": 11814.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0148_roll_t11819.0",
+    "frames": 11701,
+    "t": 11819.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0149_roll_t11824.0",
+    "frames": 11851,
+    "t": 11824.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0150_roll_t11829.0",
+    "frames": 12001,
+    "t": 11829.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0151_act_walk_leg",
+    "frames": 12060,
+    "t": 11831.03
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0152_roll_t11834.0",
+    "frames": 12151,
+    "t": 11834.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0153_roll_t11839.0",
+    "frames": 12301,
+    "t": 11839.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0154_roll_t11844.0",
+    "frames": 12451,
+    "t": 11844.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0155_roll_t11849.0",
+    "frames": 12601,
+    "t": 11849.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0156_act_walk",
+    "frames": 12630,
+    "t": 11850.014
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0157_act__turn_on_spot",
+    "frames": 12701,
+    "t": 11852.368
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0158_roll_t11854.0",
+    "frames": 12751,
+    "t": 11854.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0159_roll_t11859.0",
+    "frames": 12901,
+    "t": 11859.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0160_act_walk",
+    "frames": 12918,
+    "t": 11859.604
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0161_act__turn_on_spot",
+    "frames": 13042,
+    "t": 11863.738
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0162_roll_t11864.0",
+    "frames": 13051,
+    "t": 11864.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0163_act_close_jaws",
+    "frames": 13135,
+    "t": 11866.844
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0164_act_roll_reach",
+    "frames": 13150,
+    "t": 11867.344
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0165_roll_t11869.0",
+    "frames": 13201,
+    "t": 11869.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0166_act_hand_move",
+    "frames": 13245,
+    "t": 11870.524
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0167_roll_t11874.0",
+    "frames": 13351,
+    "t": 11874.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0168_act_servo_pads",
+    "frames": 13401,
+    "t": 11875.724
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0169_roll_t11879.0",
+    "frames": 13501,
+    "t": 11879.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0170_act_hand_move",
+    "frames": 13529,
+    "t": 11879.974
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0171_roll_t11884.0",
+    "frames": 13651,
+    "t": 11884.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0172_act_hand_move",
+    "frames": 13656,
+    "t": 11884.224
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0173_act_servo_pads",
+    "frames": 13769,
+    "t": 11887.982
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0174_roll_t11889.0",
+    "frames": 13801,
+    "t": 11889.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0175_act_roll_nearer",
+    "frames": 13804,
+    "t": 11889.158
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0176_roll_t11894.0",
+    "frames": 13951,
+    "t": 11894.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0177_act_hand_down",
+    "frames": 14008,
+    "t": 11895.958
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0178_act_hand_down",
+    "frames": 14091,
+    "t": 11898.706
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0179_roll_t11899.0",
+    "frames": 14101,
+    "t": 11899.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0180_act_hand_down",
+    "frames": 14212,
+    "t": 11902.76
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0181_roll_t11904.0",
+    "frames": 14251,
+    "t": 11904.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0182_act_rest_hands",
+    "frames": 14320,
+    "t": 11906.342
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0183_act_tele_move",
+    "frames": 14374,
+    "t": 11908.142
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0184_roll_t11909.0",
+    "frames": 14401,
+    "t": 11909.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0185_act_close_jaws",
+    "frames": 14461,
+    "t": 11911.042
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0186_act_two_hand_reach",
+    "frames": 14473,
+    "t": 11911.442
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0187_roll_t11914.0",
+    "frames": 14551,
+    "t": 11914.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0188_act_hand_move",
+    "frames": 14568,
+    "t": 11914.616
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0189_roll_t11919.0",
+    "frames": 14701,
+    "t": 11919.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0190_act_servo_pads",
+    "frames": 14724,
+    "t": 11919.816
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0191_roll_t11924.0",
+    "frames": 14851,
+    "t": 11924.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0192_act_hand_move",
+    "frames": 14852,
+    "t": 11924.066
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0193_act_hand_move",
+    "frames": 14979,
+    "t": 11928.316
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0194_roll_t11929.0",
+    "frames": 15001,
+    "t": 11929.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0195_act_close_jaws",
+    "frames": 15107,
+    "t": 11932.566
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0196_act_two_hand_reach",
+    "frames": 15119,
+    "t": 11932.966
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0197_roll_t11934.0",
+    "frames": 15151,
+    "t": 11934.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0198_act_hand_move",
+    "frames": 15222,
+    "t": 11936.41
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0199_roll_t11939.0",
+    "frames": 15301,
+    "t": 11939.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0200_act_servo_pads",
+    "frames": 15378,
+    "t": 11941.61
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0201_roll_t11944.0",
+    "frames": 15451,
+    "t": 11944.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0202_act_hand_move",
+    "frames": 15505,
+    "t": 11945.86
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0203_roll_t11949.0",
+    "frames": 15601,
+    "t": 11949.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0204_act_hand_move",
+    "frames": 15633,
+    "t": 11950.11
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0205_act_servo_pads",
+    "frames": 15640,
+    "t": 11950.362
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0206_act_servo_pads",
+    "frames": 15694,
+    "t": 11952.15
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0207_act_servo_pads",
+    "frames": 15742,
+    "t": 11953.746
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0208_roll_t11954.0",
+    "frames": 15751,
+    "t": 11954.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0209_act_servo_pads",
+    "frames": 15784,
+    "t": 11955.152
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0210_act_servo_pads",
+    "frames": 15834,
+    "t": 11956.814
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0211_act_two_hand_squeeze",
+    "frames": 15842,
+    "t": 11957.066
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0212_roll_t11959.0",
+    "frames": 15901,
+    "t": 11959.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0213_act_two_hand_lift",
+    "frames": 15925,
+    "t": 11959.864
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0214_roll_t11964.0",
+    "frames": 16051,
+    "t": 11964.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0215_act_tele_move",
+    "frames": 16177,
+    "t": 11968.264
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0216_roll_t11969.0",
+    "frames": 16201,
+    "t": 11969.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0217_act_walk_leg",
+    "frames": 16303,
+    "t": 11972.446
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0218_roll_t11974.0",
+    "frames": 16351,
+    "t": 11974.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0219_roll_t11979.0",
+    "frames": 16501,
+    "t": 11979.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0220_roll_t11984.0",
+    "frames": 16651,
+    "t": 11984.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0221_roll_t11989.0",
+    "frames": 16801,
+    "t": 11989.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0222_act_walk",
+    "frames": 16829,
+    "t": 11989.984
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0223_act__turn_on_spot",
+    "frames": 16881,
+    "t": 11991.7
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0224_roll_t11994.0",
+    "frames": 16951,
+    "t": 11994.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0225_roll_t11999.0",
+    "frames": 17101,
+    "t": 11999.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0226_act_walk_leg",
+    "frames": 17171,
+    "t": 12001.372
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0227_roll_t12004.0",
+    "frames": 17251,
+    "t": 12004.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0228_act_walk",
+    "frames": 17390,
+    "t": 12008.674
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0229_roll_t12009.0",
+    "frames": 17401,
+    "t": 12009.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0230_roll_t12014.0",
+    "frames": 17551,
+    "t": 12014.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0231_roll_t12019.0",
+    "frames": 17701,
+    "t": 12019.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0232_act__turn_on_spot",
+    "frames": 17732,
+    "t": 12020.08
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0233_roll_t12024.0",
+    "frames": 17851,
+    "t": 12024.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0234_act_two_hand_vise",
+    "frames": 17949,
+    "t": 12027.3
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0235_roll_t12029.0",
+    "frames": 18001,
+    "t": 12029.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0236_act_two_hand_servo",
+    "frames": 18009,
+    "t": 12029.3
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0237_act_two_hand_squat",
+    "frames": 18039,
+    "t": 12030.3
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0238_act_two_hand_squat",
+    "frames": 18114,
+    "t": 12032.8
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0239_roll_t12034.0",
+    "frames": 18151,
+    "t": 12034.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0240_act_two_hand_squat",
+    "frames": 18189,
+    "t": 12035.3
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0241_act_two_hand_lean",
+    "frames": 18271,
+    "t": 12038.05
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0242_roll_t12039.0",
+    "frames": 18301,
+    "t": 12039.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0243_act_two_hand_lower",
+    "frames": 18346,
+    "t": 12040.55
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0244_roll_t12044.0",
+    "frames": 18451,
+    "t": 12044.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0245_act_two_hand_release",
+    "frames": 18456,
+    "t": 12044.2
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0246_act_two_hand_stand",
+    "frames": 18504,
+    "t": 12045.8
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0247_roll_t12049.0",
+    "frames": 18601,
+    "t": 12049.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0248_roll_t12054.0",
+    "frames": 18751,
+    "t": 12054.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0249_act_tele_move",
+    "frames": 18783,
+    "t": 12055.1
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0250_roll_t12059.0",
+    "frames": 18901,
+    "t": 12059.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0251_act_tele_move",
+    "frames": 18950,
+    "t": 12060.694
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0252_roll_t12064.0",
+    "frames": 19051,
+    "t": 12064.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0253_act_hand_down",
+    "frames": 19118,
+    "t": 12066.274
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0254_roll_t12069.0",
+    "frames": 19201,
+    "t": 12069.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0255_act_hand_down",
+    "frames": 19221,
+    "t": 12069.702
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0256_act_hand_down",
+    "frames": 19343,
+    "t": 12073.788
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0257_roll_t12074.0",
+    "frames": 19351,
+    "t": 12074.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0258_act_rest_hands",
+    "frames": 19451,
+    "t": 12077.386
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0259_roll_t12079.0",
+    "frames": 19501,
+    "t": 12079.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0260_act_hand_down",
+    "frames": 19505,
+    "t": 12079.186
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0261_act_hand_down",
+    "frames": 19583,
+    "t": 12081.788
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0262_roll_t12084.0",
+    "frames": 19651,
+    "t": 12084.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0263_act_hand_down",
+    "frames": 19706,
+    "t": 12085.872
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0264_roll_t12089.0",
+    "frames": 19801,
+    "t": 12089.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0265_act_rest_hands",
+    "frames": 19814,
+    "t": 12089.468
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0266_act_open_jaws",
+    "frames": 19868,
+    "t": 12091.268
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0267_act_open_jaws",
+    "frames": 19877,
+    "t": 12091.568
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0268_act_stand_up",
+    "frames": 19886,
+    "t": 12091.868
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0269_roll_t12094.0",
+    "frames": 19951,
+    "t": 12094.032
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0270_item_r83i1_sponges",
+    "frames": 19979,
+    "t": 12094.968
+   }
+  ]
+ },
+ {
+  "run": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4",
+  "from_ckpt": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0135_act_n1_pre_sponges",
+  "start_frame": 19979,
+  "saves": []
+ },
+ {
+  "run": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4",
+  "from_ckpt": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0270_item_r83i1_sponges",
+  "start_frame": 19985,
+  "saves": [
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0271_act_rest_hands",
+    "frames": 20031,
+    "t": 12096.47
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0272_act_x_fix_start",
+    "frames": 20085,
+    "t": 12098.27
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0273_act_walk_to_stance",
+    "frames": 20094,
+    "t": 12098.57
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0274_roll_t12100.0",
+    "frames": 20135,
+    "t": 12099.968
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0275_roll_t12105.0",
+    "frames": 20285,
+    "t": 12104.968
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0276_roll_t12110.0",
+    "frames": 20435,
+    "t": 12109.968
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0277_act_walk",
+    "frames": 20528,
+    "t": 12113.046
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0278_roll_t12115.0",
+    "frames": 20585,
+    "t": 12114.968
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0279_roll_t12120.0",
+    "frames": 20735,
+    "t": 12119.968
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0280_act__turn_on_spot",
+    "frames": 20739,
+    "t": 12120.082
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0281_roll_t12125.0",
+    "frames": 20885,
+    "t": 12124.968
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0282_act_walk",
+    "frames": 20919,
+    "t": 12126.084
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0283_roll_t12130.0",
+    "frames": 21035,
+    "t": 12129.968
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0284_act__turn_on_spot",
+    "frames": 21081,
+    "t": 12131.476
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0285_act_open_jaws",
+    "frames": 21117,
+    "t": 12132.682
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0286_act_crouch",
+    "frames": 21123,
+    "t": 12132.882
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0287_roll_t12135.0",
+    "frames": 21185,
+    "t": 12134.968
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0288_act_servo_pads",
+    "frames": 21189,
+    "t": 12135.082
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0289_act_hand_move",
+    "frames": 21316,
+    "t": 12139.332
+   }
+  ]
+ },
+ {
+  "run": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4",
+  "from_ckpt": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0272_act_x_fix_start",
+  "start_frame": 21322,
+  "saves": [
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0290_act_rest_hands",
+    "frames": 21368,
+    "t": 12099.772
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0291_act_walk_path",
+    "frames": 21422,
+    "t": 12101.572
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0292_roll_t12103.3",
+    "frames": 21473,
+    "t": 12103.27
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0293_roll_t12108.3",
+    "frames": 21623,
+    "t": 12108.27
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0294_roll_t12113.3",
+    "frames": 21773,
+    "t": 12113.27
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0295_roll_t12118.3",
+    "frames": 21923,
+    "t": 12118.27
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0296_act_walk",
+    "frames": 21940,
+    "t": 12118.838
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0297_act__turn_on_spot",
+    "frames": 22009,
+    "t": 12121.15
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0298_roll_t12123.3",
+    "frames": 22073,
+    "t": 12123.27
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0299_roll_t12128.3",
+    "frames": 22223,
+    "t": 12128.27
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0300_act_crouch",
+    "frames": 22313,
+    "t": 12131.272
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0301_act_crouch",
+    "frames": 22361,
+    "t": 12132.872
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0302_roll_t12133.3",
+    "frames": 22373,
+    "t": 12133.27
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0303_act_crouch",
+    "frames": 22409,
+    "t": 12134.472
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0304_act_open_jaws",
+    "frames": 22457,
+    "t": 12136.072
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0305_act_servo_pads",
+    "frames": 22466,
+    "t": 12136.372
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0306_roll_t12138.3",
+    "frames": 22523,
+    "t": 12138.27
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0307_act_hand_move",
+    "frames": 22593,
+    "t": 12140.622
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0308_act_servo_pads",
+    "frames": 22638,
+    "t": 12142.12
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0309_roll_t12143.3",
+    "frames": 22673,
+    "t": 12143.27
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0310_act_close_jaws",
+    "frames": 22717,
+    "t": 12144.746
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0311_act_lift",
+    "frames": 22741,
+    "t": 12145.546
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0312_roll_t12148.3",
+    "frames": 22823,
+    "t": 12148.27
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0313_act_x_pouch_held",
+    "frames": 22840,
+    "t": 12148.846
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0314_act_walk_path",
+    "frames": 22915,
+    "t": 12151.346
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0315_act__turn_on_spot",
+    "frames": 22945,
+    "t": 12152.346
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0316_roll_t12153.3",
+    "frames": 22973,
+    "t": 12153.27
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0317_act_walk_leg",
+    "frames": 23095,
+    "t": 12157.354
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0318_roll_t12158.3",
+    "frames": 23123,
+    "t": 12158.27
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0319_roll_t12163.3",
+    "frames": 23273,
+    "t": 12163.27
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0320_act_walk",
+    "frames": 23288,
+    "t": 12163.796
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0321_act__turn_on_spot",
+    "frames": 23359,
+    "t": 12166.156
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0322_roll_t12168.3",
+    "frames": 23423,
+    "t": 12168.27
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0323_act_walk",
+    "frames": 23563,
+    "t": 12172.95
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0324_roll_t12173.3",
+    "frames": 23573,
+    "t": 12173.27
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0325_roll_t12178.3",
+    "frames": 23723,
+    "t": 12178.27
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0326_act__turn_on_spot",
+    "frames": 23723,
+    "t": 12178.282
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0327_act_x_pouch_at_bin",
+    "frames": 23864,
+    "t": 12182.994
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0328_roll_t12183.3",
+    "frames": 23873,
+    "t": 12183.27
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0329_act_hand_move",
+    "frames": 23992,
+    "t": 12187.244
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0330_roll_t12188.3",
+    "frames": 24023,
+    "t": 12188.27
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0331_act_hand_move",
+    "frames": 24119,
+    "t": 12191.494
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0332_roll_t12193.3",
+    "frames": 24173,
+    "t": 12193.27
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0333_act_tele_move",
+    "frames": 24259,
+    "t": 12196.144
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0334_roll_t12198.3",
+    "frames": 24323,
+    "t": 12198.27
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0335_act_tele_move",
+    "frames": 24421,
+    "t": 12201.544
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0336_roll_t12203.3",
+    "frames": 24473,
+    "t": 12203.27
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0337_act_rest_hands",
+    "frames": 24575,
+    "t": 12206.698
+   }
+  ]
+ },
+ {
+  "run": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4",
+  "from_ckpt": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0327_act_x_pouch_at_bin",
+  "start_frame": 24614,
+  "saves": [
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0338_act_servo_pads",
+    "frames": 24675,
+    "t": 12184.996
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0339_roll_t12188.0",
+    "frames": 24764,
+    "t": 12187.994
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0340_act_hand_move",
+    "frames": 24802,
+    "t": 12189.246
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0341_roll_t12193.0",
+    "frames": 24914,
+    "t": 12192.994
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0342_act_hand_move",
+    "frames": 24930,
+    "t": 12193.496
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0343_act_servo_pads",
+    "frames": 25057,
+    "t": 12197.746
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0344_roll_t12198.0",
+    "frames": 25064,
+    "t": 12197.994
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0345_act_hand_move",
+    "frames": 25185,
+    "t": 12201.996
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0346_roll_t12203.0",
+    "frames": 25214,
+    "t": 12202.994
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0347_act_hand_move",
+    "frames": 25312,
+    "t": 12206.246
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0348_roll_t12208.0",
+    "frames": 25364,
+    "t": 12207.994
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0349_act_servo_pads",
+    "frames": 25440,
+    "t": 12210.496
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0350_roll_t12213.0",
+    "frames": 25514,
+    "t": 12212.994
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0351_act_hand_move",
+    "frames": 25567,
+    "t": 12214.746
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0352_roll_t12218.0",
+    "frames": 25664,
+    "t": 12217.994
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0353_act_hand_move",
+    "frames": 25695,
+    "t": 12218.996
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0354_roll_t12223.0",
+    "frames": 25814,
+    "t": 12222.994
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0355_act_open_jaws",
+    "frames": 25822,
+    "t": 12223.246
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0356_act_hand_move",
+    "frames": 25882,
+    "t": 12225.246
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0357_act_rest_hands",
+    "frames": 25915,
+    "t": 12226.354
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0358_act_x_pouch_in",
+    "frames": 25948,
+    "t": 12227.454
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0359_act_tele_move",
+    "frames": 25960,
+    "t": 12227.854
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0360_roll_t12228.0",
+    "frames": 25964,
+    "t": 12227.994
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0361_act_tele_move",
+    "frames": 25975,
+    "t": 12228.354
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0362_act_rest_hands",
+    "frames": 26101,
+    "t": 12232.528
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0363_roll_t12233.0",
+    "frames": 26114,
+    "t": 12232.994
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0364_act_walk_path",
+    "frames": 26140,
+    "t": 12233.828
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0365_roll_t12238.0",
+    "frames": 26264,
+    "t": 12237.994
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0366_roll_t12243.0",
+    "frames": 26414,
+    "t": 12242.994
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0367_act_walk",
+    "frames": 26439,
+    "t": 12243.824
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0368_act__turn_on_spot",
+    "frames": 26508,
+    "t": 12246.106
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0369_roll_t12248.0",
+    "frames": 26564,
+    "t": 12247.994
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0370_roll_t12253.0",
+    "frames": 26714,
+    "t": 12252.994
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0371_act_crouch",
+    "frames": 26798,
+    "t": 12255.778
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0372_act_crouch",
+    "frames": 26846,
+    "t": 12257.378
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0373_roll_t12258.0",
+    "frames": 26864,
+    "t": 12257.994
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0374_act_crouch",
+    "frames": 26894,
+    "t": 12258.978
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0375_act_open_jaws",
+    "frames": 26942,
+    "t": 12260.578
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0376_act_servo_pads",
+    "frames": 26951,
+    "t": 12260.878
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0377_roll_t12263.0",
+    "frames": 27014,
+    "t": 12262.994
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0378_act_hand_move",
+    "frames": 27079,
+    "t": 12265.128
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0379_act_hand_move",
+    "frames": 27123,
+    "t": 12266.596
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0380_act_servo_pads",
+    "frames": 27130,
+    "t": 12266.848
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0381_roll_t12268.0",
+    "frames": 27164,
+    "t": 12267.994
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0382_act_close_jaws",
+    "frames": 27203,
+    "t": 12269.284
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0383_act_lift",
+    "frames": 27227,
+    "t": 12270.084
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0384_roll_t12273.0",
+    "frames": 27314,
+    "t": 12272.994
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0385_act_x_held_r195i3_paper",
+    "frames": 27326,
+    "t": 12273.384
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0386_act_walk_path",
+    "frames": 27401,
+    "t": 12275.884
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0387_roll_t12278.0",
+    "frames": 27464,
+    "t": 12277.994
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0388_roll_t12283.0",
+    "frames": 27614,
+    "t": 12282.994
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0389_act__turn_on_spot",
+    "frames": 27615,
+    "t": 12283.006
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0390_act_walk_leg",
+    "frames": 27731,
+    "t": 12286.884
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0391_roll_t12288.0",
+    "frames": 27764,
+    "t": 12287.994
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0392_roll_t12293.0",
+    "frames": 27914,
+    "t": 12292.994
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0393_act_walk",
+    "frames": 28051,
+    "t": 12297.546
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0394_roll_t12298.0",
+    "frames": 28064,
+    "t": 12297.994
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0395_act__turn_on_spot",
+    "frames": 28115,
+    "t": 12299.662
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0396_roll_t12303.0",
+    "frames": 28214,
+    "t": 12302.994
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0397_roll_t12308.0",
+    "frames": 28364,
+    "t": 12307.994
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0398_act_walk",
+    "frames": 28392,
+    "t": 12308.92
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0399_roll_t12313.0",
+    "frames": 28514,
+    "t": 12312.994
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0400_act__turn_on_spot",
+    "frames": 28527,
+    "t": 12313.402
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0401_act_x_at_bin_r195i3_paper",
+    "frames": 28619,
+    "t": 12316.482
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0402_roll_t12318.0",
+    "frames": 28664,
+    "t": 12317.994
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0403_act_hand_move",
+    "frames": 28747,
+    "t": 12320.732
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0404_roll_t12323.0",
+    "frames": 28814,
+    "t": 12322.994
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0405_act_hand_move",
+    "frames": 28874,
+    "t": 12324.982
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0406_roll_t12328.0",
+    "frames": 28964,
+    "t": 12327.994
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0407_act_servo_pads",
+    "frames": 29002,
+    "t": 12329.232
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0408_roll_t12333.0",
+    "frames": 29114,
+    "t": 12332.994
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0409_act_hand_move",
+    "frames": 29129,
+    "t": 12333.482
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0410_act_hand_move",
+    "frames": 29257,
+    "t": 12337.732
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0411_roll_t12338.0",
+    "frames": 29264,
+    "t": 12337.994
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0412_act_servo_pads",
+    "frames": 29384,
+    "t": 12341.982
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0413_roll_t12343.0",
+    "frames": 29414,
+    "t": 12342.994
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0414_act_hand_move",
+    "frames": 29512,
+    "t": 12346.232
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0415_roll_t12348.0",
+    "frames": 29564,
+    "t": 12347.994
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0416_act_hand_move",
+    "frames": 29639,
+    "t": 12350.482
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0417_roll_t12353.0",
+    "frames": 29714,
+    "t": 12352.994
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0418_act_servo_pads",
+    "frames": 29767,
+    "t": 12354.732
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0419_roll_t12358.0",
+    "frames": 29864,
+    "t": 12357.994
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0420_act_hand_move",
+    "frames": 29894,
+    "t": 12358.982
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0421_roll_t12363.0",
+    "frames": 30014,
+    "t": 12362.994
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0422_act_hand_move",
+    "frames": 30022,
+    "t": 12363.232
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0423_act_open_jaws",
+    "frames": 30149,
+    "t": 12367.482
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0424_roll_t12368.0",
+    "frames": 30164,
+    "t": 12367.994
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0425_act_hand_move",
+    "frames": 30209,
+    "t": 12369.482
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0426_act_rest_hands",
+    "frames": 30244,
+    "t": 12370.634
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0427_act_tele_move",
+    "frames": 30289,
+    "t": 12372.134
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0428_act_tele_move",
+    "frames": 30305,
+    "t": 12372.684
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0429_roll_t12373.0",
+    "frames": 30314,
+    "t": 12372.994
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0430_act_rest_hands",
+    "frames": 30431,
+    "t": 12376.87
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0431_roll_t12378.0",
+    "frames": 30464,
+    "t": 12377.994
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0432_act_x_paper3_in",
+    "frames": 30470,
+    "t": 12378.17
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0433_roll_t12383.0",
+    "frames": 30614,
+    "t": 12382.994
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0434_roll_t12388.0",
+    "frames": 30764,
+    "t": 12387.994
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0435_act_walk",
+    "frames": 30798,
+    "t": 12389.11
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0436_act__turn_on_spot",
+    "frames": 30865,
+    "t": 12391.36
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0437_roll_t12393.0",
+    "frames": 30914,
+    "t": 12392.994
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0438_roll_t12398.0",
+    "frames": 31064,
+    "t": 12397.994
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0439_act_walk_leg",
+    "frames": 31131,
+    "t": 12400.198
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0440_roll_t12403.0",
+    "frames": 31214,
+    "t": 12402.994
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0441_act_walk",
+    "frames": 31308,
+    "t": 12406.1
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0442_roll_t12408.0",
+    "frames": 31364,
+    "t": 12407.994
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0443_act__turn_on_spot",
+    "frames": 31376,
+    "t": 12408.394
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0444_roll_t12413.0",
+    "frames": 31514,
+    "t": 12412.994
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0445_roll_t12418.0",
+    "frames": 31664,
+    "t": 12417.994
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0446_act_walk",
+    "frames": 31680,
+    "t": 12418.516
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0447_act__turn_on_spot",
+    "frames": 31804,
+    "t": 12422.656
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0448_roll_t12423.0",
+    "frames": 31814,
+    "t": 12422.994
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0449_act_walk_path",
+    "frames": 31910,
+    "t": 12426.174
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0450_roll_t12428.0",
+    "frames": 31964,
+    "t": 12427.994
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0451_act_crouch",
+    "frames": 32092,
+    "t": 12432.244
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0452_roll_t12433.0",
+    "frames": 32114,
+    "t": 12432.994
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0453_act_crouch",
+    "frames": 32140,
+    "t": 12433.844
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0454_act_crouch",
+    "frames": 32188,
+    "t": 12435.444
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0455_act_open_jaws",
+    "frames": 32236,
+    "t": 12437.044
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0456_act_servo_pads",
+    "frames": 32245,
+    "t": 12437.344
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0457_roll_t12438.0",
+    "frames": 32264,
+    "t": 12437.994
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0458_act_hand_move",
+    "frames": 32372,
+    "t": 12441.594
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0459_roll_t12443.0",
+    "frames": 32414,
+    "t": 12442.994
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0460_act_hand_move",
+    "frames": 32500,
+    "t": 12445.844
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0461_roll_t12448.0",
+    "frames": 32564,
+    "t": 12447.994
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0462_act_servo_pads",
+    "frames": 32627,
+    "t": 12450.094
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0463_roll_t12453.0",
+    "frames": 32714,
+    "t": 12452.994
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0464_act_hand_move",
+    "frames": 32755,
+    "t": 12454.344
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0465_roll_t12458.0",
+    "frames": 32864,
+    "t": 12457.994
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0466_act_hand_move",
+    "frames": 32882,
+    "t": 12458.594
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0467_act_close_jaws",
+    "frames": 33010,
+    "t": 12462.844
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0468_roll_t12463.0",
+    "frames": 33014,
+    "t": 12462.994
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0469_act_open_jaws",
+    "frames": 33034,
+    "t": 12463.644
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0470_act_servo_pads",
+    "frames": 33043,
+    "t": 12463.944
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0471_act_servo_pads",
+    "frames": 33118,
+    "t": 12466.442
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0472_roll_t12468.0",
+    "frames": 33164,
+    "t": 12467.994
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0473_act_close_jaws",
+    "frames": 33194,
+    "t": 12468.97
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0474_act_open_jaws",
+    "frames": 33218,
+    "t": 12469.77
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0475_act_servo_pads",
+    "frames": 33227,
+    "t": 12470.07
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0476_roll_t12473.0",
+    "frames": 33314,
+    "t": 12472.994
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0477_act_hand_move",
+    "frames": 33354,
+    "t": 12474.32
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0478_roll_t12478.0",
+    "frames": 33464,
+    "t": 12477.994
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0479_act_hand_move",
+    "frames": 33482,
+    "t": 12478.57
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0480_act_servo_pads",
+    "frames": 33609,
+    "t": 12482.82
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0481_roll_t12483.0",
+    "frames": 33614,
+    "t": 12482.994
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0482_act_hand_move",
+    "frames": 33737,
+    "t": 12487.07
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0483_roll_t12488.0",
+    "frames": 33764,
+    "t": 12487.994
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0484_act_hand_move",
+    "frames": 33864,
+    "t": 12491.32
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0485_roll_t12493.0",
+    "frames": 33914,
+    "t": 12492.994
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0486_act_close_jaws",
+    "frames": 33992,
+    "t": 12495.57
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0487_act_open_jaws",
+    "frames": 34016,
+    "t": 12496.37
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0488_act_servo_pads",
+    "frames": 34025,
+    "t": 12496.67
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0489_roll_t12498.0",
+    "frames": 34064,
+    "t": 12497.994
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0490_act_servo_pads",
+    "frames": 34105,
+    "t": 12499.328
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0491_act_close_jaws",
+    "frames": 34176,
+    "t": 12501.724
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0492_act_lift",
+    "frames": 34200,
+    "t": 12502.524
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0493_roll_t12503.0",
+    "frames": 34214,
+    "t": 12502.994
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0494_act_x_held_r195i1_paper",
+    "frames": 34299,
+    "t": 12505.824
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0495_roll_t12508.0",
+    "frames": 34364,
+    "t": 12507.994
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0496_act_walk_path",
+    "frames": 34374,
+    "t": 12508.324
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0497_roll_t12513.0",
+    "frames": 34514,
+    "t": 12512.994
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0498_act__turn_on_spot",
+    "frames": 34533,
+    "t": 12513.598
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0499_act_walk_leg",
+    "frames": 34637,
+    "t": 12517.092
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0500_roll_t12518.0",
+    "frames": 34664,
+    "t": 12517.994
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0501_roll_t12523.0",
+    "frames": 34814,
+    "t": 12522.994
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0502_roll_t12528.0",
+    "frames": 34964,
+    "t": 12527.994
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0503_act_walk",
+    "frames": 34969,
+    "t": 12528.14
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0504_act__turn_on_spot",
+    "frames": 35040,
+    "t": 12530.518
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0505_roll_t12533.0",
+    "frames": 35114,
+    "t": 12532.994
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0506_roll_t12538.0",
+    "frames": 35264,
+    "t": 12537.994
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0507_act_walk_leg",
+    "frames": 35268,
+    "t": 12538.108
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0508_roll_t12543.0",
+    "frames": 35414,
+    "t": 12542.994
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0509_act_walk",
+    "frames": 35436,
+    "t": 12543.71
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0510_act__turn_on_spot",
+    "frames": 35505,
+    "t": 12546.004
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0511_roll_t12548.0",
+    "frames": 35564,
+    "t": 12547.994
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0512_roll_t12553.0",
+    "frames": 35714,
+    "t": 12552.994
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0513_act_walk_leg",
+    "frames": 35758,
+    "t": 12554.434
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0514_roll_t12558.0",
+    "frames": 35864,
+    "t": 12557.994
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0515_act_walk",
+    "frames": 35893,
+    "t": 12558.936
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0516_act__turn_on_spot",
+    "frames": 35963,
+    "t": 12561.286
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0517_roll_t12563.0",
+    "frames": 36014,
+    "t": 12562.994
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0518_roll_t12568.0",
+    "frames": 36164,
+    "t": 12567.994
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0519_act_walk_leg",
+    "frames": 36254,
+    "t": 12570.982
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0520_act_walk",
+    "frames": 36305,
+    "t": 12572.684
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0521_roll_t12573.0",
+    "frames": 36314,
+    "t": 12572.994
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0522_act__turn_on_spot",
+    "frames": 36377,
+    "t": 12575.092
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0523_roll_t12578.0",
+    "frames": 36464,
+    "t": 12577.994
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0524_roll_t12583.0",
+    "frames": 36614,
+    "t": 12582.994
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0525_act_walk",
+    "frames": 36617,
+    "t": 12583.078
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0526_act__turn_on_spot",
+    "frames": 36751,
+    "t": 12587.56
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0527_roll_t12588.0",
+    "frames": 36764,
+    "t": 12587.994
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0528_act_x_at_bin_r195i1_paper",
+    "frames": 36893,
+    "t": 12592.278
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0529_roll_t12593.0",
+    "frames": 36914,
+    "t": 12592.994
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0530_act_hand_move",
+    "frames": 37021,
+    "t": 12596.528
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0531_roll_t12598.0",
+    "frames": 37064,
+    "t": 12597.994
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0532_act_hand_move",
+    "frames": 37148,
+    "t": 12600.778
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0533_roll_t12603.0",
+    "frames": 37214,
+    "t": 12602.994
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0534_act_servo_pads",
+    "frames": 37276,
+    "t": 12605.028
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0535_roll_t12608.0",
+    "frames": 37364,
+    "t": 12607.994
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0536_act_hand_move",
+    "frames": 37403,
+    "t": 12609.278
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0537_roll_t12613.0",
+    "frames": 37514,
+    "t": 12612.994
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0538_act_hand_move",
+    "frames": 37531,
+    "t": 12613.528
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0539_act_servo_pads",
+    "frames": 37658,
+    "t": 12617.778
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0540_roll_t12618.0",
+    "frames": 37664,
+    "t": 12617.994
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0541_act_hand_move",
+    "frames": 37786,
+    "t": 12622.028
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0542_roll_t12623.0",
+    "frames": 37814,
+    "t": 12622.994
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0543_act_hand_move",
+    "frames": 37913,
+    "t": 12626.278
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0544_roll_t12628.0",
+    "frames": 37964,
+    "t": 12627.994
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0545_act_servo_pads",
+    "frames": 38041,
+    "t": 12630.528
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0546_roll_t12633.0",
+    "frames": 38114,
+    "t": 12632.994
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0547_act_hand_move",
+    "frames": 38168,
+    "t": 12634.778
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0548_roll_t12638.0",
+    "frames": 38264,
+    "t": 12637.994
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0549_act_hand_move",
+    "frames": 38296,
+    "t": 12639.028
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0550_roll_t12643.0",
+    "frames": 38414,
+    "t": 12642.994
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0551_act_open_jaws",
+    "frames": 38423,
+    "t": 12643.278
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0552_act_hand_move",
+    "frames": 38483,
+    "t": 12645.278
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0553_act_rest_hands",
+    "frames": 38520,
+    "t": 12646.524
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0554_roll_t12648.0",
+    "frames": 38564,
+    "t": 12647.994
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0555_act_tele_move",
+    "frames": 38565,
+    "t": 12648.024
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0556_act_tele_move",
+    "frames": 38582,
+    "t": 12648.574
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0557_act_rest_hands",
+    "frames": 38707,
+    "t": 12652.756
+   },
+   {
+    "path": "C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0558_roll_t12653.0",
+    "frames": 38714,
+    "t": 12652.994
+   }
+  ]
+ }
+]

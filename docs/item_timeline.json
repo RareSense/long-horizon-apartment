@@ -1,0 +1,320 @@
+{
+ "total_s": 12054.4,
+ "items": [
+  {
+   "session": 1,
+   "ckpt": "0063_item_r123i1_slipper",
+   "name": "r123i1_slipper",
+   "rec_frame": 4209,
+   "video_t": 136.96666666666667,
+   "dur": 136.96666666666667,
+   "note": "AI-operated. Isaac Sim 6.2 Newton (MuJoCo solver, CPU backend)."
+  },
+  {
+   "session": 1,
+   "ckpt": "0123_item_r195i3_paper",
+   "name": "r195i3_paper",
+   "rec_frame": 7959,
+   "video_t": 261.96666666666664,
+   "dur": 124.99999999999997,
+   "note": "AI-operated. Isaac Sim 6.2 Newton (MuJoCo solver, CPU backend)."
+  },
+  {
+   "session": 1,
+   "ckpt": "0229_item_r195i1_paper",
+   "name": "r195i1_paper",
+   "rec_frame": 15575,
+   "video_t": 515.8333333333334,
+   "dur": 253.86666666666673,
+   "note": "AI-operated. Isaac Sim 6.2 Newton (MuJoCo solver, CPU backend)."
+  },
+  {
+   "session": 1,
+   "ckpt": "0468_item_r131i1_knit_hat",
+   "name": "r131i1_knit_hat",
+   "rec_frame": 31115,
+   "video_t": 1030.3666666666666,
+   "dur": 514.5333333333332,
+   "note": "AI-operated. Isaac Sim 6.2 Newton (MuJoCo solver, CPU backend)."
+  },
+  {
+   "session": 1,
+   "ckpt": "0529_item_r189i1_santa_hat",
+   "name": "r189i1_santa_hat",
+   "rec_frame": 34892,
+   "video_t": 1156.2666666666667,
+   "dur": 125.90000000000009,
+   "note": "AI-operated. Isaac Sim 6.2 Newton (MuJoCo solver, CPU backend)."
+  },
+  {
+   "session": 1,
+   "ckpt": "0662_item_r121i1_jacket",
+   "name": "r121i1_jacket",
+   "rec_frame": 43883,
+   "video_t": 1455.9666666666667,
+   "dur": 299.70000000000005,
+   "note": "AI-operated. Isaac Sim 6.2 Newton (MuJoCo solver, CPU backend)."
+  },
+  {
+   "session": 1,
+   "ckpt": "1587_item_r117i1_blanket",
+   "name": "r117i1_blanket",
+   "rec_frame": 101990,
+   "video_t": 2434.1,
+   "dur": 978.1333333333332,
+   "note": "AI-operated. Isaac Sim 6.2 Newton (MuJoCo solver, CPU backend)."
+  },
+  {
+   "session": 1,
+   "ckpt": "1994_item_r116i1_coat_pile",
+   "name": "r116i1_coat_pile",
+   "rec_frame": 126937,
+   "video_t": 3112.3333333333335,
+   "dur": 678.2333333333336,
+   "note": "AI-operated. Isaac Sim 6.2 Newton (MuJoCo solver, CPU backend)."
+  },
+  {
+   "session": 1,
+   "ckpt": "2136_item_r124i1_sandal",
+   "name": "r124i1_sandal",
+   "rec_frame": 136222,
+   "video_t": 3421.8333333333335,
+   "dur": 309.5,
+   "note": "AI-operated. Isaac Sim 6.2 Newton (MuJoCo solver, CPU backend)."
+  },
+  {
+   "session": 1,
+   "ckpt": "2253_item_r122i1_croc",
+   "name": "r122i1_croc",
+   "rec_frame": 143545,
+   "video_t": 3665.9333333333334,
+   "dur": 244.0999999999999,
+   "note": "AI-operated. Isaac Sim 6.2 Newton (MuJoCo solver, CPU backend)."
+  },
+  {
+   "session": 1,
+   "ckpt": "2491_item_close_dishwasher",
+   "name": "close_dishwasher",
+   "rec_frame": 154006,
+   "video_t": 4014.633333333333,
+   "dur": 348.6999999999998,
+   "note": "AI-operated. Isaac Sim 6.2 Newton (MuJoCo solver, CPU backend)."
+  },
+  {
+   "session": 1,
+   "ckpt": "2584_item_r68i1_rag",
+   "name": "r68i1_rag",
+   "rec_frame": 161338,
+   "video_t": 4259.033333333334,
+   "dur": 244.40000000000055,
+   "note": "AI-operated. Isaac Sim 6.2 Newton (MuJoCo solver, CPU backend)."
+  },
+  {
+   "session": 1,
+   "ckpt": "3158_item_r125i2_flat",
+   "name": "r125i2_flat",
+   "rec_frame": 195729,
+   "video_t": 4767.266666666666,
+   "dur": 508.23333333333267,
+   "note": "AI-operated. Isaac Sim 6.2 Newton (MuJoCo solver, CPU backend)."
+  },
+  {
+   "session": 2,
+   "ckpt": "0368_item_r190i1_stocking",
+   "name": "r190i1_stocking",
+   "rec_frame": 27541,
+   "video_t": 5092.866666666667,
+   "dur": 325.60000000000036,
+   "note": "AI-operated. Isaac Sim 6.2 Newton (MuJoCo solver, CPU backend)."
+  },
+  {
+   "session": 2,
+   "ckpt": "0497_item_r120i2_duck",
+   "name": "r120i2_duck",
+   "rec_frame": 38949,
+   "video_t": 5194.466666666666,
+   "dur": 101.59999999999945,
+   "note": "AI-operated. Isaac Sim 6.2 Newton (MuJoCo solver, CPU backend)."
+  },
+  {
+   "session": 3,
+   "ckpt": "0167_item_r125i1_flat",
+   "name": "r125i1_flat",
+   "rec_frame": 11071,
+   "video_t": 5613.4,
+   "dur": 418.9333333333334,
+   "note": "AI-operated. Isaac Sim 6.2 Newton (MuJoCo solver, CPU backend)."
+  },
+  {
+   "session": 3,
+   "ckpt": "0668_item_r175i1_cardboard_box",
+   "name": "r175i1_cardboard_box",
+   "rec_frame": 43625,
+   "video_t": 6175.766666666666,
+   "dur": 562.3666666666668,
+   "note": "AI-operated. Isaac Sim 6.2 Newton (MuJoCo solver, CPU backend)."
+  },
+  {
+   "session": 3,
+   "ckpt": "0800_item_r178i1_ball",
+   "name": "r178i1_ball",
+   "rec_frame": 52706,
+   "video_t": 6478.466666666666,
+   "dur": 302.6999999999998,
+   "note": "AI-operated. Isaac Sim 6.2 Newton (MuJoCo solver, CPU backend)."
+  },
+  {
+   "session": 3,
+   "ckpt": "0986_item_r179i1_toy_pouch",
+   "name": "r179i1_toy_pouch",
+   "rec_frame": 65268,
+   "video_t": 6865.166666666667,
+   "dur": 386.7000000000007,
+   "note": "AI-operated. Isaac Sim 6.2 Newton (MuJoCo solver, CPU backend)."
+  },
+  {
+   "session": 3,
+   "ckpt": "1251_item_r193i4_toy_piece",
+   "name": "r193i4_toy_piece",
+   "rec_frame": 82472,
+   "video_t": 7127.266666666666,
+   "dur": 262.09999999999945,
+   "note": "AI-operated. Isaac Sim 6.2 Newton (MuJoCo solver, CPU backend)."
+  },
+  {
+   "session": 3,
+   "ckpt": "1338_item_r192i1_ball",
+   "name": "r192i1_ball",
+   "rec_frame": 88367,
+   "video_t": 7323.766666666666,
+   "dur": 196.5,
+   "note": "AI-operated. Isaac Sim 6.2 Newton (MuJoCo solver, CPU backend)."
+  },
+  {
+   "session": 3,
+   "ckpt": "1437_item_r193i2_toy_piece",
+   "name": "r193i2_toy_piece",
+   "rec_frame": 94508,
+   "video_t": 7528.466666666666,
+   "dur": 204.69999999999982,
+   "note": "AI-operated. Isaac Sim 6.2 Newton (MuJoCo solver, CPU backend)."
+  },
+  {
+   "session": 3,
+   "ckpt": "1535_item_r193i3_toy_piece",
+   "name": "r193i3_toy_piece",
+   "rec_frame": 101186,
+   "video_t": 7751.066666666667,
+   "dur": 222.60000000000036,
+   "note": "AI-operated. Isaac Sim 6.2 Newton (MuJoCo solver, CPU backend)."
+  },
+  {
+   "session": 3,
+   "ckpt": "1632_item_r193i1_toy_piece",
+   "name": "r193i1_toy_piece",
+   "rec_frame": 107869,
+   "video_t": 7973.833333333333,
+   "dur": 222.76666666666642,
+   "note": "AI-operated. Isaac Sim 6.2 Newton (MuJoCo solver, CPU backend)."
+  },
+  {
+   "session": 3,
+   "ckpt": "2182_item_r120i1_duck",
+   "name": "r120i1_duck",
+   "rec_frame": 145940,
+   "video_t": 8294.5,
+   "dur": 320.66666666666697,
+   "note": "AI-operated. Isaac Sim 6.2 Newton (MuJoCo solver, CPU backend)."
+  },
+  {
+   "session": 3,
+   "ckpt": "2311_item_r105i1_shoe",
+   "name": "r105i1_shoe",
+   "rec_frame": 155085,
+   "video_t": 8599.333333333334,
+   "dur": 304.83333333333394,
+   "note": "AI-operated. Isaac Sim 6.2 Newton (MuJoCo solver, CPU backend)."
+  },
+  {
+   "session": 3,
+   "ckpt": "2408_item_r105i2_shoe",
+   "name": "r105i2_shoe",
+   "rec_frame": 161398,
+   "video_t": 8809.766666666666,
+   "dur": 210.43333333333248,
+   "note": "AI-operated. Isaac Sim 6.2 Newton (MuJoCo solver, CPU backend)."
+  },
+  {
+   "session": 3,
+   "ckpt": "2490_item_r107i1_umbrella",
+   "name": "r107i1_umbrella",
+   "rec_frame": 166613,
+   "video_t": 8983.6,
+   "dur": 173.83333333333394,
+   "note": "AI-operated. Isaac Sim 6.2 Newton (MuJoCo solver, CPU backend)."
+  },
+  {
+   "session": 3,
+   "ckpt": "2923_item_r159i1_door",
+   "name": "r159i1_door",
+   "rec_frame": 195653,
+   "video_t": 9951.6,
+   "dur": 968.0,
+   "note": "AI-operated. Isaac Sim 6.2 Newton (MuJoCo solver, CPU backend)."
+  },
+  {
+   "session": 3,
+   "ckpt": "3140_item_r158i1_tissue",
+   "name": "r158i1_tissue",
+   "rec_frame": 210824,
+   "video_t": 10172.766666666666,
+   "dur": 221.16666666666606,
+   "note": "AI-operated. Isaac Sim 6.2 Newton (MuJoCo solver, CPU backend)."
+  },
+  {
+   "session": 3,
+   "ckpt": "3261_item_r149i1_pouch",
+   "name": "r149i1_pouch",
+   "rec_frame": 220227,
+   "video_t": 10482.633333333333,
+   "dur": 309.8666666666668,
+   "note": "AI-operated. Isaac Sim 6.2 Newton (MuJoCo solver, CPU backend)."
+  },
+  {
+   "session": 3,
+   "ckpt": "3677_item_r130i1_light_saber",
+   "name": "r130i1_light_saber",
+   "rec_frame": 244585,
+   "video_t": 10982.466666666667,
+   "dur": 499.83333333333394,
+   "note": "AI-operated. Isaac Sim 6.2 Newton (MuJoCo solver, CPU backend)."
+  },
+  {
+   "session": 3,
+   "ckpt": "4072_item_r126i1_scooter",
+   "name": "r126i1_scooter",
+   "rec_frame": 267435,
+   "video_t": 11388.433333333332,
+   "dur": 405.96666666666533,
+   "note": "AI-operated. Isaac Sim 6.2 Newton (MuJoCo solver, CPU backend)."
+  },
+  {
+   "session": 4,
+   "ckpt": "0134_item_r93i1_nugget",
+   "name": "r93i1_nugget",
+   "rec_frame": 10394,
+   "video_t": 11734.9,
+   "dur": 346.46666666666715,
+   "note": "AI-operated. Isaac Sim 6.2 Newton (MuJoCo solver, CPU backend)."
+  },
+  {
+   "session": 4,
+   "ckpt": "0270_item_r83i1_sponges",
+   "name": "r83i1_sponges",
+   "rec_frame": 19979,
+   "video_t": 12054.4,
+   "dur": 319.5,
+   "note": "AI-operated. Isaac Sim 6.2 Newton (MuJoCo solver, CPU backend)."
+  }
+ ]
+}

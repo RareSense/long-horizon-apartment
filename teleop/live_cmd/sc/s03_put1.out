@@ -1,0 +1,8 @@
+[hall] duck_to_basket, shoe_to_mat loaded (scout, AI-operated)
+[checkpoint] loaded C:\Users\raresense\sim_home\runs\1120_114552_scout_hall_AI_operated\checkpoints\0770_act_walk_path: t=9089.550 s, k=4544775, {'controller_fields': 179, 'cloth_arrays': 231}
+[route] resumed at item 25/43 (r105i1_shoe), 24 done
+loaded {'t': 9089.55, 'pelvis': [3.703, -1.881, 0.638], 'yaw_deg': -10.5, 'hands': {'left': [4.024, -1.789, 0.78], 'right': [3.64, -2.127, 0.403]}, 'mode': 'stand'} touch {25: 1, 26: 1} holding True
+stance [1.587, -1.737, -1.571]
+PUT {'stance': [1.587, -1.737, -1.571], 'carry': 0.013, 'abort': 'held thing object_0238_body lost (no finger on it for 0.4 s)'} state {'t': 9175.2, 'pelvis': [1.566, -1.668, 0.524], 'yaw_deg': -91.6, 'hands': {'left': [1.715, -1.948, 0.435], 'right': [1.305, -1.575, 0.311]}, 'mode': 'stand'} fell False
+C:\Users\raresense\sim_home\runs\1120_114552_scout_hall_AI_operated\look\s03_mat.jpg
+C:\Users\raresense\sim_home\runs\1120_114552_scout_hall_AI_operated\tele\0020_s03_put1.jpg

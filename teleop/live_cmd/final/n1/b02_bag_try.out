@@ -1,0 +1,5 @@
+ck C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\checkpoints\3386_act_n1_off_croc
+ITEM_START r196i1_plastic_bag attempt 0 pos 13 route at r196i1_plastic_bag state {'t': 4873.73, 'pelvis': [0.75, -1.991, 0.673], 'yaw_deg': -0.6, 'hands': {'left': [0.751, -1.736, 0.444], 'right': [0.746, -2.244, 0.442]}, 'mode': 'stand'}
+TRY {'corner': [-4.567, -1.113], 'G': [-4.539, -1.125], 'stance': [-4.807, -1.299, -0.435], 'free': True, 'walk_err': 0.002, 'reach': (True, [0.169, 0.273]), 'abort': 'right_Dex1_finger_link_2 pressing r186i1_basket 21 N', 'state': {'t': 4979.28, 'pelvis': [-4.887, -1.259, 0.346], 'yaw_deg': -27.5, 'hands': {'left': [-4.918, -0.966, 0.161], 'right': [-5.014, -1.465, 0.136]}, 'mode': 'stand'}, 'fell': False, 'bag': [-4.447, -1.149, 0.015]}
+held False touch None
+__END__

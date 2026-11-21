@@ -1,0 +1,7 @@
+down 0 pad rf [0.379, -0.09, 0.797] pad_low 0.776 caught 2 far 0 first 2 uv [[-0.5, 0.04], [-0.5, 0.06]] at_f 11 out {'share': 0.02, 'z_lo': 0.537, 'below_rim': 13} touch 0.0 fell False
+down 1 pad rf [0.376, -0.091, 0.774] pad_low 0.753 caught 2 far 1 first 1 uv [[-0.5, 0.06], [0.36, -0.12]] at_f 12 out {'share': 0.02, 'z_lo': 0.536, 'below_rim': 13} touch 0.0 fell False
+down 2 pad rf [0.373, -0.093, 0.751] pad_low 0.731 caught 2 far 1 first 1 uv [[-0.5, 0.06], [0.36, -0.12]] at_f 11 out {'share': 0.02, 'z_lo': 0.535, 'below_rim': 13} touch 0.0 fell False
+under the pads (5 cm): {'far': {'n': 44, 'z_lo': 0.592, 'z_hi': 0.842, 'uv_mean': [0.38, -0.23]}, 'mid': {'n': 1, 'z_lo': 0.871, 'z_hi': 0.871, 'uv_mean': [0.14, -0.1]}, 'first': {'n': 47, 'z_lo': 0.648, 'z_hi': 0.949, 'uv_mean': [-0.43, 0.04]}} held L True tilt 0.31 knees {'left_knee': 0.122, 'right_knee': 0.109}
+pads world [-2.242, -1.764, 0.75] [-2.152, -1.753, 0.752] pad r from hamper centre [0.215, 0.204] handle bar: y -1.712, x -2.212..-2.088, top z 0.67
+look C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\look_fb\0031_g32_rdown.jpg
+__END__

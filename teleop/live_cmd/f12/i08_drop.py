@@ -1,0 +1,11 @@
+MON["on"] = False
+binb_ = body_of("rubbish_bin")
+op.run(1.5, [dict(cmd="ee", name=SD, mode="velocity", linear=[0, 0, 0], frame="world", ttl=0.3)])
+lo_, hi_ = obj_box(binb_)
+pc_ = centre(zz_b); plo_, phi_ = obj_box(zz_b)
+print("bin box", np.round(lo_, 3).tolist(), np.round(hi_, 3).tolist(), "pouch box", np.round(plo_, 3).tolist(), np.round(phi_, 3).tolist(), flush=True)
+print("state", state(), "fell", fallen(), "touch", contact_report(), flush=True)
+inner_ = bool(lo_[0] + 0.03 < plo_[0] and phi_[0] < hi_[0] - 0.03 and lo_[1] + 0.03 < plo_[1] and phi_[1] < hi_[1] - 0.03 and plo_[2] > hi_[2] + 0.01)
+print("pouch over the opening with 3 cm margin:", inner_, flush=True)
+pm_ = pad_mid(SD)
+print(close(os.path.join(TELE_DIR, "f12_bin_top.jpg"), np.r_[centre(binb_)[:2] + np.array([-0.35, -0.35]), 1.3], np.r_[centre(binb_)[:2], hi_[2]], "bin top"), flush=True)

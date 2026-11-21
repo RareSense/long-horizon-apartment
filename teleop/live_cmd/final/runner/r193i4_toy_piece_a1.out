@@ -1,0 +1,11 @@
+[chk] item_check + guarded route_checkpoint loaded; SPOT_TOL 0.15
+[final_run] common_b loaded
+[final_run] items ['r68i1_rag', 'r196i1_plastic_bag', 'r190i1_stocking', 'r125i2_flat', 'r130i1_light_saber', 'r120i2_duck', 'r125i1_flat', 'r175i1_cardboard_box', 'r178i1_ball', 'r179i1_toy_pouch', 'r126i1_scooter', 'r149i1_pouch', 'r93i1_nugget', 'r193i4_toy_piece', 'r192i1_ball', 'r193i2_toy_piece', 'r193i1_toy_piece', 'r193i3_toy_piece', 'r120i1_duck', 'r158i1_tissue', 'r105i1_shoe', 'r105i2_shoe', 'r107i1_umbrella', 'r159i1_door', 'r83i1_sponges']
+ITEM_START r193i4_toy_piece attempt 1 pos 19 route at r193i4_toy_piece state {'t': 6909.24, 'pelvis': [-4.694, -0.885, 0.671], 'yaw_deg': -121.1, 'hands': {'left': [-4.474, -1.015, 0.441], 'right': [-4.91, -0.753, 0.44]}, 'mode': 'stand'}
+[pick] object_0322_body try 1: grip {'ok': True, 'gap': 0.0421, 'jaw1_N': 5.8, 'jaw2_N': 5.8, 'between': 0.53, 'off_axis': 0.003} rose 0.079 -> held
+[pick] object_0322_body was lost while standing up: {'ok': False, 'gap': 0.0395, 'jaw1_N': 0.2, 'jaw2_N': 0.2, 'between': 0.54, 'off_axis': 0.006}
+[pick] object_0322_body try 1: grip {'ok': True, 'gap': 0.0589, 'jaw1_N': 5.9, 'jaw2_N': 6.0, 'between': 0.5, 'off_axis': 0.001} rose 0.079 -> held
+TOY {'item': 'r193i4_toy_piece', 'pick': {'ok': True, 'side': 'left'}, 'put': {'abort': 'left_hip_yaw_link pressing furniture/floor 61 N at z 0.47', 'at': [-3.019, -1.133, 0.768], 'state': {'t': 7044.94, 'pelvis': [-3.081, -1.423, 0.747], 'yaw_deg': 57.9, 'hands': {'left': [-3.017, -1.132, 0.782], 'right': [-2.862, -1.548, 0.515]}, 'mode': 'ds'}, 'fell': False}, 'in': False, 'fell': False, 'state': {'t': 7044.94, 'pelvis': [-3.081, -1.423, 0.747], 'yaw_deg': 57.9, 'hands': {'left': [-3.017, -1.132, 0.782], 'right': [-2.862, -1.548, 0.515]}, 'mode': 'ds'}}
+C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\tele\0086_f12_r193i4_toy_piece_end.jpg
+ITEM_RESULT FAIL r193i4_toy_piece {'item': 'r193i4_toy_piece', 't': 7044.94, 'kind': 'thing', 'dest': 'object_0312_body', 'centre': [-3.019, -1.133, 0.768], 'ok': False, 'off_spot': 2.293, 'inside': False} held True fell False state {'t': 7044.94, 'pelvis': [-3.081, -1.423, 0.747], 'yaw_deg': 57.9, 'hands': {'left': [-3.017, -1.132, 0.782], 'right': [-2.862, -1.548, 0.515]}, 'mode': 'ds'}
+ZZ_OK False

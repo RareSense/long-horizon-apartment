@@ -1,0 +1,57 @@
+{
+ "reach 0.45 / 0.6 m, dishwasher closed": {
+  "reach": [
+   0.45,
+   0.6
+  ],
+  "dishwasher_closed": true,
+  "planned": 50,
+  "skipped": 19,
+  "by_type": {
+   "side": 5,
+   "cloth": 7,
+   "top_down": 17,
+   "edge": 8,
+   "surface_pinch": 11,
+   "rim_pinch": 2
+  },
+  "not_reachable": 11,
+  "generated": "2026-11-18 23:53"
+ },
+ "reach 0.34 / 0.5 m, dishwasher open": {
+  "reach": [
+   0.34,
+   0.5
+  ],
+  "dishwasher_closed": false,
+  "planned": 28,
+  "skipped": 41,
+  "by_type": {
+   "side": 2,
+   "edge": 3,
+   "cloth": 6,
+   "top_down": 7,
+   "surface_pinch": 10
+  },
+  "not_reachable": 33,
+  "generated": "2026-11-18 23:53"
+ },
+ "reach 0.45 / 0.6 m, dishwasher open": {
+  "reach": [
+   0.45,
+   0.6
+  ],
+  "dishwasher_closed": false,
+  "planned": 28,
+  "skipped": 41,
+  "by_type": {
+   "side": 2,
+   "edge": 1,
+   "cloth": 6,
+   "top_down": 9,
+   "surface_pinch": 10
+  },
+  "not_reachable": 33,
+  "generated": "2026-11-18 23:54"
+ }
+}

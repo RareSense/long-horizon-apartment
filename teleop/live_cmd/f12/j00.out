@@ -1,0 +1,21 @@
+r105i1_shoe at [4.05, -1.65, 0.05] -> r119i1_mat [1.378, -2.167, 0.01] 
+r105i2_shoe at [4.05, -1.83, 0.05] -> r119i1_mat [1.503, -2.167, 0.01] 
+r107i1_umbrella at [0.95, -0.54, 0.02] -> by the entry (floor) [3.2, -2.57, 0.043] 
+r83i1_sponges at [1.09, 0.06, 0.95] -> r94i1_tray_table [1.5, 1.92, 0.78] 
+r120i1_duck at [2.05, -1.7, 0.04] -> r186i1_basket [-5.287, -1.474, 0.145] 
+r186i1_basket at [-5.18, -1.4, 0.06] -> None None 
+r192i1_ball at [-2.87, -1.32, 0.04] -> r186i1_basket [-5.187, -1.474, 0.195] 
+r193i1_toy_piece at [-2.93, -0.58, 0.03] -> r186i1_basket [-5.187, -1.374, 0.195] 
+r193i2_toy_piece at [-3.5, -1.7, 0.03] -> r186i1_basket [-5.087, -1.474, 0.195] 
+r193i3_toy_piece at [-2.79, -0.6, 0.03] -> r186i1_basket [-5.087, -1.374, 0.195] 
+r193i4_toy_piece at [-3.2, -1.41, 0.03] -> r186i1_basket [-5.287, -1.474, 0.245] 
+r191i1_toy_vehicle at [-3.52, -2.15, 0.05] -> r186i1_basket [-5.287, -1.374, 0.195] 
+r159i1_door ERR body(): incompatible function arguments. The following argument types are suppor
+r154i1_stick at [-4.17, -0.91, 0.48] -> floor [-4.865, -1.4, 0.0] 
+r158i1_tissue at [-2.86, -0.11, 0.47] -> rubbish_bin [0.1, 1.48, 0.5] 
+r87i1_wrapper at [1.69, -0.22, 0.93] -> rubbish_bin [0.1, 1.48, 0.5] 
+r93i1_nugget at [2.37, -0.35, 0.92] -> r186i1_basket [-5.287, -1.374, 0.245] 
+r100i1_towel at [-0.89, 1.41, 0.42] -> r133i1_laundry_basket [-2.149, -1.95, 0.75] 
+r123i1_slipper at [-0.74, -2.22, 0.02] -> floor [-0.75, -2.2] done
+route ['r105i1_shoe', 'r105i2_shoe', 'r107i1_umbrella', 'r83i1_sponges', 'r120i1_duck', 'r186i1_basket', 'r192i1_ball', 'r193i1_toy_piece', 'r193i3_toy_piece', 'r193i2_toy_piece', 'r191i1_toy_vehicle', 'r193i4_toy_piece', 'r186i1_basket', 'r159i1_door', 'r154i1_stick', 'r158i1_tissue', 'r87i1_wrapper', 'r93i1_nugget', 'r100i1_towel', 'r123i1_slipper']
+kit {'ws_gb': 1.01, 'priv_gb': 14.09}

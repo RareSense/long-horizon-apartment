@@ -1,0 +1,38 @@
+SWEEP done 35 check-False ['r195i3_paper', 'r195i1_paper', 'r175i1_cardboard_box', 'r149i1_pouch']
+  r123i1_slipper {'ok': True, 'kind': 'thing', 'dest': 'floor', 'inside': None, 'off_spot': 0.044, 'q': None}
+  r195i3_paper {'ok': False, 'kind': 'thing', 'dest': 'rubbish_bin', 'inside': False, 'off_spot': 0.236, 'q': None}
+  r195i1_paper {'ok': False, 'kind': 'thing', 'dest': 'rubbish_bin', 'inside': False, 'off_spot': 0.19, 'q': None}
+  r131i1_knit_hat {'ok': True, 'kind': 'garment', 'dest': 'r133i1_laundry_basket', 'inside': 1.0, 'off_spot': None, 'q': None}
+  r189i1_santa_hat {'ok': True, 'kind': 'garment', 'dest': 'r133i1_laundry_basket', 'inside': 1.0, 'off_spot': None, 'q': None}
+  r121i1_jacket {'ok': True, 'kind': 'garment', 'dest': 'r133i1_laundry_basket', 'inside': 1.0, 'off_spot': None, 'q': None}
+  r117i1_blanket {'ok': True, 'kind': 'garment', 'dest': 'r133i1_laundry_basket', 'inside': 1.0, 'off_spot': None, 'q': None}
+  r116i1_coat_pile {'ok': True, 'kind': 'garment', 'dest': 'r133i1_laundry_basket', 'inside': 1.0, 'off_spot': None, 'q': None}
+  r124i1_sandal {'ok': True, 'kind': 'thing', 'dest': 'r119i1_mat', 'inside': None, 'off_spot': 0.186, 'q': None}
+  r122i1_croc {'ok': True, 'kind': 'thing', 'dest': 'r119i1_mat', 'inside': None, 'off_spot': 0.237, 'q': None}
+  close_dishwasher {'ok': True, 'kind': 'dishwasher', 'dest': None, 'inside': None, 'off_spot': None, 'q': {'r32i1_door': (-1.571, -1.571)}}
+  r68i1_rag {'ok': True, 'kind': 'garment', 'dest': 'r133i1_laundry_basket', 'inside': 1.0, 'off_spot': None, 'q': None}
+  r125i2_flat {'ok': True, 'kind': 'thing', 'dest': 'r119i1_mat', 'inside': None, 'off_spot': 0.116, 'q': None}
+  r190i1_stocking {'ok': None, 'kind': 'garment', 'dest': 'r186i1_basket', 'inside': None, 'off_spot': None, 'q': None}
+  r120i2_duck {'ok': True, 'kind': 'thing', 'dest': 'object_0312_body', 'inside': True, 'off_spot': 0.211, 'q': None}
+  r125i1_flat {'ok': True, 'kind': 'thing', 'dest': 'r119i1_mat', 'inside': None, 'off_spot': 0.403, 'q': None}
+  r175i1_cardboard_box {'ok': False, 'kind': 'thing', 'dest': 'against the wall by the two-tier table (floor)', 'inside': None, 'off_spot': 0.015, 'q': None}
+  r178i1_ball {'ok': True, 'kind': 'thing', 'dest': 'object_0312_body', 'inside': True, 'off_spot': 0.073, 'q': None}
+  r179i1_toy_pouch {'ok': True, 'kind': 'thing', 'dest': 'object_0312_body', 'inside': True, 'off_spot': 0.071, 'q': None}
+  r193i4_toy_piece {'ok': True, 'kind': 'thing', 'dest': 'object_0312_body', 'inside': True, 'off_spot': 0.204, 'q': None}
+  r192i1_ball {'ok': True, 'kind': 'thing', 'dest': 'object_0312_body', 'inside': True, 'off_spot': 0.003, 'q': None}
+  r193i2_toy_piece {'ok': True, 'kind': 'thing', 'dest': 'object_0312_body', 'inside': True, 'off_spot': 0.143, 'q': None}
+  r193i3_toy_piece {'ok': True, 'kind': 'thing', 'dest': 'object_0312_body', 'inside': True, 'off_spot': 0.104, 'q': None}
+  r193i1_toy_piece {'ok': True, 'kind': 'thing', 'dest': 'object_0312_body', 'inside': True, 'off_spot': 0.132, 'q': None}
+  r120i1_duck {'ok': True, 'kind': 'thing', 'dest': 'object_0312_body', 'inside': True, 'off_spot': 0.124, 'q': None}
+  r105i1_shoe {'ok': True, 'kind': 'thing', 'dest': 'r119i1_mat', 'inside': None, 'off_spot': 0.487, 'q': None}
+  r105i2_shoe {'ok': True, 'kind': 'thing', 'dest': 'r119i1_mat', 'inside': None, 'off_spot': 0.224, 'q': None}
+  r107i1_umbrella {'ok': True, 'kind': 'thing', 'dest': 'floor', 'inside': None, 'off_spot': 0.016, 'q': None}
+  r159i1_door {'ok': True, 'kind': 'door', 'dest': None, 'inside': None, 'off_spot': None, 'q': -1.561}
+  r158i1_tissue {'ok': True, 'kind': 'thing', 'dest': 'rubbish_bin', 'inside': True, 'off_spot': 0.17, 'q': None}
+  r149i1_pouch {'ok': False, 'kind': 'thing', 'dest': 'rubbish_bin', 'inside': False, 'off_spot': 0.274, 'q': None}
+  r130i1_light_saber {'ok': True, 'kind': 'thing', 'dest': 'floor', 'inside': None, 'off_spot': 0.046, 'q': None}
+  r126i1_scooter {'ok': True, 'kind': 'thing', 'dest': 'floor', 'inside': None, 'off_spot': 0.087, 'q': None}
+  r93i1_nugget {'ok': True, 'kind': 'thing', 'dest': 'object_0312_body', 'inside': True, 'off_spot': 0.074, 'q': None}
+  r83i1_sponges {'ok': True, 'kind': 'thing', 'dest': 'r94i1_tray_table', 'inside': None, 'off_spot': 0.382, 'q': None}
+saber off spot 0.046 box off spot 0.015 bag at [-4.442, -1.147, 0.015] route left [] state {'t': 12094.97, 'pelvis': [1.525, 0.969, 0.673], 'yaw_deg': 89.5, 'hands': {'left': [1.269, 0.97, 0.443], 'right': [1.778, 0.965, 0.442]}, 'mode': 'stand'} fell False
+__END__

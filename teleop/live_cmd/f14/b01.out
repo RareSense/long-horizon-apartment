@@ -1,0 +1,19 @@
+﻿state {'t': 12798.45, 'pelvis': [3.541, -2.095, 0.673], 'yaw_deg': -90.0, 'hands': {'left': [3.796, -2.093, 0.443], 'right': [3.288, -2.094, 0.442]}, 'mode': 'stand'} fell False kit {'ws_gb': 6.48, 'priv_gb': 13.81}
+[kitchen] step_mon(st=None), call_mon(fn, label), dw_names(), sink_put / use_sink_put (draft), in_basin, door_face, close_door_follow (draft) loaded
+door q 0.0 range [-1.571, 0.0] vehicle [-5.18, -1.24, 0.02]
+route head r159i1_door
+[door] r159i1_door pushed from 0.000 to -0.139 (goal -0.349): NOT shut
+[door] r159i1_door pushed from -0.139 to -0.336 (goal -0.488): NOT shut
+[door] r159i1_door pushed from -0.336 to -0.481 (goal -0.685): NOT shut
+[door] r159i1_door pushed from -0.481 to -0.607 (goal -0.830): NOT shut
+[door] r159i1_door pushed from -0.607 to -0.755 (goal -0.956): NOT shut
+[door] r159i1_door pushed from -0.755 to -1.014 (goal -1.104): NOT shut
+[door] r159i1_door pushed from -1.014 to -1.352 (goal -1.363): shut
+[door] r159i1_door: NOT shut q -1.352 (goal -1.571) in 7 stages
+[door_all] call 0 q 0.0 -> -1.352 ok False kit {'ws_gb': 6.44, 'priv_gb': 15.07}
+[door] r159i1_door pushed from -1.352 to -1.561 (goal -1.571): shut
+[door] r159i1_door: shut q -1.561 (goal -1.571) in 1 stages
+[door_all] call 1 q -1.352 -> -1.561 ok True kit {'ws_gb': 6.51, 'priv_gb': 13.86}
+[call_mon] r159i1_door: done  sim 947.2 s wall 2505 s
+DOOR {'status': 'done', 'sim_s': 947.2, 'wall_s': 2505, 'look': 'C:\\Users\\raresense\\sim_home\\runs\\1120_155109_dex1_floor_14\\tele\\0001_end_r159i1_door_done.jpg'} rec {'ok': True, 'calls': [{'q0': 0.0, 'q': -1.352, 'shut': False, 'ok': False, 'error': None, 'stages': [{'stance': [-3.79, -2.389], 'q_from': 0.0, 'q_to': -0.139}, {'stance': [-3.726, -2.34], 'q_from': -0.139, 'q_to': -0.336}, {'stance': [-3.624, -2.285], 'q_from': -0.336, 'q_to': -0.481}, {'stance': [-3.544, -2.259], 'q_from': -0.481, 'q_to': -0.607}, {'stance': [-3.471, -2.245], 'q_from': -0.607, 'q_to': -0.755}, {'stance': [-3.384, -2.241], 'q_from': -0.755, 'q_to': -1.014}, {'stance': [-3.235, -2.265], 'q_from': -1.014, 'q_to': -1.352}]}, {'q0': -1.352, 'q': -1.561, 'shut': True, 'ok': True, 'error': None, 'stages': [{'stance': [-3.057, -2.351], 'q_from': -1.352, 'q_to': -1.561}]}], 'error': None}
+door q now -1.561 state {'t': 13745.66, 'pelvis': [-3.059, -2.357, 0.673], 'yaw_deg': -79.5, 'hands': {'left': [-2.809, -2.309, 0.443], 'right': [-3.31, -2.401, 0.443]}, 'mode': 'stand'} fell False kit {'ws_gb': 6.52, 'priv_gb': 13.87}

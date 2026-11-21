@@ -1,0 +1,32 @@
+[checkpoint] loaded C:\Users\raresense\sim_home\runs\1120_093820_dex1_floor_12\checkpoints\0432_act_walk_via: t=7949.146 s, k=3974573, {'controller_fields': 179, 'cloth_arrays': 231}
+[route] resumed at item 22/65 (r106i1_umbrella), 21 done
+route head ['r106i1_umbrella', 'r139i1_toy_car', 'r105i1_shoe'] done 21 state {'t': 7952.45, 'pelvis': [-2.001, 1.002, 0.673], 'yaw_deg': -84.0, 'hands': {'left': [-1.748, 1.031, 0.443], 'right': [-2.253, 0.978, 0.442]}, 'mode': 'stand'}
+scooter box [[-2.427, -0.992, -0.001], [-1.775, -0.575, 0.987]]
+[lift 0] bar z 1.017 tilt 7.1 seat {'left': {'seat_mm': 1.6, 'pitch': 12.8, 'lower_N': 14.6, 'upper_N': 6.1}, 'right': {'seat_mm': 9.3, 'pitch': 22.6, 'lower_N': 13.6, 'upper_N': 4.3}} touch {'left': 4, 'right': 2}
+[lift 1] bar z 1.045 tilt 13.1 seat {'left': {'seat_mm': -1.0, 'pitch': 1.8, 'lower_N': 17.0, 'upper_N': 3.1}, 'right': {'seat_mm': 5.6, 'pitch': 13.0, 'lower_N': 16.1, 'upper_N': 3.9}} touch {'left': 2, 'right': 6}
+[lift 2] bar z 1.075 tilt 22.8 seat {'left': {'seat_mm': -2.4, 'pitch': -0.5, 'lower_N': 18.0, 'upper_N': 2.0}, 'right': {'seat_mm': 2.4, 'pitch': 3.2, 'lower_N': 16.8, 'upper_N': 3.1}} touch {'left': 2, 'right': 2}
+[lift 3] bar z 1.087 tilt 22.2 seat {'left': {'seat_mm': -2.7, 'pitch': -1.3, 'lower_N': 17.8, 'upper_N': 2.2}, 'right': {'seat_mm': 2.4, 'pitch': 2.8, 'lower_N': 16.7, 'upper_N': 3.1}} touch {'left': 2, 'right': 2}
+[park] move {'turn': 15.0} -> [-1.939, -1.038] -157.9 seat {'left': -1.5, 'right': 1.0}
+[park] move {'turn': 15.0} -> [-1.934, -1.038] -143.9 seat {'left': -1.3, 'right': 0.6}
+[park] move {'turn': 15.0} -> [-1.932, -1.038] -130.0 seat {'left': -0.9, 'right': 1.3}
+[park] move {'turn': 15.0} -> [-1.931, -1.037] -116.2 seat {'left': -0.6, 'right': 2.1}
+[park] move {'fwd': -0.146, 'side': -0.032} -> [-1.899, -0.89] -114.5 seat {'left': -0.4, 'right': 2.0}
+[park] move {'fwd': -0.148, 'side': -0.026} -> [-1.865, -0.743] -113.4 seat {'left': -0.6, 'right': 2.1}
+[park] move {'fwd': -0.126, 'side': -0.017} -> [-1.834, -0.624] -113.0 seat {'left': -0.1, 'right': 2.2}
+[park] move {'turn': 15.0, 'fwd': -0.123, 'side': -0.012} -> [-1.833, -0.502] -99.0 seat {'left': -0.5, 'right': 3.1}
+[park] move {'turn': 9.097} -> [-1.833, -0.504] -88.7 seat {'left': -0.3, 'right': 2.0}
+[park] move {'fwd': -0.15, 'side': 0.0} -> [-1.839, -0.351] -87.8 seat {'left': -0.1, 'right': 2.3}
+[park] move {'fwd': -0.15, 'side': 0.003} -> [-1.846, -0.199] -87.3 seat {'left': 0.3, 'right': 3.1}
+[park] move {'fwd': -0.15, 'side': 0.004} -> [-1.849, -0.055] -87.3 seat {'left': 0.4, 'right': 1.7}
+[park] move {'turn': -2.551, 'fwd': -0.15, 'side': -0.001} -> [-1.851, 0.098] -89.5 seat {'left': 0.2, 'right': 4.6}
+[park] move {'fwd': -0.15, 'side': -0.0} -> [-1.852, 0.25] -89.3 seat {'left': -0.1, 'right': 4.2}
+[park] move {'fwd': -0.15, 'side': -0.001} -> [-1.852, 0.397] -89.2 seat {'left': -0.4, 'right': 3.1}
+[park] move {'fwd': -0.15, 'side': -0.002} -> [-1.856, 0.549] -89.1 seat {'left': -0.7, 'right': 2.7}
+[set-down 0] wheel 0.057 m from the bar line (upright 0.440), wheel z 0.050 (r 0.050, floor 0.000), bar z 1.059 arc 1.059, tilt 22.6
+[set-down 1] wheel 0.154 m from the bar line (upright 0.440), wheel z 0.050 (r 0.050, floor 0.000), bar z 1.049 arc 1.049, tilt 17.1
+[set-down 2] wheel 0.224 m from the bar line (upright 0.440), wheel z 0.049 (r 0.050, floor 0.000), bar z 1.035 arc 1.036, tilt 13.0
+[set-down 3] wheel 0.267 m from the bar line (upright 0.440), wheel z 0.049 (r 0.050, floor 0.000), bar z 1.024 arc 1.025, tilt 10.5
+[set-down 4] wheel 0.308 m from the bar line (upright 0.440), wheel z 0.050 (r 0.050, floor 0.000), bar z 1.012 arc 1.013, tilt 8.0
+[set-down 5] wheel 0.358 m from the bar line (upright 0.440), wheel z 0.050 (r 0.050, floor 0.000), bar z 0.995 arc 0.995, tilt 5.1
+SCOOTER {'item': 'r126i1_scooter', 'how': 'hanging from the handlebar in both jaws, deck-side offset stance (AI-operated)', 'stance': [-1.992, -1.005, -2.992], 'grip': {'ok': True, 'pre_err': {'left': [0.022, -0.0, -0.001], 'right': [-0.0, -0.056, 0.012]}, 'on_err': {'left': [0.0, -0.0, 0.0], 'right': [0.0, -0.034, -0.001]}, 'grip': {'left': {'ok': True, 'gap': 0.0226, 'jaw1_N': 6.9, 'jaw2_N': 7.1}, 'right': {'ok': True, 'gap': 0.0226, 'jaw1_N': 6.9, 'jaw2_N': 7.0}}, 'touch': {'left': 8, 'right': 7}, 'pad_to_bar': {'left': 0.003, 'right': 0.013}, 'along': {'left': 0.093, 'right': -0.124}}, 'lift': {'bar': [-2.275, -0.81, 1.087], 'tilt': 22.2, 'lowest': 0.011, 'touch': {'left': 2, 'right': 2}}, 'status': 'FAILED', 'why': "a jaw pair lost the bar in the set-down: {'left': 0, 'right': 3}", 'sim_s': 307.9, 'wall_s': 812, 'pelvis': [-1.881, -0.137], 'look': 'C:\\Users\\raresense\\sim_home\\runs\\1120_093820_dex1_floor_12\\tele\\0042_end_r126i1_scooter_FAILED.jpg'}
+state {'t': 8260.32, 'pelvis': [-1.881, -0.137, 0.692], 'yaw_deg': -90.1, 'hands': {'left': [-1.67, -0.197, 1.44], 'right': [-2.319, -0.308, 1.002]}, 'mode': 'stand'} fell False kit {'ws_gb': 5.61, 'priv_gb': 9.86}

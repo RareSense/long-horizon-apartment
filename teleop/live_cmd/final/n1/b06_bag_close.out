@@ -1,0 +1,4 @@
+pad [-4.5381, -1.1252, 0.0244] fingers on before 0
+[hold] REFUSED left on object_0327_body: 0 jaw finger(s) on object_0327_body
+OUT {'grip': {'ok': True, 'gap': 0.0785, 'jaw1_N': 4.7, 'jaw2_N': 3.3}, 'fingers_on': 0, 'look_closed': None} held False state {'t': 5003.43, 'pelvis': [-4.909, -1.259, 0.271], 'yaw_deg': -24.0, 'hands': {'left': [-4.538, -1.125, 0.029], 'right': [-4.588, -1.537, 0.42]}, 'mode': 'stand'} bag [-4.439, -1.149, 0.015]
+__END__

@@ -1,0 +1,7 @@
+sb_ = body_of("r126i1_scooter")
+R_ = d.xmat[m.body(sb_).id].reshape(3, 3)
+print("scooter box", [np.round(v_, 3).tolist() for v_ in obj_box(sb_)], "z-axis", np.round(R_[:, 2], 2).tolist(), "tilt", round(box_tilt_deg(sb_), 1), flush=True)
+print("held", {s_: HOLD.holding(s_) for s_ in SIDES} if HOLD else None, "jaw touch", {s_: finger_touch(s_, sb_) for s_ in SIDES}, flush=True)
+print("contacts", [c_ for c_ in umb_contacts("object_0259_body")][:12] if "umb_contacts" in globals() else None, flush=True)
+print(close(os.path.join(TELE_DIR, "f12_s04_east.jpg"), np.array([-0.9, -0.1, 1.3]), np.array([-2.2, -0.1, 0.4]), "scooter from east"), flush=True)
+print(close(os.path.join(TELE_DIR, "f12_s04_top.jpg"), np.array([-1.9, -0.9, 2.2]), np.array([-2.2, -0.1, 0.0]), "scooter top"), flush=True)

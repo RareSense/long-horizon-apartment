@@ -1,0 +1,8 @@
+ITEM_START r93i1_nugget attempt 2 pos 31 route at r93i1_nugget state {'t': 10523.33, 'pelvis': [0.11, 0.796, 0.673], 'yaw_deg': 89.8, 'hands': {'left': [-0.146, 0.795, 0.443], 'right': [0.363, 0.793, 0.442]}, 'mode': 'stand'}
+at {'t': 10590.48, 'pelvis': [2.163, -0.711, 0.673], 'yaw_deg': 89.8, 'hands': {'left': [1.907, -0.712, 0.444], 'right': [2.415, -0.714, 0.442]}, 'mode': 'stand'} nugget [2.361, -0.352, 0.92] rel [0.359, -0.197]
+ck C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\checkpoints\3284_act_n1_nugget_stance
+NUG {'e_behind': [-0.003, -0.003, 0.002], 'e_level': [-0.0, 0.001, 0.0], 'abort': 'fall'} at [2.361, -0.353, 0.92] state {'t': 10610.68, 'pelvis': [2.064, -1.244, 0.201], 'yaw_deg': 81.7, 'hands': {'left': [1.835, -1.442, 0.025], 'right': [2.21, -1.07, 0.758]}, 'mode': 'stand'}
+ITEM_RESULT FAIL r93i1_nugget {'item': 'r93i1_nugget', 't': 10610.68, 'kind': 'thing', 'dest': 'object_0312_body', 'centre': [2.361, -0.353, 0.92], 'ok': False, 'off_spot': 7.716, 'inside': False} held False fell True state {'t': 10610.68, 'pelvis': [2.064, -1.244, 0.201], 'yaw_deg': 81.7, 'hands': {'left': [1.835, -1.442, 0.025], 'right': [2.21, -1.07, 0.758]}, 'mode': 'stand'}
+FIN False
+C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\tele\0121_n1_nugget_end.jpg
+__END__

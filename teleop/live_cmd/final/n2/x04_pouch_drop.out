@@ -1,0 +1,10 @@
+ck C:\Users\raresense\sim_home\runs\1121_123451_dex1_floor_final_s4\checkpoints\0313_act_x_pouch_held
+at bin {'t': 12182.99, 'pelvis': [0.091, 1.042, 0.765], 'yaw_deg': 89.7, 'hands': {'left': [-0.165, 1.042, 0.535], 'right': [0.334, 1.202, 0.579]}, 'mode': 'stand'} held True pouch [0.298, 1.261, 0.573]
+ck C:\Users\raresense\sim_home\runs\1121_123451_dex1_floor_final_s4\checkpoints\0327_act_x_pouch_at_bin
+over False [0.131, 1.369, 0.651]
+pouch [0.337, 0.89, 0.446] inside False bin [0.11, 1.437, 0.2] tilt 0.0 state {'t': 12208.0, 'pelvis': [0.076, 0.826, 0.673], 'yaw_deg': 89.4, 'hands': {'left': [-0.179, 0.826, 0.443], 'right': [0.327, 0.822, 0.441]}, 'mode': 'stand'} fell False rec 24614
+r195i3_paper [-0.115, 1.383, 0.014] inside False
+r195i1_paper [0.243, 1.623, 0.014] inside False
+r158i1_tissue [-0.028, 1.369, 0.028] inside True
+C:\Users\raresense\sim_home\runs\1121_123451_dex1_floor_final_s4\tele\x04_bin_top.jpg
+C:\Users\raresense\sim_home\runs\1121_123451_dex1_floor_final_s4\tele\0023_x04_pouch_drop.jpg

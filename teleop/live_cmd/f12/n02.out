@@ -1,0 +1,8 @@
+stick [-4.17, -0.91, 0.48] [-4.185, -1.21, 0.475] [-4.155, -0.61, 0.485] mass 0.06 dest floor
+[surface] object_0282_body try 1: grip {'ok': True, 'gap': 0.0707, 'jaw1_N': 5.9, 'jaw2_N': 5.6, 'between': 0.59, 'off_axis': 0.013} rose 0.000 -> MISS
+[surface] object_0282_body approach 2: pads [0.008, 0.012, -0.003] from the grasp point -> NOT closing
+TIDY r154i1_stick {'ok': False, 'error': 'abort: right_Dex1_finger_link_1 pressing furniture/floor 61 N at z 0.47'}
+picks None
+puts []
+at [-4.16, -0.908, 0.482] held {'left': False, 'right': False} state {'t': 11479.72, 'pelvis': [-4.552, -1.173, 0.613], 'yaw_deg': 59.8, 'hands': {'left': [-4.833, -1.149, 0.408], 'right': [-4.168, -0.965, 0.489]}, 'mode': 'stand'} fell False
+C:\Users\raresense\sim_home\runs\1120_093820_dex1_floor_12\tele\0082_f12_r154i1_stick_end.jpg

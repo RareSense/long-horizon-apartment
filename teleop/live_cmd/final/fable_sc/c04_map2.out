@@ -1,0 +1,9 @@
+MAPS ['C:\\Users\\raresense\\sim_home\\runs\\1121_034845_dex1_floor_final_s3\\tele\\fsc_c04_map0.jpg', 'C:\\Users\\raresense\\sim_home\\runs\\1121_034845_dex1_floor_final_s3\\tele\\fsc_c04_map1.jpg']
+   object_0265_body pieces 2 xy lo [-1.84, -1.75, 0.0] hi [-1.6, -1.51, 0.62]
+   object_0268_body pieces 5 xy lo [-1.86, -2.56, 0.0] hi [-1.2, -1.9, 0.48]
+   object_0329_body pieces 5 xy lo [-1.6, -2.82, 0.0] hi [-1.1, -1.65, 0.01]
+   object_0125_body pieces 1 xy lo [-3.06, 0.18, 0.45] hi [-2.51, 0.44, 0.95]
+   object_0124_body pieces 1 xy lo [-3.62, 0.18, 0.45] hi [-3.08, 0.44, 0.95]
+   object_0127_body pieces 1 xy lo [-4.23, -1.23, 0.45] hi [-3.13, -0.59, 0.48]
+   object_0229_body pieces 3 xy lo [-1.48, 1.49, 0.0] hi [-1.22, 1.73, 1.08]
+__END__

@@ -1,0 +1,5 @@
+phase(f"take {zz_BL}: crouch")
+zz_r = zz_crouch_over(zz_ip, zz_sd)
+zz_Q = zz_r.pop("Q")
+print("crouch_over", zz_r, "pad_mid", np.round(pad_mid(zz_sd), 3).tolist(), "target", np.round(zz_w().points(0)[zz_ip], 3).tolist(), contact_report(), flush=True)
+print("look", look_hand(zz_sd, "over_E"), flush=True)

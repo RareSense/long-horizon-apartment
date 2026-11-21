@@ -1,0 +1,7 @@
+ITEM_START r149i1_pouch attempt 2 pos 30 route at r149i1_pouch state {'t': 10223.77, 'pelvis': [0.112, 0.814, 0.769], 'yaw_deg': 89.7, 'hands': {'left': [-0.144, 0.813, 0.539], 'right': [0.365, 0.811, 0.538]}, 'mode': 'stand'}
+Traceback (most recent call last):
+  File "E:\urc_final\scripts\isaac_live.py", line 57, in <module>
+    exec(compile(code, "<live>", "exec"), G)
+  File "<live>", line 10, in <module>
+IndexError: list index out of range
+__END__

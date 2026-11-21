@@ -1,0 +1,6 @@
+pouch [0.189, 1.41, 0.028] in bin True
+ABORT left_knee_link pressing rubbish_bin 38 N
+pouch [0.189, 1.408, 0.027] in bin True bin [0.122, 1.398, 0.2] state {'t': 8647.22, 'pelvis': [-0.046, 1.083, 0.764], 'yaw_deg': 35.2, 'hands': {'left': [-0.196, 1.292, 0.534], 'right': [0.098, 0.874, 0.533]}, 'mode': 'stand'} touch 37.7
+[checkpoint] 1071_item_r149i1_pouch t=8647.22 s, 2.81 MB, 0.537 s
+DONE {'done': 'r149i1_pouch', 'ckpt': 'C:\\Users\\raresense\\sim_home\\runs\\1120_093820_dex1_floor_12\\checkpoints\\1071_item_r149i1_pouch', 'pruned': 127, 'pos': 23, 'n': 43, 'next': 'r105i1_shoe'}
+C:\Users\raresense\sim_home\runs\1120_093820_dex1_floor_12\tele\0051_f12_pouch_in_bin.jpg

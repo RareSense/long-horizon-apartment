@@ -1,0 +1,4 @@
+[hall] duck_to_basket, shoe_to_mat, umbrella_to_entry loaded (scout, AI-operated)
+[checkpoint] 0412_item_r107i1_umbrella t=12794.15 s, 3.78 MB, 0.779 s
+UMB {'status': 'done', 'wall_s': 461, 'look': 'C:\\Users\\raresense\\sim_home\\runs\\1120_150110_dex1_floor_13\\tele\\0005_end_r107i1_umbrella_done.jpg'} at [3.092, -2.436, 0.018] kit {'ws_gb': 6.44, 'priv_gb': 14.12}
+state {'t': 12794.15, 'pelvis': [3.54, -2.096, 0.673], 'yaw_deg': -90.0, 'hands': {'left': [3.796, -2.094, 0.443], 'right': [3.287, -2.094, 0.442]}, 'mode': 'stand'} fell False items ['0328_item_r105i2_shoe', '0412_item_r107i1_umbrella']

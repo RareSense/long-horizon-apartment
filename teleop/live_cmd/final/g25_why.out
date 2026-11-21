@@ -1,0 +1,7 @@
+jaw right 0.0079 target 0.0005 gap 0.0153 | jaw left 0.0043 target 0.0043 gap 0.0075
+pads world [-2.204, -1.699, 0.679] [-2.202, -1.725, 0.68] hamper c [-2.148, -1.957] pad r [0.265, 0.238]
+hamper body r133i1_laundry_basket pos [-2.148, -1.957, 0.01] ngeom 23
+  hamper geom 1255 r133i1_laundry_basket_g17 type 6 size [0.007, 0.007, 0.035] pos [-2.205, -1.712, 0.625] rf [0.317, -0.089, 0.625] dist to pad mid 0.055
+  hamper geom 1257 r133i1_laundry_basket_g19 type 6 size [0.062, 0.007, 0.007] pos [-2.15, -1.712, 0.663] rf [0.322, -0.035, 0.663] dist to pad mid 0.056
+right hand qpos-related: jaw joint names ['right_Dex1_finger_joint_1', 'right_Dex1_finger_joint_2']
+__END__

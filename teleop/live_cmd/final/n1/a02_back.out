@@ -1,0 +1,6 @@
+back 0 [0.877, -1.994] -0.6 0.0 None
+back 1 [0.75, -1.991] -0.6 0.0 None
+croc [1.211, -2.009, 0.043] state {'t': 4873.73, 'pelvis': [0.75, -1.991, 0.673], 'yaw_deg': -0.6, 'hands': {'left': [0.751, -1.736, 0.444], 'right': [0.746, -2.244, 0.442]}, 'mode': 'stand'} fell False
+feet {'left': [0.752, -1.893, 0.034], 'right': [0.75, -2.09, 0.034]}
+C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\tele\0274_n1_a02.jpg
+__END__

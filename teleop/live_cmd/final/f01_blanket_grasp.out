@@ -1,0 +1,5 @@
+[bigcloth] r117i1_blanket grasp: FAILED {'ok': False, 'why': 'no place to stand for [1.190000057220459, -1.649999976158142, 0.0]', 'stage': 'grasp'}
+RESULT [{'ok': False, 'why': 'no place to stand for [1.190000057220459, -1.649999976158142, 0.0]', 'stage': 'grasp', 'ckpt_before': None}]
+state {'t': 1486.98, 'pelvis': [-2.353, -1.297, 0.767], 'yaw_deg': 14.8, 'hands': {'left': [-2.42, -1.051, 0.537], 'right': [-2.289, -1.543, 0.537]}, 'mode': 'stand'} touch {'body': 0.0, 'body_who': None, 'held': 0.0, 'held_who': None} held R False kit {'ws_gb': 6.17, 'priv_gb': 12.77}
+look3 C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\tele\0026_blanket_grasped.jpg
+__END__

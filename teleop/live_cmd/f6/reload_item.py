@@ -1,0 +1,6 @@
+zz_m = route_v3_resume(ZZ_ITEM)
+print(gait_on())
+settle_after_load()
+hot_reload(r"E:\urc_home\scripts\home\live\autorun.py", ["back_off_container"])
+hot_reload(r"E:\urc_home\scripts\home\cloth_skills.py", ["drop_in_cloth"])
+print("RELOADED", state(), "next", [item_name(s_) for s_ in ROUTE[POS:POS + 5]], "done", len(DONE), kit_mem(), flush=True)

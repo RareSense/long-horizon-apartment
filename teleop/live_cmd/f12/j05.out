@@ -1,0 +1,4 @@
+[slab] slab_hull, slab_yaw, slab_entry, slab_push loaded
+[u00] umbrella two-corner helpers loaded
+WRAP {'walk': 'none (already at the counter)', 'side': 'left', 'point': [1.701, -0.236, 0.929], 'ahead': 0.415, 'posture': (0.0, 0.35), 'width': 0.077, 'abort': 'fall', 'at': [1.69, -0.221, 0.93], 'state': {'t': 8777.88, 'pelvis': [1.738, -1.177, 0.175], 'yaw_deg': 98.7, 'hands': {'left': [1.589, -1.067, 0.687], 'right': [1.979, -1.345, 0.016]}, 'mode': 'stand'}}
+C:\Users\raresense\sim_home\runs\1120_093820_dex1_floor_12\tele\0063_f12_wrapper_pick.jpg

@@ -1,0 +1,13 @@
+[jaws] r131i1_knit_hat: no cloth grasp stance with normal clearances -> tight clearances
+[cloth] r131i1_knit_hat try 1: {'point': [-1.2020000219345093, -0.03099999949336052, 0.0], 'gap_cm': -0.0, 'F1': 0.0, 'F2': 0.0, 'caught': 0, 'held': 0, 'rose': 0.0, 'ok': False, 'stretch': (1.037, 1.01)} -> MISS
+[cloth] r131i1_knit_hat try 2: {'point': [-1.3259999752044678, 0.03799999877810478, 0.0], 'gap_cm': 0.91, 'F1': 15.3, 'F2': 14.4, 'caught': 6, 'held': 11, 'rose': 0.071, 'ok': True, 'stretch': (1.265, 1.071)} -> held
+[cloth] r131i1_knit_hat into r133i1_laundry_basket: {'inside': 1.0, 'below_rim': 1.0, 'overhang': 0.0, 'lowest': 0.034, 'rim': 0.59} -> in
+ITEM_CHECK {'item': 'r131i1_knit_hat', 't': 1061.37, 'kind': 'garment', 'dest': None, 'inside': None, 'ok': None}
+[checkpoint] 0468_item_r131i1_knit_hat t=1061.37 s, 1.31 MB, 0.227 s
+ITEM r131i1_knit_hat done why None sim 213.8 wall 501 at [-2.469, -1.534]
+  route {'done': 'r131i1_knit_hat', 'ckpt': 'C:\\Users\\raresense\\sim_home\\runs\\1120_181556_dex1_floor_final\\checkpoints\\0468_item_r131i1_knit_hat', 'pos': 4}
+  look C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\tele\0021_end_r131i1_knit_hat_done.jpg | done 4 | next ['r189i1_santa_hat', 'r121i1_jacket', 'r117i1_blanket', 'r116i1_coat_pile'] | mem {'ws_gb': 6.09, 'priv_gb': 11.05}
+HELD {'left': False, 'right': False} fell False touch {'body': 0.0, 'body_who': None, 'held': 0.0, 'held_who': None}
+in_container ERR None
+SAY {'done': 4, 'last': 'C:\\Users\\raresense\\sim_home\\runs\\1120_181556_dex1_floor_final\\checkpoints\\0468_item_r131i1_knit_hat', 'next': 'r189i1_santa_hat', 'frame': 31115, 't': 1061.4, 'kit': {'ws_gb': 6.09, 'priv_gb': 11.05}}
+__END__

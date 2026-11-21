@@ -1,0 +1,9 @@
+paper now [0.242, 1.62, 0.021] rect corners [[0.264, 1.675], [0.187, 1.631], [0.223, 1.568], [0.301, 1.612]] state {'t': 12469.77, 'pelvis': [0.596, 1.883, 0.283], 'yaw_deg': 179.4, 'hands': {'left': [0.269, 1.66, 0.02], 'right': [0.781, 2.137, 0.132]}, 'mode': 'stand'}
+CORNER {'corner': [0.301, 1.612], 'ahead': 0.331, 'z': 0.021, 'e_above': [-0.007, -0.011, 0.002], 'e_down': [0.001, -0.011, -0.0], 'grip': {'ok': False, 'gap': 0.0713, 'jaw1_N': 6.9, 'jaw2_N': 1.1}, 'fingers': 2}
+held False paper [0.243, 1.636, 0.015]
+bin [0.124, 1.439, 0.2] tilt 0.0 state {'t': 12496.37, 'pelvis': [0.6, 1.889, 0.282], 'yaw_deg': -179.1, 'hands': {'left': [0.261, 1.63, 0.025], 'right': [0.783, 2.143, 0.127]}, 'mode': 'stand'} fell False held {'left': False, 'right': False} rec 34016
+  r149i1_pouch [0.133, 1.367, 0.025] inside True
+  r195i3_paper [0.153, 1.473, 0.025] inside True
+  r195i1_paper [0.243, 1.636, 0.015] inside False
+  r158i1_tissue [-0.008, 1.362, 0.028] inside True
+C:\Users\raresense\sim_home\runs\1121_123451_dex1_floor_final_s4\tele\0033_x13_paper1_pick3.jpg

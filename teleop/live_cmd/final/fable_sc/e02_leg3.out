@@ -1,0 +1,6 @@
+[leg 3] wheel 0.213 m from the bar line (upright 0.440), wheel z 0.050 (floor 0.000), bar z 1.037 arc 1.038, tilt 14.1
+[leg 3 walked 0.120] pel [-1.891, 0.196, 0.708] yaw -90.0 bar [-2.207, -0.101, 1.013] bar_rel [0.297, -0.316] tilt 9.0 along {'left': 0.131, 'right': -0.083} pad_to_bar {'left': 0.015, 'right': 0.006} touch {'left': 3, 'right': 2} seat {'left': (-7.1, 0.6, 15.7, 4.5), 'right': (4.4, 15.4, 14.4, 4.6)} wheel x 0.303 / 0.44 wheel z-r mm -0.0 floor {735: 1} wristR {'wrist_roll': 0.54, 'wrist_pitch': 1.42, 'wrist_yaw': 1.13} wristL {'wrist_roll': 0.63, 'wrist_pitch': 0.04, 'wrist_yaw': -0.43} why None rec 266002
+leg -> leg
+LOOK C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\tele\0160_fsc_e02.jpg
+TOP C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\tele\fsc_e02_map.jpg
+__END__

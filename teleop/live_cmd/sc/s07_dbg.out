@@ -1,0 +1,7 @@
+[checkpoint] loaded C:\Users\raresense\sim_home\runs\1120_114552_scout_hall_AI_operated\checkpoints\0911_act_hand_over_spot: t=9160.950 s, k=4580475, {'controller_fields': 179, 'cloth_arrays': 231}
+[route] resumed at item 25/43 (r105i1_shoe), 24 done
+0911 {'t': 9160.95, 'pelvis': [1.624, -1.655, 0.307], 'yaw_deg': -92.3, 'hands': {'left': [1.627, -1.849, 0.207], 'right': [1.359, -1.483, 0.153]}, 'mode': 'stand'} pad [1.626, -1.849, 0.202] rel [0.194, 0.01] shoe c [1.617, -1.945] zb 0.102
+ee R [[-0.25, 0.96, -0.13], [0.01, -0.13, -0.99], [-0.97, -0.25, 0.02]] ee mode {'mode': 'velocity', 'p': '[ 1.65509593 -1.88254222  0.2174594 ]', 'R': '[[-0.00720467  0.99969771 -0.02350696]\n [ 0.03295934 -0.0232574  -0.99918606]\n [', 'v': '[ 0.043594   -0.01317753  0.01086127]', 'w': '[0. 0. 0.]', 'expires': '9161.15'}
+step 0 err [0.062, -0.012, -0.005] pad [1.604, -1.837, 0.207] rel [0.182, -0.012] touch {25: 1, 26: 1} contacts {'body': 0.0, 'body_who': None, 'held': 0.0, 'held_who': None}
+step 1 err [0.037, 0.001, 0.0] pad [1.607, -1.837, 0.206] rel [0.183, -0.01] touch {25: 1, 26: 1} contacts {'body': 0.0, 'body_who': None, 'held': 0.0, 'held_who': None}
+step 2 err [0.041, -0.0, -0.0] pad [1.606, -1.837, 0.207] rel [0.183, -0.011] touch {25: 1, 26: 1} contacts {'body': 0.0, 'body_who': None, 'held': 0.0, 'held_who': None}

@@ -1,0 +1,24 @@
+state {'t': 12129.13, 'pelvis': [-4.552, -0.957, 0.768], 'yaw_deg': -1.1, 'hands': {'left': [-4.548, -0.701, 0.538], 'right': [-4.558, -1.209, 0.537]}, 'mode': 'stand'} fell False
+[kitchen] step_mon(st=None), call_mon(fn, label), dw_names(), sink_put / use_sink_put (draft), in_basin, door_face, close_door_follow (draft) loaded
+door q 0.0 range [-1.571, 0.0] vehicle [-5.18, -1.24, 0.02]
+[door] r159i1_door pushed from 0.000 to -0.146 (goal -0.349): NOT shut
+[door] r159i1_door pushed from -0.146 to -0.333 (goal -0.495): NOT shut
+[door] r159i1_door pushed from -0.333 to -0.506 (goal -0.682): NOT shut
+[door] r159i1_door pushed from -0.506 to -0.690 (goal -0.855): NOT shut
+[door] r159i1_door pushed from -0.690 to -0.873 (goal -1.039): NOT shut
+[call_mon] r159i1_door: ERROR __.py", line 107, in wrapper
+    r = f(*args, **kwds)
+        ^^^^^^^^^^^^^^^^
+  File "d:/isaacsim62/extscache/omni.replicator.core-1.13.38+110.4.0.wx64.r.cp312/omni/replicator/core/scripts/utils/annotator_utils.py", line 486, in get_data
+    data, do_synchronize = cls._get_data_from_ptr(annotator_id, data_params, do_copy)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\isaacsim62/kit/kernel/py\carb\profiler\__init__.py", line 107, in wrapper
+    r = f(*args, **kwds)
+        ^^^^^^^^^^^^^^^^
+  File "d:/isaacsim62/extscache/omni.replicator.core-1.13.38+110.4.0.wx64.r.cp312/omni/replicator/core/scripts/utils/annotator_utils.py", line 519, in _get_data_from_ptr
+    return array.copy(), False
+           ^^^^^^^^^^^^
+numpy._core._exceptions._ArrayMemoryError: Unable to allocate 1.17 MiB for an array with shape (480, 640, 4) and data type uint8
+ sim 741.1 s wall 1974 s
+DOOR {'status': 'ERROR', 'why': '__.py", line 107, in wrapper\n    r = f(*args, **kwds)\n        ^^^^^^^^^^^^^^^^\n  File "d:/isaacsim62/extscache/omni.replicator.core-1.13.38+110.4.0.wx64.r.cp312/omni/replicator/core/scripts/utils/annotator_utils.py", line 486, in get_data\n    data, do_synchronize = cls._get_data_from_ptr(annotator_id, data_params, do_copy)\n                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "D:\\isaacsim62/kit/kernel/py\\carb\\profiler\\__init__.py", line 107, in wrapper\n    r = f(*args, **kwds)\n        ^^^^^^^^^^^^^^^^\n  File "d:/isaacsim62/extscache/omni.replicator.core-1.13.38+110.4.0.wx64.r.cp312/omni/replicator/core/scripts/utils/annotator_utils.py", line 519, in _get_data_from_ptr\n    return array.copy(), False\n           ^^^^^^^^^^^^\nnumpy._core._exceptions._ArrayMemoryError: Unable to allocate 1.17 MiB for an array with shape (480, 640, 4) and data type uint8\n', 'sim_s': 741.1, 'wall_s': 1974, 'look': 'Unable to allocate 1.17 MiB for an array with shape (480, 640, 4) and data type uint8'} rec None
+door q now -0.918 state {'t': 12870.24, 'pelvis': [-3.351, -2.196, 0.426], 'yaw_deg': -51.4, 'hands': {'left': [-3.255, -1.919, 0.235], 'right': [-3.087, -2.562, 0.345]}, 'mode': 'stand'} fell False

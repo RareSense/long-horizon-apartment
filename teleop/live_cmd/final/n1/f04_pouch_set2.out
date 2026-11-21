@@ -1,0 +1,15 @@
+[checkpoint] loaded C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\checkpoints\0934_act_n1_pouch_at_basket: t=6826.854 s, k=3413427, {'controller_fields': 178, 'cloth_arrays': 231}
+RELOADED pouch_at_basket rec 63061 F {'left': 6.98, 'right': 6.82} pouch [-5.069, -1.394, 0.81]
+stage (-0.05, 0.3, 0.383, [-0.057, -0.017], {'left': 6.66, 'right': 7.25}, [])
+stage (-0.12, 0.5, 0.273, [-0.046, -0.004], {'left': 7.41, 'right': 7.95}, [])
+stage (-0.2, 0.6, 0.172, [-0.051, 0.003], {'left': 6.09, 'right': 8.47}, ['left_hip_yaw_link'])
+arms: bottom 0.169 err [-0.051, 0.0] touch ['left_hip_yaw_link'] {'left': 7.6, 'right': 8.47}
+released: pouch [-5.109, -1.35, 0.185] inside True
+up -0.3 [-4.8, -1.051, 0.336] fell False
+up -0.24 [-4.798, -1.056, 0.429] fell False
+up -0.16 [-4.797, -1.053, 0.493] fell False
+up -0.08 [-4.809, -1.067, 0.594] fell False
+up 0.0 [-4.828, -1.093, 0.693] fell False
+pouch [-5.141, -1.337, 0.145] inside True check {'item': 'r179i1_toy_pouch', 't': 6904.13, 'kind': 'thing', 'dest': 'object_0312_body', 'centre': [-5.141, -1.337, 0.145], 'ok': True, 'off_spot': 0.066, 'inside': True} state {'t': 6904.13, 'pelvis': [-4.694, -0.885, 0.671], 'yaw_deg': -121.1, 'hands': {'left': [-4.474, -1.015, 0.441], 'right': [-4.91, -0.753, 0.44]}, 'mode': 'stand'} fell False ee {} touch None
+C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\tele\0085_n1_pouch_in.jpg
+__END__

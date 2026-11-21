@@ -1,0 +1,4 @@
+ck C:\Users\raresense\sim_home\runs\1121_021343_dex1_floor_final_s2\checkpoints\0231_act_n1_stock_near
+PICK {'abort': 'left_Dex1_finger_link_2 pressing r133i1_laundry_basket 28 N'} state {'t': 4977.9, 'pelvis': [-2.536, -1.717, 0.674], 'yaw_deg': -119.8, 'hands': {'left': [-2.315, -1.838, 0.444], 'right': [-2.754, -1.589, 0.443]}, 'mode': 'ds'} fell False touch None held [] []
+look C:\Users\raresense\sim_home\runs\1121_021343_dex1_floor_final_s2\tele\0031_n1_stock_pick.jpg
+__END__

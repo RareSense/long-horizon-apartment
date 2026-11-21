@@ -1,0 +1,9 @@
+﻿GARMENTS keys ['r68i1_rag', 'r116i1_coat_pile', 'r117i1_blanket', 'r121i1_jacket', 'r131i1_knit_hat', 'r189i1_santa_hat', 'r190i1_stocking']
+containers [('object_0312_body', 'r186i1_basket'), ('r133i1_laundry_basket', 'r133i1_laundry_basket')]
+STEP ['garments', ['r131i1_knit_hat']] rec None
+STEP ['garments', ['r189i1_santa_hat']] rec None
+STEP ['garments', ['r121i1_jacket']] rec None
+STEP ['garments', ['r117i1_blanket']] rec None
+STEP ['garments', ['r116i1_coat_pile']] rec None
+STEP ['garments', ['r68i1_rag']] rec None
+dw names ['object_0178_body', 'object_0179_body', 'object_0180_body', 'object_0181_body', 'object_0182_body', 'object_0183_body', 'object_0184_body', 'object_0185_body', 'object_0186_body', 'object_0187_body', 'object_0188_body', 'object_0189_body', 'object_0190_body', 'object_0191_body', 'object_0192_body']

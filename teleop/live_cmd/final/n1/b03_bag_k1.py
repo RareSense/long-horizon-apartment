@@ -1,0 +1,10 @@
+ck_load(r"C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\checkpoints\3386_act_n1_off_croc"); gait_on(); settle_after_load()
+if 'refresh_jointed_footprints' in globals():
+    refresh_jointed_footprints()
+rest_hands(SIDES); op.run(1.0)
+print("RELOADED 3386 at rec", rec.n, state(), flush=True)
+_start_item("r196i1_plastic_bag")
+zz_b = body_of("r196i1_plastic_bag")
+zz_o = corner_pinch_try(zz_b, 1, "left")
+print("TRY", {k_: v_ for k_, v_ in zz_o.items()}, flush=True)
+print("held", HOLD.holding("left"), "touch", contact_report()["body_who"], flush=True)

@@ -1,0 +1,4 @@
+toy [-4.957, -1.236, 0.033] inside False basket [-5.18, -1.405, 0.06] [[-5.353, -1.547, -0.0], [-5.007, -1.263, 0.12]]
+hold True err 0.0083 fingers on None pads [-4.962, -1.241, 0.036]
+touch {'body': 0.0, 'body_who': None, 'held': 1.5, 'held_who': ['object_0319_body', 'object_0263_body']}
+C:\Users\raresense\sim_home\runs\1120_093820_dex1_floor_12\tele\f12_m04_hand.jpg

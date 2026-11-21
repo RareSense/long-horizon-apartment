@@ -1,0 +1,9 @@
+[checkpoint] loaded C:\Users\raresense\sim_home\runs\1121_021343_dex1_floor_final_s2\checkpoints\0170_act_n1_start_bag_kept: t=4865.212 s, k=2432606, {'controller_fields': 177, 'cloth_arrays': 230}
+RELOADED 0170 rec 15824 {'t': 4868.51, 'pelvis': [1.027, -1.996, 0.769], 'yaw_deg': -0.6, 'hands': {'left': [1.028, -1.74, 0.539], 'right': [1.023, -2.249, 0.538]}, 'mode': 'stand'} route r190i1_stocking
+ITEM_START r190i1_stocking attempt 0 pos 13 route at r190i1_stocking state {'t': 4868.51, 'pelvis': [1.027, -1.996, 0.769], 'yaw_deg': -0.6, 'hands': {'left': [1.028, -1.74, 0.539], 'right': [1.023, -2.249, 0.538]}, 'mode': 'stand'}
+CLEAR_FEET r125i2_flat rel [0.152, -0.258]
+CLEAR_FEET r122i1_croc rel [0.211, -0.095]
+walk {'ok': True, 'err_xy': 0.003, 'way_points': [[0.88, -1.91], [-1.4, -1.2], [-1.45, -1.19]]}
+state {'t': 4910.56, 'pelvis': [-1.453, -1.189, 0.673], 'yaw_deg': 179.8, 'hands': {'left': [-1.452, -1.444, 0.443], 'right': [-1.45, -0.935, 0.443]}, 'mode': 'stand'} fell False touch None
+C:\Users\raresense\sim_home\runs\1121_021343_dex1_floor_final_s2\tele\0019_n1_c06.jpg
+__END__

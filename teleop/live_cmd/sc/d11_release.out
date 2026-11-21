@@ -1,0 +1,6 @@
+[hall] duck_to_basket, shoe_to_mat loaded (scout, AI-operated)
+[checkpoint] loaded C:\Users\raresense\sim_home\runs\1120_114552_scout_hall_AI_operated\checkpoints\0418_act_let_go: t=8910.628 s, k=4455314, {'controller_fields': 179, 'cloth_arrays': 231}
+[route] resumed at item 24/43 (r105i1_shoe), 23 done
+loaded {'t': 8910.63, 'pelvis': [-4.79, -1.002, 0.253], 'yaw_deg': -122.3, 'hands': {'left': [-5.12, -1.402, 0.303], 'right': [-4.886, -0.704, 0.101]}, 'mode': 'stand'} held True {25: 1, 26: 2}
+after {'t': 8917.29, 'pelvis': [-4.873, -1.078, 0.767], 'yaw_deg': -125.8, 'hands': {'left': [-4.664, -1.227, 0.537], 'right': [-5.077, -0.929, 0.537]}, 'mode': 'stand'} fell False duck [-5.288, -1.362, 0.089] inside True
+C:\Users\raresense\sim_home\runs\1120_114552_scout_hall_AI_operated\tele\0012_d11_release.jpg

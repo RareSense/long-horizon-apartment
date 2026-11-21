@@ -1,0 +1,13 @@
+[checkpoint] loaded C:\Users\raresense\sim_home\runs\1120_114552_scout_hall_AI_operated\checkpoints\1147_act_squat_put: t=9491.628 s, k=4745814, {'controller_fields': 179, 'cloth_arrays': 231}
+[route] resumed at item 25/43 (r105i1_shoe), 24 done
+1147_act_squat_put pelvis [1.339, -1.64, 0.408] pad [1.721, -1.938, 0.392] rel [0.296, 0.384] shoe c [1.699, -2.028] zb 0.243 tilt 23.9 axis [0.01, 1.0] touch {25: 1, 26: 1}
+[checkpoint] loaded C:\Users\raresense\sim_home\runs\1120_114552_scout_hall_AI_operated\checkpoints\1148_act_hand_over_spot2: t=9493.428 s, k=4746714, {'controller_fields': 179, 'cloth_arrays': 231}
+[route] resumed at item 25/43 (r105i1_shoe), 24 done
+1148_act_hand_over_spot2 pelvis [1.336, -1.639, 0.255] pad [1.727, -1.947, 0.228] rel [0.258, 0.425] shoe c [1.699, -2.033] zb 0.069 tilt 28.1 axis [0.02, 1.0] touch {25: 1}
+[checkpoint] loaded C:\Users\raresense\sim_home\runs\1120_114552_scout_hall_AI_operated\checkpoints\1155_act_hand_over_spot2: t=9510.428 s, k=4755214, {'controller_fields': 179, 'cloth_arrays': 231}
+[route] resumed at item 25/43 (r105i1_shoe), 24 done
+1155_act_hand_over_spot2 pelvis [1.332, -1.644, 0.254] pad [1.739, -1.909, 0.211] rel [0.212, 0.437] shoe c [1.697, -1.994] zb 0.054 tilt 29.8 axis [0.13, 0.99] touch {25: 1}
+[checkpoint] loaded C:\Users\raresense\sim_home\runs\1120_114552_scout_hall_AI_operated\checkpoints\1159_act_hand_down: t=9518.928 s, k=4759464, {'controller_fields': 179, 'cloth_arrays': 231}
+[route] resumed at item 25/43 (r105i1_shoe), 24 done
+1159_act_hand_down pelvis [1.332, -1.643, 0.254] pad [1.732, -1.917, 0.21] rel [0.219, 0.431] shoe c [1.697, -1.999] zb 0.041 tilt 31.9 axis [0.08, 1.0] touch {25: 1, 26: 1}
+C:\Users\raresense\sim_home\runs\1120_114552_scout_hall_AI_operated\tele\0028_s11_at_1159.jpg

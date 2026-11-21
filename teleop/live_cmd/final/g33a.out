@@ -1,0 +1,16 @@
+ck C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\checkpoints\1447_act_g_both_held_before_right_lift frame 93961
+right to (0.4, -0.1, 0.86) {'err': [-0.0, 0.0, 0.001], 'pad': [-2.2, -1.788, 0.859], 'pad_rf': [0.403, -0.102, 0.859], 'tilt': 0.334} held L/R True True out {'share': 0.026, 'z_lo': 0.589, 'below_rim': 1} inside {'inside': 0.974, 'below_rim': 0.035, 'overhang': 0.048, 'lowest': 0.442, 'rim': 0.59} touch 0.0 knees {'left_knee': 0.116, 'right_knee': 0.102} fell False
+right to (0.44, -0.1, 0.97) {'err': [0.0, -0.001, 0.004], 'pad': [-2.193, -1.823, 0.966], 'pad_rf': [0.44, -0.101, 0.966], 'tilt': 0.355} held L/R True True out {'share': 0.004, 'z_lo': 0.737, 'below_rim': 0} inside {'inside': 0.996, 'below_rim': 0.011, 'overhang': 0.012, 'lowest': 0.557, 'rim': 0.59} touch 0.0 knees {'left_knee': 0.111, 'right_knee': 0.095} fell False
+right to (0.46, -0.1, 1.06) {'err': [0.001, -0.0, 0.001], 'pad': [-2.19, -1.843, 1.059], 'pad_rf': [0.46, -0.102, 1.059], 'tilt': 0.368} held L/R True True out {'share': 0.0, 'z_lo': None, 'below_rim': 0} inside {'inside': 1.0, 'below_rim': 0.0, 'overhang': 0.0, 'lowest': 0.635, 'rim': 0.59} touch 0.0 knees {'left_knee': 0.107, 'right_knee': 0.091} fell False
+outside n 0 uv lo/hi None z lo/hi None
+uv (0.5, -0.375) rf [0.381, -0.152, 0.793] r 0.213
+uv (0.5, -0.2) rf [0.369, -0.108, 0.93] r 0.212
+uv (0.4, -0.375) rf [0.355, -0.102, 0.827] r 0.225
+uv (0.5, 0.0) rf [0.401, -0.068, 0.875] r 0.178
+uv (0.5, 0.375) rf [0.48, 0.038, 0.689] r 0.151
+pads rf {'left': [0.49, -0.029, 1.158], 'right': [0.46, -0.101, 1.061]} tilt 0.37 pelvis [-2.152, -1.374, 0.669] hamper [-2.148, -1.957]
+r131i1_knit_hat {'item': 'r131i1_knit_hat', 't': 2217.09, 'kind': 'garment', 'dest': 'r133i1_laundry_basket', 'inside': 1.0, 'ok': True}
+r189i1_santa_hat {'item': 'r189i1_santa_hat', 't': 2217.09, 'kind': 'garment', 'dest': 'r133i1_laundry_basket', 'inside': 1.0, 'ok': True}
+r121i1_jacket {'item': 'r121i1_jacket', 't': 2217.09, 'kind': 'garment', 'dest': 'r133i1_laundry_basket', 'inside': 1.0, 'ok': True}
+look C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\look_fb\0033_g33_rlift.jpg
+__END__

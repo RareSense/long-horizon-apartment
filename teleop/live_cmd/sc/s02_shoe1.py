@@ -1,0 +1,6 @@
+exec(open(r"E:\urc_scout\scripts\home\live\hall.py", encoding="utf-8").read())
+LD = "0725_start_shoe_approach"; exec(open(r"C:\Users\raresense\sim_home\apartment\live_cmd\sc\ld.py", encoding="utf-8").read())
+ZR = shoe_to_mat("r105i1_shoe", record=False)
+print("RESULT", ZR, flush=True)
+b_ = body_of("r105i1_shoe"); print("shoe", np.round(centre(b_), 3).tolist(), "axis", np.round(shoe_axis(b_)[0], 2).tolist(), flush=True)
+print(close(os.path.join(LK, "s02_mat.jpg"), np.r_[1.76, -1.75, 1.3], np.r_[1.76, -2.05, 0.0], "mat"), flush=True)

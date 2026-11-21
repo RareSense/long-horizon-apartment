@@ -1,0 +1,12 @@
+ck C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\checkpoints\1267_act_g_before_free1 frame 84081
+[bigcloth] r117i1_blanket free1: FAILED {'ok': False, 'at_fingers_after_open': 27, 'out': {'share': 0.288, 'z_lo': 0.484, 'below_rim': 37}, 'stage': 'free1'}
+RESULT {'ok': False, 'at_fingers_after_open': 27, 'out': "{'share': 0.288, 'z_lo': 0.484, 'below_rim': 37}", 'stage': 'free1', 'ckpt_before': None}
+  stage look C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\tele\0098_bc_free1.jpg
+held L/R True False LOCK {'left': 4} inside {'inside': 0.712, 'below_rim': 0.023, 'overhang': 0.182, 'lowest': 0.484, 'rim': 0.59} out {'share': 0.288, 'z_lo': 0.484, 'below_rim': 37}
+pads rf {'left': [0.437, -0.014, 1.081], 'right': [0.219, -0.234, 1.188]} state {'t': 2064.87, 'pelvis': [-2.131, -1.397, 0.675], 'yaw_deg': -84.9, 'hands': {'left': [-2.105, -1.83, 1.078], 'right': [-2.347, -1.631, 1.19]}, 'mode': 'stand'} touch {'body': 0.0, 'body_who': None, 'held': 0.0, 'held_who': None} tilt 0.334 knees {'left_knee': 0.098, 'right_knee': 0.085} fell False
+outside n 573 uv lo/hi [-0.5, -0.38] [0.5, 0.36] z lo/hi 0.484 1.214 rf lo/hi [0.134, -0.273, 0.484] [0.358, -0.027, 1.214]
+r131i1_knit_hat {'item': 'r131i1_knit_hat', 't': 2064.87, 'kind': 'garment', 'dest': 'r133i1_laundry_basket', 'inside': 1.0, 'ok': True}
+r189i1_santa_hat {'item': 'r189i1_santa_hat', 't': 2064.87, 'kind': 'garment', 'dest': 'r133i1_laundry_basket', 'inside': 1.0, 'ok': True}
+r121i1_jacket {'item': 'r121i1_jacket', 't': 2064.87, 'kind': 'garment', 'dest': 'r133i1_laundry_basket', 'inside': 1.0, 'ok': True}
+look C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\look_fb\0008_g07_free1.jpg
+__END__

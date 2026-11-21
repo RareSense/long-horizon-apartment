@@ -1,0 +1,7 @@
+[checkpoint] 0092_start_before_scout_shoes t=12090.13 s, 3.63 MB, 0.929 s
+[hall] duck_to_basket, shoe_to_mat, umbrella_to_entry loaded (scout, AI-operated)
+[checkpoint] 0212_item_r105i1_shoe t=12363.58 s, 3.69 MB, 0.718 s
+SHOE r105i1_shoe {'status': 'done', 'wall_s': 721, 'look': 'C:\\Users\\raresense\\sim_home\\runs\\1120_150110_dex1_floor_13\\tele\\0003_end_r105i1_shoe_done.jpg'} at [1.852, -1.995, 0.057] kit {'ws_gb': 6.47, 'priv_gb': 13.95}
+[checkpoint] 0328_item_r105i2_shoe t=12620.50 s, 3.74 MB, 0.711 s
+SHOE r105i2_shoe {'status': 'done', 'wall_s': 688, 'look': 'C:\\Users\\raresense\\sim_home\\runs\\1120_150110_dex1_floor_13\\tele\\0004_end_r105i2_shoe_done.jpg'} at [1.647, -1.99, 0.057] kit {'ws_gb': 6.51, 'priv_gb': 13.98}
+state {'t': 12620.5, 'pelvis': [1.256, -1.564, 0.673], 'yaw_deg': -89.5, 'hands': {'left': [1.512, -1.56, 0.443], 'right': [1.003, -1.565, 0.442]}, 'mode': 'stand'} fell False items ['0091_item_r195i1_paper_redo', '0212_item_r105i1_shoe', '0328_item_r105i2_shoe']

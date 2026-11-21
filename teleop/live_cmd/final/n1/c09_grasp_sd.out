@@ -1,0 +1,5 @@
+[checkpoint] loaded C:\Users\raresense\sim_home\runs\1121_021343_dex1_floor_final_s2\checkpoints\0231_act_n1_stock_near: t=4950.100 s, k=2475050, {'controller_fields': 177, 'cloth_arrays': 230}
+RELOADED 0231 rec 19205
+PICK {'abort': 'left_Dex1_finger_link_2 pressing r133i1_laundry_basket 23 N'} state {'t': 4980.15, 'pelvis': [-2.501, -1.686, 0.675], 'yaw_deg': -119.8, 'hands': {'left': [-2.281, -1.808, 0.445], 'right': [-2.72, -1.559, 0.443]}, 'mode': 'ds'} fell False touch None held [] []
+look C:\Users\raresense\sim_home\runs\1121_021343_dex1_floor_final_s2\tele\0032_n1_stock_pick_right.jpg
+__END__

@@ -1,0 +1,9 @@
+[island] two_hand_check, roll_nearer, two_hand_pick, two_hand_walk, two_hand_set_down, island_pick loaded
+[two_lib] loaded
+ITEM_START r179i1_toy_pouch attempt 1 pos 18 route at r179i1_toy_pouch state {'t': 6519.24, 'pelvis': [-4.878, -1.078, 0.767], 'yaw_deg': -125.2, 'hands': {'left': [-4.668, -1.225, 0.538], 'right': [-5.085, -0.93, 0.537]}, 'mode': 'stand'}
+ck C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\checkpoints\0829_act_n1_pouch_stance
+[hold] REFUSED left on object_0305_body: 1 jaw finger(s) on object_0305_body
+[hold] REFUSED right on object_0305_body: 1 jaw finger(s) on object_0305_body
+OUT {'walk': {'ok': True, 'err_xy': 0.003}, 'eR': [-0.003, 0.001, 0.0], 'eL': [-0.002, 0.001, -0.0], 'squeeze': {'F': {'left': 10.64, 'right': 10.77}, 'others': []}, 'lift': {'rose': 0.054, 'F': {'left': 12.85, 'right': 13.14}, 'others': []}, 'hold': True} pouch [-6.188, -2.188, 0.877] state {'t': 6620.79, 'pelvis': [-5.766, -2.204, 0.702], 'yaw_deg': -179.6, 'hands': {'left': [-6.184, -2.251, 0.854], 'right': [-6.179, -2.126, 0.855]}, 'mode': 'stand'} fell False
+C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\tele\0037_n1_pouch_take.jpg
+__END__

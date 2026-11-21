@@ -1,0 +1,5 @@
+[pick] object_0324_body try 1: grip {'ok': True, 'gap': 0.0643, 'jaw1_N': 5.7, 'jaw2_N': 6.2, 'between': 0.48, 'off_axis': 0.003} rose 0.081 -> held
+PICK {'pick': {'ok': True, 'side': 'right'}} held {'left': False, 'right': True} state {'t': 402.93, 'pelvis': [-2.709, -0.512, 0.636], 'yaw_deg': -178.8, 'hands': {'left': [-2.686, -0.767, 0.402], 'right': [-3.013, -0.371, 0.78]}, 'mode': 'stand'}
+RES {'pick': {'ok': True, 'side': 'right'}, 'walk': 0.002, 'held_after_walk': True, 'touch': 0.0, 'e_over': [-0.29, 0.451, 0.017], 'over': False, 'paper': [0.455, 1.009, 0.473], 'inside': False, 'state': {'t': 496.35, 'pelvis': [0.166, 0.979, 0.58], 'yaw_deg': 89.1, 'hands': {'left': [-0.092, 0.829, 0.396], 'right': [0.459, 1.035, 0.478]}, 'mode': 'stand'}, 'fell': False, 'touch2': 0.0, 'held': {'left': False, 'right': True}}
+C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\tele\0011_paper1_end.jpg
+SAY {'done': 2, 'last': 'C:\\Users\\raresense\\sim_home\\runs\\1120_181556_dex1_floor_final\\checkpoints\\0123_item_r195i3_paper', 'next': 'r195i1_paper', 'frame': 14060, 't': 496.3, 'kit': {'ws_gb': 6.46, 'priv_gb': 13.9}}

@@ -1,0 +1,3 @@
+[checkpoint] loaded C:\Users\raresense\sim_home\runs\1121_021343_dex1_floor_final_s2\checkpoints\0035_act_n1_bag_north_stance: t=4973.356 s, k=2486678, {'controller_fields': 177, 'cloth_arrays': 230}
+RELOADED 0035 rec 6065 {'t': 4976.66, 'pelvis': [-4.558, -0.838, 0.671], 'yaw_deg': -69.6, 'hands': {'left': [-4.319, -0.747, 0.441], 'right': [-4.796, -0.924, 0.44]}, 'mode': 'stand'}
+__END__

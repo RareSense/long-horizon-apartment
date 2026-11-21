@@ -1,0 +1,3 @@
+[checkpoint] 0894_item_r126i1_scooter t=8306.06 s, 2.77 MB, 0.748 s
+DONE {'done': 'r126i1_scooter', 'ckpt': 'C:\\Users\\raresense\\sim_home\\runs\\1120_093820_dex1_floor_12\\checkpoints\\0894_item_r126i1_scooter', 'pruned': 595, 'pos': 22, 'n': 65, 'next': 'r106i1_umbrella'}
+state {'t': 8306.06, 'pelvis': [-1.581, 0.241, 0.673], 'yaw_deg': -91.2, 'hands': {'left': [-1.325, 0.238, 0.443], 'right': [-1.834, 0.248, 0.443]}, 'mode': 'stand'} kit {'ws_gb': 1.09, 'priv_gb': 14.04}

@@ -1,0 +1,10 @@
+right to (0.27, -0.24, 0.95) {'err': [-0.001, 0.054, 0.018], 'pad': [-2.361, -1.728, 0.932], 'pad_rf': [0.328, -0.259, 0.932], 'tilt': 0.358} fingers rf [0.19, -0.02, -0.98] close rf [0.98, -0.01, 0.19] pads rf [0.283, -0.259, 0.924] [0.372, -0.26, 0.941] pad_low 0.908 caught 0 at_f 0 held L True out {'share': 0.032, 'z_lo': 0.497, 'below_rim': 33} touch {'body': 0.0, 'body_who': None, 'held': 0.0, 'held_who': None} knees {'left_knee': 0.107, 'right_knee': 0.092} fell False
+right to (0.3, -0.24, 0.74) {'err': [-0.0, 0.012, 0.0], 'pad': [-2.344, -1.711, 0.74], 'pad_rf': [0.311, -0.241, 0.74], 'tilt': 0.309} fingers rf [-0.06, 0.01, -1.0] close rf [1.0, -0.01, -0.06] pads rf [0.266, -0.24, 0.743] [0.356, -0.241, 0.737] pad_low 0.722 caught 0 at_f 0 held L True out {'share': 0.03, 'z_lo': 0.5, 'below_rim': 31} touch {'body': 0.0, 'body_who': None, 'held': 0.0, 'held_who': None} knees {'left_knee': 0.121, 'right_knee': 0.108} fell False
+between the pads uv: None hamper [-2.148, -1.957] tilt 0.309 pelvis [-2.136, -1.378, 0.693]
+uv (0.42, -0.18) idx 1804 rf [0.315, -0.105, 0.673] in_pads R ([0.006, 0.068, 0.135], 0.045)
+uv (0.46, -0.14) idx 1884 rf [0.323, -0.05, 0.674] in_pads R ([0.013, 0.066, 0.191], 0.045)
+uv (0.4, -0.14) idx 1767 rf [0.343, -0.093, 0.706] in_pads R ([0.032, 0.033, 0.147], 0.045)
+uv (-0.5, 0.0) idx 39 rf [0.374, -0.118, 0.746] in_pads R ([0.061, -0.009, 0.124], 0.045)
+uv (0.4, -0.3) idx 1759 rf [0.346, -0.163, 0.613] in_pads R ([0.041, 0.125, 0.077], 0.045)
+look C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\look_fb\0017_g18_rpre.jpg
+__END__

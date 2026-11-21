@@ -1,0 +1,6 @@
+ball now [-2.875, -1.31, 0.036]
+[checkpoint] loaded C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\checkpoints\0342_act_put_down: t=786.666 s, k=393333, {'controller_fields': 176, 'cloth_arrays': 224}
+RELOADED C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\checkpoints\0342_act_put_down frame 22883 state {'t': 786.97, 'pelvis': [-2.725, -1.158, 0.636], 'yaw_deg': -120.6, 'hands': {'left': [-2.751, -1.491, 0.78], 'right': [-2.933, -1.014, 0.401]}, 'mode': 'stand'} held {'left': True, 'right': False}
+ball [-2.845, -1.314, 0.036] toy [-2.749, -1.487, 0.768] r193i1 [-2.97, -0.586, 0.025]
+near [('r149i1_pouch', [0.12, -0.74]), ('r150i1_small_box', [-0.01, -0.77]), ('r192i1_ball', [0.2, -0.02]), ('r193i1_toy_piece', [-0.37, -0.5]), ('r193i3_toy_piece', [0.29, 0.15]), ('r193i4_toy_piece', [0.46, -0.28])]
+C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\tele\0018_d02_reload.jpg

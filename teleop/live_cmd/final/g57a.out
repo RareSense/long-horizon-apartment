@@ -1,0 +1,10 @@
+ck C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\checkpoints\1891_act_g_both_up_before_lowering frame 120728
+both to {'left': (0.52, -0.01, 1.1), 'right': (0.5, -0.1, 1.14)} pads rf {'left': [0.509, -0.01, 1.1], 'right': [0.5, -0.1, 1.14]} held L/R True True out {'n': 0, 'share': 0.0, 'below_rim': 0} inside {'inside': 1.0, 'below_rim': 0.141, 'overhang': 0.0, 'lowest': 0.389, 'rim': 0.59} touch 0.0 knees {'left_knee': 0.109, 'right_knee': 0.097} tilt 0.363 fell False
+both to {'left': (0.53, 0.0, 1.0), 'right': (0.51, -0.1, 1.02)} pads rf {'left': [0.527, -0.001, 1.001], 'right': [0.51, -0.101, 1.021]} held L/R True True out {'n': 0, 'share': 0.0, 'below_rim': 0} inside {'inside': 1.0, 'below_rim': 0.253, 'overhang': 0.0, 'lowest': 0.27, 'rim': 0.59} touch 0.0 knees {'left_knee': 0.119, 'right_knee': 0.107} tilt 0.335 fell False
+both to {'left': (0.53, 0.0, 0.9), 'right': (0.51, -0.1, 0.9)} pads rf {'left': [0.519, 0.0, 0.9], 'right': [0.51, -0.1, 0.9]} held L/R True True out {'n': 0, 'share': 0.0, 'below_rim': 0} inside {'inside': 1.0, 'below_rim': 0.397, 'overhang': 0.0, 'lowest': 0.15, 'rim': 0.59} touch 0.0 knees {'left_knee': 0.132, 'right_knee': 0.122} tilt 0.283 fell False
+left fingers rf [0.93, -0.33, -0.17] close rf [0.35, 0.68, 0.64] pads z 0.894 0.906 pad r from centre 0.081
+right fingers rf [0.9, 0.23, -0.37] close rf [0.1, 0.73, 0.68] pads z 0.894 0.907 pad r from centre 0.088
+cloth r max 0.179 share with r > 0.22: 0.0 their z lo/hi None lowest 0.15 top 0.917
+others {'r131i1_knit_hat': True, 'r189i1_santa_hat': True, 'r121i1_jacket': True, 'r117i1_blanket': True} hamper [-2.151, -1.959]
+look C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\look_fb\0052_g57_both.jpg
+__END__

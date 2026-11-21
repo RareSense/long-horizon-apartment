@@ -1,0 +1,10 @@
+[zz] helpers loaded
+[zz] grasp steps loaded
+goal [0.422, -1.743, 1.571]
+walk {'ok': True, 'err_xy': 0.001, 'err_yaw': 0.006, 'seconds': 6.6, 'standing': True, 'steppings': 1, 'pre': "{'point': [0.422, -2.043], 'err_xy': 0.003, 'way_points': [[1.03, -1.38], [0.8, -0.95], [0.3, -1.0], [0.42, -2.04]]}", 'goal': [0.422, -1.743, 1.571], 'base': [0.423, -1.742, 1.565]}
+{'t': 1658.31, 'pelvis': [0.423, -1.742, 0.673], 'yaw_deg': 89.7, 'hands': {'left': [0.168, -1.743, 0.443], 'right': [0.676, -1.746, 0.442]}, 'mode': 'stand'} {'body': 0.0, 'body_who': None, 'held': 0.0, 'held_who': None} in_reach (True, [0.171, 0.268])
+crouch_over {'in_reach': True, 'rel': [0.171, 0.268], 'above_err': [0.0009, -0.0029, 0.0006], 'pelvis': [0.416, -1.826, 0.274]}
+down {'pad_low': 0.0066, 'wanted': 0.0065}
+close_lock {'gap_cm': 0.13, 'F1': 3.5, 'F2': 3.2, 'caught': 0, 'held': 0, 'caught_uv_mean': [-0.44, 0.0]}
+look C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\tele\0058_bl_fable_grasp.jpg
+__END__

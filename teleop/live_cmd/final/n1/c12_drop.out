@@ -1,0 +1,6 @@
+ck C:\Users\raresense\sim_home\runs\1121_021343_dex1_floor_final_s2\checkpoints\0276_act_n1_stock_held
+[cloth] r190i1_stocking into object_0312_body: {'inside': 0.65, 'below_rim': 0.527, 'overhang': 0.045, 'lowest': 0.051, 'rim': 0.12} -> NOT in
+DROP {'obj': 'r190i1_stocking', 'into': 'object_0312_body', 'ok': False, 'high': False, 'drop_point': [-5.168, -1.387], 'pad_z': 0.646, 'over_err': [-0.031, -0.015, -0.026], 'over_inside': True, 'hang': 0.238, 'at_fingers_after_open': 0, 'came_up_with_the_hand': 0, 'hand_rest_from_container': 0.088, 'inside': 0.65, 'below_rim': 0.527, 'overhang': 0.045, 'lowest': 0.051, 'rim': 0.12, 'settled': True}
+in basket {'inside': 0.65, 'below_rim': 0.527, 'overhang': 0.045, 'lowest': 0.051, 'rim': 0.12} state {'t': 5091.79, 'pelvis': [-4.816, -1.319, 0.767], 'yaw_deg': -135.6, 'hands': {'left': [-4.636, -1.5, 0.537], 'right': [-4.992, -1.136, 0.537]}, 'mode': 'stand'} fell False touch None held []
+look C:\Users\raresense\sim_home\runs\1121_021343_dex1_floor_final_s2\tele\0034_n1_stock_drop.jpg
+__END__

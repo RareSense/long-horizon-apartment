@@ -1,0 +1,5 @@
+[checkpoint] loaded C:\Users\raresense\sim_home\runs\1120_114552_scout_hall_AI_operated\checkpoints\0850_act_squat_put: t=9160.672 s, k=4580336, {'controller_fields': 179, 'cloth_arrays': 231}
+[route] resumed at item 25/43 (r105i1_shoe), 24 done
+at 0850 {'t': 9160.67, 'pelvis': [1.588, -1.724, 0.745], 'yaw_deg': -90.1, 'hands': {'left': [1.652, -1.988, 0.77], 'right': [1.335, -1.719, 0.513]}, 'mode': 'stand'} touch {25: 1, 26: 1} axis [-0.4, 0.92] c [1.672, -2.06] zb 0.632 tilt 13.5 pad [1.652, -1.987, 0.765]
+ee R [[-0.06, 1.0, 0.02], [0.24, 0.04, -0.97], [-0.97, -0.05, -0.24]]
+C:\Users\raresense\sim_home\runs\1120_114552_scout_hall_AI_operated\tele\0021_s04_held_0850.jpg

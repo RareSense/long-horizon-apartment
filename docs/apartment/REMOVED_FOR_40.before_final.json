@@ -1,0 +1,53 @@
+{
+ "decided": "20 Nov 2026 ~11:30, user: remove the difficult objects from the scene, complete the episode fast, total 40 items",
+ "how": "at the chain end the removed things are taken out of the scene (moved off-map, out of every camera); in the final re-render they are hidden from frame 0. Not faked as tidied: they are listed as removed.",
+ "removed_sink_bound": [
+  "r81i1_glass_spoon",
+  "r89i1_salad_bowl",
+  "r90i1_plate",
+  "r91i1_tan_plate",
+  "r63i1_glass",
+  "r138i1_cup",
+  "r155i1_kids_bottle",
+  "r151i1_spoon",
+  "r148i1_pink_lid",
+  "r147i1_purple_container",
+  "r197i1_cup",
+  "r177i1_bowl",
+  "r173i1_tumbler",
+  "r171i1_glass",
+  "r78i1_kids_bottle",
+  "r92i1_pink_container"
+ ],
+ "removed_hard": [
+  "r127i1_scooter",
+  "r106i1_umbrella",
+  "r139i1_toy_car",
+  "r188i1_dollhouse",
+  "r70i1_tote",
+  "r71i1_lysol"
+ ],
+ "to_do_19": [
+  "r126i1_scooter",
+  "r105i1_shoe",
+  "r105i2_shoe",
+  "r107i1_umbrella",
+  "r83i1_sponges",
+  "r120i1_duck",
+  "r186i1_basket",
+  "r192i1_ball",
+  "r193i1_toy_piece",
+  "r193i2_toy_piece",
+  "r193i3_toy_piece",
+  "r193i4_toy_piece",
+  "r191i1_toy_vehicle",
+  "r159i1_door",
+  "r154i1_stick",
+  "r158i1_tissue",
+  "r149i1_pouch",
+  "r87i1_wrapper",
+  "r93i1_nugget",
+  "r100i1_towel"
+ ],
+ "to_do_19_note": "r186i1_basket appears twice in the route (two basket rounds) but counts once; with r100 towel the to-do list has 19 unique items: 21 done + 19 = 40"
+}

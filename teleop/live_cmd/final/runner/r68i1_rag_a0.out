@@ -1,0 +1,11 @@
+[chk] item_check + guarded route_checkpoint loaded; SPOT_TOL 0.15
+[final_run] common_b loaded
+[final_run] items ['r68i1_rag', 'r196i1_plastic_bag', 'r190i1_stocking', 'r125i2_flat', 'r130i1_light_saber', 'r120i2_duck', 'r125i1_flat', 'r175i1_cardboard_box', 'r178i1_ball', 'r179i1_toy_pouch', 'r126i1_scooter', 'r149i1_pouch', 'r93i1_nugget', 'r193i4_toy_piece', 'r192i1_ball', 'r193i2_toy_piece', 'r193i1_toy_piece', 'r193i3_toy_piece', 'r120i1_duck', 'r158i1_tissue', 'r105i1_shoe', 'r105i2_shoe', 'r107i1_umbrella', 'r159i1_door', 'r83i1_sponges']
+ITEM_START r68i1_rag attempt 0 pos 11 route at r68i1_rag state {'t': 4105.51, 'pelvis': [2.543, 0.96, 0.673], 'yaw_deg': 0.5, 'hands': {'left': [2.538, 1.216, 0.443], 'right': [2.543, 0.707, 0.442]}, 'mode': 'stand'}
+GRASP {'ok': True, 'uv': [-0.094, -0.0], 'close': {'gap_cm': 1.07, 'F1': 13.3, 'F2': 15.1, 'caught': 9, 'held': 14, 'uv': [-0.094, -0.0]}, 'rose': 0.079, 'in_reach': [0.17, 0.268], 'stance': [3.095, 0.66, 0.0], 'hang': 0.279}
+DROP {'error': 'right_Dex1_base_link pressing r133i1_laundry_basket 35 N'}
+ITEM_RESULT OK r68i1_rag {'item': 'r68i1_rag', 't': 4349.92, 'kind': 'garment', 'dest': 'r133i1_laundry_basket', 'inside': 1.0, 'ok': True} held False fell False state {'t': 4349.92, 'pelvis': [-2.53, -2.223, 0.773], 'yaw_deg': 59.4, 'hands': {'left': [-2.748, -2.093, 0.541], 'right': [-2.179, -2.307, 0.61]}, 'mode': 'stand'}
+ITEM_CHECK {'item': 'r68i1_rag', 't': 4349.92, 'kind': 'garment', 'dest': 'r133i1_laundry_basket', 'inside': 1.0, 'ok': True}
+[checkpoint] 2584_item_r68i1_rag t=4349.92 s, 1.69 MB, 0.331 s
+ITEM_DONE {'done': 'r68i1_rag', 'ckpt': 'C:\\Users\\raresense\\sim_home\\runs\\1120_181556_dex1_floor_final\\checkpoints\\2584_item_r68i1_rag', 'pruned': 63, 'pos': 12, 'n': 36, 'next': 'r196i1_plastic_bag'}
+ZZ_OK True

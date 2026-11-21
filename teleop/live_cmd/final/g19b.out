@@ -1,0 +1,6 @@
+in 0 moved [-0.001, 0.025, 0.001] pad rf [0.317, -0.114, 0.688] pads x 0.272 0.363 pad_low 0.673 tgt rf [0.314, -0.093, 0.673] in_pads ([-0.003, 0.015, 0.021], 0.045) caught 0 uv None first end 39 in_pads [0.054, -0.058, 0.009] touch 0.0 None out 0.03 fell False
+in 1 moved [-0.003, 0.021, 0.0] pad rf [0.316, -0.095, 0.688] pads x 0.271 0.361 pad_low 0.673 tgt rf [0.314, -0.09, 0.674] in_pads ([-0.002, 0.014, 0.005], 0.045) caught 4 uv [0.4, -0.18] first end 39 in_pads [0.058, -0.056, -0.007] touch 0.0 None out 0.03 fell False
+between the pads uv: [[0.38, -0.18], [0.4, -0.18], [0.4, -0.16], [0.42, -0.18]]
+hamper [-2.148, -1.957] tilt 0.287 knees {'left_knee': 0.126, 'right_knee': 0.115} held L True inside {'inside': 0.97, 'below_rim': 0.049, 'overhang': 0.027, 'lowest': 0.444, 'rim': 0.59}
+look C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\look_fb\0019_g19_rin.jpg
+__END__

@@ -1,0 +1,20 @@
+MV ({'fwd': -0.12, 'tag': 'coat_back0'}, [-2.151, -1.319], -88.8, 0.0, None)
+MV ({'fwd': -0.12, 'tag': 'coat_back1'}, [-2.151, -1.195], -88.8, 0.0, None)
+MV ({'turn': 15.0, 'tag': 'coat_turn0'}, [-2.153, -1.193], -74.0, 0.0, None)
+MV ({'turn': 15.0, 'tag': 'coat_turn1'}, [-2.155, -1.192], -59.2, 0.0, None)
+MV ({'turn': 15.0, 'tag': 'coat_turn2'}, [-2.158, -1.191], -44.4, 0.0, None)
+MV ({'turn': 15.0, 'tag': 'coat_turn3'}, [-2.161, -1.19], -29.6, 0.0, None)
+MV ({'turn': 15.0, 'tag': 'coat_turn4'}, [-2.163, -1.189], -14.8, 0.0, None)
+MV ({'turn': 14.783541096029218, 'tag': 'coat_turn5'}, [-2.165, -1.187], -0.5, 0.0, None)
+MV ({'fwd': 0.12, 'side': -0.0026407020482768218, 'turn': 0.4918786625844881, 'tag': 'coat_east0'}, [-2.043, -1.19], -0.5, 0.0, None)
+MV ({'fwd': 0.12, 'side': -0.00018419334633823503, 'turn': 0.5007859791391437, 'tag': 'coat_east1'}, [-1.922, -1.189], -0.5, 0.0, None)
+MV ({'fwd': 0.12, 'side': -0.0009060898041555188, 'turn': 0.49719595207687, 'tag': 'coat_east2'}, [-1.796, -1.189], -0.5, 0.0, None)
+MV ({'fwd': 0.12, 'side': -0.0010793357609080179, 'turn': 0.5107462721416712, 'tag': 'coat_east3'}, [-1.673, -1.191], -0.6, 0.0, None)
+MV ({'fwd': 0.12, 'side': 0.0011614313588528269, 'turn': 0.5570761598426152, 'tag': 'coat_east4'}, [-1.551, -1.189], -0.5, 0.0, None)
+MV ({'fwd': 0.10100616169923637, 'side': -0.0012075383862097944, 'turn': 0.5023158022439564, 'tag': 'coat_east5'}, [-1.445, -1.191], -0.5, 0.0, None)
+OUT True {'t': 2527.34, 'pelvis': [-1.445, -1.191, 0.673], 'yaw_deg': -0.5, 'hands': {'left': [-1.444, -0.937, 0.443], 'right': [-1.449, -1.446, 0.443]}, 'mode': 'stand'}
+[bigcloth] r116i1_coat_pile grasp: ok {'ok': True, 'uv': [0.03, 0.28], 'close': {'gap_cm': 0.76, 'F1': 9.1, 'F2': 8.7, 'caught': 3, 'held': 4, 'uv': [0.03, 0.28]}, 'rose': 0.079, 'in_reach': [0.173, 0.269], 'stance': [1.003, -1.741, 0.0], 'hang': 0.767, 'stage': 'grasp'}
+RESULT [{'ok': True, 'uv': [0.03, 0.28], 'close': {'gap_cm': 0.76, 'F1': 9.1, 'F2': 8.7, 'caught': 3, 'held': 4, 'uv': [0.03, 0.28]}, 'rose': 0.079, 'in_reach': [0.173, 0.269], 'stance': [1.003, -1.741, 0.0], 'hang': 0.767, 'stage': 'grasp', 'ckpt_before': 'C:\\Users\\raresense\\sim_home\\runs\\1120_181556_dex1_floor_final\\checkpoints\\1613_act_bc_stage_grasp'}]
+state {'t': 2576.68, 'pelvis': [0.961, -1.749, 0.637], 'yaw_deg': -0.1, 'hands': {'left': [0.946, -1.495, 0.402], 'right': [1.285, -1.882, 0.776]}, 'mode': 'stand'} touch {'body': 0.0, 'body_who': None, 'held': 0.0, 'held_who': None} held R True fell False coat box [[1.0449999570846558, -2.510999917984009, 0.004000000189989805], [1.4249999523162842, -1.7910000085830688, 0.7720000147819519]]
+look3 C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\tele\0127_coat_grasped.jpg
+__END__

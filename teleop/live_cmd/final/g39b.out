@@ -1,0 +1,13 @@
+left to (0.46, 0.0, 0.8) {'err': [-0.0, -0.024, -0.0], 'pad': [-2.048, -1.812, 0.8], 'pad_rf': [0.437, 0.003, 0.8], 'tilt': 0.304} fingers rf [0.5, -0.02, -0.86] close rf [0.01, 1.0, -0.02] pads z 0.8 0.8 held L True inside {'inside': 0.991, 'below_rim': 0.713, 'overhang': 0.024, 'lowest': 0.043, 'rim': 0.59} out {'share': 0.009, 'z_lo': 0.6, 'below_rim': 0} touch 0.0 knees {'left_knee': 0.124, 'right_knee': 0.106} fell False
+left cloth within 0.07 of the pad middle: n 99 | closing axis world [0.98, 0.2, -0.02] fingers world [0.08, -0.5, -0.86] across world [-0.18, 0.84, -0.5]
+   along fingers -0.06:   .  .  .  .  .  .  .  .
+   along fingers -0.04:   .  .  .  .  .  .  .  .
+   along fingers -0.02:   .  .  .  1  2  .  .  .
+   along fingers +0.00:   .  .  .  5  9  1  .  .
+   along fingers +0.02:   .  .  4  9  8  2  6  .
+   along fingers +0.04:   .  .  5  6 11  8  5  1
+   along fingers +0.06:   .  .  2  6  5  3  .  .
+   across range of those points [-0.033, 0.06] (pads at closing axis -/+ 0.010)
+left pad r from centre 0.176 tilt 0.304
+look hand C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\tele\0104_g39_left.jpg
+__END__

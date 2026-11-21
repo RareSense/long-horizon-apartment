@@ -1,0 +1,11 @@
+MV ('turn', [-2.43, -1.128, 0.671], 0.6, 0.0)
+MV ('side', [-2.433, -1.002], 0.7, 0.0, None)
+MV ('side', [-2.437, -0.876], 0.7, 0.0, None)
+MV ('side', [-2.44, -0.751], 0.7, 0.0, None)
+MV ('side', [-2.444, -0.626], 0.7, 0.0, None)
+MV ('side', [-2.448, -0.501], 0.7, 0.0, None)
+MV ('side', [-2.45, -0.466], 0.6, 0.0, None)
+MV ('side', [-2.453, -0.458], 0.6, 1.9, ['left_Dex1_base_link', 'scene_static'])
+END {'t': 1533.33, 'pelvis': [-2.453, -0.458, 0.672], 'yaw_deg': 0.6, 'hands': {'left': [-2.457, -0.209, 0.441], 'right': [-2.452, -0.712, 0.441]}, 'mode': 'stand'} near [('r158i1_tissue', [-0.39, 0.37]), ('r193i1_toy_piece', [-0.52, -0.12]), ('r193i3_toy_piece', [-0.37, -0.11])] fell False
+C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\tele\0042_bl_side_end.jpg
+__END__

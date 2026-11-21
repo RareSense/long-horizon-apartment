@@ -1,0 +1,5 @@
+ck C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\checkpoints\0729_act_n1_ball_at_basket
+over [-5.11, -1.397, 0.22] ball [-5.112, -1.399, 0.213]
+ball [-5.101, -1.46, 0.03] inside True check {'item': 'r178i1_ball', 't': 6519.24, 'kind': 'thing', 'dest': 'object_0312_body', 'centre': [-5.101, -1.46, 0.03], 'ok': True, 'off_spot': 0.019, 'inside': True} state {'t': 6519.24, 'pelvis': [-4.878, -1.078, 0.767], 'yaw_deg': -125.2, 'hands': {'left': [-4.668, -1.225, 0.538], 'right': [-5.085, -0.93, 0.537]}, 'mode': 'stand'} fell False touch None
+C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\tele\0036_n1_ball_in.jpg
+__END__

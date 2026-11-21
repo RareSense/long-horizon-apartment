@@ -1,0 +1,14 @@
+ck C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\checkpoints\1312_act_g_before_fold frame 86633
+[bigcloth] r117i1_blanket fold: ok {'ok': True, 'target': 1766, 'target_rf': [0.316, -0.12, 0.665], 'step': {'left': 0.014, 'caught': 7, 'touch': 0.0}, 'close': {'gap_cm': 1.0, 'F1': 12.2, 'F2': 11.2, 'caught': 5, 'held': 5, 'uv': [-0.428, 0.164]}, 'stage': 'fold'}
+RESULT {'ok': True, 'target': 1766, 'target_rf': '[0.316, -0.12, 0.665]', 'step': "{'left': 0.014, 'caught': 7, 'touch': 0.0}", 'close': "{'gap_cm': 1.0, 'F1': 12.2, 'F2': 11.2, 'caught': 5, 'held': 5, 'uv': [-0.428, 0.164]}", 'stage': 'fold', 'ckpt_before': None}
+  stage look C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\tele\0101_bc_fold.jpg
+held L/R True True LOCK {'left': 4, 'right': 5} inside {'inside': 0.927, 'below_rim': 0.156, 'overhang': 0.073, 'lowest': 0.34, 'rim': 0.59} out {'share': 0.073, 'z_lo': 0.507, 'below_rim': 38}
+pads rf {'left': [0.429, -0.029, 1.08], 'right': [0.344, -0.121, 0.633]} state {'t': 2171.18, 'pelvis': [-2.148, -1.394, 0.726], 'yaw_deg': -83.5, 'hands': {'left': [-2.126, -1.82, 1.077], 'right': [-2.229, -1.747, 0.637]}, 'mode': 'stand'} touch {'body': 0.0, 'body_who': None, 'held': 0.0, 'held_who': None} tilt 0.216 knees {'left_knee': 0.141, 'right_knee': 0.131} fell False
+outside n 146 uv lo/hi [-0.5, -0.38] [0.5, 0.38] z lo/hi 0.507 0.846 rf lo/hi [0.234, -0.23, 0.507] [0.358, -0.055, 0.846]
+r131i1_knit_hat {'item': 'r131i1_knit_hat', 't': 2171.18, 'kind': 'garment', 'dest': 'r133i1_laundry_basket', 'inside': 1.0, 'ok': True}
+r189i1_santa_hat {'item': 'r189i1_santa_hat', 't': 2171.18, 'kind': 'garment', 'dest': 'r133i1_laundry_basket', 'inside': 1.0, 'ok': True}
+r121i1_jacket {'item': 'r121i1_jacket', 't': 2171.18, 'kind': 'garment', 'dest': 'r133i1_laundry_basket', 'inside': 1.0, 'ok': True}
+look C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\look_fb\0014_g07_fold.jpg
+fold look C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\tele\0100_bc_fold_in.jpg
+right held uv [[-0.46, 0.18], [-0.44, 0.18], [-0.42, 0.14], [-0.42, 0.16], [-0.4, 0.16]]
+__END__

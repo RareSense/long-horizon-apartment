@@ -1,0 +1,6 @@
+DROP {'e': [-0.043, 0.05, -0.034], 'pad': [0.211, 1.437, 0.522], 'over': True, 'paper': [0.185, 1.443, -0.002], 'inside': True, 'state': {'t': 546.84, 'pelvis': [0.174, 1.118, 0.774], 'yaw_deg': 89.2, 'hands': {'left': [-0.081, 1.118, 0.544], 'right': [0.419, 1.158, 0.544]}, 'mode': 'stand'}, 'touch': 0.0, 'held': False, 'fell': False}
+C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\tele\0014_paper1_drop.jpg
+ITEM_CHECK {'item': 'r195i1_paper', 't': 546.84, 'kind': 'thing', 'dest': 'rubbish_bin', 'centre': [0.185, 1.443, -0.002], 'ok': True, 'off_spot': 0.093, 'inside': True}
+[checkpoint] 0229_item_r195i1_paper t=546.84 s, 1.18 MB, 0.254 s
+DONE {'done': 'r195i1_paper', 'ckpt': 'C:\\Users\\raresense\\sim_home\\runs\\1120_181556_dex1_floor_final\\checkpoints\\0229_item_r195i1_paper', 'pruned': 75, 'pos': 3, 'n': 36, 'next': 'r131i1_knit_hat'}
+SAY {'done': 3, 'last': 'C:\\Users\\raresense\\sim_home\\runs\\1120_181556_dex1_floor_final\\checkpoints\\0229_item_r195i1_paper', 'next': 'r131i1_knit_hat', 'frame': 15575, 't': 546.8, 'kit': {'ws_gb': 6.25, 'priv_gb': 13.65}}

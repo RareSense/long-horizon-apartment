@@ -1,0 +1,2 @@
+zz_d = tele_item_done("r124i1_sandal", note="AUTONOMOUS pick (library pick_floor, tight clearances) + put_away FELL: crouch_holding at the put stance pushed the held sandal into the floor lamp r109's leg and the robot fell backward. AI teleop from ckpt 0459 (before the crouch): new stance facing west (1.38,-2.08) with the hand away from the lamp, squat_follow in 3 steps (hand follows the pelvis), lowered onto the mat at (1.34,-2.42), jaws open. The sandal leans 40 deg on the console's low shelf edge (on the mat).")
+print("ITEM DONE", zz_d, flush=True)

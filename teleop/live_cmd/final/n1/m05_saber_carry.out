@@ -1,0 +1,15 @@
+ck C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\checkpoints\3428_act_n1_saber_held
+at [-1.297, -1.203] held True
+at [-2.601, -1.465] held True
+at [-3.4, -1.843] held True
+at [-4.545, -1.952] held True
+PUT {'put': {'ok': False, 'lost': True, 'grip': {'ok': False, 'gap': 0.0763, 'jaw1_N': 0.7, 'jaw2_N': 0.2, 'between': 0.38, 'off_axis': 0.03}}} saber [-4.725, -1.334, 0.865] held True state {'t': 10930.65, 'pelvis': [-4.941, -1.08, 0.732], 'yaw_deg': -30.4, 'hands': {'left': [-4.814, -0.859, 0.502], 'right': [-4.704, -1.339, 0.893]}, 'mode': 'stand'} fell False
+LOWER_PUT {'bottom': 0.003, 'off_xy': [0.02, 0.042], 'at': [-4.948, -1.443, 0.156], 'state': {'t': 11023.14, 'pelvis': [-4.9, -1.095, 0.768], 'yaw_deg': -30.5, 'hands': {'left': [-4.772, -0.874, 0.538], 'right': [-5.031, -1.315, 0.538]}, 'mode': 'stand'}, 'fell': False, 'touch': 0.0, 'held': {'left': False, 'right': False}, 'check': {'item': 'r130i1_light_saber', 't': 11023.14, 'kind': 'thing', 'dest': 'floor', 'centre': [-4.948, -1.443, 0.156], 'ok': True, 'off_spot': 0.048}}
+saber [-4.948, -1.443, 0.156] check {'item': 'r130i1_light_saber', 't': 11023.14, 'kind': 'thing', 'dest': 'floor', 'centre': [-4.948, -1.443, 0.156], 'ok': True, 'off_spot': 0.048} state {'t': 11023.14, 'pelvis': [-4.9, -1.095, 0.768], 'yaw_deg': -30.5, 'hands': {'left': [-4.772, -0.874, 0.538], 'right': [-5.031, -1.315, 0.538]}, 'mode': 'stand'} fell False
+ITEM_RESULT OK r130i1_light_saber {'item': 'r130i1_light_saber', 't': 11023.14, 'kind': 'thing', 'dest': 'floor', 'centre': [-4.948, -1.443, 0.156], 'ok': True, 'off_spot': 0.048} held False fell False state {'t': 11023.14, 'pelvis': [-4.9, -1.095, 0.768], 'yaw_deg': -30.5, 'hands': {'left': [-4.772, -0.874, 0.538], 'right': [-5.031, -1.315, 0.538]}, 'mode': 'stand'}
+ITEM_CHECK {'item': 'r130i1_light_saber', 't': 11023.14, 'kind': 'thing', 'dest': 'floor', 'centre': [-4.948, -1.443, 0.156], 'ok': True, 'off_spot': 0.048}
+[checkpoint] 3677_item_r130i1_light_saber t=11023.14 s, 3.18 MB, 0.755 s
+ITEM_DONE {'done': 'r130i1_light_saber', 'ckpt': 'C:\\Users\\raresense\\sim_home\\runs\\1121_034845_dex1_floor_final_s3\\checkpoints\\3677_item_r130i1_light_saber', 'pruned': 233, 'pos': 32, 'n': 35, 'next': 'r126i1_scooter'}
+FIN True
+C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\tele\0129_n1_saber_end.jpg
+__END__

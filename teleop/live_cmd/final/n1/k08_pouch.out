@@ -1,0 +1,16 @@
+ITEM_START r149i1_pouch attempt 2 pos 30 route at r149i1_pouch state {'t': 10223.77, 'pelvis': [0.112, 0.814, 0.769], 'yaw_deg': 89.7, 'hands': {'left': [-0.144, 0.813, 0.539], 'right': [0.365, 0.811, 0.538]}, 'mode': 'stand'}
+walk ERR left_knee_link pressing furniture/floor 68 N at z 0.27
+at {'t': 10349.52, 'pelvis': [-2.871, -1.055, 0.672], 'yaw_deg': 179.5, 'hands': {'left': [-2.871, -1.311, 0.442], 'right': [-2.867, -0.803, 0.441]}, 'mode': 'swing'} pouch [-3.206, -0.88, 0.49] rel [0.336, -0.172]
+ck C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\checkpoints\3193_act_n1_pouch149_east
+CORNER {'corner': [-3.117, -0.877], 'ahead': 0.289, 'z': 0.493, 'e_above': [0.002, -0.0, -0.001], 'e_down': [-0.0, -0.001, -0.001], 'grip': {'ok': True, 'gap': 0.0605, 'jaw1_N': 3.8, 'jaw2_N': 4.0}, 'fingers': 2, 'rose': 0.107, 'touching': ['right:f1', 'right:f2'], 'held': True}
+ck C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\checkpoints\3202_act_n1_pouch149_held
+ck C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\checkpoints\3247_act_n1_pouch149_at_bin
+over True [0.149, 1.367, 0.704]
+pouch [0.147, 1.377, 0.011] inside True state {'t': 10523.33, 'pelvis': [0.11, 0.796, 0.673], 'yaw_deg': 89.8, 'hands': {'left': [-0.146, 0.795, 0.443], 'right': [0.363, 0.793, 0.442]}, 'mode': 'stand'} fell False touch None
+ITEM_RESULT OK r149i1_pouch {'item': 'r149i1_pouch', 't': 10523.33, 'kind': 'thing', 'dest': 'rubbish_bin', 'centre': [0.147, 1.377, 0.011], 'ok': True, 'off_spot': 0.113, 'inside': True} held False fell False state {'t': 10523.33, 'pelvis': [0.11, 0.796, 0.673], 'yaw_deg': 89.8, 'hands': {'left': [-0.146, 0.795, 0.443], 'right': [0.363, 0.793, 0.442]}, 'mode': 'stand'}
+ITEM_CHECK {'item': 'r149i1_pouch', 't': 10523.33, 'kind': 'thing', 'dest': 'rubbish_bin', 'centre': [0.147, 1.377, 0.011], 'ok': True, 'off_spot': 0.113, 'inside': True}
+[checkpoint] 3261_item_r149i1_pouch t=10523.33 s, 3.01 MB, 0.753 s
+ITEM_DONE {'done': 'r149i1_pouch', 'ckpt': 'C:\\Users\\raresense\\sim_home\\runs\\1121_034845_dex1_floor_final_s3\\checkpoints\\3261_item_r149i1_pouch', 'pruned': 77, 'pos': 31, 'n': 35, 'next': 'r130i1_light_saber'}
+FIN True
+C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\tele\0120_n1_pouch149_end.jpg
+__END__

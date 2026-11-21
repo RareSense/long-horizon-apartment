@@ -1,0 +1,5 @@
+box [-5.251, 1.562, 0.125] off spot 0.003 tilt 0.0 state {'t': 6216.56, 'pelvis': [-4.872, 1.089, 0.673], 'yaw_deg': 90.4, 'hands': {'left': [-5.128, 1.085, 0.443], 'right': [-4.618, 1.089, 0.443]}, 'mode': 'stand'} held False fell False
+ITEM_CHECK {'item': 'r175i1_cardboard_box', 't': 6216.56, 'kind': 'thing', 'dest': 'against the wall by the two-tier table (floor)', 'centre': [-5.251, 1.562, 0.125], 'ok': False, 'off_spot': 0.003}
+[checkpoint] 0668_item_r175i1_cardboard_box t=6216.56 s, 2.00 MB, 0.444 s
+ITEM DONE {'done': 'r175i1_cardboard_box', 'ckpt': 'C:\\Users\\raresense\\sim_home\\runs\\1121_034845_dex1_floor_final_s3\\checkpoints\\0668_item_r175i1_cardboard_box', 'pruned': 304, 'pos': 17, 'n': 35, 'next': 'r130i1_light_saber'} done 17 rec 43625
+__END__

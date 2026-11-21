@@ -1,0 +1,22 @@
+[chk] item_check + guarded route_checkpoint loaded; SPOT_TOL 0.15
+[final_run] common_b loaded
+[final_run] items ['r68i1_rag', 'r196i1_plastic_bag', 'r190i1_stocking', 'r125i2_flat', 'r130i1_light_saber', 'r120i2_duck', 'r125i1_flat', 'r175i1_cardboard_box', 'r178i1_ball', 'r179i1_toy_pouch', 'r126i1_scooter', 'r149i1_pouch', 'r93i1_nugget', 'r193i4_toy_piece', 'r192i1_ball', 'r193i2_toy_piece', 'r193i1_toy_piece', 'r193i3_toy_piece', 'r120i1_duck', 'r158i1_tissue', 'r105i1_shoe', 'r105i2_shoe', 'r107i1_umbrella', 'r159i1_door', 'r83i1_sponges']
+ITEM_START r159i1_door attempt 0 pos 28 route at r159i1_door state {'t': 9024.36, 'pelvis': [3.542, -2.095, 0.673], 'yaw_deg': -89.9, 'hands': {'left': [3.797, -2.093, 0.443], 'right': [3.289, -2.093, 0.442]}, 'mode': 'stand'}
+[kitchen] step_mon(st=None), call_mon(fn, label), dw_names(), sink_put / use_sink_put (draft), in_basin, door_face, close_door_follow (draft) loaded
+[door] r159i1_door pushed from 0.000 to -0.165 (goal -0.349): NOT shut
+[door] r159i1_door pushed from -0.165 to -0.358 (goal -0.514): NOT shut
+[door] r159i1_door pushed from -0.358 to -0.491 (goal -0.707): NOT shut
+[door] r159i1_door pushed from -0.491 to -0.630 (goal -0.841): NOT shut
+[door] r159i1_door pushed from -0.630 to -0.823 (goal -0.979): NOT shut
+[door] r159i1_door pushed from -0.823 to -1.106 (goal -1.172): NOT shut
+[door] r159i1_door pushed from -1.106 to -1.442 (goal -1.455): shut
+[door] r159i1_door: NOT shut q -1.442 (goal -1.571) in 7 stages
+[door] r159i1_door pushed from -1.442 to -1.561 (goal -1.571): shut
+[door] r159i1_door: shut q -1.561 (goal -1.571) in 1 stages
+[call_mon] r159i1_door: done  sim 968.0 s wall 3114 s
+DOOR {'status': 'done', 'sim_s': 968.0} q -1.561
+ITEM_RESULT OK r159i1_door {'item': 'r159i1_door', 't': 9992.35, 'kind': 'door', 'q': -1.561, 'shut_end': -1.571, 'ok': True} held False fell False state {'t': 9992.35, 'pelvis': [-3.017, -2.389, 0.673], 'yaw_deg': -84.7, 'hands': {'left': [-2.763, -2.364, 0.443], 'right': [-3.271, -2.411, 0.443]}, 'mode': 'stand'}
+ITEM_CHECK {'item': 'r159i1_door', 't': 9992.35, 'kind': 'door', 'q': -1.561, 'shut_end': -1.571, 'ok': True}
+[checkpoint] 2923_item_r159i1_door t=9992.35 s, 2.85 MB, 0.668 s
+ITEM_DONE {'done': 'r159i1_door', 'ckpt': 'C:\\Users\\raresense\\sim_home\\runs\\1121_034845_dex1_floor_final_s3\\checkpoints\\2923_item_r159i1_door', 'pruned': 258, 'pos': 29, 'n': 35, 'next': 'r130i1_light_saber'}
+ZZ_OK True

@@ -1,0 +1,7 @@
+pad rf [0.312, -0.077, 0.677] pad_low 0.662 caught 7 uv [[0.38, -0.2], [0.38, -0.18], [0.4, -0.2], [0.4, -0.18], [0.42, -0.18], [0.42, -0.16], [0.44, -0.18]] touch {'body': 0.0, 'body_who': None, 'held': 0.0, 'held_who': None} fell False
+ck C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\checkpoints\1391_act_g_right_at_sheet_before_close frame 91351
+close_lock {'gap_cm': 4.42, 'F1': 0.0, 'F2': 6.0, 'caught': 0, 'held': 0, 'caught_uv_mean': [0.406, -0.183]}
+left held n 4 uv [[0.04, 0.18], [0.04, 0.2], [0.04, 0.22], [0.06, 0.2]]
+at_fingers {'left': 50, 'right': 22} held L/R True False touch {'body': 0.0, 'body_who': None, 'held': 0.0, 'held_who': None} hamper [-2.148, -1.957] tilt 0.281 knees {'left_knee': 0.127, 'right_knee': 0.116} out {'share': 0.03, 'z_lo': 0.5, 'below_rim': 31} fell False
+look C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\look_fb\0020_g20_closed.jpg
+__END__

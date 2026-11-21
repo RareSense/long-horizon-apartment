@@ -1,0 +1,12 @@
+[checkpoint] loaded C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\checkpoints\3125_act_n1_tissue_at_bin: t=10195.678 s, k=5097839, {'controller_fields': 179, 'cloth_arrays': 231}
+RELOADED at_bin rec 210305 holding True tissue [0.28, 1.299, 0.716] pad [0.278, 1.306, 0.715]
+over True tissue [0.158, 1.327, 0.721] e [-0.014, 0.061, -0.007]
+abort right_knee_link pressing rubbish_bin 50 N
+tissue [0.016, 1.293, 0.03] inside True state {'t': 10213.48, 'pelvis': [0.11, 1.017, 0.734], 'yaw_deg': 89.6, 'hands': {'left': [-0.145, 1.017, 0.504], 'right': [0.361, 1.014, 0.503]}, 'mode': 'stand'} fell False touch ['right_knee_link', 'rubbish_bin']
+ITEM_RESULT OK r158i1_tissue {'item': 'r158i1_tissue', 't': 10213.48, 'kind': 'thing', 'dest': 'rubbish_bin', 'centre': [0.016, 1.293, 0.03], 'ok': True, 'off_spot': 0.205, 'inside': True} held False fell False state {'t': 10213.48, 'pelvis': [0.11, 1.017, 0.734], 'yaw_deg': 89.6, 'hands': {'left': [-0.145, 1.017, 0.504], 'right': [0.361, 1.014, 0.503]}, 'mode': 'stand'}
+ITEM_CHECK {'item': 'r158i1_tissue', 't': 10213.48, 'kind': 'thing', 'dest': 'rubbish_bin', 'centre': [0.016, 1.293, 0.03], 'ok': True, 'off_spot': 0.205, 'inside': True}
+[checkpoint] 3140_item_r158i1_tissue t=10213.48 s, 2.81 MB, 0.548 s
+ITEM_DONE {'done': 'r158i1_tissue', 'ckpt': 'C:\\Users\\raresense\\sim_home\\runs\\1121_034845_dex1_floor_final_s3\\checkpoints\\3140_item_r158i1_tissue', 'pruned': 138, 'pos': 30, 'n': 35, 'next': 'r130i1_light_saber'}
+FIN True
+C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\tele\0114_n1_tissue_in.jpg
+__END__

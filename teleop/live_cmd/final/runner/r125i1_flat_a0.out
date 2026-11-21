@@ -1,0 +1,8 @@
+[chk] item_check + guarded route_checkpoint loaded; SPOT_TOL 0.15
+[final_run] common_b loaded
+[final_run] items ['r68i1_rag', 'r196i1_plastic_bag', 'r190i1_stocking', 'r125i2_flat', 'r130i1_light_saber', 'r120i2_duck', 'r125i1_flat', 'r175i1_cardboard_box', 'r178i1_ball', 'r179i1_toy_pouch', 'r126i1_scooter', 'r149i1_pouch', 'r93i1_nugget', 'r193i4_toy_piece', 'r192i1_ball', 'r193i2_toy_piece', 'r193i1_toy_piece', 'r193i3_toy_piece', 'r120i1_duck', 'r158i1_tissue', 'r105i1_shoe', 'r105i2_shoe', 'r107i1_umbrella', 'r159i1_door', 'r83i1_sponges']
+ITEM_START r125i1_flat attempt 0 pos 15 route at r125i1_flat state {'t': 5285.22, 'pelvis': [-4.871, -1.088, 0.77], 'yaw_deg': -125.0, 'hands': {'left': [-4.66, -1.232, 0.539], 'right': [-5.086, -0.965, 0.539]}, 'mode': 'stand'}
+[pick] object_0257_body try 1: grip {'ok': True, 'gap': 0.0705, 'jaw1_N': 5.7, 'jaw2_N': 6.3, 'between': 0.5, 'off_axis': 0.0} rose 0.079 -> held
+PICKPUT {'item': 'r125i1_flat', 'pick': {'ok': True, 'side': 'right'}, 'abort': 'fall', 'at': [1.781, -1.96, 0.206], 'zaxis': [-0.12, -0.31, 0.94], 'fell': True, 'touch': 0.0, 'look': 'C:\\Users\\raresense\\sim_home\\runs\\1121_021343_dex1_floor_final_s2\\tele\\0074_put_r125i1_flat.jpg'}
+ITEM_RESULT FAIL r125i1_flat {'item': 'r125i1_flat', 't': 5475.32, 'kind': 'thing', 'dest': 'r119i1_mat', 'centre': [1.781, -1.96, 0.206], 'ok': False, 'off_spot': 0.666} held True fell True state {'t': 5475.32, 'pelvis': [1.34, -1.82, 0.182], 'yaw_deg': 32.7, 'hands': {'left': [1.086, -1.874, 0.072], 'right': [1.784, -1.966, 0.233]}, 'mode': 'stand'}
+ZZ_OK False

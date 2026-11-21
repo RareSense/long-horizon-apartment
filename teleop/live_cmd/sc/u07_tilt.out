@@ -1,0 +1,2 @@
+now tilt 32.8 hull z -0.0 0.068 c [3.095, -2.421, 0.018]
+meta keys ['name', 'sim_t', 'k', 'info', 'frames', 'run', 'room', 'saved_wall', 'not_saved', 'qp_solver', 'quiet', 'cloth_arrays', 'version', 'note', 'save_s', 'bytes']

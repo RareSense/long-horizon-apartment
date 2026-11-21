@@ -1,0 +1,8 @@
+rec 20085 state {'t': 12098.27, 'pelvis': [1.525, 0.969, 0.673], 'yaw_deg': 89.5, 'hands': {'left': [1.269, 0.969, 0.443], 'right': [1.778, 0.965, 0.442]}, 'mode': 'stand'} done 35
+bin c [0.112, 1.449, 0.211] rect c [0.112, 1.449] h [0.178, 0.164] R [[0.208, -0.978], [0.978, 0.208]] tilt 4.3
+r195i3_paper c [-0.115, 1.383, 0.014] in bin frame [-0.112, 0.209] size [0.122, 0.127, 0.052] inside False
+r195i1_paper c [0.241, 1.608, 0.014] in bin frame [0.182, -0.093] size [0.101, 0.084, 0.053] inside False
+r149i1_pouch c [0.183, 1.217, 0.015] in bin frame [-0.212, -0.117] size [0.215, 0.224, 0.053] inside False
+r158i1_tissue c [-0.031, 1.371, 0.047] in bin frame [-0.106, 0.123] size [0.089, 0.092, 0.074] inside True
+C:\Users\raresense\sim_home\runs\1121_123451_dex1_floor_final_s4\tele\x00_bin_top.jpg
+C:\Users\raresense\sim_home\runs\1121_123451_dex1_floor_final_s4\tele\0017_x00_bin.jpg

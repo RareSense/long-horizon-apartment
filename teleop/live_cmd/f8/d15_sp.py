@@ -1,0 +1,2 @@
+print("saber spot", (DESC.get("spots") or {}).get("r130i1_light_saber"), OVR["spots"].get("r130i1_light_saber"), "scooter spot", (DESC.get("spots") or {}).get("r126i1_scooter"), DESC["destinations"].get("r126i1_scooter"), "umbrella", (DESC.get("spots") or {}).get("r106i1_umbrella"), DESC["destinations"].get("r106i1_umbrella"), flush=True)
+print("route rest", [item_name(s_) for s_ in ROUTE[POS:]], flush=True)

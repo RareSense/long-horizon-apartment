@@ -1,0 +1,6 @@
+after move [3.007, -0.972, 0.673]
+edge [2.692, -1.2] p0 ahead 0.351
+e_down [-0.0, -0.0, -0.001]
+pad [2.722, -1.2, 0.023] state {'t': 8397.34, 'pelvis': [3.091, -0.967, 0.253], 'yaw_deg': 178.9, 'hands': {'left': [2.722, -1.2, 0.028], 'right': [3.278, -0.715, 0.103]}, 'mode': 'stand'} touch 0.0
+lowest left hand body z 0.088
+C:\Users\raresense\sim_home\runs\1120_093820_dex1_floor_12\tele\f12_d01_side.jpg

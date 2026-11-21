@@ -1,0 +1,6 @@
+[fsc lib] loaded, kit private GB 14.89
+[mv m2] {'turn': 15.0, 'fwd': -0.0277, 'side': -0.0961} -> at [-1.676, -0.937] yaw -154.7 bar [-2.124, -0.86, 1.084] bar_rel [0.374, -0.261] tilt 22.6 seat {'left': (-0.5, -1.2, 17.4), 'right': (2.7, 3.9, 17.1)} along {'left': 0.103, 'right': -0.09} wheel clear mm 25.3 floor {} wristR {'wrist_roll': 1.77, 'wrist_pitch': 0.85, 'wrist_yaw': -0.97} touch {'body': 0.0, 'body_who': None, 'held': 0.0, 'held_who': None} rec 260318
+[mv m2] LOOK C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\tele\0144_sh_m2.jpg
+TOP C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\tele\fsc_c06_map.jpg
+mem 14.89
+__END__

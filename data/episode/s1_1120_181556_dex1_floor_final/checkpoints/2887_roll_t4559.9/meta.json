@@ -1,0 +1,429 @@
+{
+ "name": "t4559.9",
+ "sim_t": 4559.922,
+ "k": 2279961,
+ "info": {
+  "route": {
+   "route": [
+    [
+     "tidy_all",
+     {
+      "names": [
+       "r123i1_slipper"
+      ],
+      "pairs": false
+     }
+    ],
+    [
+     "tidy_all",
+     {
+      "names": [
+       "r195i3_paper"
+      ],
+      "pairs": false
+     }
+    ],
+    [
+     "tidy_surface",
+     {
+      "names": [
+       "r195i1_paper"
+      ],
+      "pairs": false
+     }
+    ],
+    [
+     "garments",
+     [
+      "r131i1_knit_hat"
+     ]
+    ],
+    [
+     "garments",
+     [
+      "r189i1_santa_hat"
+     ]
+    ],
+    [
+     "garments",
+     [
+      "r121i1_jacket"
+     ]
+    ],
+    [
+     "garments",
+     [
+      "r117i1_blanket"
+     ]
+    ],
+    [
+     "garments",
+     [
+      "r116i1_coat_pile"
+     ]
+    ],
+    [
+     "tidy_all",
+     {
+      "names": [
+       "r124i1_sandal"
+      ],
+      "pairs": false
+     }
+    ],
+    [
+     "tidy_all",
+     {
+      "names": [
+       "r122i1_croc"
+      ],
+      "pairs": false
+     }
+    ],
+    [
+     "close_dishwasher",
+     {
+      "racks": [
+       "r33i1_rack",
+       "r33i2_rack"
+      ],
+      "door": "r32i1_door",
+      "stand_scene": [
+       3.5,
+       1.5
+      ],
+      "stand_world": [
+       2.6,
+       1.05
+      ],
+      "optional": true
+     }
+    ],
+    [
+     "garments",
+     [
+      "r68i1_rag"
+     ]
+    ],
+    [
+     "tidy_surface",
+     {
+      "names": [
+       "r196i1_plastic_bag"
+      ],
+      "pairs": false
+     }
+    ],
+    [
+     "tidy_surface",
+     {
+      "names": [
+       "r190i1_stocking"
+      ],
+      "pairs": false
+     }
+    ],
+    [
+     "tidy_all",
+     {
+      "names": [
+       "r125i2_flat"
+      ],
+      "pairs": false
+     }
+    ],
+    [
+     "tidy_surface",
+     {
+      "names": [
+       "r130i1_light_saber"
+      ],
+      "pairs": false
+     }
+    ],
+    [
+     "tidy_surface",
+     {
+      "names": [
+       "r120i2_duck"
+      ],
+      "pairs": false
+     }
+    ],
+    [
+     "tidy_all",
+     {
+      "names": [
+       "r125i1_flat"
+      ],
+      "pairs": false
+     }
+    ],
+    [
+     "tidy_all",
+     {
+      "names": [
+       "r175i1_cardboard_box"
+      ],
+      "pairs": false
+     }
+    ],
+    [
+     "tidy_surface",
+     {
+      "names": [
+       "r178i1_ball"
+      ],
+      "pairs": false
+     }
+    ],
+    [
+     "tidy_surface",
+     {
+      "names": [
+       "r179i1_toy_pouch"
+      ],
+      "pairs": false
+     }
+    ],
+    [
+     "carry2",
+     "r126i1_scooter",
+     {
+      "to_scene": [
+       1.19,
+       -2.065,
+       -90.0
+      ],
+      "to_world": [
+       0.29,
+       -2.515,
+       -90.0
+      ],
+      "turn_deg": 270.0,
+      "hold": true,
+      "grip": "both hands on the handlebar ends, side grasp round the 2.7 cm bar",
+      "handlebar_z": 0.93,
+      "lift_m": 0.03,
+      "take_stance_scene": [
+       -1.45,
+       -0.3,
+       0
+      ],
+      "set_down": {
+       "stand_scene": [
+        1.19,
+        -1.51,
+        -90
+       ],
+       "pelvis_to_stem_m": 0.36
+      },
+      "stem_target_scene": [
+       1.19,
+       -1.87
+      ],
+      "nose_to": "wall"
+     }
+    ],
+    [
+     "tidy_surface",
+     {
+      "names": [
+       "r149i1_pouch"
+      ],
+      "pairs": false
+     }
+    ],
+    [
+     "tidy_surface",
+     {
+      "names": [
+       "r93i1_nugget"
+      ],
+      "pairs": false
+     }
+    ],
+    [
+     "tidy_surface",
+     {
+      "names": [
+       "r193i4_toy_piece"
+      ],
+      "pairs": false
+     }
+    ],
+    [
+     "tidy_surface",
+     {
+      "names": [
+       "r192i1_ball"
+      ],
+      "pairs": false
+     }
+    ],
+    [
+     "tidy_surface",
+     {
+      "names": [
+       "r193i2_toy_piece"
+      ],
+      "pairs": false
+     }
+    ],
+    [
+     "tidy_surface",
+     {
+      "names": [
+       "r193i1_toy_piece"
+      ],
+      "pairs": false
+     }
+    ],
+    [
+     "tidy_surface",
+     {
+      "names": [
+       "r193i3_toy_piece"
+      ],
+      "pairs": false
+     }
+    ],
+    [
+     "tidy_all",
+     {
+      "names": [
+       "r120i1_duck"
+      ],
+      "pairs": false
+     }
+    ],
+    [
+     "tidy_surface",
+     {
+      "names": [
+       "r158i1_tissue"
+      ],
+      "pairs": false
+     }
+    ],
+    [
+     "tidy_all",
+     {
+      "names": [
+       "r105i1_shoe"
+      ],
+      "pairs": false
+     }
+    ],
+    [
+     "tidy_all",
+     {
+      "names": [
+       "r105i2_shoe"
+      ],
+      "pairs": false
+     }
+    ],
+    [
+     "tidy_all",
+     {
+      "names": [
+       "r107i1_umbrella"
+      ],
+      "pairs": false
+     }
+    ],
+    [
+     "close_door",
+     "r159i1_door",
+     {
+      "joint": "object_0129_joint",
+      "q_closed": -1.571,
+      "push_point_scene": [
+       -2.51,
+       -1.95,
+       0.28
+      ],
+      "push_point_world": [
+       -3.41,
+       -2.4,
+       0.28
+      ],
+      "push_dir": [
+       1.0,
+       -0.04
+      ],
+      "stand_scene": [
+       -2.75,
+       -1.95
+      ],
+      "optional": false
+     }
+    ],
+    [
+     "tidy_surface",
+     {
+      "names": [
+       "r83i1_sponges"
+      ],
+      "pairs": false
+     }
+    ]
+   ],
+   "pos": 12,
+   "done": [
+    "r123i1_slipper",
+    "r195i3_paper",
+    "r195i1_paper",
+    "r131i1_knit_hat",
+    "r189i1_santa_hat",
+    "r121i1_jacket",
+    "r117i1_blanket",
+    "r116i1_coat_pile",
+    "r124i1_sandal",
+    "r122i1_croc",
+    "close_dishwasher",
+    "r68i1_rag"
+   ],
+   "skipped": {}
+  },
+  "kind": "roll",
+  "item": "013_r196i1_plastic_bag",
+  "session": {
+   "usd": "C:\\Users\\raresense\\sim_home\\_scene\\apartment_1122_full\\usd\\apartment_1122_full_26\\apartment_1122_full.usda",
+   "git": {
+    "commit": "297519380f191afaac984292e9903cdbbb4e4255",
+    "dirty": true,
+    "dirty_files": [
+     "M scripts/home/replay/render_from_states.py",
+     " M scripts/home/replay/render_lib.py",
+     " M src/urc/tasks/home/staterec.py"
+    ]
+   },
+   "textured": "1"
+  }
+ },
+ "frames": 178705,
+ "run": "C:\\Users\\raresense\\sim_home\\runs\\1120_181556_dex1_floor_final",
+ "room": "E:\\urc_final\\rooms\\apartment_1122_full.json",
+ "saved_wall": "2026-11-21 00:40:28",
+ "not_saved": {
+  "qp": {
+   "safety": "structure"
+  },
+  "op": {
+   "move": "Can't pickle <function _op_move at 0x0000024801BA72E0>: import of module '__live"
+  }
+ },
+ "qp_solver": "daqp",
+ "quiet": {
+  "standing": false,
+  "held": true,
+  "ok": false
+ },
+ "cloth_arrays": 230,
+ "version": 1,
+ "note": "AI-operated. Isaac Sim 6.2 Newton (MuJoCo solver, CPU backend).",
+ "save_s": 0.272,
+ "bytes": 1626297
+}

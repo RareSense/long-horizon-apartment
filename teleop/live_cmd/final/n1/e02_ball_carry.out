@@ -1,0 +1,4 @@
+ck C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\checkpoints\0704_act_n1_ball_held
+OUT {'walk': {'ok': True, 'err_xy': 0.005, 'way_points': [[-5.3, -2.14], [-4.6, -2.05], [-4.8, -1.15], [-4.85, -1.05]]}} state {'t': 6374.63, 'pelvis': [-4.851, -1.045, 0.738], 'yaw_deg': -125.3, 'hands': {'left': [-4.892, -1.453, 0.823], 'right': [-5.058, -0.897, 0.508]}, 'mode': 'stand'} ball [-4.894, -1.456, 0.812] grip True touch None fell False
+C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\tele\0017_n1_ball_at_basket.jpg
+__END__

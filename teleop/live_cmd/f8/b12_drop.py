@@ -1,0 +1,10 @@
+mon_start(target=None); MON["held"]["left"] = zz_b; MON["last_touch"]["left"] = float(d.time)
+MON["ignore_names"] = (zz_bin,)
+r1 = thand("left", dx=0.03, dy=0.03, dz=-0.03, frame="world", tag="bag_over_bin")
+print("hand", r1["grip_pt"], r1["err"], "bag", np.round(centre(zz_b), 3).tolist(), flush=True)
+MON["held"].pop("left", None)
+open_jaws("left", T=0.3); op.run(1.2); HELD.pop("left", None)
+MON["on"] = False
+lo_, hi_ = obj_box(zz_bin); c_ = centre(zz_b)
+print("bag", np.round(c_, 3).tolist(), "box", [np.round(v_, 3).tolist() for v_ in obj_box(zz_b)], "in bin", bool(lo_[0] < c_[0] < hi_[0] and lo_[1] < c_[1] < hi_[1] and c_[2] < hi_[2]), "state", state(), "touch", contact_report(), flush=True)
+print(look_hand("left", "bag_dropped"), flush=True)

@@ -1,0 +1,6 @@
+[checkpoint] loaded C:\Users\raresense\sim_home\runs\1121_021343_dex1_floor_final_s2\checkpoints\0231_act_n1_stock_near: t=4950.100 s, k=2475050, {'controller_fields': 177, 'cloth_arrays': 230}
+RELOADED 0231 rec 20107
+[cloth] r190i1_stocking try 1: {'point': [-2.8529999256134033, -1.7309999465942383, 0.0], 'gap_cm': 0.89, 'F1': 21.2, 'F2': 19.9, 'caught': 9, 'held': 15, 'rose': 0.076, 'ok': True, 'stretch': (1.319, 1.071)} -> held
+PICK {'pick': {'ok': True, 'side': 'right', 'tries': ["{'point': [-2.8529999256134033, -1.7309999465942383, 0.0], 'gap_cm': 0.89, 'F1': 21.2, 'F2': 19.9, 'caught': 9, 'held': 15, 'rose': 0.076, 'ok': True, 'stretch': (1.319, 1.071)}"], 'err': None}} state {'t': 4990.23, 'pelvis': [-2.593, -1.517, 0.636], 'yaw_deg': -90.7, 'hands': {'left': [-2.338, -1.501, 0.401], 'right': [-2.697, -1.846, 0.792]}, 'mode': 'stand'} fell False touch None held ['right'] ['right']
+look C:\Users\raresense\sim_home\runs\1121_021343_dex1_floor_final_s2\tele\0033_n1_stock_pick_fixed.jpg
+__END__

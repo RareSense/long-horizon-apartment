@@ -1,0 +1,11 @@
+[chk] item_check + guarded route_checkpoint loaded; SPOT_TOL 0.15
+[final_run] common_b loaded
+[final_run] items ['r68i1_rag', 'r196i1_plastic_bag', 'r190i1_stocking', 'r125i2_flat', 'r130i1_light_saber', 'r120i2_duck', 'r125i1_flat', 'r175i1_cardboard_box', 'r178i1_ball', 'r179i1_toy_pouch', 'r126i1_scooter', 'r149i1_pouch', 'r93i1_nugget', 'r193i4_toy_piece', 'r192i1_ball', 'r193i2_toy_piece', 'r193i1_toy_piece', 'r193i3_toy_piece', 'r120i1_duck', 'r158i1_tissue', 'r105i1_shoe', 'r105i2_shoe', 'r107i1_umbrella', 'r159i1_door', 'r83i1_sponges']
+ITEM_START r93i1_nugget attempt 1 pos 24 route at r93i1_nugget state {'t': 8017.9, 'pelvis': [-4.88, -1.076, 0.768], 'yaw_deg': -125.6, 'hands': {'left': [-4.671, -1.223, 0.538], 'right': [-5.085, -0.927, 0.537]}, 'mode': 'stand'}
+TIDY r93i1_nugget {'ok': False, 'error': 'abort: tipping (trunk tilt > 0.95 rad)'}
+picks None
+puts []
+at [2.372, -0.348, 0.92] held {'left': False, 'right': False} state {'t': 8040.55, 'pelvis': [-4.767, 0.369, 0.599], 'yaw_deg': -6.1, 'hands': {'left': [-4.778, 1.044, 1.073], 'right': [-4.779, 1.055, 0.525]}, 'mode': 'swing'} fell False
+C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\tele\0094_f12_r93i1_nugget_end.jpg
+ITEM_RESULT FAIL r93i1_nugget {'item': 'r93i1_nugget', 't': 8040.55, 'kind': 'thing', 'dest': 'object_0312_body', 'centre': [2.372, -0.348, 0.92], 'ok': False, 'off_spot': 7.727, 'inside': False} held False fell False state {'t': 8040.55, 'pelvis': [-4.767, 0.369, 0.599], 'yaw_deg': -6.1, 'hands': {'left': [-4.778, 1.044, 1.073], 'right': [-4.779, 1.055, 0.525]}, 'mode': 'swing'}
+ZZ_OK False

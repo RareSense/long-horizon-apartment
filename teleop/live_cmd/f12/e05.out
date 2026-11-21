@@ -1,0 +1,4 @@
+contacts [('world', [1.673, -0.931, -0.001], [-0.0, -0.0, -1.0], 0.89), ('world', [2.575, -0.769, -0.0], [-0.0, -0.0, -1.0], 0.64)]
+normal sum world 1.53 weight 4.41
+geom 722 type 7 contype 1 conaff 1 friction [0.699999988079071, 0.0, 0.0] condim 3 mass body 0.44999998807907104
+ee gains? None

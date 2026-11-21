@@ -1,0 +1,5 @@
+exec(open(r"C:\Users\raresense\sim_home\apartment\live_cmd\final\lower_put.py", encoding="utf-8").read())
+ZZ = lower_put("r122i1_croc", "right", (1.20, -2.02), note="pick_floor (guarded) + put_down toward (1.20,-2.02) stopped 4 cm off while held; AI teleop finish: over the spot, staged squat, lowered, open, stand (AI-operated)")
+print("sandal", item_check("r124i1_sandal"), flush=True)
+print(look3("croc_fin"), flush=True)
+print("SAY", say_item(), flush=True)

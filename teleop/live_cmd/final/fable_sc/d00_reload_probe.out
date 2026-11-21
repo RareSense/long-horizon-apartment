@@ -1,0 +1,10 @@
+REC before reload 263781
+[checkpoint] loaded C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\checkpoints\3966_act_fsc_before_plant: t=11307.260 s, k=5653630, {'controller_fields': 179, 'cloth_arrays': 231}
+RELOADED 3966 rec 263857 {'t': 11309.76, 'pelvis': [-1.803, -0.09, 0.679], 'yaw_deg': -88.5, 'hands': {'left': [-1.977, -0.456, 1.089], 'right': [-2.19, -0.439, 1.081]}, 'mode': 'stand'}
+[scooter_hang] sh_stance, sh_grip, sh_load_on, sh_raise, sh_lift, sh_level_Q, sh_seat, sh_trim, sh_recentre, sh_move, sh_wheel, sh_on_floor, sh_finish_standing, sh_set_down_walk, sh_release, sh_moves_to, park_scooter_hang, sh_state loaded
+[fsc lib] loaded, kit private GB 14.9
+jaw actuator ranges {'left': ([-20.0, 20.0], [0.0, 0.0], 1.0), 'right': ([-20.0, 20.0], [0.0, 0.0], 1.0)} jaw_force {'left': 20.0, 'right': 20.0} rot_weight {'left': 10.0, 'right': 10.0} ext ['hold_left', 'hold_right']
+[loaded] bar [-2.103, -0.447, 1.085] bar_rel [0.348, -0.309] deck-yaw -2.2 tilt 22.7 along {'left': 0.123, 'right': -0.086} pad_to_bar {'left': 0.014, 'right': 0.005} touch {'left': 3, 'right': 2} seat {'left': {'seat_mm': -7.4, 'pitch': -6.8, 'lower_N': 17.5, 'upper_N': 2.5}, 'right': {'seat_mm': 3.7, 'pitch': 4.8, 'lower_N': 17.2, 'upper_N': 2.8}} floor {} why None rec 263857
+[left back 1.5 cm] bar [-2.105, -0.44, 1.085] bar_rel [0.34, -0.311] deck-yaw 2.1 tilt 22.5 along {'left': 0.122, 'right': -0.086} pad_to_bar {'left': 0.014, 'right': 0.004} touch {'left': 3, 'right': 2} seat {'left': {'seat_mm': -6.6, 'pitch': -7.2, 'lower_N': 17.5, 'upper_N': 2.5}, 'right': {'seat_mm': 2.8, 'pitch': 4.4, 'lower_N': 17.1, 'upper_N': 2.7}} floor {} why None rec 263939
+VIEWS C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\tele\fsc_d00_top.jpg C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\tele\fsc_d00_side.jpg LOOK C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\tele\0153_fsc_d00.jpg
+__END__

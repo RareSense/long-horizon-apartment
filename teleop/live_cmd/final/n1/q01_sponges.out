@@ -1,0 +1,20 @@
+ck C:\Users\raresense\sim_home\runs\1121_123451_dex1_floor_final_s4\checkpoints\0135_act_n1_pre_sponges
+ITEM_START r83i1_sponges attempt 0 pos 34 route at r83i1_sponges state {'t': 11775.5, 'pelvis': [-4.857, -1.051, 0.767], 'yaw_deg': -124.0, 'hands': {'left': [-4.644, -1.192, 0.537], 'right': [-5.065, -0.909, 0.537]}, 'mode': 'stand'}
+[kitchen] step_mon(st=None), call_mon(fn, label), dw_names(), sink_put / use_sink_put (draft), in_basin, door_face, close_door_follow (draft) loaded
+[island] two_hand_check, roll_nearer, two_hand_pick, two_hand_walk, two_hand_set_down, island_pick loaded
+[two-squeeze] hold_on wrapped for object_0212_body forces now {'left': 0.0, 'right': 0.0, 'others': {'scene_static': 1.16}, 'n_left': 0, 'n_right': 0}
+[island] roll object_0212_body: {'ok': True, 'rolled_deg': 90.0, 'at_stop_deg': 52.6, 'moved': [-0.077, 0.002, -0.0]}
+[two-squeeze] {'t': 11968.26, 'side': 'left', 'obj': 'object_0212_body', 'forces': {'left': 11.96, 'right': 11.94, 'others': {}, 'n_left': 4, 'n_right': 2}, 'ok': True, 'look': 'C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\grasps\\two_squeeze_object_0212_body_left_t11968.jpg'}
+[two-squeeze] {'t': 11968.26, 'side': 'right', 'obj': 'object_0212_body', 'forces': {'left': 11.96, 'right': 11.94, 'others': {}, 'n_left': 4, 'n_right': 2}, 'ok': True, 'look': 'C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\grasps\\two_squeeze_object_0212_body_right_t11968.jpg'}
+[island] two-hand pick object_0212_body: held {'ok': True, 'left_N': 12.0, 'right_N': 11.9, 'touch_left': 1, 'touch_right': 1, 'between': 0.49, 'off_axis': 0.018, 'width': 0.242}, rose 0.061
+[island] two-hand set-down object_0212_body: ok [[1.431, 1.491, 0.755], [1.657, 1.59, 0.835]] rests on ['object_0225_body'] off the spot 0.005
+[island] r83i1_sponges: ok (319.5 s)
+[call_mon] r83i1_sponges: done  sim 319.5 s wall 1029 s
+SPONGES {'item': 'r83i1_sponges', 'status': 'done', 'sim_s': 319.5, 'wall_s': 1029, 'at': [1.525, 0.969], 'look': 'C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\tele\\0015_end_r83i1_sponges_done.jpg'}
+ITEM_RESULT OK r83i1_sponges {'item': 'r83i1_sponges', 't': 12094.97, 'kind': 'thing', 'dest': 'r94i1_tray_table', 'centre': [1.544, 1.54, 0.795], 'ok': True, 'off_spot': 0.382} held False fell False state {'t': 12094.97, 'pelvis': [1.525, 0.969, 0.673], 'yaw_deg': 89.5, 'hands': {'left': [1.269, 0.97, 0.443], 'right': [1.778, 0.965, 0.442]}, 'mode': 'stand'}
+ITEM_CHECK {'item': 'r83i1_sponges', 't': 12094.97, 'kind': 'thing', 'dest': 'r94i1_tray_table', 'centre': [1.544, 1.54, 0.795], 'ok': True, 'off_spot': 0.382}
+[checkpoint] 0270_item_r83i1_sponges t=12094.97 s, 3.44 MB, 0.713 s
+ITEM_DONE {'done': 'r83i1_sponges', 'ckpt': 'C:\\Users\\raresense\\sim_home\\runs\\1121_123451_dex1_floor_final_s4\\checkpoints\\0270_item_r83i1_sponges', 'pruned': 90, 'pos': 35, 'n': 35, 'next': None}
+ZZ_OK True state {'t': 12094.97, 'pelvis': [1.525, 0.969, 0.673], 'yaw_deg': 89.5, 'hands': {'left': [1.269, 0.97, 0.443], 'right': [1.778, 0.965, 0.442]}, 'mode': 'stand'} fell False done 35 rec 19979 kit {'ws_gb': 6.17, 'priv_gb': 12.81}
+C:\Users\raresense\sim_home\runs\1121_123451_dex1_floor_final_s4\tele\0016_n1_sponges_end.jpg
+__END__

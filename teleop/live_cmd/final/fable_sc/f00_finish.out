@@ -1,0 +1,10 @@
+route at r126i1_scooter POS 32 done already False item 033_r126i1_scooter
+check before {'item': 'r126i1_scooter', 't': 11429.03, 'kind': 'thing', 'dest': 'vehicle corner (hall wall, beside the toy bike)', 'centre': [-2.142, -0.065, 0.493], 'ok': False, 'off_spot': 3.452}
+check with the spot {'item': 'r126i1_scooter', 't': 11429.03, 'kind': 'thing', 'dest': 'floor', 'centre': [-2.142, -0.065, 0.493], 'ok': True, 'off_spot': 0.087} fallen False held False
+ITEM_RESULT OK r126i1_scooter {'item': 'r126i1_scooter', 't': 11429.03, 'kind': 'thing', 'dest': 'floor', 'centre': [-2.142, -0.065, 0.493], 'ok': True, 'off_spot': 0.087} held False fell False state {'t': 11429.03, 'pelvis': [-1.616, 0.34, 0.673], 'yaw_deg': -91.4, 'hands': {'left': [-1.361, 0.335, 0.443], 'right': [-1.869, 0.348, 0.443]}, 'mode': 'stand'}
+ITEM_CHECK {'item': 'r126i1_scooter', 't': 11429.03, 'kind': 'thing', 'dest': 'floor', 'centre': [-2.142, -0.065, 0.493], 'ok': True, 'off_spot': 0.087}
+[checkpoint] 4072_item_r126i1_scooter t=11429.03 s, 3.29 MB, 0.673 s
+ITEM_DONE {'done': 'r126i1_scooter', 'ckpt': 'C:\\Users\\raresense\\sim_home\\runs\\1121_034845_dex1_floor_final_s3\\checkpoints\\4072_item_r126i1_scooter', 'pruned': 264, 'pos': 33, 'n': 35, 'next': 'r93i1_nugget'}
+FIN True
+POS 33 next r93i1_nugget state {'t': 11429.03, 'pelvis': [-1.616, 0.34, 0.673], 'yaw_deg': -91.4, 'hands': {'left': [-1.361, 0.335, 0.443], 'right': [-1.869, 0.348, 0.443]}, 'mode': 'stand'} rec 267435 mem 14.91
+__END__

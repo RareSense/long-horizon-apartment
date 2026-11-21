@@ -1,0 +1,7 @@
+[chk] item_check + guarded route_checkpoint loaded; SPOT_TOL 0.15
+[final_run] common_b loaded
+[final_run] items ['r68i1_rag', 'r196i1_plastic_bag', 'r190i1_stocking', 'r125i2_flat', 'r130i1_light_saber', 'r120i2_duck', 'r125i1_flat', 'r175i1_cardboard_box', 'r178i1_ball', 'r179i1_toy_pouch', 'r126i1_scooter', 'r149i1_pouch', 'r93i1_nugget', 'r193i4_toy_piece', 'r192i1_ball', 'r193i2_toy_piece', 'r193i1_toy_piece', 'r193i3_toy_piece', 'r120i1_duck', 'r158i1_tissue', 'r105i1_shoe', 'r105i2_shoe', 'r107i1_umbrella', 'r159i1_door', 'r83i1_sponges']
+ITEM_START r126i1_scooter attempt 0 pos 13 route at r126i1_scooter state {'t': 4865.21, 'pelvis': [1.027, -1.996, 0.769], 'yaw_deg': -0.6, 'hands': {'left': [1.028, -1.74, 0.539], 'right': [1.023, -2.249, 0.538]}, 'mode': 'stand'}
+[scooter_hang] sh_stance, sh_grip, sh_load_on, sh_raise, sh_lift, sh_level_Q, sh_seat, sh_trim, sh_recentre, sh_move, sh_wheel, sh_on_floor, sh_finish_standing, sh_set_down_walk, sh_release, sh_moves_to, park_scooter_hang, sh_state loaded
+SCOOTER {'item': 'r126i1_scooter', 'how': 'hanging from the handlebar in both jaws, deck-side offset stance (AI-operated)', 'stance': [-1.778, -1.001, 3.081], 'status': 'FAILED', 'why': 'foot on a loose thing: r130i1_light_saber (21 N)', 'sim_s': 86.9, 'wall_s': 255, 'pelvis': [-1.321, -0.259], 'look': 'C:\\Users\\raresense\\sim_home\\runs\\1120_181556_dex1_floor_final\\tele\\0268_end_r126i1_scooter_FAILED.jpg'}
+ZZ_OK False

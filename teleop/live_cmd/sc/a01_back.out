@@ -1,0 +1,19 @@
+step 0 {'t': 8652.63, 'pelvis': [-0.13, 1.025, 0.769], 'yaw_deg': 34.8, 'hands': {'left': [-0.286, 1.256, 0.545], 'right': [0.014, 0.818, 0.538]}, 'mode': 'stand'} touch 0.0 fell False
+step 1 {'t': 8656.47, 'pelvis': [-0.219, 0.962, 0.769], 'yaw_deg': 35.2, 'hands': {'left': [-0.359, 1.179, 0.54], 'right': [-0.074, 0.754, 0.539]}, 'mode': 'stand'} touch 0.0 fell False
+after {'t': 8658.77, 'pelvis': [-0.22, 0.962, 0.769], 'yaw_deg': 35.0, 'hands': {'left': [-0.368, 1.171, 0.539], 'right': [-0.076, 0.754, 0.538]}, 'mode': 'stand'} fell False
+C:\Users\raresense\sim_home\runs\1120_114552_scout_hall_AI_operated\tele\0003_sc_start.jpg
+r120i1_duck c [2.054, -1.697, 0.041] box [1.996, -1.746, -0.0] [2.113, -1.647, 0.082] kg 0.04 -> r186i1_basket [-5.287, -1.474, 0.145]
+r105i1_shoe c [4.05, -1.651, 0.047] box [3.923, -1.716, -0.002] [4.178, -1.585, 0.096] kg 0.35 -> r119i1_mat [1.378, -2.167, 0.01]
+r105i2_shoe c [4.05, -1.83, 0.047] box [3.921, -1.913, -0.002] [4.178, -1.746, 0.096] kg 0.35 -> r119i1_mat [1.503, -2.167, 0.01]
+r107i1_umbrella c [0.954, -0.536, 0.019] box [0.765, -0.65, -0.052] [1.144, -0.423, 0.09] kg 0.35 -> by the entry (floor) [3.2, -2.57, 0.043]
+r100i1_towel c [-0.887, 1.415, 0.421] box [-1.17, 1.156, 0.218] [-0.603, 1.674, 0.624] kg 0.6 -> r133i1_laundry_basket [-2.149, -1.95, 0.75]
+r186i1_basket c [-5.18, -1.402, 0.06] box [-5.351, -1.541, -0.0] [-5.01, -1.263, 0.12] kg 0.3 -> None None
+r133i1_laundry_basket c [-2.139, -1.979, 0.34] box [-2.419, -2.258, 0.01] [-1.86, -1.699, 0.67] kg 1.6 -> None None
+ERROR   File "<string>", line 4, in <module>
+  File "<string>", line 14, in <module>
+  File "<string>", line 192, in obj_box
+TypeError: body(): incompatible function arguments. The following argument types are supported:
+    1. (self: mujoco._structs.MjModel, arg0: typing.SupportsInt | typing.SupportsIndex) -> mujoco::python::MjModelBodyViews
+    2. (self: mujoco._structs.MjModel, name: str = '') -> mujoco::python::MjModelBodyViews
+
+Invoked with: <mujoco._structs.MjModel object at 0x0000014D417FEFF0>, None

@@ -1,0 +1,3 @@
+[checkpoint] loaded C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\checkpoints\3161_item_r125i2_flat_stand: t=4861.910 s, k=2430955, {'controller_fields': 177, 'cloth_arrays': 230}
+[route] resumed at item 14/36 (r196i1_plastic_bag), 13 done
+RELOADED 197733 {'t': 4865.21, 'pelvis': [1.027, -1.996, 0.769], 'yaw_deg': -0.6, 'hands': {'left': [1.028, -1.74, 0.539], 'right': [1.023, -2.249, 0.538]}, 'mode': 'stand'} route at r196i1_plastic_bag

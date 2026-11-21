@@ -1,0 +1,7 @@
+bag [-4.447, -1.149, 0.015] box [[-4.567, -1.254, 0.005], [-4.327, -1.044, 0.026]] padL [-4.315, -1.103, 0.025] padR [-4.574, -1.203, 0.034]
+left finger tips z {'finger_link_1': 0.091, 'finger_link_2': 0.089, 'base_link': 0.153}
+left finger geoms lowest approx 0.01 ts.touch None
+right finger tips z {'finger_link_1': 0.099, 'finger_link_2': 0.099, 'base_link': 0.162}
+right finger geoms lowest approx 0.018 ts.touch None
+state {'t': 5022.97, 'pelvis': [-4.584, -0.833, 0.305], 'yaw_deg': -85.2, 'hands': {'left': [-4.315, -1.103, 0.03], 'right': [-4.574, -1.203, 0.039]}, 'mode': 'stand'}
+__END__

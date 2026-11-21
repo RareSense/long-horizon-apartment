@@ -1,0 +1,8 @@
+[chk] item_check + guarded route_checkpoint loaded; SPOT_TOL 0.15
+[final_run] common_b loaded
+[final_run] items ['r68i1_rag', 'r196i1_plastic_bag', 'r190i1_stocking', 'r125i2_flat', 'r130i1_light_saber', 'r120i2_duck', 'r125i1_flat', 'r175i1_cardboard_box', 'r178i1_ball', 'r179i1_toy_pouch', 'r126i1_scooter', 'r149i1_pouch', 'r93i1_nugget', 'r193i4_toy_piece', 'r192i1_ball', 'r193i2_toy_piece', 'r193i1_toy_piece', 'r193i3_toy_piece', 'r120i1_duck', 'r158i1_tissue', 'r105i1_shoe', 'r105i2_shoe', 'r107i1_umbrella', 'r159i1_door', 'r83i1_sponges']
+ITEM_START r175i1_cardboard_box attempt 2 pos 13 route at r175i1_cardboard_box state {'t': 4865.21, 'pelvis': [1.027, -1.996, 0.769], 'yaw_deg': -0.6, 'hands': {'left': [1.028, -1.74, 0.539], 'right': [1.023, -2.249, 0.538]}, 'mode': 'stand'}
+walk ERR foot on a loose thing: r122i1_croc (13 N)
+PUSH {'ok': False, 'at': 1.3868060080623565, 'goal': 1.56, 'tilt': 0.0, 'log': ['foot on a loose thing: r122i1_croc (19 N)']}
+ITEM_RESULT FAIL r175i1_cardboard_box {'item': 'r175i1_cardboard_box', 't': 4872.86, 'kind': 'thing', 'dest': 'against the wall by the two-tier table (floor)', 'centre': [-5.256, 1.387, 0.125], 'ok': False, 'off_spot': 0.173} held False fell False state {'t': 4872.86, 'pelvis': [0.991, -1.986, 0.675], 'yaw_deg': -40.2, 'hands': {'left': [1.154, -1.791, 0.445], 'right': [0.826, -2.178, 0.444]}, 'mode': 'stand'}
+ZZ_OK False

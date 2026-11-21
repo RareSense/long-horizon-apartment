@@ -1,0 +1,5 @@
+vehicle box [-5.245, -1.093, -0.0] [-5.059, -0.927, 0.084] basket [[-5.354, -1.547, -0.0], [-5.008, -1.263, 0.12]]
+[pick] object_0317_body try 1: grip {'ok': True, 'gap': 0.07, 'jaw1_N': 5.7, 'jaw2_N': 6.2, 'between': 0.51, 'off_axis': 0.001} rose 0.078 -> held
+TOY {'item': 'r191i1_toy_vehicle', 'pick': {'ok': True, 'side': 'right'}, 'put': {'walk': 0.015, 'held_after_walk': True, 'abort': 'held thing object_0317_body lost (no finger on it for 0.4 s)', 'at': [-5.104, -1.184, 0.328], 'state': {'t': 11033.63, 'pelvis': [-4.823, -0.985, 0.271], 'yaw_deg': -123.3, 'hands': {'left': [-4.513, -0.982, 0.108], 'right': [-5.108, -1.263, 0.289]}, 'mode': 'stand'}, 'fell': False}, 'in': False, 'fell': False, 'state': {'t': 11033.63, 'pelvis': [-4.823, -0.985, 0.271], 'yaw_deg': -123.3, 'hands': {'left': [-4.513, -0.982, 0.108], 'right': [-5.108, -1.263, 0.289]}, 'mode': 'stand'}}
+C:\Users\raresense\sim_home\runs\1120_093820_dex1_floor_12\tele\0079_f12_r191i1_toy_vehicle_end.jpg
+TRIP False None held thing object_0317_body lost (no finger on it for 0.4 s) at [-5.104, -1.184, 0.328]

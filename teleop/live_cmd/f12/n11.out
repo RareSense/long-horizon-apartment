@@ -1,0 +1,8 @@
+[island] two_hand_check, roll_nearer, two_hand_pick, two_hand_walk, two_hand_set_down, island_pick loaded
+[table] slice_width, side_grasp_z, side_pick, side_carry, R_vpinch, slide_out, edge_pick loaded
+table pieces [([-3.68, -0.91, 0.46], [0.55, 0.32, 0.01])]
+stick [[-4.236, -1.253, 0.475], [-4.168, -0.653, 0.485]]
+[edge] slide object_0282_body: {'moved': 0.0, 'ok': False, 'drift': [-0.0, 0.0, -0.0], 'press_cmd': 30.0, 'hand_moved': 0.07, 'log': [(8.0, 0.0, 0.0), (12.0, 0.0, 0.0), (16.0, 0.0, 0.0), (20.0, 0.0, 0.0), (24.0, 0.0, 0.0), (28.0, 0.0, 0.0), (30.0, 0.0, 0.0), (30.0, 0.0, 0.0), (30.0, 0.0, 0.0)]}
+EDGE {'abort': 'no progress: item over 240.0 s'}
+held {'left': False, 'right': False} stick [-4.202, -0.953, 0.48] state {'t': 12125.83, 'pelvis': [-4.622, -0.959, 0.765], 'yaw_deg': -1.1, 'hands': {'left': [-4.36, -0.763, 0.566], 'right': [-4.293, -1.09, 0.632]}, 'mode': 'stand'} fell False
+C:\Users\raresense\sim_home\runs\1120_093820_dex1_floor_12\tele\0089_f12_stick_edge.jpg

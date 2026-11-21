@@ -1,0 +1,7 @@
+start {'t': 1427.32, 'pelvis': [-2.206, -1.412, 0.724], 'yaw_deg': -0.2, 'hands': {'left': [-2.214, -1.158, 0.493], 'right': [-2.481, -1.671, 1.079]}, 'mode': 'stand'} LOCK ['right'] at fingers 41
+[cloth] r121i1_jacket into r133i1_laundry_basket: {'inside': 1.0, 'below_rim': 1.0, 'overhang': 0.0, 'lowest': 0.034, 'rim': 0.59} -> NOT in
+DROP {'obj': 'r121i1_jacket', 'into': 'r133i1_laundry_basket', 'carry': "{'walk': {'ok': True, 'err_xy': 0.004, 'err_yaw': 0.005, 'seconds': 7.1, 'standing': True, 'steppings': 1, 'way_points': [[-2.33, -1.4], [-2.35, -1.4], [-2.34, -1.43]], 'goal': [-2.34, -1.433, 0.262]}, 'hang': 0.73, 'carry_z': 0.95, 'held': True, 'st", 'ok': False, 'high': True, 'raised_to': 1.329, 'lowest_raised': 0.63, 'drop_point': '[-2.073, -1.798]', 'pad_z': 0.711, 'over_err': '[-0.0, 0.0, -0.001]', 'over_inside': True, 'hang': 0.751, 'at_fingers_after_open': 4, 'came_up_with_the_hand': 5, 'side_step_before_rest': 0.15, 'hand_rest_from_container': 0.137, 'inside': 1.0, 'below_rim': 1.0, 'overhang': 0.0, 'lowest': 0.034, 'rim': 0.59, 'settled': False}
+after {'t': 1484.98, 'pelvis': [-2.353, -1.297, 0.767], 'yaw_deg': 14.8, 'hands': {'left': [-2.42, -1.051, 0.537], 'right': [-2.289, -1.543, 0.537]}, 'mode': 'stand'} LOCK [] HELD {} touch {'body': 0.0, 'body_who': None, 'held': 0.0, 'held_who': None} fell False
+check {'item': 'r121i1_jacket', 't': 1484.98, 'kind': 'garment', 'dest': 'r133i1_laundry_basket', 'inside': 1.0, 'ok': True}
+C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\tele\0024_jacket_drop.jpg
+__END__

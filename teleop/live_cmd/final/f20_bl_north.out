@@ -1,0 +1,8 @@
+[checkpoint] loaded C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\checkpoints\0800_act_bc_blanket_held_right: t=1592.154 s, k=796077, {'controller_fields': 176, 'cloth_arrays': 227}
+RELOADED C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\checkpoints\0800_act_bc_blanket_held_right frame 68618 {'t': 1592.45, 'pelvis': [0.882, -1.524, 0.637], 'yaw_deg': 29.4, 'hands': {'left': [0.741, -1.312, 0.402], 'right': [1.229, -1.465, 0.773]}, 'mode': 'stand'} LOCK ['right'] held True
+[bc_front fixed] [-2.148, -1.202] free True [True, True, True] cost inf
+[bigcloth] r117i1_blanket carry: FAILED {'ok': False, 'why': 'no front stance at r133i1_laundry_basket', 'stage': 'carry'}
+RESULT {'ok': False, 'why': 'no front stance at r133i1_laundry_basket', 'stage': 'carry', 'ckpt_before': 'C:\\Users\\raresense\\sim_home\\runs\\1120_181556_dex1_floor_final\\checkpoints\\1024_act_bc_stage_carry'}
+held L/R False True inside {'inside': 0.0, 'below_rim': 0.898, 'overhang': 3.505, 'lowest': 0.004, 'rim': 0.59} state {'t': 1592.45, 'pelvis': [0.882, -1.524, 0.637], 'yaw_deg': 29.4, 'hands': {'left': [0.741, -1.312, 0.402], 'right': [1.229, -1.465, 0.773]}, 'mode': 'stand'} touch {'body': 0.0, 'body_who': None, 'held': 0.0, 'held_who': None} fell False
+look3 C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\tele\0074_bl_north.jpg
+__END__

@@ -1,0 +1,9 @@
+ck C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\checkpoints\0570_act_n1_box_part
+walk ERR left_knee_link pressing r175i1_cardboard_box 25 N
+stance {'t': 6099.59, 'pelvis': [-5.02, 1.128, 0.675], 'yaw_deg': 90.4, 'hands': {'left': [-5.275, 1.124, 0.445], 'right': [-4.766, 1.127, 0.445]}, 'mode': 'swing'} box lo y 1.318
+PUSH 0 {'ok': False, 'at': 1.439764430901758, 'goal': 1.6, 'tilt': 0.0, 'log': ['left_knee_link pressing r175i1_cardboard_box 22 N']} gap was 0.19 north face 1.562
+closer abort left_knee_link pressing r175i1_cardboard_box 38 N
+PUSH 1 {'ok': False, 'at': 1.4468164759726723, 'goal': 1.6, 'tilt': 3.2, 'log': ['left_knee_link pressing r175i1_cardboard_box 31 N']} gap was 0.187 north face 1.575
+box [-5.23, 1.447, 0.13] north face 1.575 tilt 3.2 state {'t': 6100.44, 'pelvis': [-4.981, 1.125, 0.667], 'yaw_deg': 90.9, 'hands': {'left': [-5.234, 1.121, 0.437], 'right': [-4.727, 1.124, 0.437]}, 'mode': 'swing'} fell False
+C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\tele\0009_n1_box_end2.jpg
+__END__

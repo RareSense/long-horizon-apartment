@@ -1,0 +1,10 @@
+12:34:51 [slot] home took ISAAC_SLOT.lock
+ISAAC READY 47960 pid 32612 RAM 8.2 / commit 13.0 GB
+ 'trim_faces': 0}, 'r131i1_knit_hat': {'look': 'knit_hat', 'trim_faces': 0}, 'r189i1_santa_hat': {'look': 'santa_hat', 'trim_faces': 642}, 'r190i1_stocking': {'look': 'stocking', 'trim_faces': 216}}
+[episode] garments as cloth: ['r68i1_rag', 'r116i1_coat_pile', 'r117i1_blanket', 'r121i1_jacket', 'r131i1_knit_hat', 'r189i1_santa_hat', 'r190i1_stocking'] built in 15.2 s
+[episode] scene settled after (s, fastest thing m/s) (25.0, 0.0305)
+[episode] start pose [0.008, -0.0, 0.673] yaw -0.0 deg -> ok
+[episode] thin visuals lifted 15
+[checkpoint] save game on: before every action ( 30 primitives + walk legs + hand moves ), rolling every 5.0 s; folder C:\Users\raresense\sim_home\runs\1121_123451_dex1_floor_final_s4\checkpoints
+CPU True CpuBridge {'t': 27.7, 'pelvis': [0.008, -0.0, 0.673], 'yaw_deg': -0.0, 'hands': {'left': [0.006, 0.254, 0.443], 'right': [0.006, -0.254, 0.443]}, 'mode': 'stand'}
+RUN C:\Users\raresense\sim_home\runs\1121_123451_dex1_floor_final_s4

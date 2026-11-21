@@ -1,0 +1,9 @@
+[fsc lib] loaded, kit private GB 14.89
+wheel {'x': 0.061, 'x_up': 0.44, 'L': 1.011, 'r': 0.05, 'z': 0.074, 'bar_z': 1.082, 'geom': 1001, 'bar_geom': 1004} clear mm 23.6
+item_check {'item': 'r126i1_scooter', 't': 11197.28, 'kind': 'thing', 'dest': 'vehicle corner (hall wall, beside the toy bike)', 'centre': [-2.018, -0.748, 0.572], 'ok': False, 'off_spot': 2.906} place_for vehicle corner (hall wall, beside the toy bike) spot_of [0.29, -2.515] centre [-2.018 -0.748  0.572]
+TELE_V 0.1 TELE_W 0.1 CARRY_LOW False wristR {'wrist_roll': 1.77, 'wrist_pitch': 0.96, 'wrist_yaw': -1.21} wristL {'wrist_roll': -0.01, 'wrist_pitch': 0.44, 'wrist_yaw': -0.28}
+[mv t1] {'turn': 15.0} -> at [-1.66, -1.039] yaw -169.6 bar [-2.05, -0.849, 1.084] bar_rel [0.347, -0.255] tilt 23.1 seat {'left': (0.6, -0.8, 17.7), 'right': (3.2, 3.6, 17.2)} along {'left': 0.099, 'right': -0.09} wheel clear mm 24.7 floor {} wristR {'wrist_roll': 1.77, 'wrist_pitch': 1.09, 'wrist_yaw': -1.42} touch {'body': 0.0, 'body_who': None, 'held': 0.0, 'held_who': None} rec 259973
+[mv t1] LOOK C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\tele\0143_sh_t1.jpg
+TOP C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\tele\fsc_c05_map.jpg
+mem 14.89
+__END__

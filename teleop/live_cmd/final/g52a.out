@@ -1,0 +1,8 @@
+left to (0.16, 0.24, 0.66) {'err': [-0.0, -0.001, 0.001], 'pad': [-1.912, -1.57, 0.659], 'pad_rf': [0.173, 0.248, 0.659], 'tilt': 0.28} fingers rf [0.26, -0.0, -0.97] close rf [0.97, -0.0, 0.26] pads rf [0.129, 0.248, 0.648] [0.216, 0.248, 0.671] pad_low 0.632 caught 0 uv None at_f 0 held R True out 0.084 touch 0.0 None knees {'left_knee': 0.104, 'right_knee': 0.099} fell False
+left to (0.3, 0.16, 0.9) {'err': [0.002, 0.0, 0.001], 'pad': [-1.995, -1.701, 0.899], 'pad_rf': [0.326, 0.152, 0.899], 'tilt': 0.361} fingers rf [0.26, 0.0, -0.96] close rf [0.96, -0.0, 0.26] pads rf [0.282, 0.152, 0.887] [0.37, 0.152, 0.911] pad_low 0.872 caught 0 uv None at_f 0 held R True out 0.086 touch 0.0 None knees {'left_knee': 0.098, 'right_knee': 0.092} fell False
+left to (0.38, 0.14, 0.82) {'err': [-0.0, -0.001, -0.0], 'pad': [-2.005, -1.755, 0.82], 'pad_rf': [0.385, 0.137, 0.82], 'tilt': 0.349} fingers rf [0.25, 0.0, -0.97] close rf [0.97, -0.0, 0.25] pads rf [0.341, 0.137, 0.809] [0.428, 0.137, 0.832] pad_low 0.793 caught 0 uv None at_f 0 held R True out 0.086 touch 0.0 None knees {'left_knee': 0.107, 'right_knee': 0.099} fell False
+far sleeve (u > 0.3) at the pad height: n 23 rf x 0.398 0.456 y -0.086 0.003 u 0.48 0.5
+near sleeve (u < -0.3) at the pad height: n 20 rf x 0.364 0.43 y -0.14 -0.057 u -0.42 -0.38
+pad rf [0.385, 0.137, 0.82] pelvis [-2.161, -1.378, 0.678] tilt 0.349
+look C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\look_fb\0044_g52_lpre.jpg
+__END__

@@ -1,0 +1,7 @@
+[pick] object_0250_body approach 1: pads [0.001, -0.015, 0.003] from the grasp point -> NOT closing, standing up to step
+[pick] object_0250_body approach 2: pads [-0.018, -0.004, 0.002] from the grasp point -> NOT closing, standing up to step
+[pick] object_0250_body try 1: grip {'ok': True, 'gap': 0.04, 'jaw1_N': 6.6, 'jaw2_N': 5.3, 'between': 0.42, 'off_axis': 0.006} rose 0.078 -> held
+PICK {'side': 'left', 'ok': True, 'held': {'ok': True, 'gap': 0.0376, 'jaw1_N': 1.0, 'jaw2_N': 1.0, 'between': 0.42, 'off_axis': 0.01}, 'pick_s': 31.3} tries [(True, 0.078)] appr 3
+state {'t': 8916.82, 'pelvis': [2.159, -1.367, 0.639], 'yaw_deg': -159.2, 'hands': {'left': [1.925, -1.599, 0.78], 'right': [2.088, -1.124, 0.404]}, 'mode': 'stand'} fell False duck [1.923, -1.603, 0.737] wall 459
+touch {'left': {25: 2, 26: 2}, 'right': {}}
+C:\Users\raresense\sim_home\runs\1120_114552_scout_hall_AI_operated\tele\0005_d02_duck_picked.jpg

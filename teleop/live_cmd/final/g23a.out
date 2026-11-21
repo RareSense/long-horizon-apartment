@@ -1,0 +1,7 @@
+left to (0.45, -0.02, 1.09) {'err': [-0.0, 0.002, -0.002], 'pad': [-2.123, -1.833, 1.092], 'pad_rf': [0.447, -0.019, 1.092], 'tilt': 0.247} held L True right caught 5 along [0.004, 0.004, 0.004, -0.004, -0.004] out {'share': 0.036, 'z_lo': 0.502, 'below_rim': 30} touch 0.0 fell False
+before: gap 0.0155 caught 5 uv [[0.38, -0.2], [0.38, -0.18], [0.4, -0.2], [0.42, -0.18], [0.42, -0.16]]
+close_lock {'gap_cm': 1.52, 'F1': 0.5, 'F2': 0.7, 'caught': 0, 'held': 0, 'caught_uv_mean': [0.4, -0.184]}
+left held n 4 uv [[0.04, 0.18], [0.04, 0.2], [0.04, 0.22], [0.06, 0.2]]
+gap 0.0152 at_fingers {'left': 53, 'right': 32} held L/R True False touch {'body': 0.0, 'body_who': None, 'held': 0.0, 'held_who': None} hamper [-2.148, -1.957] tilt 0.243 knees {'left_knee': 0.135, 'right_knee': 0.125} out {'share': 0.036, 'z_lo': 0.502, 'below_rim': 30} fell False
+look C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\look_fb\0023_g22_closed.jpg
+__END__

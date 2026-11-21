@@ -1,0 +1,24 @@
+{
+ "pid": 19252,
+ "state": "stopped",
+ "started": "Sat Nov 21 05:32:01 2026",
+ "updated": "2026-11-21 16:33:00",
+ "commit_free_gb": 39.5,
+ "c_free_gb": 19.8,
+ "sessions": 18,
+ "unit": "1121_123451_dex1_floor_final_s4|chunk_00021_f0036179.npz|5|36179|37978",
+ "s_per_frame": [
+  0.073,
+  0.075
+ ],
+ "units_done": 261,
+ "units_failed": 3,
+ "last_unit": "0263 1121_123451_dex1_floor_final_s4|chunk_00021_f0036179.npz|5|36179|37978",
+ "last_issues": [],
+ "joined_min": {
+  "room": 208.97,
+  "head": 208.97
+ },
+ "joined_at": "16:32:56",
+ "room_view": "eye -5.35,-2.5,2.45 at 2.5,0.9,-0.1 focal 9.5"
+}

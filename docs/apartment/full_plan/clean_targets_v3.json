@@ -1,0 +1,6149 @@
+{
+ "title": "Apartment 1122: what 'looks clean' means for every loose thing (plan v3). Every judgement by geometry, not verified.",
+ "generated": "2026-11-19 10:41",
+ "generator": "C:/Users/raresense/sim_home/apartment/full_plan/make_full_plan_v3.py",
+ "frame": "scene frame of the pack; world (episode) = scene - (0.90, 0.45); positions are body origins (= the free joint's qpos)",
+ "start_offset_scene": [
+  0.9,
+  0.45
+ ],
+ "containers": {
+  "r186i1_basket": {
+   "movable": true,
+   "body": "object_0312_body",
+   "lo_off": [
+    -0.15682246826836965,
+    -0.12437607988967238,
+    -0.06999999865889565
+   ],
+   "hi_off": [
+    0.15682246826836965,
+    0.12437607988967238,
+    0.15999999865889564
+   ],
+   "start_scene": [
+    -4.28004341,
+    -0.949753798,
+    0.0605
+   ]
+  },
+  "rubbish_bin": {
+   "movable": true,
+   "body": "rubbish_bin",
+   "start_scene": [
+    1.0,
+    1.93,
+    0.0
+   ],
+   "lo_off": [
+    -0.15,
+    -0.15,
+    0.0
+   ],
+   "hi_off": [
+    0.15,
+    0.15,
+    0.45
+   ]
+  },
+  "r133i1_laundry_basket": {
+   "movable": true,
+   "body": "r133i1_laundry_basket",
+   "start_scene": [
+    -1.25,
+    -1.5,
+    0.0105
+   ],
+   "lo_off": [
+    -0.235,
+    -0.235,
+    0.0
+   ],
+   "hi_off": [
+    0.235,
+    0.235,
+    0.7
+   ]
+  },
+  "r27i1_sink": {
+   "movable": false,
+   "rect_scene": {
+    "c": [
+     4.805,
+     2.005
+    ],
+    "h": [
+     0.212,
+     0.262
+    ],
+    "yaw_deg": 45.0
+   },
+   "z": [
+    0.66,
+    0.95
+   ]
+  }
+ },
+ "surfaces": {
+  "r94i1_tray_table": {
+   "lo_scene": [
+    2.27,
+    1.9300000000000002
+   ],
+   "hi_scene": [
+    2.6700000000000004,
+    2.43
+   ],
+   "z": [
+    0.7352984937840429,
+    1.125298493784043
+   ]
+  },
+  "r159i1_cabinet": {
+   "lo_scene": [
+    -3.5,
+    -2.8500000000000005
+   ],
+   "hi_scene": [
+    -1.5,
+    -2.3910000000000005
+   ],
+   "z": [
+    0.46,
+    0.85
+   ]
+  },
+  "r110i1_console": {
+   "lo_scene": [
+    2.15,
+    -2.4000000000000004
+   ],
+   "hi_scene": [
+    3.15,
+    -2.0199999999999996
+   ],
+   "z": [
+    0.6799999999999999,
+    1.0699999999999998
+   ]
+  },
+  "r35i1_top": {
+   "lo_scene": [
+    1.83,
+    0.05999999999999983
+   ],
+   "hi_scene": [
+    3.63,
+    0.8799999999999999
+   ],
+   "z": [
+    0.87,
+    1.26
+   ]
+  },
+  "r119i1_mat": {
+   "lo_scene": [
+    1.9699999999999998,
+    -2.02
+   ],
+   "hi_scene": [
+    2.87,
+    -1.42
+   ],
+   "z": [
+    -0.03,
+    0.36
+   ]
+  }
+ },
+ "kinds": {
+  "in_container": "the body origin inside the container's box (movable containers: at the container's END pose)",
+  "on_surface": "the body origin over the surface's footprint and within its top band (z)",
+  "at_spot": "within tol_xy_m of the spot (and yaw / upright when given)",
+  "stay": "within tol of its start pose and not tipped (tilt change)",
+  "known_mess": "the plan cannot tidy it: counted as NOT clean while it is out of place"
+ },
+ "open_doors": [
+  {
+   "name": "r32i1_door",
+   "joint": "object_0108_joint",
+   "q_closed": -1.571,
+   "q_in_pack": 0.0
+  },
+  {
+   "name": "r33i1_rack",
+   "joint": "object_0109_joint",
+   "q_closed": 0.4,
+   "q_in_pack": 0.0
+  },
+  {
+   "name": "r33i2_rack",
+   "joint": "object_0110_joint",
+   "q_closed": 0.35,
+   "q_in_pack": 0.0
+  },
+  {
+   "name": "r159i1_door",
+   "joint": "object_0129_joint",
+   "q_closed": -1.571,
+   "q_in_pack": 0.0
+  }
+ ],
+ "objects": {
+  "r100i1_towel": {
+   "body": "object_0232_body",
+   "cls": "textile",
+   "mass_kg": 0.6,
+   "cloth": true,
+   "start_scene": [
+    0.1369,
+    1.8045,
+    0.4266
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    -0.7631,
+    1.3545,
+    0.4266
+   ],
+   "status_v3": "mess_to_move",
+   "expect": {
+    "kind": "in_container",
+    "container": "r133i1_laundry_basket",
+    "planned_by": "route_steps_v3.json"
+   }
+  },
+  "r101i1_stroller": {
+   "body": "object_0233_body",
+   "cls": "stroller",
+   "mass_kg": 10.5,
+   "cloth": false,
+   "start_scene": [
+    3.4,
+    -1.6,
+    0.5231
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    2.5,
+    -2.05,
+    0.5231
+   ],
+   "status_v3": "leave",
+   "expect": {
+    "kind": "stay",
+    "why": "stroller parked at the entry: stays (floor)",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r102i1_navy_tote": {
+   "body": "object_0234_body",
+   "cls": "bag",
+   "mass_kg": 0.5,
+   "cloth": false,
+   "start_scene": [
+    2.9684,
+    -1.4524,
+    0.1898
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    2.0684,
+    -1.9024,
+    0.1898
+   ],
+   "status_v3": "leave",
+   "expect": {
+    "kind": "stay",
+    "why": "standing bag by the wall: stays (TIDY_PLAN) (floor)",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r103i1_red_bag": {
+   "body": "object_0235_body",
+   "cls": "bag",
+   "mass_kg": 0.4,
+   "cloth": false,
+   "start_scene": [
+    4.62,
+    -0.8807,
+    0.1896
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    3.72,
+    -1.3307,
+    0.1896
+   ],
+   "status_v3": "leave",
+   "expect": {
+    "kind": "stay",
+    "why": "standing bag by the wall: stays (TIDY_PLAN) (floor)",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r103i2_red_bag": {
+   "body": "object_0236_body",
+   "cls": "bag",
+   "mass_kg": 0.4,
+   "cloth": false,
+   "start_scene": [
+    4.66,
+    -0.6593,
+    0.1898
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    3.76,
+    -1.1093,
+    0.1898
+   ],
+   "status_v3": "leave",
+   "expect": {
+    "kind": "stay",
+    "why": "standing bag by the wall: stays (TIDY_PLAN) (floor)",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r104i1_grocery_bag": {
+   "body": "object_0237_body",
+   "cls": "bag",
+   "mass_kg": 0.3,
+   "cloth": false,
+   "start_scene": [
+    5.1,
+    -0.68,
+    0.1774
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    4.2,
+    -1.13,
+    0.1774
+   ],
+   "status_v3": "leave",
+   "expect": {
+    "kind": "stay",
+    "why": "standing bag by the wall: stays (TIDY_PLAN) (floor)",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r105i1_shoe": {
+   "body": "object_0238_body",
+   "cls": "shoe",
+   "mass_kg": 0.35,
+   "cloth": false,
+   "start_scene": [
+    4.95,
+    -1.2,
+    0.0478
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    4.05,
+    -1.65,
+    0.0478
+   ],
+   "status_v3": "mess_to_move",
+   "expect": {
+    "kind": "on_surface",
+    "surface": "r119i1_mat",
+    "spot_scene": [
+     2.278,
+     -1.717
+    ],
+    "planned_by": "route_steps_v3.json"
+   }
+  },
+  "r105i2_shoe": {
+   "body": "object_0239_body",
+   "cls": "shoe",
+   "mass_kg": 0.35,
+   "cloth": false,
+   "start_scene": [
+    4.95,
+    -1.38,
+    0.0478
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    4.05,
+    -1.83,
+    0.0478
+   ],
+   "status_v3": "mess_to_move",
+   "expect": {
+    "kind": "on_surface",
+    "surface": "r119i1_mat",
+    "spot_scene": [
+     2.403,
+     -1.717
+    ],
+    "planned_by": "route_steps_v3.json"
+   }
+  },
+  "r106i1_umbrella": {
+   "body": "object_0240_body",
+   "cls": "umbrella",
+   "mass_kg": 0.45,
+   "cloth": false,
+   "start_scene": [
+    3.2588,
+    -0.4824,
+    0.0999
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    2.3588,
+    -0.9324,
+    0.0999
+   ],
+   "status_v3": "mess_to_move",
+   "expect": {
+    "kind": "at_spot",
+    "spot_scene": [
+     -1.076,
+     1.81
+    ],
+    "spot_world": [
+     -1.976,
+     1.36
+    ],
+    "tol_xy_m": 0.2,
+    "yaw_deg": null,
+    "tol_yaw_deg": 25.0,
+    "upright_max_tilt_deg": null,
+    "planned_by": "route_steps_v3.json"
+   }
+  },
+  "r107i1_umbrella": {
+   "body": "object_0241_body",
+   "cls": "umbrella",
+   "mass_kg": 0.35,
+   "cloth": false,
+   "start_scene": [
+    1.8501,
+    -0.0882,
+    0.0439
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    0.9501,
+    -0.5382,
+    0.0439
+   ],
+   "status_v3": "mess_to_move",
+   "expect": {
+    "kind": "at_spot",
+    "spot_scene": [
+     4.1,
+     -2.12
+    ],
+    "spot_world": [
+     3.2,
+     -2.57
+    ],
+    "tol_xy_m": 0.15,
+    "yaw_deg": null,
+    "tol_yaw_deg": 25.0,
+    "upright_max_tilt_deg": null,
+    "planned_by": "route_steps_v3.json"
+   }
+  },
+  "r108i1_scissors": {
+   "body": "object_0242_body",
+   "cls": "tool",
+   "mass_kg": 0.08,
+   "cloth": false,
+   "start_scene": [
+    2.411,
+    -0.1257,
+    0.005
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    1.511,
+    -0.5757,
+    0.005
+   ],
+   "status_v3": "mess_to_move",
+   "expect": {
+    "kind": "known_mess",
+    "why": "not graspable: too thin: 0.9 cm high: no grasp type has anything for the pads (fingertips on the support need 1 cm; flat on the floor there is no edge)",
+    "tol_xy_m": 0.05
+   }
+  },
+  "r109i1_lamp": {
+   "body": "object_0139_body",
+   "cls": "lamp",
+   "mass_kg": 4.5,
+   "cloth": false,
+   "start_scene": [
+    2.66,
+    -1.76,
+    0.959
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    1.76,
+    -2.21,
+    0.959
+   ],
+   "status_v3": "leave",
+   "expect": {
+    "kind": "stay",
+    "why": "floor lamp: stays (floor (on r119i1_mat, 1 cm))",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r112i1_vase": {
+   "body": "object_0140_body",
+   "cls": "decor",
+   "mass_kg": 3.2,
+   "cloth": false,
+   "start_scene": [
+    1.82,
+    -2.23,
+    0.353
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    0.92,
+    -2.68,
+    0.353
+   ],
+   "status_v3": "leave",
+   "expect": {
+    "kind": "stay",
+    "why": "decor: stays (floor)",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r113i1_spray_can": {
+   "body": "object_0243_body",
+   "cls": "container",
+   "mass_kg": 0.3,
+   "cloth": false,
+   "start_scene": [
+    2.3,
+    -2.2,
+    0.8205
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    1.4,
+    -2.65,
+    0.8205
+   ],
+   "status_v3": "leave",
+   "expect": {
+    "kind": "stay",
+    "why": "kitchen / storage item where it is used: in place (r110i1_console)",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r114i1_hairbrush": {
+   "body": "object_0244_body",
+   "cls": "tool",
+   "mass_kg": 0.09,
+   "cloth": false,
+   "start_scene": [
+    2.4517,
+    -2.1425,
+    0.7365
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    1.5517,
+    -2.5925,
+    0.7365
+   ],
+   "status_v3": "leave",
+   "expect": {
+    "kind": "stay",
+    "why": "stands / lies where it is kept: stays (r110i1_console)",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r115i1_bottle": {
+   "body": "object_0245_body",
+   "cls": "container",
+   "mass_kg": 0.12,
+   "cloth": false,
+   "start_scene": [
+    2.85,
+    -2.25,
+    0.7805
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    1.95,
+    -2.7,
+    0.7805
+   ],
+   "status_v3": "leave",
+   "expect": {
+    "kind": "stay",
+    "why": "kitchen / storage item where it is used: in place (r110i1_console)",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r115i2_bottle": {
+   "body": "object_0246_body",
+   "cls": "container",
+   "mass_kg": 0.12,
+   "cloth": false,
+   "start_scene": [
+    2.95,
+    -2.25,
+    0.7805
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    2.05,
+    -2.7,
+    0.7805
+   ],
+   "status_v3": "leave",
+   "expect": {
+    "kind": "stay",
+    "why": "kitchen / storage item where it is used: in place (r110i1_console)",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r116i1_coat_pile": {
+   "body": "object_0247_body",
+   "cls": "textile",
+   "mass_kg": 1.4,
+   "cloth": true,
+   "start_scene": [
+    2.0957,
+    -1.8,
+    0.049
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    1.1957,
+    -2.25,
+    0.049
+   ],
+   "status_v3": "mess_to_move",
+   "expect": {
+    "kind": "in_container",
+    "container": "r133i1_laundry_basket",
+    "planned_by": "route_steps_v3.json"
+   }
+  },
+  "r117i1_blanket": {
+   "body": "object_0248_body",
+   "cls": "textile",
+   "mass_kg": 0.4,
+   "cloth": true,
+   "start_scene": [
+    2.5093,
+    -1.2,
+    0.0746
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    1.6093,
+    -1.65,
+    0.0746
+   ],
+   "status_v3": "mess_to_move",
+   "expect": {
+    "kind": "in_container",
+    "container": "r133i1_laundry_basket",
+    "planned_by": "route_steps_v3.json"
+   }
+  },
+  "r118i1_shopping_bag": {
+   "body": "object_0249_body",
+   "cls": "bag",
+   "mass_kg": 0.2,
+   "cloth": false,
+   "start_scene": [
+    1.5758,
+    -2.03,
+    0.2024
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    0.6758,
+    -2.48,
+    0.2024
+   ],
+   "status_v3": "leave",
+   "expect": {
+    "kind": "stay",
+    "why": "standing bag by the wall: stays (TIDY_PLAN) (floor)",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r119i1_mat": {
+   "body": "object_0138_body",
+   "cls": "rug",
+   "mass_kg": 0.5,
+   "cloth": false,
+   "start_scene": [
+    2.42,
+    -1.72,
+    0.0053
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    1.52,
+    -2.17,
+    0.0053
+   ],
+   "status_v3": "already_in_place",
+   "expect": {
+    "kind": "stay",
+    "why": "the doormat itself (destination of the shoes)",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r120i1_duck": {
+   "body": "object_0250_body",
+   "cls": "toy",
+   "mass_kg": 0.04,
+   "cloth": false,
+   "start_scene": [
+    2.9323,
+    -1.2476,
+    0.0415
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    2.0323,
+    -1.6976,
+    0.0415
+   ],
+   "status_v3": "mess_to_move",
+   "expect": {
+    "kind": "in_container",
+    "container": "r186i1_basket",
+    "planned_by": "route_steps_v3.json"
+   }
+  },
+  "r120i2_duck": {
+   "body": "object_0251_body",
+   "cls": "toy",
+   "mass_kg": 0.04,
+   "cloth": false,
+   "start_scene": [
+    -4.1459,
+    -0.7513,
+    0.0415
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    -5.0459,
+    -1.2013,
+    0.0415
+   ],
+   "status_v3": "mess_to_move",
+   "expect": {
+    "kind": "in_container",
+    "container": "r186i1_basket",
+    "planned_by": "route_steps_v3.json"
+   }
+  },
+  "r121i1_jacket": {
+   "body": "object_0252_body",
+   "cls": "textile",
+   "mass_kg": 0.35,
+   "cloth": true,
+   "start_scene": [
+    1.2693,
+    -0.9324,
+    0.0733
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    0.3693,
+    -1.3824,
+    0.0733
+   ],
+   "status_v3": "mess_to_move",
+   "expect": {
+    "kind": "in_container",
+    "container": "r133i1_laundry_basket",
+    "planned_by": "route_steps_v3.json"
+   }
+  },
+  "r122i1_croc": {
+   "body": "object_0253_body",
+   "cls": "shoe",
+   "mass_kg": 0.15,
+   "cloth": false,
+   "start_scene": [
+    0.5,
+    -0.5,
+    0.0336
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    -0.4,
+    -0.95,
+    0.0336
+   ],
+   "status_v3": "mess_to_move",
+   "expect": {
+    "kind": "at_spot",
+    "spot_scene": [
+     2.0,
+     -1.35
+    ],
+    "spot_world": [
+     1.1,
+     -1.8
+    ],
+    "tol_xy_m": 0.25,
+    "yaw_deg": null,
+    "tol_yaw_deg": 25.0,
+    "upright_max_tilt_deg": null,
+    "planned_by": "route_steps_v3.json"
+   }
+  },
+  "r123i1_slipper": {
+   "body": "object_0254_body",
+   "cls": "shoe",
+   "mass_kg": 0.06,
+   "cloth": false,
+   "start_scene": [
+    1.0,
+    -1.6,
+    0.0241
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    0.1,
+    -2.05,
+    0.0241
+   ],
+   "status_v3": "mess_to_move",
+   "expect": {
+    "kind": "at_spot",
+    "spot_scene": [
+     2.16,
+     -1.35
+    ],
+    "spot_world": [
+     1.26,
+     -1.8
+    ],
+    "tol_xy_m": 0.25,
+    "yaw_deg": null,
+    "tol_yaw_deg": 25.0,
+    "upright_max_tilt_deg": null,
+    "planned_by": "route_steps_v3.json"
+   }
+  },
+  "r124i1_sandal": {
+   "body": "object_0255_body",
+   "cls": "shoe",
+   "mass_kg": 0.12,
+   "cloth": false,
+   "start_scene": [
+    0.66,
+    -1.92,
+    0.0241
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    -0.24,
+    -2.37,
+    0.0241
+   ],
+   "status_v3": "mess_to_move",
+   "expect": {
+    "kind": "on_surface",
+    "surface": "r119i1_mat",
+    "spot_scene": [
+     2.349,
+     -1.967
+    ],
+    "planned_by": "route_steps_v3.json"
+   }
+  },
+  "r124i2_sandal": {
+   "body": "object_0256_body",
+   "cls": "shoe",
+   "mass_kg": 0.12,
+   "cloth": false,
+   "start_scene": [
+    2.5486,
+    -1.98,
+    0.0341
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    1.6486,
+    -2.43,
+    0.0341
+   ],
+   "status_v3": "already_in_place",
+   "expect": {
+    "kind": "stay",
+    "why": "already on the doormat (its partner r124i1 is brought to it)",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r125i1_flat": {
+   "body": "object_0257_body",
+   "cls": "shoe",
+   "mass_kg": 0.2,
+   "cloth": false,
+   "start_scene": [
+    -4.6,
+    0.02,
+    0.0389
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    -5.5,
+    -0.43,
+    0.0389
+   ],
+   "status_v3": "mess_to_move",
+   "expect": {
+    "kind": "on_surface",
+    "surface": "r119i1_mat",
+    "spot_scene": [
+     2.049,
+     -1.722
+    ],
+    "planned_by": "route_steps_v3.json"
+   }
+  },
+  "r125i2_flat": {
+   "body": "object_0258_body",
+   "cls": "shoe",
+   "mass_kg": 0.2,
+   "cloth": false,
+   "start_scene": [
+    -4.15,
+    0.47,
+    0.0289
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    -5.05,
+    0.02,
+    0.0289
+   ],
+   "status_v3": "mess_to_move",
+   "expect": {
+    "kind": "on_surface",
+    "surface": "r119i1_mat",
+    "spot_scene": [
+     2.156,
+     -1.722
+    ],
+    "planned_by": "route_steps_v3.json"
+   }
+  },
+  "r126i1_scooter": {
+   "body": "object_0259_body",
+   "cls": "toy_vehicle",
+   "mass_kg": 3.0,
+   "cloth": false,
+   "start_scene": [
+    -0.95,
+    -0.3,
+    0.4986
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    -1.85,
+    -0.75,
+    0.4986
+   ],
+   "status_v3": "mess_to_move",
+   "expect": {
+    "kind": "at_spot",
+    "spot_scene": [
+     1.19,
+     -2.065
+    ],
+    "spot_world": [
+     0.29,
+     -2.515
+    ],
+    "tol_xy_m": 0.15,
+    "yaw_deg": -90.0,
+    "tol_yaw_deg": 25.0,
+    "upright_max_tilt_deg": 20.0,
+    "planned_by": "route_steps_v3.json"
+   }
+  },
+  "r127i1_scooter": {
+   "body": "object_0260_body",
+   "cls": "toy_vehicle",
+   "mass_kg": 2.7,
+   "cloth": false,
+   "start_scene": [
+    1.588,
+    0.9497,
+    0.4186
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    0.688,
+    0.4997,
+    0.4186
+   ],
+   "status_v3": "mess_to_move",
+   "expect": {
+    "kind": "at_spot",
+    "spot_scene": [
+     0.855,
+     -2.055
+    ],
+    "spot_world": [
+     -0.045,
+     -2.505
+    ],
+    "tol_xy_m": 0.15,
+    "yaw_deg": -95.5,
+    "tol_yaw_deg": 25.0,
+    "upright_max_tilt_deg": 20.0,
+    "planned_by": "route_steps_v3.json"
+   }
+  },
+  "r128i1_bike": {
+   "body": "object_0261_body",
+   "cls": "toy_vehicle",
+   "mass_kg": 2.2,
+   "cloth": false,
+   "start_scene": [
+    0.02,
+    -2.12,
+    0.1574
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    -0.88,
+    -2.57,
+    0.1574
+   ],
+   "status_v3": "already_in_place",
+   "expect": {
+    "kind": "stay",
+    "why": "toy bike already standing along the hall wall (15 cm off the baseboard) beside the robot vacuum: it is the west end of the vehicle corner the scooters are parked in; left",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r129i1_robot_vacuum": {
+   "body": "object_0262_body",
+   "cls": "appliance",
+   "mass_kg": 3.2,
+   "cloth": false,
+   "start_scene": [
+    0.47,
+    -2.18,
+    0.0475
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    -0.43,
+    -2.63,
+    0.0475
+   ],
+   "status_v3": "leave",
+   "expect": {
+    "kind": "stay",
+    "why": "appliance standing where it is used: stays (floor)",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r130i1_light_saber": {
+   "body": "object_0263_body",
+   "cls": "toy",
+   "mass_kg": 0.25,
+   "cloth": false,
+   "start_scene": [
+    -0.7005,
+    0.0991,
+    0.0335
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    -1.6005,
+    -0.3509,
+    0.0335
+   ],
+   "status_v3": "mess_to_move",
+   "expect": {
+    "kind": "at_spot",
+    "spot_scene": [
+     -4.02,
+     -0.955
+    ],
+    "spot_world": [
+     -4.92,
+     -1.405
+    ],
+    "tol_xy_m": 0.25,
+    "yaw_deg": null,
+    "tol_yaw_deg": 25.0,
+    "upright_max_tilt_deg": null,
+    "planned_by": "route_steps_v3.json"
+   }
+  },
+  "r131i1_knit_hat": {
+   "body": "object_0264_body",
+   "cls": "textile",
+   "mass_kg": 0.08,
+   "cloth": true,
+   "start_scene": [
+    -0.4,
+    0.4,
+    0.0255
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    -1.3,
+    -0.05,
+    0.0255
+   ],
+   "status_v3": "mess_to_move",
+   "expect": {
+    "kind": "in_container",
+    "container": "r133i1_laundry_basket",
+    "planned_by": "route_steps_v3.json"
+   }
+  },
+  "r132i1_heater": {
+   "body": "object_0265_body",
+   "cls": "appliance",
+   "mass_kg": 3.0,
+   "cloth": false,
+   "start_scene": [
+    -0.82,
+    -1.18,
+    0.311
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    -1.72,
+    -1.63,
+    0.311
+   ],
+   "status_v3": "leave",
+   "expect": {
+    "kind": "stay",
+    "why": "appliance standing where it is used: stays (floor)",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r133i1_laundry_basket": {
+   "body": "object_0266_body",
+   "cls": "basket",
+   "mass_kg": 1.6,
+   "cloth": false,
+   "start_scene": [
+    -1.25,
+    -1.5,
+    0.3357
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    -2.15,
+    -1.95,
+    0.3357
+   ],
+   "status_v3": "already_in_place",
+   "expect": {
+    "kind": "stay",
+    "why": "the laundry hamper (destination; open-top one of the same size in our model)",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r134i1_target_bag": {
+   "body": "object_0267_body",
+   "cls": "bag",
+   "mass_kg": 0.5,
+   "cloth": false,
+   "start_scene": [
+    -1.25,
+    -2.12,
+    0.2229
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    -2.15,
+    -2.57,
+    0.2229
+   ],
+   "status_v3": "leave",
+   "expect": {
+    "kind": "stay",
+    "why": "standing bag by the wall: stays (TIDY_PLAN) (floor)",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r135i1_side_table": {
+   "body": "object_0268_body",
+   "cls": "table",
+   "mass_kg": 7.0,
+   "cloth": false,
+   "start_scene": [
+    -0.63,
+    -1.78,
+    0.2396
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    -1.53,
+    -2.23,
+    0.2396
+   ],
+   "status_v3": "leave",
+   "expect": {
+    "kind": "stay",
+    "why": "furniture: stays (floor)",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r136i1_book": {
+   "body": "object_0269_body",
+   "cls": "book",
+   "mass_kg": 0.35,
+   "cloth": false,
+   "start_scene": [
+    -0.72,
+    -1.8999,
+    0.4891
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    -1.62,
+    -2.3499,
+    0.4891
+   ],
+   "status_v3": "already_in_place",
+   "expect": {
+    "kind": "stay",
+    "why": "bottom of the two-book stack on the side table: already stacked",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r136i2_book": {
+   "body": "object_0270_body",
+   "cls": "book",
+   "mass_kg": 0.35,
+   "cloth": false,
+   "start_scene": [
+    -0.72,
+    -1.9,
+    0.5096
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    -1.62,
+    -2.35,
+    0.5096
+   ],
+   "status_v3": "already_in_place",
+   "expect": {
+    "kind": "stay",
+    "why": "top of the two-book stack on the side table: already stacked",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r137i1_succulent": {
+   "body": "object_0271_body",
+   "cls": "plant",
+   "mass_kg": 0.45,
+   "cloth": false,
+   "start_scene": [
+    -0.53,
+    -1.6655,
+    0.5592
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    -1.43,
+    -2.1155,
+    0.5592
+   ],
+   "status_v3": "leave",
+   "expect": {
+    "kind": "stay",
+    "why": "plant: stays (r135i1_side_table)",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r138i1_cup": {
+   "body": "object_0272_body",
+   "cls": "dish",
+   "mass_kg": 0.05,
+   "cloth": false,
+   "start_scene": [
+    -0.47,
+    -1.5745,
+    0.5141
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    -1.37,
+    -2.0245,
+    0.5141
+   ],
+   "status_v3": "mess_to_move",
+   "expect": {
+    "kind": "in_container",
+    "container": "r27i1_sink",
+    "planned_by": "route_steps_v3.json"
+   }
+  },
+  "r139i1_toy_car": {
+   "body": "object_0273_body",
+   "cls": "toy",
+   "mass_kg": 0.05,
+   "cloth": false,
+   "start_scene": [
+    -0.42,
+    -1.92,
+    0.5001
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    -1.32,
+    -2.37,
+    0.5001
+   ],
+   "status_v3": "mess_to_move",
+   "expect": {
+    "kind": "in_container",
+    "container": "r186i1_basket",
+    "planned_by": "route_steps_v3.json"
+   }
+  },
+  "r140i1_planter": {
+   "body": "object_0141_body",
+   "cls": "plant",
+   "mass_kg": 12.0,
+   "cloth": false,
+   "start_scene": [
+    -1.1996,
+    -2.5705,
+    0.4154
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    -2.0996,
+    -3.0205,
+    0.4154
+   ],
+   "status_v3": "leave",
+   "expect": {
+    "kind": "stay",
+    "why": "plant: stays (floor)",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r140i2_planter": {
+   "body": "object_0142_body",
+   "cls": "plant",
+   "mass_kg": 12.0,
+   "cloth": false,
+   "start_scene": [
+    -3.8304,
+    -2.521,
+    0.4185
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    -4.7304,
+    -2.971,
+    0.4185
+   ],
+   "status_v3": "leave",
+   "expect": {
+    "kind": "stay",
+    "why": "plant: stays (floor)",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r144i1_cushion": {
+   "body": "object_0123_body",
+   "cls": "cushion",
+   "mass_kg": 1.2,
+   "cloth": false,
+   "start_scene": [
+    -3.0156,
+    0.7575,
+    0.7016
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    -3.9156,
+    0.3075,
+    0.7016
+   ],
+   "status_v3": "already_in_place",
+   "expect": {
+    "kind": "stay",
+    "why": "sofa cushion upright against the sofa back: all three at the same height and yaw (0 deg, 0 deg tilt), evenly spaced 0.567 m: in place, not touched",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r144i2_cushion": {
+   "body": "object_0124_body",
+   "cls": "cushion",
+   "mass_kg": 1.2,
+   "cloth": false,
+   "start_scene": [
+    -2.4504,
+    0.7561,
+    0.7014
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    -3.3504,
+    0.3061,
+    0.7014
+   ],
+   "status_v3": "already_in_place",
+   "expect": {
+    "kind": "stay",
+    "why": "sofa cushion upright against the sofa back: all three at the same height and yaw (0 deg, 0 deg tilt), evenly spaced 0.567 m: in place, not touched",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r144i3_cushion": {
+   "body": "object_0125_body",
+   "cls": "cushion",
+   "mass_kg": 1.2,
+   "cloth": false,
+   "start_scene": [
+    -1.883,
+    0.7568,
+    0.7006
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    -2.783,
+    0.3068,
+    0.7006
+   ],
+   "status_v3": "already_in_place",
+   "expect": {
+    "kind": "stay",
+    "why": "sofa cushion upright against the sofa back: all three at the same height and yaw (0 deg, 0 deg tilt), evenly spaced 0.567 m: in place, not touched",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r146i1_bowl": {
+   "body": "object_0274_body",
+   "cls": "dish",
+   "mass_kg": 0.4,
+   "cloth": false,
+   "start_scene": [
+    -2.9645,
+    -0.6,
+    0.5155
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    -3.8645,
+    -1.05,
+    0.5155
+   ],
+   "status_v3": "mess_to_move",
+   "expect": {
+    "kind": "known_mess",
+    "why": "not graspable: too wide: narrowest silhouette 20 cm (jaws 7.9 cm), no rim, edge or section any of the five types can take; rim pinch: open only 1.2 cm deep (rim inner radius 8.9 cm, 8.0 cm high): filled to near the rim (contents in the mesh): kept solid",
+    "tol_xy_m": 0.05
+   }
+  },
+  "r147i1_purple_container": {
+   "body": "object_0275_body",
+   "cls": "container",
+   "mass_kg": 0.1,
+   "cloth": false,
+   "start_scene": [
+    -2.7855,
+    -0.68,
+    0.5008
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    -3.6855,
+    -1.13,
+    0.5008
+   ],
+   "status_v3": "mess_to_move",
+   "expect": {
+    "kind": "in_container",
+    "container": "r27i1_sink",
+    "planned_by": "route_steps_v3.json"
+   }
+  },
+  "r148i1_pink_lid": {
+   "body": "object_0276_body",
+   "cls": "dish",
+   "mass_kg": 0.03,
+   "cloth": false,
+   "start_scene": [
+    -2.6,
+    -0.66,
+    0.4875
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    -3.5,
+    -1.11,
+    0.4875
+   ],
+   "status_v3": "mess_to_move",
+   "expect": {
+    "kind": "in_container",
+    "container": "r27i1_sink",
+    "planned_by": "route_steps_v3.json"
+   }
+  },
+  "r149i1_pouch": {
+   "body": "object_0277_body",
+   "cls": "food_package",
+   "mass_kg": 0.05,
+   "cloth": false,
+   "start_scene": [
+    -2.55,
+    -0.45,
+    0.4905
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    -3.45,
+    -0.9,
+    0.4905
+   ],
+   "status_v3": "mess_to_move",
+   "expect": {
+    "kind": "in_container",
+    "container": "rubbish_bin",
+    "planned_by": "route_steps_v3.json"
+   }
+  },
+  "r150i1_small_box": {
+   "body": "object_0278_body",
+   "cls": "container",
+   "mass_kg": 0.05,
+   "cloth": false,
+   "start_scene": [
+    -2.48,
+    -0.3062,
+    0.5008
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    -3.38,
+    -0.7562,
+    0.5008
+   ],
+   "status_v3": "already_in_place",
+   "expect": {
+    "kind": "stay",
+    "why": "small box on the coffee table: not rubbish, not a dish; stays",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r151i1_spoon": {
+   "body": "object_0279_body",
+   "cls": "cutlery",
+   "mass_kg": 0.03,
+   "cloth": false,
+   "start_scene": [
+    -2.401,
+    -0.2127,
+    0.4795
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    -3.301,
+    -0.6627,
+    0.4795
+   ],
+   "status_v3": "mess_to_move",
+   "expect": {
+    "kind": "in_container",
+    "container": "r27i1_sink",
+    "planned_by": "route_steps_v3.json"
+   }
+  },
+  "r152i1_sippy_cup": {
+   "body": "object_0280_body",
+   "cls": "container",
+   "mass_kg": 0.15,
+   "cloth": false,
+   "start_scene": [
+    -2.9,
+    -0.4,
+    0.538
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    -3.8,
+    -0.85,
+    0.538
+   ],
+   "status_v3": "mess_to_move",
+   "expect": {
+    "kind": "known_mess",
+    "why": "not reachable: nearest standing place is 0.90 m from it (MEASURED (planner_reach_rows.json, pad height 0.55 m) reach 0.43 m at most)",
+    "tol_xy_m": 0.05
+   }
+  },
+  "r153i1_tissue_box": {
+   "body": "object_0281_body",
+   "cls": "container",
+   "mass_kg": 0.15,
+   "cloth": false,
+   "start_scene": [
+    -3.13,
+    -0.45,
+    0.5505
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    -4.03,
+    -0.9,
+    0.5505
+   ],
+   "status_v3": "already_in_place",
+   "expect": {
+    "kind": "stay",
+    "why": "tissue box on the coffee table: stays",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r154i1_stick": {
+   "body": "object_0282_body",
+   "cls": "container",
+   "mass_kg": 0.06,
+   "cloth": false,
+   "start_scene": [
+    -3.27,
+    -0.46,
+    0.4808
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    -4.17,
+    -0.91,
+    0.4808
+   ],
+   "status_v3": "mess_to_move",
+   "expect": {
+    "kind": "at_spot",
+    "spot_scene": [
+     -3.965,
+     -0.95
+    ],
+    "spot_world": [
+     -4.865,
+     -1.4
+    ],
+    "tol_xy_m": 0.25,
+    "yaw_deg": null,
+    "tol_yaw_deg": 25.0,
+    "upright_max_tilt_deg": null,
+    "planned_by": "route_steps_v3.json"
+   }
+  },
+  "r155i1_kids_bottle": {
+   "body": "object_0283_body",
+   "cls": "container",
+   "mass_kg": 0.3,
+   "cloth": false,
+   "start_scene": [
+    -2.32,
+    -0.55,
+    0.5655
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    -3.22,
+    -1.0,
+    0.5655
+   ],
+   "status_v3": "mess_to_move",
+   "expect": {
+    "kind": "in_container",
+    "container": "r27i1_sink",
+    "planned_by": "route_steps_v3.json"
+   }
+  },
+  "r156i1_clementines": {
+   "body": "object_0284_body",
+   "cls": "food",
+   "mass_kg": 1.0,
+   "cloth": false,
+   "start_scene": [
+    -2.5983,
+    0.5199,
+    0.5055
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    -3.4983,
+    0.0699,
+    0.5055
+   ],
+   "status_v3": "mess_to_move",
+   "expect": {
+    "kind": "known_mess",
+    "why": "not graspable: too wide: narrowest silhouette 20 cm (jaws 7.9 cm), no rim, edge or section any of the five types can take",
+    "tol_xy_m": 0.05
+   }
+  },
+  "r157i1_paper": {
+   "body": "object_0285_body",
+   "cls": "paper",
+   "mass_kg": 0.01,
+   "cloth": false,
+   "start_scene": [
+    -2.3586,
+    0.43,
+    0.454
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    -3.2586,
+    -0.02,
+    0.454
+   ],
+   "status_v3": "mess_to_move",
+   "expect": {
+    "kind": "known_mess",
+    "why": "never reached in the route",
+    "tol_xy_m": 0.05
+   }
+  },
+  "r157i2_paper": {
+   "body": "object_0286_body",
+   "cls": "paper",
+   "mass_kg": 0.01,
+   "cloth": false,
+   "start_scene": [
+    -2.1259,
+    0.5,
+    0.454
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    -3.0259,
+    0.05,
+    0.454
+   ],
+   "status_v3": "mess_to_move",
+   "expect": {
+    "kind": "known_mess",
+    "why": "never reached in the route",
+    "tol_xy_m": 0.05
+   }
+  },
+  "r158i1_tissue": {
+   "body": "object_0287_body",
+   "cls": "paper",
+   "mass_kg": 0.005,
+   "cloth": false,
+   "start_scene": [
+    -1.95,
+    0.36,
+    0.4705
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    -2.85,
+    -0.09,
+    0.4705
+   ],
+   "status_v3": "mess_to_move",
+   "expect": {
+    "kind": "in_container",
+    "container": "rubbish_bin",
+    "planned_by": "route_steps_v3.json"
+   }
+  },
+  "r160i1_tv": {
+   "body": "object_0130_body",
+   "cls": "electronics",
+   "mass_kg": 14.0,
+   "cloth": false,
+   "start_scene": [
+    -2.525,
+    -2.58,
+    0.8902
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    -3.425,
+    -3.03,
+    0.8902
+   ],
+   "status_v3": "leave",
+   "expect": {
+    "kind": "stay",
+    "why": "electronics: stay (r159i1_cabinet)",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r161i1_hair_dryer": {
+   "body": "object_0288_body",
+   "cls": "appliance",
+   "mass_kg": 0.55,
+   "cloth": false,
+   "start_scene": [
+    -1.66,
+    -2.48,
+    0.5455
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    -2.56,
+    -2.93,
+    0.5455
+   ],
+   "status_v3": "mess_but_left",
+   "expect": {
+    "kind": "known_mess",
+    "why": "hair dryer on the TV cabinet top: belongs in a bathroom or a drawer; there is no bathroom and no hollow storage the robot can open (the storage ottoman's base is solid in the collision model, ray-tested): left on the cabinet top beside the books",
+    "tol_xy_m": 0.05
+   }
+  },
+  "r162i1_books": {
+   "body": "object_0289_body",
+   "cls": "book",
+   "mass_kg": 0.6,
+   "cloth": false,
+   "start_scene": [
+    -2.12,
+    -2.4999,
+    0.5205
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    -3.02,
+    -2.9499,
+    0.5205
+   ],
+   "status_v3": "already_in_place",
+   "expect": {
+    "kind": "stay",
+    "why": "stack of books on the TV cabinet: tidy as it is",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r163i1_cubby_item": {
+   "body": "object_0290_body",
+   "cls": "container",
+   "mass_kg": 0.4,
+   "cloth": false,
+   "start_scene": [
+    -2.25,
+    -2.62,
+    0.1608
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    -3.15,
+    -3.07,
+    0.1608
+   ],
+   "status_v3": "already_in_place",
+   "expect": {
+    "kind": "stay",
+    "why": "in a cubby of the TV cabinet: where it belongs",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r163i2_cubby_item": {
+   "body": "object_0291_body",
+   "cls": "container",
+   "mass_kg": 0.4,
+   "cloth": false,
+   "start_scene": [
+    -1.75,
+    -2.62,
+    0.3688
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    -2.65,
+    -3.07,
+    0.3688
+   ],
+   "status_v3": "already_in_place",
+   "expect": {
+    "kind": "stay",
+    "why": "in a cubby of the TV cabinet: where it belongs",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r163i3_cubby_item": {
+   "body": "object_0292_body",
+   "cls": "container",
+   "mass_kg": 0.4,
+   "cloth": false,
+   "start_scene": [
+    -2.75,
+    -2.62,
+    0.1608
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    -3.65,
+    -3.07,
+    0.1608
+   ],
+   "status_v3": "already_in_place",
+   "expect": {
+    "kind": "stay",
+    "why": "in a cubby of the TV cabinet: where it belongs",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r165i1_coat": {
+   "body": "object_0133_body",
+   "cls": "clothing",
+   "mass_kg": 1.1,
+   "cloth": true,
+   "start_scene": [
+    -4.8897,
+    -2.4359,
+    0.7726
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    -5.7897,
+    -2.8859,
+    0.7726
+   ],
+   "status_v3": "mess_to_move",
+   "expect": {
+    "kind": "known_mess",
+    "why": "not reachable: nearest standing place is inf m from it (MEASURED (planner_reach_rows.json, pad height 0.55 m) reach 0.43 m at most)",
+    "tol_xy_m": 0.05
+   }
+  },
+  "r167i1_gold_table": {
+   "body": "object_0293_body",
+   "cls": "table",
+   "mass_kg": 2.5,
+   "cloth": false,
+   "start_scene": [
+    -4.98,
+    -0.24,
+    0.2857
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    -5.88,
+    -0.69,
+    0.2857
+   ],
+   "status_v3": "leave",
+   "expect": {
+    "kind": "stay",
+    "why": "furniture: stays (floor (on r142i1_rug, 1 cm))",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r168i1_pothos": {
+   "body": "object_0294_body",
+   "cls": "plant",
+   "mass_kg": 1.6,
+   "cloth": false,
+   "start_scene": [
+    -4.98,
+    -0.24,
+    0.6477
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    -5.88,
+    -0.69,
+    0.6477
+   ],
+   "status_v3": "leave",
+   "expect": {
+    "kind": "stay",
+    "why": "plant: stays (r167i1_gold_table)",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r169i1_two_tier_table": {
+   "body": "object_0295_body",
+   "cls": "table",
+   "mass_kg": 3.5,
+   "cloth": false,
+   "start_scene": [
+    -4.5,
+    1.25,
+    0.2755
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    -5.4,
+    0.8,
+    0.2755
+   ],
+   "status_v3": "leave",
+   "expect": {
+    "kind": "stay",
+    "why": "furniture: stays (floor)",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r170i1_remote": {
+   "body": "object_0296_body",
+   "cls": "electronics",
+   "mass_kg": 0.12,
+   "cloth": false,
+   "start_scene": [
+    -4.55,
+    1.2,
+    0.5613
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    -5.45,
+    0.75,
+    0.5613
+   ],
+   "status_v3": "already_in_place",
+   "expect": {
+    "kind": "stay",
+    "why": "remote on the two-tier table beside the armchair: a sensible place (TIDY_PLAN's coffee table is only for a remote found elsewhere)",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r171i1_glass": {
+   "body": "object_0297_body",
+   "cls": "dish",
+   "mass_kg": 0.25,
+   "cloth": false,
+   "start_scene": [
+    -4.43,
+    1.3,
+    0.6105
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    -5.33,
+    0.85,
+    0.6105
+   ],
+   "status_v3": "mess_to_move",
+   "expect": {
+    "kind": "in_container",
+    "container": "r27i1_sink",
+    "planned_by": "route_steps_v3.json"
+   }
+  },
+  "r172i1_magazines": {
+   "body": "object_0298_body",
+   "cls": "container",
+   "mass_kg": 0.5,
+   "cloth": false,
+   "start_scene": [
+    -4.5,
+    1.25,
+    0.143
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    -5.4,
+    0.8,
+    0.143
+   ],
+   "status_v3": "already_in_place",
+   "expect": {
+    "kind": "stay",
+    "why": "magazines on the lower shelf of the two-tier table: where they belong",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r173i1_tumbler": {
+   "body": "object_0299_body",
+   "cls": "dish",
+   "mass_kg": 0.12,
+   "cloth": false,
+   "start_scene": [
+    -4.4,
+    1.6,
+    0.0405
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    -5.3,
+    1.15,
+    0.0405
+   ],
+   "status_v3": "mess_to_move",
+   "expect": {
+    "kind": "in_container",
+    "container": "r27i1_sink",
+    "planned_by": "route_steps_v3.json"
+   }
+  },
+  "r174i1_plush": {
+   "body": "object_0300_body",
+   "cls": "toy",
+   "mass_kg": 0.08,
+   "cloth": false,
+   "start_scene": [
+    -4.66,
+    1.52,
+    0.048
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    -5.56,
+    1.07,
+    0.048
+   ],
+   "status_v3": "mess_to_move",
+   "expect": {
+    "kind": "known_mess",
+    "why": "not reachable: no pick stance even with every movable thing gone: blocked by brick_wall, r169i1_two_tier_table, r175i1_cardboard_box@v3",
+    "tol_xy_m": 0.05
+   }
+  },
+  "r175i1_cardboard_box": {
+   "body": "object_0301_body",
+   "cls": "container",
+   "mass_kg": 0.6,
+   "cloth": false,
+   "start_scene": [
+    -4.35,
+    1.85,
+    0.1255
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    -5.25,
+    1.4,
+    0.1255
+   ],
+   "status_v3": "mess_to_move",
+   "expect": {
+    "kind": "at_spot",
+    "spot_scene": [
+     -4.35,
+     2.01
+    ],
+    "spot_world": [
+     -5.25,
+     1.56
+    ],
+    "tol_xy_m": 0.15,
+    "yaw_deg": 0.0,
+    "tol_yaw_deg": 25.0,
+    "upright_max_tilt_deg": 20.0,
+    "planned_by": "route_steps_v3.json"
+   }
+  },
+  "r176i1_cap": {
+   "body": "object_0302_body",
+   "cls": "clothing",
+   "mass_kg": 0.1,
+   "cloth": false,
+   "start_scene": [
+    -5.27,
+    -2.28,
+    0.792
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    -6.17,
+    -2.73,
+    0.792
+   ],
+   "status_v3": "mess_to_move",
+   "expect": {
+    "kind": "known_mess",
+    "why": "not graspable: too wide: narrowest silhouette 19 cm (jaws 7.9 cm), no rim, edge or section any of the five types can take",
+    "tol_xy_m": 0.05
+   }
+  },
+  "r177i1_bowl": {
+   "body": "object_0303_body",
+   "cls": "dish",
+   "mass_kg": 0.15,
+   "cloth": false,
+   "start_scene": [
+    -5.29,
+    -2.03,
+    0.7655
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    -6.19,
+    -2.48,
+    0.7655
+   ],
+   "status_v3": "mess_to_move",
+   "expect": {
+    "kind": "in_container",
+    "container": "r27i1_sink",
+    "planned_by": "route_steps_v3.json"
+   }
+  },
+  "r178i1_ball": {
+   "body": "object_0304_body",
+   "cls": "toy",
+   "mass_kg": 0.05,
+   "cloth": false,
+   "start_scene": [
+    -5.23,
+    -1.9,
+    0.7655
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    -6.13,
+    -2.35,
+    0.7655
+   ],
+   "status_v3": "mess_to_move",
+   "expect": {
+    "kind": "in_container",
+    "container": "r186i1_basket",
+    "planned_by": "route_steps_v3.json"
+   }
+  },
+  "r179i1_toy_pouch": {
+   "body": "object_0305_body",
+   "cls": "bag",
+   "mass_kg": 0.15,
+   "cloth": false,
+   "start_scene": [
+    -5.29,
+    -1.72,
+    0.8257
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    -6.19,
+    -2.17,
+    0.8257
+   ],
+   "status_v3": "mess_to_move",
+   "expect": {
+    "kind": "in_container",
+    "container": "r186i1_basket",
+    "planned_by": "route_steps_v3.json"
+   }
+  },
+  "r180i1_keyboard": {
+   "body": "object_0306_body",
+   "cls": "electronics",
+   "mass_kg": 0.6,
+   "cloth": false,
+   "start_scene": [
+    -5.285,
+    -0.1136,
+    0.7525
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    -6.185,
+    -0.5636,
+    0.7525
+   ],
+   "status_v3": "already_in_place",
+   "expect": {
+    "kind": "stay",
+    "why": "keyboard on the window sill (work spot): stays",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r181i1_mouse": {
+   "body": "object_0307_body",
+   "cls": "electronics",
+   "mass_kg": 0.09,
+   "cloth": false,
+   "start_scene": [
+    -5.235,
+    -0.3918,
+    0.7585
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    -6.135,
+    -0.8418,
+    0.7585
+   ],
+   "status_v3": "already_in_place",
+   "expect": {
+    "kind": "stay",
+    "why": "mouse on the window sill (work spot): stays",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r182i1_bottle": {
+   "body": "object_0308_body",
+   "cls": "container",
+   "mass_kg": 0.25,
+   "cloth": false,
+   "start_scene": [
+    -5.29,
+    0.1404,
+    0.8405
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    -6.19,
+    -0.3096,
+    0.8405
+   ],
+   "status_v3": "mess_to_move",
+   "expect": {
+    "kind": "known_mess",
+    "why": "not reachable: nearest standing place is inf m from it (MEASURED (planner_reach_rows.json, pad height 0.95 m) reach 0.58 m at most)",
+    "tol_xy_m": 0.05
+   }
+  },
+  "r183i1_cup": {
+   "body": "object_0309_body",
+   "cls": "dish",
+   "mass_kg": 0.05,
+   "cloth": false,
+   "start_scene": [
+    -5.29,
+    0.225,
+    0.7905
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    -6.19,
+    -0.225,
+    0.7905
+   ],
+   "status_v3": "mess_to_move",
+   "expect": {
+    "kind": "known_mess",
+    "why": "not reachable: nearest standing place is inf m from it (MEASURED (planner_reach_rows.json, pad height 0.80 m) reach 0.43 m at most)",
+    "tol_xy_m": 0.05
+   }
+  },
+  "r184i1_notebook": {
+   "body": "object_0310_body",
+   "cls": "container",
+   "mass_kg": 0.3,
+   "cloth": false,
+   "start_scene": [
+    -5.25,
+    0.37,
+    0.7505
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    -6.15,
+    -0.08,
+    0.7505
+   ],
+   "status_v3": "already_in_place",
+   "expect": {
+    "kind": "stay",
+    "why": "notebook beside the keyboard on the window sill (work spot): stays",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r185i1_megabloks_bag": {
+   "body": "object_0311_body",
+   "cls": "bag",
+   "mass_kg": 1.5,
+   "cloth": false,
+   "start_scene": [
+    -4.25,
+    -1.25,
+    0.234
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    -5.15,
+    -1.7,
+    0.234
+   ],
+   "status_v3": "already_in_place",
+   "expect": {
+    "kind": "stay",
+    "why": "megabloks bag in the toy corner: in place (overflow for toys)",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r186i1_basket": {
+   "body": "object_0312_body",
+   "cls": "basket",
+   "mass_kg": 0.3,
+   "cloth": false,
+   "start_scene": [
+    -4.28,
+    -0.9498,
+    0.0605
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    -5.18,
+    -1.3998,
+    0.0605
+   ],
+   "status_v3": "already_in_place",
+   "expect": {
+    "kind": "stay",
+    "why": "the toy basket (destination; carried to the rug toys and back)",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r187i1_plush": {
+   "body": "object_0313_body",
+   "cls": "toy",
+   "mass_kg": 0.1,
+   "cloth": false,
+   "start_scene": [
+    -4.2801,
+    -0.9511,
+    0.066
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    -5.1801,
+    -1.4011,
+    0.066
+   ],
+   "status_v3": "already_in_place",
+   "expect": {
+    "kind": "stay",
+    "why": "already in the toy basket",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r188i1_dollhouse": {
+   "body": "object_0314_body",
+   "cls": "toy",
+   "mass_kg": 0.8,
+   "cloth": false,
+   "start_scene": [
+    -2.9,
+    -1.3,
+    0.1205
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    -3.8,
+    -1.75,
+    0.1205
+   ],
+   "status_v3": "mess_to_move",
+   "expect": {
+    "kind": "at_spot",
+    "spot_scene": [
+     -4.545,
+     -0.945
+    ],
+    "spot_world": [
+     -5.445,
+     -1.395
+    ],
+    "tol_xy_m": 0.25,
+    "yaw_deg": null,
+    "tol_yaw_deg": 25.0,
+    "upright_max_tilt_deg": null,
+    "planned_by": "route_steps_v3.json"
+   }
+  },
+  "r189i1_santa_hat": {
+   "body": "object_0315_body",
+   "cls": "clothing",
+   "mass_kg": 0.1,
+   "cloth": true,
+   "start_scene": [
+    -2.2106,
+    -1.1293,
+    0.1213
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    -3.1106,
+    -1.5793,
+    0.1213
+   ],
+   "status_v3": "mess_to_move",
+   "expect": {
+    "kind": "in_container",
+    "container": "r133i1_laundry_basket",
+    "planned_by": "route_steps_v3.json"
+   }
+  },
+  "r190i1_stocking": {
+   "body": "object_0316_body",
+   "cls": "toy",
+   "mass_kg": 0.08,
+   "cloth": true,
+   "start_scene": [
+    -2.0036,
+    -1.3394,
+    0.0358
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    -2.9036,
+    -1.7894,
+    0.0358
+   ],
+   "status_v3": "mess_to_move",
+   "expect": {
+    "kind": "in_container",
+    "container": "r186i1_basket",
+    "planned_by": "route_steps_v3.json"
+   }
+  },
+  "r191i1_toy_vehicle": {
+   "body": "object_0317_body",
+   "cls": "toy",
+   "mass_kg": 0.2,
+   "cloth": false,
+   "start_scene": [
+    -2.62,
+    -1.7,
+    0.0525
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    -3.52,
+    -2.15,
+    0.0525
+   ],
+   "status_v3": "mess_to_move",
+   "expect": {
+    "kind": "in_container",
+    "container": "r186i1_basket",
+    "planned_by": "route_steps_v3.json"
+   }
+  },
+  "r192i1_ball": {
+   "body": "object_0318_body",
+   "cls": "toy",
+   "mass_kg": 0.04,
+   "cloth": false,
+   "start_scene": [
+    -1.95,
+    -0.85,
+    0.0405
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    -2.85,
+    -1.3,
+    0.0405
+   ],
+   "status_v3": "mess_to_move",
+   "expect": {
+    "kind": "in_container",
+    "container": "r186i1_basket",
+    "planned_by": "route_steps_v3.json"
+   }
+  },
+  "r193i1_toy_piece": {
+   "body": "object_0319_body",
+   "cls": "container",
+   "mass_kg": 0.03,
+   "cloth": false,
+   "start_scene": [
+    -1.6,
+    -0.9,
+    0.0257
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    -2.5,
+    -1.35,
+    0.0257
+   ],
+   "status_v3": "mess_to_move",
+   "expect": {
+    "kind": "in_container",
+    "container": "r186i1_basket",
+    "planned_by": "route_steps_v3.json"
+   }
+  },
+  "r193i2_toy_piece": {
+   "body": "object_0320_body",
+   "cls": "container",
+   "mass_kg": 0.03,
+   "cloth": false,
+   "start_scene": [
+    -2.6,
+    -1.25,
+    0.0257
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    -3.5,
+    -1.7,
+    0.0257
+   ],
+   "status_v3": "mess_to_move",
+   "expect": {
+    "kind": "in_container",
+    "container": "r186i1_basket",
+    "planned_by": "route_steps_v3.json"
+   }
+  },
+  "r193i3_toy_piece": {
+   "body": "object_0321_body",
+   "cls": "container",
+   "mass_kg": 0.03,
+   "cloth": false,
+   "start_scene": [
+    -1.7,
+    -1.02,
+    0.0257
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    -2.6,
+    -1.47,
+    0.0257
+   ],
+   "status_v3": "mess_to_move",
+   "expect": {
+    "kind": "in_container",
+    "container": "r186i1_basket",
+    "planned_by": "route_steps_v3.json"
+   }
+  },
+  "r193i4_toy_piece": {
+   "body": "object_0322_body",
+   "cls": "container",
+   "mass_kg": 0.03,
+   "cloth": false,
+   "start_scene": [
+    -2.3,
+    -0.9577,
+    0.0257
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    -3.2,
+    -1.4077,
+    0.0257
+   ],
+   "status_v3": "mess_to_move",
+   "expect": {
+    "kind": "in_container",
+    "container": "r186i1_basket",
+    "planned_by": "route_steps_v3.json"
+   }
+  },
+  "r194i1_strap": {
+   "body": "object_0323_body",
+   "cls": "cable",
+   "mass_kg": 0.1,
+   "cloth": false,
+   "start_scene": [
+    -2.5721,
+    0.12,
+    0.0157
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    -3.4721,
+    -0.33,
+    0.0157
+   ],
+   "status_v3": "mess_to_move",
+   "expect": {
+    "kind": "known_mess",
+    "why": "not reachable: no pick stance even with every movable thing gone: blocked by r143i1_sofa, r145i1_base",
+    "tol_xy_m": 0.05
+   }
+  },
+  "r195i1_paper": {
+   "body": "object_0324_body",
+   "cls": "paper",
+   "mass_kg": 0.01,
+   "cloth": false,
+   "start_scene": [
+    -2.0,
+    0.2,
+    0.0255
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    -2.9,
+    -0.25,
+    0.0255
+   ],
+   "status_v3": "mess_to_move",
+   "expect": {
+    "kind": "in_container",
+    "container": "rubbish_bin",
+    "planned_by": "route_steps_v3.json"
+   }
+  },
+  "r195i2_paper": {
+   "body": "object_0325_body",
+   "cls": "paper",
+   "mass_kg": 0.01,
+   "cloth": false,
+   "start_scene": [
+    -2.9279,
+    0.1,
+    0.0255
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    -3.8279,
+    -0.35,
+    0.0255
+   ],
+   "status_v3": "mess_to_move",
+   "expect": {
+    "kind": "known_mess",
+    "why": "not reachable: no pick stance even with every movable thing gone: blocked by r143i1_sofa, r145i1_base",
+    "tol_xy_m": 0.05
+   }
+  },
+  "r195i3_paper": {
+   "body": "object_0326_body",
+   "cls": "paper",
+   "mass_kg": 0.01,
+   "cloth": false,
+   "start_scene": [
+    1.0,
+    -0.2,
+    0.0155
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    0.1,
+    -0.65,
+    0.0155
+   ],
+   "status_v3": "mess_to_move",
+   "expect": {
+    "kind": "in_container",
+    "container": "rubbish_bin",
+    "planned_by": "route_steps_v3.json"
+   }
+  },
+  "r196i1_plastic_bag": {
+   "body": "object_0327_body",
+   "cls": "paper",
+   "mass_kg": 0.01,
+   "cloth": false,
+   "start_scene": [
+    -3.55,
+    -0.7,
+    0.0175
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    -4.45,
+    -1.15,
+    0.0175
+   ],
+   "status_v3": "mess_to_move",
+   "expect": {
+    "kind": "in_container",
+    "container": "rubbish_bin",
+    "planned_by": "route_steps_v3.json"
+   }
+  },
+  "r197i1_cup": {
+   "body": "object_0328_body",
+   "cls": "dish",
+   "mass_kg": 0.03,
+   "cloth": false,
+   "start_scene": [
+    -4.3,
+    -0.1,
+    0.0305
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    -5.2,
+    -0.55,
+    0.0305
+   ],
+   "status_v3": "mess_to_move",
+   "expect": {
+    "kind": "in_container",
+    "container": "r27i1_sink",
+    "planned_by": "route_steps_v3.json"
+   }
+  },
+  "r198i1_cord": {
+   "body": "object_0329_body",
+   "cls": "cable",
+   "mass_kg": 0.1,
+   "cloth": false,
+   "start_scene": [
+    -0.4486,
+    -1.7839,
+    0.0045
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    -1.3486,
+    -2.2339,
+    0.0045
+   ],
+   "status_v3": "already_in_place",
+   "expect": {
+    "kind": "stay",
+    "why": "the heater's power cord (one end at the heater r132, the other at the wall, by geometry): where a plugged-in cord belongs; left",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r198i2_cord": {
+   "body": "object_0330_body",
+   "cls": "cable",
+   "mass_kg": 0.08,
+   "cloth": false,
+   "start_scene": [
+    -4.31,
+    -2.5749,
+    0.0045
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    -5.21,
+    -3.0249,
+    0.0045
+   ],
+   "status_v3": "already_in_place",
+   "expect": {
+    "kind": "stay",
+    "why": "a power cord plugged into the outlet r19i7 (one end 1 cm from it) running along the planter: where it belongs; left",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r37i1_blender": {
+   "body": "object_0143_body",
+   "cls": "appliance",
+   "mass_kg": 1.8,
+   "cloth": false,
+   "start_scene": [
+    3.9897,
+    2.41,
+    1.0905
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    3.0897,
+    1.96,
+    1.0905
+   ],
+   "status_v3": "leave",
+   "expect": {
+    "kind": "stay",
+    "why": "appliance standing where it is used: stays (r26i1_countertop)",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r38i1_coffee_maker": {
+   "body": "object_0144_body",
+   "cls": "appliance",
+   "mass_kg": 2.0,
+   "cloth": false,
+   "start_scene": [
+    4.2164,
+    2.4,
+    1.0613
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    3.3164,
+    1.95,
+    1.0613
+   ],
+   "status_v3": "leave",
+   "expect": {
+    "kind": "stay",
+    "why": "appliance standing where it is used: stays (r26i1_countertop)",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r39i1_cereal": {
+   "body": "object_0145_body",
+   "cls": "container",
+   "mass_kg": 0.45,
+   "cloth": false,
+   "start_scene": [
+    3.7789,
+    2.34,
+    1.0555
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    2.8789,
+    1.89,
+    1.0555
+   ],
+   "status_v3": "leave",
+   "expect": {
+    "kind": "stay",
+    "why": "kitchen / storage item where it is used: in place (r26i1_countertop)",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r39i2_cereal": {
+   "body": "object_0146_body",
+   "cls": "container",
+   "mass_kg": 0.45,
+   "cloth": false,
+   "start_scene": [
+    3.8529,
+    2.34,
+    1.0555
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    2.9529,
+    1.89,
+    1.0555
+   ],
+   "status_v3": "leave",
+   "expect": {
+    "kind": "stay",
+    "why": "kitchen / storage item where it is used: in place (r26i1_countertop)",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r40i1_tea_box": {
+   "body": "object_0147_body",
+   "cls": "container",
+   "mass_kg": 0.08,
+   "cloth": false,
+   "start_scene": [
+    3.84,
+    2.1,
+    0.9455
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    2.94,
+    1.65,
+    0.9455
+   ],
+   "status_v3": "leave",
+   "expect": {
+    "kind": "stay",
+    "why": "kitchen / storage item where it is used: in place (r26i1_countertop)",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r41i1_bread": {
+   "body": "object_0148_body",
+   "cls": "food",
+   "mass_kg": 0.6,
+   "cloth": false,
+   "start_scene": [
+    4.0592,
+    2.1549,
+    0.9655
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    3.1592,
+    1.7049,
+    0.9655
+   ],
+   "status_v3": "leave",
+   "expect": {
+    "kind": "stay",
+    "why": "food on the kitchen counter / island: in place (r26i1_countertop)",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r41i2_bread": {
+   "body": "object_0149_body",
+   "cls": "food",
+   "mass_kg": 0.5,
+   "cloth": false,
+   "start_scene": [
+    4.2201,
+    1.9764,
+    0.9655
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    3.3201,
+    1.5264,
+    0.9655
+   ],
+   "status_v3": "leave",
+   "expect": {
+    "kind": "stay",
+    "why": "food on the kitchen counter / island: in place (r26i1_countertop)",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r42i1_dish_basket": {
+   "body": "object_0150_body",
+   "cls": "basket",
+   "mass_kg": 0.9,
+   "cloth": false,
+   "start_scene": [
+    4.5221,
+    2.37,
+    0.9615
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    3.6221,
+    1.92,
+    0.9615
+   ],
+   "status_v3": "already_in_place",
+   "expect": {
+    "kind": "stay",
+    "why": "dish basket on the counter: in place",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r43i1_measuring_cup": {
+   "body": "object_0151_body",
+   "cls": "dish",
+   "mass_kg": 0.12,
+   "cloth": false,
+   "start_scene": [
+    4.8777,
+    2.3712,
+    0.9605
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    3.9777,
+    1.9212,
+    0.9605
+   ],
+   "status_v3": "already_in_place",
+   "expect": {
+    "kind": "stay",
+    "why": "beside the dish basket: in place",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r44i1_mug": {
+   "body": "object_0152_body",
+   "cls": "dish",
+   "mass_kg": 0.32,
+   "cloth": false,
+   "start_scene": [
+    5.0008,
+    1.726,
+    0.9605
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    4.1008,
+    1.276,
+    0.9605
+   ],
+   "status_v3": "already_in_place",
+   "expect": {
+    "kind": "stay",
+    "why": "mug on the counter at the sink: already at the sink",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r45i1_food_container": {
+   "body": "object_0153_body",
+   "cls": "container",
+   "mass_kg": 0.2,
+   "cloth": false,
+   "start_scene": [
+    5.12,
+    2.3,
+    0.9507
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    4.22,
+    1.85,
+    0.9507
+   ],
+   "status_v3": "leave",
+   "expect": {
+    "kind": "stay",
+    "why": "kitchen / storage item where it is used: in place (r26i1_countertop)",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r46i1_spray_bottle": {
+   "body": "object_0154_body",
+   "cls": "container",
+   "mass_kg": 0.4,
+   "cloth": false,
+   "start_scene": [
+    5.15,
+    1.95,
+    1.033
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    4.25,
+    1.5,
+    1.033
+   ],
+   "status_v3": "leave",
+   "expect": {
+    "kind": "stay",
+    "why": "kitchen / storage item where it is used: in place (r26i1_countertop)",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r47i1_squeeze_bottle": {
+   "body": "object_0155_body",
+   "cls": "container",
+   "mass_kg": 0.45,
+   "cloth": false,
+   "start_scene": [
+    5.1295,
+    1.58,
+    1.0355
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    4.2295,
+    1.13,
+    1.0355
+   ],
+   "status_v3": "leave",
+   "expect": {
+    "kind": "stay",
+    "why": "kitchen / storage item where it is used: in place (r26i1_countertop)",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r48i1_spice_jar": {
+   "body": "object_0156_body",
+   "cls": "container",
+   "mass_kg": 0.12,
+   "cloth": false,
+   "start_scene": [
+    5.24,
+    1.52,
+    0.9605
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    4.34,
+    1.07,
+    0.9605
+   ],
+   "status_v3": "leave",
+   "expect": {
+    "kind": "stay",
+    "why": "kitchen / storage item where it is used: in place (r26i1_countertop)",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r49i1_canister": {
+   "body": "object_0158_body",
+   "cls": "dish",
+   "mass_kg": 0.35,
+   "cloth": false,
+   "start_scene": [
+    5.0,
+    1.4,
+    0.971
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    4.1,
+    0.95,
+    0.971
+   ],
+   "status_v3": "already_in_place",
+   "expect": {
+    "kind": "stay",
+    "why": "storage canister on the cutting board by the range: in place",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r50i1_blue_box": {
+   "body": "object_0159_body",
+   "cls": "container",
+   "mass_kg": 0.3,
+   "cloth": false,
+   "start_scene": [
+    5.2312,
+    1.3867,
+    0.9755
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    4.3312,
+    0.9367,
+    0.9755
+   ],
+   "status_v3": "leave",
+   "expect": {
+    "kind": "stay",
+    "why": "kitchen / storage item where it is used: in place (r26i1_countertop)",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r51i1_paper_bag": {
+   "body": "object_0160_body",
+   "cls": "bag",
+   "mass_kg": 0.05,
+   "cloth": false,
+   "start_scene": [
+    5.1335,
+    1.3477,
+    0.9874
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    4.2335,
+    0.8977,
+    0.9874
+   ],
+   "status_v3": "leave",
+   "expect": {
+    "kind": "stay",
+    "why": "standing bag by the wall: stays (TIDY_PLAN) (r26i1_countertop)",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r52i1_cutting_board": {
+   "body": "object_0157_body",
+   "cls": "kitchenware",
+   "mass_kg": 0.9,
+   "cloth": false,
+   "start_scene": [
+    4.9258,
+    1.45,
+    0.9207
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    4.0258,
+    1.0,
+    0.9207
+   ],
+   "status_v3": "leave",
+   "expect": {
+    "kind": "stay",
+    "why": "on the kitchen counter: in place (r26i1_countertop)",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r53i1_jar": {
+   "body": "object_0161_body",
+   "cls": "container",
+   "mass_kg": 0.25,
+   "cloth": false,
+   "start_scene": [
+    4.9,
+    1.6,
+    0.981
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    4.0,
+    1.15,
+    0.981
+   ],
+   "status_v3": "leave",
+   "expect": {
+    "kind": "stay",
+    "why": "kitchen / storage item where it is used: in place (r52i1_cutting_board)",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r54i1_pot": {
+   "body": "object_0162_body",
+   "cls": "cookware",
+   "mass_kg": 2.6,
+   "cloth": false,
+   "start_scene": [
+    4.9,
+    0.8501,
+    1.0525
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    4.0,
+    0.4001,
+    1.0525
+   ],
+   "status_v3": "leave",
+   "expect": {
+    "kind": "stay",
+    "why": "cookware on the range: in place (r29i1_range)",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r55i1_skillet": {
+   "body": "object_0163_body",
+   "cls": "cookware",
+   "mass_kg": 1.2,
+   "cloth": false,
+   "start_scene": [
+    4.9979,
+    1.1434,
+    0.989
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    4.0979,
+    0.6934,
+    0.989
+   ],
+   "status_v3": "leave",
+   "expect": {
+    "kind": "stay",
+    "why": "cookware on the range: in place (r29i1_range)",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r55i2_skillet": {
+   "body": "object_0164_body",
+   "cls": "cookware",
+   "mass_kg": 1.1,
+   "cloth": false,
+   "start_scene": [
+    4.9979,
+    0.5568,
+    0.989
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    4.0979,
+    0.1068,
+    0.989
+   ],
+   "status_v3": "leave",
+   "expect": {
+    "kind": "stay",
+    "why": "cookware on the range: in place (r29i1_range)",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r56i1_olive_oil": {
+   "body": "object_0165_body",
+   "cls": "container",
+   "mass_kg": 0.9,
+   "cloth": false,
+   "start_scene": [
+    5.2,
+    0.35,
+    1.0505
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    4.3,
+    -0.1,
+    1.0505
+   ],
+   "status_v3": "leave",
+   "expect": {
+    "kind": "stay",
+    "why": "kitchen / storage item where it is used: in place (r26i1_countertop_right)",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r57i1_paper_towel": {
+   "body": "object_0166_body",
+   "cls": "container",
+   "mass_kg": 0.35,
+   "cloth": false,
+   "start_scene": [
+    4.9485,
+    0.034,
+    1.0765
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    4.0485,
+    -0.416,
+    1.0765
+   ],
+   "status_v3": "leave",
+   "expect": {
+    "kind": "stay",
+    "why": "kitchen / storage item where it is used: in place (r26i1_countertop_right)",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r58i1_air_fryer": {
+   "body": "object_0167_body",
+   "cls": "appliance",
+   "mass_kg": 4.8,
+   "cloth": false,
+   "start_scene": [
+    5.06,
+    -0.319,
+    1.0905
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    4.16,
+    -0.769,
+    1.0905
+   ],
+   "status_v3": "leave",
+   "expect": {
+    "kind": "stay",
+    "why": "appliance standing where it is used: stays (r26i1_countertop_right)",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r59i1_pitcher": {
+   "body": "object_0168_body",
+   "cls": "container",
+   "mass_kg": 0.25,
+   "cloth": false,
+   "start_scene": [
+    4.85,
+    0.2218,
+    0.9805
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    3.95,
+    -0.2282,
+    0.9805
+   ],
+   "status_v3": "leave",
+   "expect": {
+    "kind": "stay",
+    "why": "kitchen / storage item where it is used: in place (r26i1_countertop_right)",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r60i1_vial": {
+   "body": "object_0169_body",
+   "cls": "container",
+   "mass_kg": 0.08,
+   "cloth": false,
+   "start_scene": [
+    4.8,
+    0.3935,
+    0.9605
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    3.9,
+    -0.0565,
+    0.9605
+   ],
+   "status_v3": "leave",
+   "expect": {
+    "kind": "stay",
+    "why": "kitchen / storage item where it is used: in place (r26i1_countertop_right)",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r61i1_green_tool": {
+   "body": "object_0170_body",
+   "cls": "container",
+   "mass_kg": 0.03,
+   "cloth": false,
+   "start_scene": [
+    4.86,
+    0.3301,
+    0.9207
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    3.96,
+    -0.1199,
+    0.9207
+   ],
+   "status_v3": "leave",
+   "expect": {
+    "kind": "stay",
+    "why": "kitchen / storage item where it is used: in place (r26i1_countertop_right)",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r62i1_snack_bag": {
+   "body": "object_0171_body",
+   "cls": "food_package",
+   "mass_kg": 0.15,
+   "cloth": false,
+   "start_scene": [
+    5.1015,
+    0.2,
+    0.9405
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    4.2015,
+    -0.25,
+    0.9405
+   ],
+   "status_v3": "leave",
+   "expect": {
+    "kind": "stay",
+    "why": "snack on the kitchen counter / island: food, not rubbish: stays (r26i1_countertop_right)",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r63i1_glass": {
+   "body": "object_0172_body",
+   "cls": "dish",
+   "mass_kg": 0.25,
+   "cloth": false,
+   "start_scene": [
+    5.0,
+    -0.085,
+    0.9705
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    4.1,
+    -0.535,
+    0.9705
+   ],
+   "status_v3": "mess_to_move",
+   "expect": {
+    "kind": "in_container",
+    "container": "r27i1_sink",
+    "planned_by": "route_steps_v3.json"
+   }
+  },
+  "r64i1_fridge_top_item": {
+   "body": "object_0173_body",
+   "cls": "container",
+   "mass_kg": 0.15,
+   "cloth": false,
+   "start_scene": [
+    2.85,
+    2.3,
+    1.8108
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    1.95,
+    1.85,
+    1.8108
+   ],
+   "status_v3": "already_in_place",
+   "expect": {
+    "kind": "stay",
+    "why": "on top of the fridge (1.78 m): storage, and out of reach",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r64i2_fridge_top_item": {
+   "body": "object_0174_body",
+   "cls": "container",
+   "mass_kg": 0.15,
+   "cloth": false,
+   "start_scene": [
+    2.97,
+    2.3,
+    1.8108
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    2.07,
+    1.85,
+    1.8108
+   ],
+   "status_v3": "already_in_place",
+   "expect": {
+    "kind": "stay",
+    "why": "on top of the fridge (1.78 m): storage, and out of reach",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r64i3_fridge_top_item": {
+   "body": "object_0175_body",
+   "cls": "container",
+   "mass_kg": 0.15,
+   "cloth": false,
+   "start_scene": [
+    3.1,
+    2.3,
+    1.8108
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    2.2,
+    1.85,
+    1.8108
+   ],
+   "status_v3": "already_in_place",
+   "expect": {
+    "kind": "stay",
+    "why": "on top of the fridge (1.78 m): storage, and out of reach",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r64i4_fridge_top_item": {
+   "body": "object_0176_body",
+   "cls": "container",
+   "mass_kg": 0.15,
+   "cloth": false,
+   "start_scene": [
+    3.25,
+    2.3,
+    1.8108
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    2.35,
+    1.85,
+    1.8108
+   ],
+   "status_v3": "already_in_place",
+   "expect": {
+    "kind": "stay",
+    "why": "on top of the fridge (1.78 m): storage, and out of reach",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r64i5_fridge_top_item": {
+   "body": "object_0177_body",
+   "cls": "container",
+   "mass_kg": 0.15,
+   "cloth": false,
+   "start_scene": [
+    3.45,
+    2.3,
+    1.8108
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    2.55,
+    1.85,
+    1.8108
+   ],
+   "status_v3": "already_in_place",
+   "expect": {
+    "kind": "stay",
+    "why": "on top of the fridge (1.78 m): storage, and out of reach",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r65i1_bowl": {
+   "body": "object_0178_body",
+   "cls": "dish",
+   "mass_kg": 0.3,
+   "cloth": false,
+   "start_scene": [
+    3.85,
+    1.68,
+    0.5382
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    2.95,
+    1.23,
+    0.5382
+   ],
+   "status_v3": "already_in_place",
+   "expect": {
+    "kind": "stay",
+    "why": "in the open dishwasher's pulled-out rack: where dishes belong (pushing the racks in and closing the door needs the drawer / door skill)",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r65i2_bowl": {
+   "body": "object_0179_body",
+   "cls": "dish",
+   "mass_kg": 0.3,
+   "cloth": false,
+   "start_scene": [
+    4.01,
+    1.68,
+    0.5382
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    3.11,
+    1.23,
+    0.5382
+   ],
+   "status_v3": "already_in_place",
+   "expect": {
+    "kind": "stay",
+    "why": "in the open dishwasher's pulled-out rack: where dishes belong (pushing the racks in and closing the door needs the drawer / door skill)",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r65i3_bowl": {
+   "body": "object_0180_body",
+   "cls": "dish",
+   "mass_kg": 0.3,
+   "cloth": false,
+   "start_scene": [
+    4.17,
+    1.68,
+    0.5382
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    3.27,
+    1.23,
+    0.5382
+   ],
+   "status_v3": "already_in_place",
+   "expect": {
+    "kind": "stay",
+    "why": "in the open dishwasher's pulled-out rack: where dishes belong (pushing the racks in and closing the door needs the drawer / door skill)",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r65i4_bowl": {
+   "body": "object_0181_body",
+   "cls": "dish",
+   "mass_kg": 0.3,
+   "cloth": false,
+   "start_scene": [
+    3.86,
+    1.866,
+    0.5382
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    2.96,
+    1.416,
+    0.5382
+   ],
+   "status_v3": "already_in_place",
+   "expect": {
+    "kind": "stay",
+    "why": "in the open dishwasher's pulled-out rack: where dishes belong (pushing the racks in and closing the door needs the drawer / door skill)",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r66i1_cup": {
+   "body": "object_0182_body",
+   "cls": "dish",
+   "mass_kg": 0.25,
+   "cloth": false,
+   "start_scene": [
+    4.02,
+    1.83,
+    0.5335
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    3.12,
+    1.38,
+    0.5335
+   ],
+   "status_v3": "already_in_place",
+   "expect": {
+    "kind": "stay",
+    "why": "in the open dishwasher's pulled-out rack: where dishes belong (pushing the racks in and closing the door needs the drawer / door skill)",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r66i2_cup": {
+   "body": "object_0183_body",
+   "cls": "dish",
+   "mass_kg": 0.25,
+   "cloth": false,
+   "start_scene": [
+    4.17,
+    1.83,
+    0.5335
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    3.27,
+    1.38,
+    0.5335
+   ],
+   "status_v3": "already_in_place",
+   "expect": {
+    "kind": "stay",
+    "why": "in the open dishwasher's pulled-out rack: where dishes belong (pushing the racks in and closing the door needs the drawer / door skill)",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r66i3_cup": {
+   "body": "object_0184_body",
+   "cls": "dish",
+   "mass_kg": 0.25,
+   "cloth": false,
+   "start_scene": [
+    4.02,
+    1.95,
+    0.5335
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    3.12,
+    1.5,
+    0.5335
+   ],
+   "status_v3": "already_in_place",
+   "expect": {
+    "kind": "stay",
+    "why": "in the open dishwasher's pulled-out rack: where dishes belong (pushing the racks in and closing the door needs the drawer / door skill)",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r66i4_cup": {
+   "body": "object_0185_body",
+   "cls": "dish",
+   "mass_kg": 0.25,
+   "cloth": false,
+   "start_scene": [
+    4.17,
+    1.95,
+    0.5335
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    3.27,
+    1.5,
+    0.5335
+   ],
+   "status_v3": "already_in_place",
+   "expect": {
+    "kind": "stay",
+    "why": "in the open dishwasher's pulled-out rack: where dishes belong (pushing the racks in and closing the door needs the drawer / door skill)",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r66i5_cup": {
+   "body": "object_0186_body",
+   "cls": "dish",
+   "mass_kg": 0.25,
+   "cloth": false,
+   "start_scene": [
+    3.86,
+    1.995,
+    0.5335
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    2.96,
+    1.545,
+    0.5335
+   ],
+   "status_v3": "already_in_place",
+   "expect": {
+    "kind": "stay",
+    "why": "in the open dishwasher's pulled-out rack: where dishes belong (pushing the racks in and closing the door needs the drawer / door skill)",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r67i1_plate": {
+   "body": "object_0187_body",
+   "cls": "dish",
+   "mass_kg": 0.45,
+   "cloth": false,
+   "start_scene": [
+    3.8,
+    1.85,
+    0.3035
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    2.9,
+    1.4,
+    0.3035
+   ],
+   "status_v3": "already_in_place",
+   "expect": {
+    "kind": "stay",
+    "why": "in the open dishwasher's pulled-out rack: where dishes belong (pushing the racks in and closing the door needs the drawer / door skill)",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r67i2_plate": {
+   "body": "object_0188_body",
+   "cls": "dish",
+   "mass_kg": 0.45,
+   "cloth": false,
+   "start_scene": [
+    3.86,
+    1.85,
+    0.3035
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    2.96,
+    1.4,
+    0.3035
+   ],
+   "status_v3": "already_in_place",
+   "expect": {
+    "kind": "stay",
+    "why": "in the open dishwasher's pulled-out rack: where dishes belong (pushing the racks in and closing the door needs the drawer / door skill)",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r67i3_plate": {
+   "body": "object_0189_body",
+   "cls": "dish",
+   "mass_kg": 0.45,
+   "cloth": false,
+   "start_scene": [
+    3.92,
+    1.85,
+    0.3035
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    3.02,
+    1.4,
+    0.3035
+   ],
+   "status_v3": "already_in_place",
+   "expect": {
+    "kind": "stay",
+    "why": "in the open dishwasher's pulled-out rack: where dishes belong (pushing the racks in and closing the door needs the drawer / door skill)",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r67i4_plate": {
+   "body": "object_0190_body",
+   "cls": "dish",
+   "mass_kg": 0.45,
+   "cloth": false,
+   "start_scene": [
+    3.98,
+    1.85,
+    0.3035
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    3.08,
+    1.4,
+    0.3035
+   ],
+   "status_v3": "already_in_place",
+   "expect": {
+    "kind": "stay",
+    "why": "in the open dishwasher's pulled-out rack: where dishes belong (pushing the racks in and closing the door needs the drawer / door skill)",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r67i5_plate": {
+   "body": "object_0191_body",
+   "cls": "dish",
+   "mass_kg": 0.45,
+   "cloth": false,
+   "start_scene": [
+    4.04,
+    1.85,
+    0.3035
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    3.14,
+    1.4,
+    0.3035
+   ],
+   "status_v3": "already_in_place",
+   "expect": {
+    "kind": "stay",
+    "why": "in the open dishwasher's pulled-out rack: where dishes belong (pushing the racks in and closing the door needs the drawer / door skill)",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r67i6_plate": {
+   "body": "object_0192_body",
+   "cls": "dish",
+   "mass_kg": 0.45,
+   "cloth": false,
+   "start_scene": [
+    4.1,
+    1.85,
+    0.3035
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    3.2,
+    1.4,
+    0.3035
+   ],
+   "status_v3": "already_in_place",
+   "expect": {
+    "kind": "stay",
+    "why": "in the open dishwasher's pulled-out rack: where dishes belong (pushing the racks in and closing the door needs the drawer / door skill)",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r68i1_rag": {
+   "body": "object_0193_body",
+   "cls": "textile",
+   "mass_kg": 0.08,
+   "cloth": true,
+   "start_scene": [
+    4.2604,
+    0.8446,
+    0.0298
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    3.3604,
+    0.3946,
+    0.0298
+   ],
+   "status_v3": "mess_to_move",
+   "expect": {
+    "kind": "in_container",
+    "container": "r133i1_laundry_basket",
+    "planned_by": "route_steps_v3.json"
+   }
+  },
+  "r69i1_scrap": {
+   "body": "object_0194_body",
+   "cls": "paper",
+   "mass_kg": 0.005,
+   "cloth": false,
+   "start_scene": [
+    4.32,
+    1.46,
+    0.0031
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    3.42,
+    1.01,
+    0.0031
+   ],
+   "status_v3": "mess_to_move",
+   "expect": {
+    "kind": "known_mess",
+    "why": "not graspable: too thin: 0.5 cm high: no grasp type has anything for the pads (fingertips on the support need 1 cm; flat on the floor there is no edge)",
+    "tol_xy_m": 0.05
+   }
+  },
+  "r69i2_scrap": {
+   "body": "object_0195_body",
+   "cls": "paper",
+   "mass_kg": 0.005,
+   "cloth": false,
+   "start_scene": [
+    4.6,
+    1.35,
+    0.0031
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    3.7,
+    0.9,
+    0.0031
+   ],
+   "status_v3": "mess_to_move",
+   "expect": {
+    "kind": "known_mess",
+    "why": "not graspable: too thin: 0.5 cm high: no grasp type has anything for the pads (fingertips on the support need 1 cm; flat on the floor there is no edge)",
+    "tol_xy_m": 0.05
+   }
+  },
+  "r69i3_scrap": {
+   "body": "object_0196_body",
+   "cls": "paper",
+   "mass_kg": 0.005,
+   "cloth": false,
+   "start_scene": [
+    4.5,
+    1.2,
+    0.0031
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    3.6,
+    0.75,
+    0.0031
+   ],
+   "status_v3": "mess_to_move",
+   "expect": {
+    "kind": "known_mess",
+    "why": "not graspable: too thin: 0.5 cm high: no grasp type has anything for the pads (fingertips on the support need 1 cm; flat on the floor there is no edge)",
+    "tol_xy_m": 0.05
+   }
+  },
+  "r69i4_scrap": {
+   "body": "object_0197_body",
+   "cls": "paper",
+   "mass_kg": 0.005,
+   "cloth": false,
+   "start_scene": [
+    4.4,
+    1.08,
+    0.0031
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    3.5,
+    0.63,
+    0.0031
+   ],
+   "status_v3": "mess_to_move",
+   "expect": {
+    "kind": "known_mess",
+    "why": "not graspable: too thin: 0.5 cm high: no grasp type has anything for the pads (fingertips on the support need 1 cm; flat on the floor there is no edge)",
+    "tol_xy_m": 0.05
+   }
+  },
+  "r70i1_tote": {
+   "body": "object_0198_body",
+   "cls": "bag",
+   "mass_kg": 0.9,
+   "cloth": false,
+   "start_scene": [
+    2.15,
+    0.2211,
+    1.055
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    1.25,
+    -0.2289,
+    1.055
+   ],
+   "status_v3": "mess_to_move",
+   "expect": {
+    "kind": "at_spot",
+    "spot_scene": [
+     5.04,
+     -0.92
+    ],
+    "spot_world": [
+     4.14,
+     -1.37
+    ],
+    "tol_xy_m": 0.15,
+    "yaw_deg": 0.0,
+    "tol_yaw_deg": 25.0,
+    "upright_max_tilt_deg": 20.0,
+    "planned_by": "route_steps_v3.json"
+   }
+  },
+  "r71i1_lysol": {
+   "body": "object_0199_body",
+   "cls": "container",
+   "mass_kg": 0.75,
+   "cloth": false,
+   "start_scene": [
+    2.45,
+    0.18,
+    1.0462
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    1.55,
+    -0.27,
+    1.0462
+   ],
+   "status_v3": "mess_to_move",
+   "expect": {
+    "kind": "on_surface",
+    "surface": "r94i1_tray_table",
+    "spot_scene": [
+     2.457,
+     2.0
+    ],
+    "planned_by": "route_steps_v3.json"
+   }
+  },
+  "r72i1_chips_can": {
+   "body": "object_0200_body",
+   "cls": "container",
+   "mass_kg": 0.2,
+   "cloth": false,
+   "start_scene": [
+    2.55,
+    0.55,
+    1.0385
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    1.65,
+    0.1,
+    1.0385
+   ],
+   "status_v3": "leave",
+   "expect": {
+    "kind": "stay",
+    "why": "kitchen / storage item where it is used: in place (r35i1_top)",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r73i1_apples": {
+   "body": "object_0201_body",
+   "cls": "food",
+   "mass_kg": 1.4,
+   "cloth": false,
+   "start_scene": [
+    2.1526,
+    0.7246,
+    1.0605
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    1.2526,
+    0.2746,
+    1.0605
+   ],
+   "status_v3": "leave",
+   "expect": {
+    "kind": "stay",
+    "why": "food on the kitchen counter / island: in place (r35i1_top)",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r74i1_milk_jug": {
+   "body": "object_0202_body",
+   "cls": "container",
+   "mass_kg": 1.2,
+   "cloth": false,
+   "start_scene": [
+    2.78,
+    0.8,
+    1.0355
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    1.88,
+    0.35,
+    1.0355
+   ],
+   "status_v3": "mess_to_move",
+   "expect": {
+    "kind": "known_mess",
+    "why": "OPTIONAL fridge round, not in the route: the fridge doors are frozen in our rooms and no door skill exists (the surface agent is building one for the dishwasher); with it: open r34i1_fresh_door, set the jug on the compartment floor, close the door. ",
+    "tol_xy_m": 0.05
+   }
+  },
+  "r75i1_bottle": {
+   "body": "object_0203_body",
+   "cls": "container",
+   "mass_kg": 0.35,
+   "cloth": false,
+   "start_scene": [
+    2.64,
+    0.76,
+    1.0105
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    1.74,
+    0.31,
+    1.0105
+   ],
+   "status_v3": "leave",
+   "expect": {
+    "kind": "stay",
+    "why": "kitchen / storage item where it is used: in place (r35i1_top)",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r75i2_bottle": {
+   "body": "object_0204_body",
+   "cls": "container",
+   "mass_kg": 0.35,
+   "cloth": false,
+   "start_scene": [
+    2.66,
+    0.64,
+    1.0105
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    1.76,
+    0.19,
+    1.0105
+   ],
+   "status_v3": "leave",
+   "expect": {
+    "kind": "stay",
+    "why": "kitchen / storage item where it is used: in place (r35i1_top)",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r76i1_cotton_vase": {
+   "body": "object_0205_body",
+   "cls": "decor",
+   "mass_kg": 0.5,
+   "cloth": false,
+   "start_scene": [
+    2.92,
+    0.64,
+    1.1088
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    2.02,
+    0.19,
+    1.1088
+   ],
+   "status_v3": "leave",
+   "expect": {
+    "kind": "stay",
+    "why": "decor: stays (r35i1_top)",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r77i1_iron": {
+   "body": "object_0206_body",
+   "cls": "appliance",
+   "mass_kg": 1.3,
+   "cloth": false,
+   "start_scene": [
+    2.97,
+    0.44,
+    1.0405
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    2.07,
+    -0.01,
+    1.0405
+   ],
+   "status_v3": "mess_to_move",
+   "expect": {
+    "kind": "known_mess",
+    "why": "not reachable: nearest standing place is 0.78 m from it (ASSUMED reach 0.50 m at most) (hand comes in from its side grasp's side)",
+    "tol_xy_m": 0.05
+   }
+  },
+  "r78i1_kids_bottle": {
+   "body": "object_0207_body",
+   "cls": "container",
+   "mass_kg": 0.35,
+   "cloth": false,
+   "start_scene": [
+    3.2465,
+    0.16,
+    1.0205
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    2.3465,
+    -0.29,
+    1.0205
+   ],
+   "status_v3": "mess_to_move",
+   "expect": {
+    "kind": "in_container",
+    "container": "r27i1_sink",
+    "planned_by": "route_steps_v3.json"
+   }
+  },
+  "r79i1_water_bottle": {
+   "body": "object_0208_body",
+   "cls": "container",
+   "mass_kg": 0.5,
+   "cloth": false,
+   "start_scene": [
+    3.0025,
+    0.76,
+    1.0205
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    2.1025,
+    0.31,
+    1.0205
+   ],
+   "status_v3": "leave",
+   "expect": {
+    "kind": "stay",
+    "why": "kitchen / storage item where it is used: in place (r35i1_top)",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r80i1_orange_cap_bottle": {
+   "body": "object_0209_body",
+   "cls": "container",
+   "mass_kg": 0.15,
+   "cloth": false,
+   "start_scene": [
+    3.07,
+    0.5455,
+    0.9705
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    2.17,
+    0.0955,
+    0.9705
+   ],
+   "status_v3": "leave",
+   "expect": {
+    "kind": "stay",
+    "why": "kitchen / storage item where it is used: in place (r35i1_top)",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r81i1_glass_spoon": {
+   "body": "object_0210_body",
+   "cls": "dish",
+   "mass_kg": 0.3,
+   "cloth": false,
+   "start_scene": [
+    3.3155,
+    0.5427,
+    1.0057
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    2.4155,
+    0.0927,
+    1.0057
+   ],
+   "status_v3": "mess_to_move",
+   "expect": {
+    "kind": "in_container",
+    "container": "r27i1_sink",
+    "planned_by": "route_steps_v3.json"
+   }
+  },
+  "r82i1_juice_box": {
+   "body": "object_0211_body",
+   "cls": "container",
+   "mass_kg": 0.2,
+   "cloth": false,
+   "start_scene": [
+    1.95,
+    0.76,
+    0.9657
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    1.05,
+    0.31,
+    0.9657
+   ],
+   "status_v3": "leave",
+   "expect": {
+    "kind": "stay",
+    "why": "kitchen / storage item where it is used: in place (r35i1_top)",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r83i1_sponges": {
+   "body": "object_0212_body",
+   "cls": "package",
+   "mass_kg": 0.12,
+   "cloth": false,
+   "start_scene": [
+    1.9886,
+    0.5143,
+    0.9505
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    1.0886,
+    0.0643,
+    0.9505
+   ],
+   "status_v3": "mess_to_move",
+   "expect": {
+    "kind": "on_surface",
+    "surface": "r94i1_tray_table",
+    "spot_scene": [
+     2.4,
+     2.37
+    ],
+    "planned_by": "route_steps_v3.json"
+   }
+  },
+  "r83i2_sponges": {
+   "body": "object_0213_body",
+   "cls": "package",
+   "mass_kg": 0.12,
+   "cloth": false,
+   "start_scene": [
+    2.27,
+    0.0625,
+    0.9505
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    1.37,
+    -0.3875,
+    0.9505
+   ],
+   "status_v3": "mess_to_move",
+   "expect": {
+    "kind": "known_mess",
+    "why": "NO free place of 22 x 8 cm left on r94i1_tray_table: something there has to be moved together first",
+    "tol_xy_m": 0.05
+   }
+  },
+  "r84i1_succulent": {
+   "body": "object_0214_body",
+   "cls": "plant",
+   "mass_kg": 0.4,
+   "cloth": false,
+   "start_scene": [
+    2.27,
+    0.5814,
+    0.9655
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    1.37,
+    0.1314,
+    0.9655
+   ],
+   "status_v3": "leave",
+   "expect": {
+    "kind": "stay",
+    "why": "plant: stays (r35i1_top)",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r85i1_red_snack_bag": {
+   "body": "object_0215_body",
+   "cls": "food_package",
+   "mass_kg": 0.1,
+   "cloth": false,
+   "start_scene": [
+    2.36,
+    0.4361,
+    0.9305
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    1.46,
+    -0.0139,
+    0.9305
+   ],
+   "status_v3": "leave",
+   "expect": {
+    "kind": "stay",
+    "why": "snack on the kitchen counter / island: food, not rubbish: stays (r35i1_top)",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r86i1_cables": {
+   "body": "object_0216_body",
+   "cls": "cable",
+   "mass_kg": 0.12,
+   "cloth": false,
+   "start_scene": [
+    2.4088,
+    0.74,
+    0.9179
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    1.5088,
+    0.29,
+    0.9179
+   ],
+   "status_v3": "mess_to_move",
+   "expect": {
+    "kind": "known_mess",
+    "why": "its destination r159i1_cabinet cannot be reached: nearest standing place is 0.53 m from it (MEASURED (planner_reach_rows.json, pad height 0.55 m) reach 0.43 m at most) (now, before anything is cleared: inf m)",
+    "tol_xy_m": 0.05
+   }
+  },
+  "r87i1_wrapper": {
+   "body": "object_0217_body",
+   "cls": "paper",
+   "mass_kg": 0.01,
+   "cloth": false,
+   "start_scene": [
+    2.6,
+    0.17,
+    0.9305
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    1.7,
+    -0.28,
+    0.9305
+   ],
+   "status_v3": "mess_to_move",
+   "expect": {
+    "kind": "in_container",
+    "container": "rubbish_bin",
+    "planned_by": "route_steps_v3.json"
+   }
+  },
+  "r88i1_small_box": {
+   "body": "object_0218_body",
+   "cls": "container",
+   "mass_kg": 0.06,
+   "cloth": false,
+   "start_scene": [
+    2.62,
+    0.4,
+    0.9307
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    1.72,
+    -0.05,
+    0.9307
+   ],
+   "status_v3": "leave",
+   "expect": {
+    "kind": "stay",
+    "why": "kitchen / storage item where it is used: in place (r35i1_top)",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r88i2_small_box": {
+   "body": "object_0219_body",
+   "cls": "container",
+   "mass_kg": 0.06,
+   "cloth": false,
+   "start_scene": [
+    2.74,
+    0.28,
+    0.9307
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    1.84,
+    -0.17,
+    0.9307
+   ],
+   "status_v3": "leave",
+   "expect": {
+    "kind": "stay",
+    "why": "kitchen / storage item where it is used: in place (r35i1_top)",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r89i1_salad_bowl": {
+   "body": "object_0220_body",
+   "cls": "dish",
+   "mass_kg": 0.9,
+   "cloth": false,
+   "start_scene": [
+    3.1675,
+    0.7117,
+    0.9505
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    2.2675,
+    0.2617,
+    0.9505
+   ],
+   "status_v3": "mess_to_move",
+   "expect": {
+    "kind": "in_container",
+    "container": "r27i1_sink",
+    "planned_by": "route_steps_v3.json"
+   }
+  },
+  "r90i1_plate": {
+   "body": "object_0221_body",
+   "cls": "dish",
+   "mass_kg": 0.5,
+   "cloth": false,
+   "start_scene": [
+    3.3,
+    0.34,
+    0.9225
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    2.4,
+    -0.11,
+    0.9225
+   ],
+   "status_v3": "mess_to_move",
+   "expect": {
+    "kind": "in_container",
+    "container": "r27i1_sink",
+    "planned_by": "route_steps_v3.json"
+   }
+  },
+  "r91i1_tan_plate": {
+   "body": "object_0222_body",
+   "cls": "dish",
+   "mass_kg": 0.55,
+   "cloth": false,
+   "start_scene": [
+    3.4945,
+    0.66,
+    0.9225
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    2.5945,
+    0.21,
+    0.9225
+   ],
+   "status_v3": "mess_to_move",
+   "expect": {
+    "kind": "in_container",
+    "container": "r27i1_sink",
+    "planned_by": "route_steps_v3.json"
+   }
+  },
+  "r92i1_pink_container": {
+   "body": "object_0223_body",
+   "cls": "container",
+   "mass_kg": 0.15,
+   "cloth": false,
+   "start_scene": [
+    3.45,
+    0.14,
+    0.9357
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    2.55,
+    -0.31,
+    0.9357
+   ],
+   "status_v3": "mess_to_move",
+   "expect": {
+    "kind": "in_container",
+    "container": "r27i1_sink",
+    "planned_by": "route_steps_v3.json"
+   }
+  },
+  "r93i1_nugget": {
+   "body": "object_0224_body",
+   "cls": "toy",
+   "mass_kg": 0.01,
+   "cloth": false,
+   "start_scene": [
+    3.3035,
+    0.12,
+    0.9225
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    2.4035,
+    -0.33,
+    0.9225
+   ],
+   "status_v3": "mess_to_move",
+   "expect": {
+    "kind": "in_container",
+    "container": "r186i1_basket",
+    "planned_by": "route_steps_v3.json"
+   }
+  },
+  "r94i1_tray_table": {
+   "body": "object_0225_body",
+   "cls": "table",
+   "mass_kg": 2.5,
+   "cloth": false,
+   "start_scene": [
+    2.47,
+    2.18,
+    0.3879
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    1.57,
+    1.73,
+    0.3879
+   ],
+   "status_v3": "leave",
+   "expect": {
+    "kind": "stay",
+    "why": "furniture: stays (floor)",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r95i1_purple_cloth": {
+   "body": "object_0226_body",
+   "cls": "textile",
+   "mass_kg": 0.2,
+   "cloth": false,
+   "start_scene": [
+    2.47,
+    2.18,
+    0.8017
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    1.57,
+    1.73,
+    0.8017
+   ],
+   "status_v3": "already_in_place",
+   "expect": {
+    "kind": "stay",
+    "why": "folded cleaning cloth on the tray table beside the mop: in place",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r96i1_mop": {
+   "body": "object_0227_body",
+   "cls": "tool",
+   "mass_kg": 0.9,
+   "cloth": false,
+   "start_scene": [
+    2.215,
+    2.06,
+    0.6505
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    1.315,
+    1.61,
+    0.6505
+   ],
+   "status_v3": "leave",
+   "expect": {
+    "kind": "stay",
+    "why": "stands / lies where it is kept: stays (floor)",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r97i1_hook_rack": {
+   "body": "object_0228_body",
+   "cls": "hook_rack",
+   "mass_kg": 0.25,
+   "cloth": false,
+   "start_scene": [
+    1.75,
+    2.8475,
+    1.8818
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    0.85,
+    2.3975,
+    1.8818
+   ],
+   "status_v3": "leave",
+   "expect": {
+    "kind": "stay",
+    "why": "hook rack on the closet door: fixture (r12i1_leaf)",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r98i1_stick_vacuum": {
+   "body": "object_0229_body",
+   "cls": "appliance",
+   "mass_kg": 2.6,
+   "cloth": false,
+   "start_scene": [
+    -0.4,
+    2.06,
+    0.5921
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    -1.3,
+    1.61,
+    0.5921
+   ],
+   "status_v3": "leave",
+   "expect": {
+    "kind": "stay",
+    "why": "appliance standing where it is used: stays (floor)",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r99i1_stool": {
+   "body": "object_0230_body",
+   "cls": "stool",
+   "mass_kg": 2.8,
+   "cloth": false,
+   "start_scene": [
+    2.1482,
+    -0.3879,
+    0.3031
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    1.2482,
+    -0.8379,
+    0.3031
+   ],
+   "status_v3": "leave",
+   "expect": {
+    "kind": "stay",
+    "why": "furniture: stays (floor)",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "r99i2_stool": {
+   "body": "object_0231_body",
+   "cls": "stool",
+   "mass_kg": 2.8,
+   "cloth": false,
+   "start_scene": [
+    0.1464,
+    1.8099,
+    0.3031
+   ],
+   "start_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "start_world": [
+    -0.7536,
+    1.3599,
+    0.3031
+   ],
+   "status_v3": "leave",
+   "expect": {
+    "kind": "stay",
+    "why": "furniture: stays (floor)",
+    "tol_xy_m": 0.05,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  },
+  "rubbish_bin": {
+   "body": "rubbish_bin",
+   "cls": "bin",
+   "mass_kg": 1.5,
+   "cloth": false,
+   "start_scene": [
+    1.0,
+    1.93,
+    0.0
+   ],
+   "start_quat_wxyz": [
+    1,
+    0,
+    0,
+    0
+   ],
+   "start_world": [
+    0.1,
+    1.48,
+    0.0
+   ],
+   "status_v3": "our_addition",
+   "expect": {
+    "kind": "stay",
+    "why": "the added bin stands back at its place by the wall (it may be carried and brought back)",
+    "tol_xy_m": 0.1,
+    "tol_z_m": 0.05,
+    "max_tilt_change_deg": 10.0
+   }
+  }
+ }
+}

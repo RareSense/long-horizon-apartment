@@ -1,0 +1,11 @@
+ck C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\checkpoints\1459_act_g_both_up_before_lowering frame 94305
+both to {'left': (0.52, -0.01, 1.08), 'right': (0.5, -0.1, 0.98)} pads rf {'left': [0.523, -0.011, 1.081], 'right': [0.499, -0.102, 0.98]} held L/R True True out {'share': 0.0, 'z_lo': None, 'below_rim': 0} inside {'inside': 1.0, 'below_rim': 0.017, 'overhang': 0.0, 'lowest': 0.557, 'rim': 0.59} touch 0.0 knees {'left_knee': 0.118, 'right_knee': 0.103} tilt 0.342 fell False
+both to {'left': (0.53, 0.0, 0.98), 'right': (0.51, -0.1, 0.88)} pads rf {'left': [0.53, -0.001, 0.98], 'right': [0.501, -0.099, 0.88]} held L/R True True out {'share': 0.0, 'z_lo': None, 'below_rim': 0} inside {'inside': 1.0, 'below_rim': 0.12, 'overhang': 0.0, 'lowest': 0.447, 'rim': 0.59} touch 0.0 knees {'left_knee': 0.134, 'right_knee': 0.12} tilt 0.281 fell False
+left fingers rf [0.94, -0.32, 0.1] close rf [0.28, 0.91, 0.29] pads z 0.977 0.983 pad r from centre 0.088
+right fingers rf [0.93, 0.25, -0.27] close rf [0.15, 0.43, 0.89] pads z 0.872 0.888 pad r from centre 0.08
+cloth r max 0.224 share with r > 0.22: 0.001 their z lo/hi (0.692, 0.692) lowest 0.447 top 1.027
+r131i1_knit_hat {'item': 'r131i1_knit_hat', 't': 2234.4, 'kind': 'garment', 'dest': 'r133i1_laundry_basket', 'inside': 1.0, 'ok': True}
+r189i1_santa_hat {'item': 'r189i1_santa_hat', 't': 2234.4, 'kind': 'garment', 'dest': 'r133i1_laundry_basket', 'inside': 1.0, 'ok': True}
+r121i1_jacket {'item': 'r121i1_jacket', 't': 2234.4, 'kind': 'garment', 'dest': 'r133i1_laundry_basket', 'inside': 1.0, 'ok': True}
+look C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\look_fb\0034_g34_both.jpg
+__END__

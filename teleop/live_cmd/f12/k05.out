@@ -1,0 +1,5 @@
+nugget [-5.257, -1.425, 0.104] in basket True
+state {'t': 9206.25, 'pelvis': [-4.868, -1.087, 0.769], 'yaw_deg': -125.1, 'hands': {'left': [-4.658, -1.231, 0.539], 'right': [-5.082, -0.96, 0.538]}, 'mode': 'stand'} fell False touch 0.0 in basket True
+[checkpoint] 1370_item_r93i1_nugget t=9206.25 s, 2.91 MB, 0.542 s
+DONE {'done': 'r93i1_nugget', 'ckpt': 'C:\\Users\\raresense\\sim_home\\runs\\1120_093820_dex1_floor_12\\checkpoints\\1370_item_r93i1_nugget', 'pruned': 182, 'pos': 24, 'n': 43, 'next': 'r87i1_wrapper'}
+C:\Users\raresense\sim_home\runs\1120_093820_dex1_floor_12\tele\0067_f12_nugget_done.jpg

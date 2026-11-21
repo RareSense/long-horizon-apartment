@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "E:\urc_final\scripts\isaac_cmd.py", line 19, in <module>
+    n = struct.unpack("!I", rx(4))[0]
+                            ^^^^^
+  File "E:\urc_final\scripts\isaac_cmd.py", line 15, in rx
+    x = s.recv(n - len(d))
+        ^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host

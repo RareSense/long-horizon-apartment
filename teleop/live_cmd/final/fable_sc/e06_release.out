@@ -1,0 +1,9 @@
+ck C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\checkpoints\4059_act_fsc_standing_before_release
+RELEASE {'tilt': 1.2, 'box': [[-2.342, -0.387, -0.001], [-1.942, 0.258, 0.987]]}
+after: tilt 1.2 bar [-2.164, -0.249, 0.969] floor {735: 2, 733: 2, 734: 2} touch {'left': 0, 'right': 0} box [-2.342, -0.387, -0.001] [-1.942, 0.258, 0.987] centre [-2.142, -0.065, 0.493] contacts {'body': 0.0, 'body_who': None, 'held': 0.0, 'held_who': None} state {'t': 11409.71, 'pelvis': [-1.932, 0.017, 0.768], 'yaw_deg': -91.2, 'hands': {'left': [-1.676, 0.006, 0.539], 'right': [-2.183, 0.026, 0.537]}, 'mode': 'stand'} fallen False rec 266855
+Traceback (most recent call last):
+  File "E:\urc_final\scripts\isaac_live.py", line 57, in <module>
+    exec(compile(code, "<live>", "exec"), G)
+  File "<live>", line 23, in <module>
+IndexError: Invalid index -1. Valid indices from 0 to 268
+__END__

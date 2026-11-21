@@ -1,0 +1,6 @@
+no path (-1.55, -1.17, 0.0) no free path to [-1.55, -1.17, 0.0]
+goal (-1.45, -1.17, 0.0)
+walk {'ok': True, 'err_xy': 0.004, 'err_yaw': -0.005, 'seconds': 15.8, 'standing': True, 'steppings': 1, 'way_points': '[[0.88, -1.52], [-1.25, -1.2], [-1.45, -1.17]]'}
+state {'t': 1634.93, 'pelvis': [-1.454, -1.172, 0.733], 'yaw_deg': 0.3, 'hands': {'left': [-1.457, -0.917, 0.503], 'right': [-1.106, -1.291, 0.873]}, 'mode': 'stand'} touch {'body': 0.0, 'body_who': None, 'held': 0.0, 'held_who': None} held True fell False scooter [-1.839, -0.762, 0.493] saber [-1.453, -0.595, 0.018]
+look3 C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\tele\0075_bl_corr.jpg
+__END__

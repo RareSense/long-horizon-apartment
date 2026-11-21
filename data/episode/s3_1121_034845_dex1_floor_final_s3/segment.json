@@ -1,0 +1,31 @@
+{
+ "run": "C:\\Users\\raresense\\sim_home\\runs\\1121_034845_dex1_floor_final_s3",
+ "start_frame": 204002,
+ "from_ckpt": "C:\\Users\\raresense\\sim_home\\runs\\1121_034845_dex1_floor_final_s3\\checkpoints\\2923_item_r159i1_door",
+ "checkpoints": [
+  {
+   "name": "3140_item_r158i1_tissue",
+   "frames": 210824,
+   "t": 10213.478,
+   "pos": 30
+  },
+  {
+   "name": "3261_item_r149i1_pouch",
+   "frames": 220227,
+   "t": 10523.33,
+   "pos": 31
+  },
+  {
+   "name": "3677_item_r130i1_light_saber",
+   "frames": 244585,
+   "t": 11023.144,
+   "pos": 32
+  },
+  {
+   "name": "4072_item_r126i1_scooter",
+   "frames": 267435,
+   "t": 11429.032,
+   "pos": 33
+  }
+ ]
+}

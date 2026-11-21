@@ -1,0 +1,23 @@
+[chk] item_check + guarded route_checkpoint loaded; SPOT_TOL 0.15
+[final_run] common_b loaded
+[final_run] items ['r68i1_rag', 'r196i1_plastic_bag', 'r190i1_stocking', 'r125i2_flat', 'r130i1_light_saber', 'r120i2_duck', 'r125i1_flat', 'r175i1_cardboard_box', 'r178i1_ball', 'r179i1_toy_pouch', 'r126i1_scooter', 'r149i1_pouch', 'r93i1_nugget', 'r193i4_toy_piece', 'r192i1_ball', 'r193i2_toy_piece', 'r193i1_toy_piece', 'r193i3_toy_piece', 'r120i1_duck', 'r158i1_tissue', 'r105i1_shoe', 'r105i2_shoe', 'r107i1_umbrella', 'r159i1_door', 'r83i1_sponges']
+ITEM_START r178i1_ball attempt 2 pos 13 route at r178i1_ball state {'t': 4865.21, 'pelvis': [1.027, -1.996, 0.769], 'yaw_deg': -0.6, 'hands': {'left': [1.028, -1.74, 0.539], 'right': [1.023, -2.249, 0.538]}, 'mode': 'stand'}
+ITEM_EXC Traceback (most recent call last):
+  File "<string>", line 43, in toy_trip
+  File "<string>", line 1398, in pick_floor
+  File "<string>", line 1277, in pick_stance
+RuntimeError: no place to stand for picking object_0304_body
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<live>", line 6, in <module>
+  File "<string>", line 155, in it_r178i1_ball
+  File "<string>", line 47, in toy_trip
+  File "<string>", line 334, in with_tight
+  File "<string>", line 47, in <lambda>
+  File "<string>", line 1398, in pick_floor
+  File "<string>", line 1277, in pick_stance
+RuntimeError: no place to stand for picking object_0304_body
+
+ZZ_OK False

@@ -1,0 +1,5 @@
+start {'t': 12070.82, 'pelvis': [-0.144, 1.762, 0.768], 'yaw_deg': -90.5, 'hands': {'left': [0.113, 1.754, 0.539], 'right': [-0.397, 1.765, 0.538]}, 'mode': 'stand'} held True fingers 2
+DROP {'e_over': [0.015, -0.085, -0.059], 'over': True, 'paper': [0.079, 1.357, 0.027], 'inside': True, 'state': {'t': 12090.13, 'pelvis': [-0.144, 1.762, 0.768], 'yaw_deg': -90.5, 'hands': {'left': [0.115, 1.756, 0.539], 'right': [-0.397, 1.766, 0.538]}, 'mode': 'stand'}, 'fell': False, 'touch': 0.0}
+[checkpoint] 0091_item_r195i1_paper_redo t=12090.13 s, 3.63 MB, 0.69 s
+SAVED C:\Users\raresense\sim_home\runs\1120_150110_dex1_floor_13\checkpoints\0091_item_r195i1_paper_redo
+C:\Users\raresense\sim_home\runs\1120_150110_dex1_floor_13\tele\0002_f13_paper_redo.jpg

@@ -1,0 +1,2 @@
+FINISH {'item': 'r195i3_paper', 'status': 'FAILED', 'why': 'left_knee_link pressing rubbish_bin 30 N', 'sim_s': 4.2, 'wall_s': 11, 'at': [0.115, 1.069], 'look': 'C:\\Users\\raresense\\sim_home\\runs\\1120_181556_dex1_floor_final\\tele\\0007_end_r195i3_paper_FAILED.jpg'}
+SAY {'done': 1, 'last': 'C:\\Users\\raresense\\sim_home\\runs\\1120_181556_dex1_floor_final\\checkpoints\\0063_item_r123i1_slipper', 'next': 'r195i3_paper', 'frame': 6819, 't': 255.0, 'kit': {'ws_gb': 6.09, 'priv_gb': 11.36}} HELD {'left': True, 'right': False} fell False

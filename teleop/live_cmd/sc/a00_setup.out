@@ -1,0 +1,47 @@
+[home] boot ready: load_room(json), snap(), close(), Rec, state()
+Saved mujoco model to C:\Users\raresense\sim_home\_cloth\_scene\apartment_1122_full\usd\newton_internal.xml
+[look] textured meshes 322, imported visuals hidden 322, skipped 8, not in this room 0, materials missing 0, rough floor 0.8
+[home] look: collision pieces hidden 725, robot visual bindings 62, scene extent [-6.2, -4.05] [4.55, 3.3]
+[home] room apartment_1122_full: import 20.9 s, play+bridge 13.5 s, root /tn__g1_29dof_with_hand_rev_1_0scene_wW0/Geometry/pelvis, servos off 31, bodies 269, free objects 93, pelvis [-0.0, -0.0, 0.768]
+[home] skills loaded
+[home] basket skills loaded
+[home] trace ready
+[cloth] session code loaded: cloth_setup(), sync_cloth(), squeeze_on/off, cloth_level, look_cloth
+[cloth] skills: grasp_cloth(name), carry_cloth(name, goal, side), drop_in_cloth(name, container, side), tidy_garment(name)
+[surface] skills: surface_pick(name), tidy_surface(name), place_on, drop_in_sink, push_racks_in(), close_dishwasher(), push_door_shut(), door_deg()
+  mo = b.finalize(requires_grad=False)
+    Module newton._src.solvers.style3d.builder eb1b915 load on device 'cpu' took 8.63 ms  (cached)
+    Module newton._src.solvers.style3d.builder 013f25b load on device 'cuda:0' took 23.37 ms  (cached)
+SolverStyle3D::precompute() took 42.64 ms
+[cloth] 1 garments, 952 particles, 1782 triangles, 275 collider shapes, 115 moving bodies, cloth step 4 ms every 2 rigid steps, graph on
+SolverStyle3D::precompute() took 28.69 ms
+[cloth] 1 garments, 3179 particles, 6240 triangles, 260 collider shapes, 115 moving bodies, cloth step 4 ms every 2 rigid steps, graph on
+SolverStyle3D::precompute() took 21.16 ms
+[cloth] 1 garments, 1989 particles, 3800 triangles, 254 collider shapes, 115 moving bodies, cloth step 4 ms every 2 rigid steps, graph on
+SolverStyle3D::precompute() took 22.86 ms
+[cloth] 1 garments, 2398 particles, 4680 triangles, 243 collider shapes, 115 moving bodies, cloth step 4 ms every 2 rigid steps, graph on
+  self.edge_indices, self.edge_tri_indices, self.tri_edge_indices = self._compute_edge_adjacency(tri_indices)
+SolverStyle3D::precompute() took 9.16 ms
+[cloth] 1 garments, 779 particles, 1512 triangles, 243 collider shapes, 115 moving bodies, cloth step 4 ms every 2 rigid steps, graph on
+SolverStyle3D::precompute() took 14.25 ms
+[cloth] 1 garments, 1102 particles, 2144 triangles, 248 collider shapes, 115 moving bodies, cloth step 4 ms every 2 rigid steps, graph on
+SolverStyle3D::precompute() took 480.30 ms
+[cloth] 1 garments, 761 particles, 1492 triangles, 248 collider shapes, 115 moving bodies, cloth step 4 ms every 2 rigid steps, graph on
+[episode] garments as cloth: ['r68i1_rag', 'r116i1_coat_pile', 'r117i1_blanket', 'r121i1_jacket', 'r131i1_knit_hat', 'r189i1_santa_hat', 'r190i1_stocking'] built in 12.2 s
+[episode] scene settled after (s, fastest thing m/s) (25.0, 0.0305)
+[episode] start pose [0.008, -0.0, 0.673] yaw -0.0 deg -> ok
+[episode] thin visuals lifted 15
+[checkpoint] save game on: before every action ( 30 primitives + walk legs + hand moves ), rolling every 5.0 s; folder C:\Users\raresense\sim_home\runs\1120_114552_scout_hall_AI_operated\checkpoints
+CPU True CpuBridge {'t': 27.7, 'pelvis': [0.008, -0.0, 0.673], 'yaw_deg': -0.0, 'hands': {'left': [0.006, 0.254, 0.443], 'right': [0.006, -0.254, 0.443]}, 'mode': 'stand'} setup wall 115.1
+[aside] set_aside(name, spot) loaded
+[ops] floor_first, go_item, kit_mem, step_to, flat_corners, corner_pinch_plan, corner_pinch_try loaded
+[ops] remove_bodies loaded
+[scooter] park_scooter_sofa(), item_done_auto(), sc_take2, sc_regrip, sc_pivot_step, sc_fwd_step, sc_state loaded
+[checkpoint] loaded C:\Users\raresense\sim_home\runs\1120_093820_dex1_floor_12\checkpoints\1071_item_r149i1_pouch: t=8647.224 s, k=4323612, {'controller_fields': 179, 'cloth_arrays': 231}
+[route] resumed at item 24/43 (r105i1_shoe), 23 done
+{'hold': False, 'hold_c': [0.2, 0.12], 'hold_dmax': [0.03, 0.025], 'hold_emax': 0.15, 'hold_tol': 0.015, 'hold_extra': 6, 'hold_meas': 'feet', 'plan': True, 'plan_dmax': [0.015, 0.012], 'plan_k': 12.0, 'plan_tol': 0.006, 'plan_ds_max': 0.45, 'plan_stop_tol': 0.008, 'plan_extra': 6, 'plan_emax': 0.15, 'plan_lead': 0.04, 'plan_width': 0.85, 'plan_gain': 1.0, 'plan_rate': 1.0}
+tall {'t': 8648.42, 'pelvis': [-0.045, 1.084, 0.768], 'yaw_deg': 35.1, 'hands': {'left': [-0.192, 1.293, 0.538], 'right': [0.099, 0.876, 0.538]}, 'mode': 'stand'} touch {'body': 0.0, 'body_who': None, 'held': 0.0, 'held_who': None}
+[bigcloth] bigcloth_into(name, cont=None, s1='right', start=None, stop_after=None); stages ('grasp', 'carry', 'step_in', 'first_end', 'strand', 'lift2', 'free1', 'fold', 'both_up', 'lower_release', 'retract')
+RUN C:\Users\raresense\sim_home\runs\1120_114552_scout_hall_AI_operated SEG C:\Users\raresense\sim_home\runs\1120_093820_dex1_floor_12\checkpoints\1071_item_r149i1_pouch
+route head ['r105i1_shoe', 'r105i2_shoe', 'r107i1_umbrella', 'r83i1_sponges', 'r120i1_duck', 'r186i1_basket', 'r192i1_ball', 'r193i1_toy_piece'] done 23
+kit {'ws_gb': 6.49, 'priv_gb': 14.18} state {'t': 8648.42, 'pelvis': [-0.045, 1.084, 0.768], 'yaw_deg': 35.1, 'hands': {'left': [-0.192, 1.293, 0.538], 'right': [0.099, 0.876, 0.538]}, 'mode': 'stand'}

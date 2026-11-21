@@ -1,0 +1,10 @@
+ck C:\Users\raresense\sim_home\runs\1121_021343_dex1_floor_final_s2\checkpoints\0170_act_n1_start_bag_kept rec 12969
+ITEM_START r190i1_stocking attempt 0 pos 13 route at r190i1_stocking state {'t': 4865.21, 'pelvis': [1.027, -1.996, 0.769], 'yaw_deg': -0.6, 'hands': {'left': [1.028, -1.74, 0.539], 'right': [1.023, -2.249, 0.538]}, 'mode': 'stand'}
+CLEAR_FEET r125i2_flat rel [0.152, -0.258]
+CLEAR_FEET r122i1_croc rel [0.211, -0.095]
+ITEM r190i1_stocking FAILED why foot on a loose thing: r196i1_plastic_bag (8 N) sim 83.9 wall 243 at [-4.707, -0.963]
+  route {}
+  look C:\Users\raresense\sim_home\runs\1121_021343_dex1_floor_final_s2\tele\0016_end_r190i1_stocking_FAILED.jpg | done 13 | next ['r190i1_stocking', 'r130i1_light_saber', 'r120i2_duck', 'r125i1_flat'] | mem {'ws_gb': 6.25, 'priv_gb': 12.85}
+ITEM_RESULT FAIL r190i1_stocking {'item': 'r190i1_stocking', 't': 4957.05, 'kind': 'garment', 'dest': 'r186i1_basket', 'inside': None, 'ok': None} held False fell False state {'t': 4957.05, 'pelvis': [-4.707, -0.963, 0.67], 'yaw_deg': -90.5, 'hands': {'left': [-4.452, -0.963, 0.441], 'right': [-4.96, -0.959, 0.439]}, 'mode': 'swing'}
+ZZ_OK False state {'t': 4957.05, 'pelvis': [-4.707, -0.963, 0.67], 'yaw_deg': -90.5, 'hands': {'left': [-4.452, -0.963, 0.441], 'right': [-4.96, -0.959, 0.439]}, 'mode': 'swing'} fell False rec 15724
+__END__

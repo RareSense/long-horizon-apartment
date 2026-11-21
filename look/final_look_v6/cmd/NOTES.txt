@@ -1,0 +1,1 @@
+guard: Isaac stopped by guard at 17:43:36 (kit private 16.0 GB) after the first v6 renders; reboot with smaller per-prop images

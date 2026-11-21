@@ -1,0 +1,8 @@
+zz_ck = os.path.join(RUN, "checkpoints", "0592_item_r117i1_blanket")
+zz_m = route_v3_resume(zz_ck)
+print(gait_on() and "gait_on ok", flush=True)
+settle_after_load()
+op.run(3.0)
+print("after reload:", state(), "tilt", round(pelvis_tilt(), 3), "fell", fallen(), "blanket", in_container(zz_BL, zz_hb()), "hamper", np.round(obj_rect(zz_hb()).c, 3).tolist(), "touch", contact_report(), flush=True)
+print("route", [item_name(s_) for s_ in ROUTE[POS:POS + 3]], "done", len(DONE), "SEG from", SEG.get("from_ckpt"), "kit", kit_mem(), flush=True)
+print("look", snap(os.path.join(RUN, "end_blanket_item.jpg"), "blanket item end (reloaded checkpoint)"), flush=True)

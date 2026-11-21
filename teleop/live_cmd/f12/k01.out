@@ -1,0 +1,13 @@
+[checkpoint] loaded C:\Users\raresense\sim_home\runs\1120_093820_dex1_floor_12\checkpoints\1077_act_surface_posture: t=8656.468 s, k=4328234, {'controller_fields': 179, 'cloth_arrays': 231}
+[route] resumed at item 24/43 (r87i1_wrapper), 23 done
+loaded {'t': 8659.27, 'pelvis': [-0.22, 0.962, 0.769], 'yaw_deg': 35.0, 'hands': {'left': [-0.367, 1.171, 0.539], 'right': [-0.076, 0.754, 0.538]}, 'mode': 'stand'} touch 0.0 route ['r87i1_wrapper', 'r105i1_shoe', 'r105i2_shoe', 'r107i1_umbrella']
+[surface] object_0224_body approach 1: pads [-0.057, 0.059, 0.028] from the grasp point -> NOT closing
+[surface] object_0224_body approach 2: pads [-0.058, 0.06, 0.026] from the grasp point -> NOT closing
+[surface] object_0224_body approach 3: pads [-0.058, 0.06, 0.026] from the grasp point -> NOT closing
+[surface] object_0224_body approach 4: pads [-0.058, 0.06, 0.026] from the grasp point -> NOT closing
+TIDY r93i1_nugget {'obj': 'object_0224_body', 'display': 'r93i1_nugget', 'into': 'object_0312_body', 'ok': False, 'how': 'surface', 'error': 'surface pick missed', 'sim_s': 306.0, 'wall_s': 723.0}
+picks [{'obj': 'object_0224_body', 'side': 'right', 'ok': False, 'how': 'top_down', 'tries': 0}]
+puts []
+at [2.368, -0.35, 0.92] held {'left': False, 'right': False} state {'t': 8965.24, 'pelvis': [2.172, -0.656, 0.681], 'yaw_deg': 89.6, 'hands': {'left': [1.918, -0.656, 0.45], 'right': [2.423, -0.659, 0.45]}, 'mode': 'stand'} fell False
+C:\Users\raresense\sim_home\runs\1120_093820_dex1_floor_12\tele\0064_f12_r93i1_nugget_end.jpg
+in basket False

@@ -1,0 +1,7 @@
+[checkpoint] loaded C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\checkpoints\3140_item_r158i1_tissue: t=10213.478 s, k=5106739, {'controller_fields': 179, 'cloth_arrays': 224}
+RELOADED 3140 rec 210944 {'t': 10213.88, 'pelvis': [0.11, 1.025, 0.765], 'yaw_deg': 89.5, 'hands': {'left': [-0.145, 1.025, 0.536], 'right': [0.362, 1.023, 0.534]}, 'mode': 'stand'} touch None
+back [0.109, 0.917] {'body': 0.0, 'body_who': None, 'held': 0.0, 'held_who': None}
+back [0.109, 0.812] {'body': 0.0, 'body_who': None, 'held': 0.0, 'held_who': None}
+state {'t': 10223.77, 'pelvis': [0.112, 0.814, 0.769], 'yaw_deg': 89.7, 'hands': {'left': [-0.144, 0.813, 0.539], 'right': [0.365, 0.811, 0.538]}, 'mode': 'stand'} fell False touch None
+ck C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\checkpoints\3152_act_n1_off_bin
+__END__

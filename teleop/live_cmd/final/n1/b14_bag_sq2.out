@@ -1,0 +1,4 @@
+squeeze r {'ok': False, 'error': 'the hands did not both find the object', 'touch': {'right': {'contact': False, 'point': [-4.5005, -1.1698, 0.0531], 't': 5027.114, 'travelled': 0.08, 'by': 'end of travel', 'push': 0.07, 'friction_uncertainty': 4.38}, 'left': {'contact': True, 'point': [-4.3206, -1.1011, 0.0421], 't': 5024.258, 'travelled': 0.0046, 'by': 'stall', 'push': 0.01, 'friction_uncertainty': 3.93}}}
+OUT {'abort': 'squeeze: the hands did not both find the object'} bag [-4.447, -1.149, 0.015] state {'t': 5027.12, 'pelvis': [-4.585, -0.805, 0.29], 'yaw_deg': -79.6, 'hands': {'left': [-4.339, -1.112, 0.046], 'right': [-4.5, -1.17, 0.053]}, 'mode': 'stand'} fell False
+C:\Users\raresense\sim_home\runs\1121_021343_dex1_floor_final_s2\tele\0009_n1_bag_lift.jpg
+__END__

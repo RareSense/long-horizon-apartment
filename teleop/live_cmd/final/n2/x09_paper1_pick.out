@@ -1,0 +1,11 @@
+rect corners [[0.256, 1.683], [0.186, 1.627], [0.235, 1.567], [0.305, 1.623]] far [0.256, 1.683] stance [0.506, 1.883, 3.142]
+at {'t': 12432.24, 'pelvis': [0.507, 1.881, 0.673], 'yaw_deg': -179.7, 'hands': {'left': [0.51, 1.625, 0.444], 'right': [0.507, 2.133, 0.442]}, 'mode': 'stand'} corner rel [0.252, 0.196]
+[hold] REFUSED left on object_0324_body: object_0324_body moved in the close: rose -0.3 mm, turned 12.5 deg
+CORNER {'corner': [0.305, 1.623], 'ahead': 0.29, 'z': 0.018, 'e_above': [-0.036, -0.001, 0.003], 'e_down': [0.006, -0.006, -0.005], 'grip': {'ok': True, 'gap': 0.0481, 'jaw1_N': 4.4, 'jaw2_N': 3.2}, 'fingers': 2}
+held False paper [0.248, 1.631, 0.014]
+bin [0.125, 1.44, 0.2] tilt 0.0 state {'t': 12463.64, 'pelvis': [0.596, 1.889, 0.292], 'yaw_deg': -179.7, 'hands': {'left': [0.282, 1.619, 0.024], 'right': [0.779, 2.142, 0.135]}, 'mode': 'stand'} fell False held {'left': False, 'right': False} rec 33034
+  r149i1_pouch [0.134, 1.367, 0.025] inside True
+  r195i3_paper [0.153, 1.473, 0.025] inside True
+  r195i1_paper [0.248, 1.631, 0.014] inside False
+  r158i1_tissue [-0.007, 1.362, 0.028] inside True
+C:\Users\raresense\sim_home\runs\1121_123451_dex1_floor_final_s4\tele\0029_x09_paper1_pick.jpg

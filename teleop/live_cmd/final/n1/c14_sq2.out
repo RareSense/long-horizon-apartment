@@ -1,0 +1,5 @@
+squat2 [-4.726, -1.223, 0.417] pad [-5.122, -1.366, 0.27] in {'inside': 1.0, 'below_rim': 0.193, 'overhang': 0.0, 'lowest': 0.053, 'rim': 0.12}
+mv [-5.133, -1.384, 0.262] [-0.01, -0.002, -0.019] in {'inside': 1.0, 'below_rim': 0.234, 'overhang': 0.0, 'lowest': 0.045, 'rim': 0.12} touch 0.0
+mv [-5.136, -1.386, 0.265] [-0.02, -0.01, -0.033] in {'inside': 1.0, 'below_rim': 0.229, 'overhang': 0.0, 'lowest': 0.037, 'rim': 0.12} touch 0.0
+pad [-5.136, -1.386, 0.265] in {'inside': 1.0, 'below_rim': 0.229, 'overhang': 0.0, 'lowest': 0.037, 'rim': 0.12} state {'t': 5146.52, 'pelvis': [-4.727, -1.223, 0.42], 'yaw_deg': -135.6, 'hands': {'left': [-4.485, -1.337, 0.202], 'right': [-5.134, -1.385, 0.27]}, 'mode': 'stand'}
+__END__
