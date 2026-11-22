@@ -17,7 +17,7 @@ Upload each as one file (Drive allows up to 5 TB per file); if the upload is spl
 
 ## 2. Working preview videos (live session previews, low resolution)
 
-Recorded live by each session (room 960x540, head 640x480); they include discarded branches. **Drive folder:**
+Recorded live by each session (room 960x540, head 640x480). **Drive folder:**
 `long-horizon-apartment/working_previews/<session>/`.
 
 | file | source path | bytes | SHA-256 | note | Drive link |
