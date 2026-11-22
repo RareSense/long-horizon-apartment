@@ -1,7 +1,7 @@
 # Drive manifest
 
 Big files of this episode that are **not** in the git repo (GitHub limit 100 MB per file, repo kept small). Upload target:
-Google Drive folder **`long-horizon-apartment`**. Links: **TBD (upload when the Google Drive app is running)**.
+Google Drive folder **`long-horizon-apartment`**. Sections 2-4 uploaded 22 Nov 2026 (links below, uploads confirmed by Drive id and size). Section 1 (final videos): upload pending.
 
 Verify a download with `sha256sum <file>` (Linux / Git Bash) or `certutil -hashfile <file> SHA256` (Windows).
 
@@ -22,14 +22,14 @@ Recorded live by each session (room 960x540, head 640x480); they include discard
 
 | file | source path | bytes | SHA-256 | note | Drive link |
 |---|---|---|---|---|---|
-| s1 `room.mp4` | `C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\room.mp4` | 186646576 | `ac241ea908834a349297dac7db74413ae9ae3fcda0d7b2369dc40e8e03f1ef3d` | not finalised (session killed: no moov atom; needs `untrunc` / recovery to play) | TBD |
-| s1 `head.mp4` | `C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\head.mp4` | 643039280 | `fe3d55dfed54344a336271337a88d7ee9786c586e496369b823b174ea9c5c7ba` | not finalised (no moov atom) | TBD |
-| s2 `room.mp4` | `C:\Users\raresense\sim_home\runs\1121_021343_dex1_floor_final_s2\room.mp4` | 37486640 | `882080a3f813fbee62dfc48374d85604fa42b97d70fff1fbc8b3947f269ff9a9` | not finalised (no moov atom) | TBD |
-| s2 `head.mp4` | `C:\Users\raresense\sim_home\runs\1121_021343_dex1_floor_final_s2\head.mp4` | 184549424 | `53688827107efbc0aaa3c0fc6a6ad044c78c04b6690fb9dd21f54fa5fd8e1dcc` | not finalised (no moov atom) | TBD |
-| s3 `room.mp4` | `C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\room.mp4` | 211183716 | `7ab2d374d3964498578a5e510036cdf4443fc7ea101bad1acbd099b33cec6e17` | 8914.5 s, playable | TBD |
-| s3 `head.mp4` | `C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\head.mp4` | 906342032 | `99bf16d4a8eb63939b1b72e5d266895bb49cf1421ce225773b875c54c4e6c544` | 8914.5 s, playable | TBD |
-| s4 `room.mp4` | `C:\Users\raresense\sim_home\runs\1121_123451_dex1_floor_final_s4\room.mp4` | 27395733 | `6eb0b8bff3a8a6d042b2e101ee112f18a212be966e1c824a806947e2b4c38a30` | 1291.5 s, playable (includes the bin-fix attempts after frame 19979) | TBD |
-| s4 `head.mp4` | `C:\Users\raresense\sim_home\runs\1121_123451_dex1_floor_final_s4\head.mp4` | 96872484 | `2e9fd169f6e46c278999abb5f1bc71afbcae9519bb12e89cbbc454b5ce5441b1` | 1291.5 s, playable | TBD |
+| s1 `room.mp4` | `C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\room.mp4` | 186646576 | `ac241ea908834a349297dac7db74413ae9ae3fcda0d7b2369dc40e8e03f1ef3d` | not finalised (session killed: no moov atom; needs `untrunc` / recovery to play) | [s1_room.mp4](https://drive.google.com/file/d/15CPuQZjw3ktS4leQ_Q0Jv30t5T_8P7P0/view) |
+| s1 `head.mp4` | `C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\head.mp4` | 643039280 | `fe3d55dfed54344a336271337a88d7ee9786c586e496369b823b174ea9c5c7ba` | not finalised (no moov atom) | [s1_head.mp4](https://drive.google.com/file/d/130N_B7sZ9JqtS0zKnQKmSC35Q_RTGqp_/view) |
+| s2 `room.mp4` | `C:\Users\raresense\sim_home\runs\1121_021343_dex1_floor_final_s2\room.mp4` | 37486640 | `882080a3f813fbee62dfc48374d85604fa42b97d70fff1fbc8b3947f269ff9a9` | not finalised (no moov atom) | [s2_room.mp4](https://drive.google.com/file/d/1FHM7YkIBiGFUiKlgk3z2ihvM5qCcI1tJ/view) |
+| s2 `head.mp4` | `C:\Users\raresense\sim_home\runs\1121_021343_dex1_floor_final_s2\head.mp4` | 184549424 | `53688827107efbc0aaa3c0fc6a6ad044c78c04b6690fb9dd21f54fa5fd8e1dcc` | not finalised (no moov atom) | [s2_head.mp4](https://drive.google.com/file/d/1eegvfXgFpJcsnSD0J7UyRKibL9iOTwTN/view) |
+| s3 `room.mp4` | `C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\room.mp4` | 211183716 | `7ab2d374d3964498578a5e510036cdf4443fc7ea101bad1acbd099b33cec6e17` | 8914.5 s, playable | [s3_room.mp4](https://drive.google.com/file/d/1HgdQNPsK03t5hMgb-Ad65r6qea8Qt37R/view) |
+| s3 `head.mp4` | `C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\head.mp4` | 906342032 | `99bf16d4a8eb63939b1b72e5d266895bb49cf1421ce225773b875c54c4e6c544` | 8914.5 s, playable | [s3_head.mp4](https://drive.google.com/file/d/1caoSHFvdFOUwio_ynGG7ccp6N50p03ES/view) |
+| s4 `room.mp4` | `C:\Users\raresense\sim_home\runs\1121_123451_dex1_floor_final_s4\room.mp4` | 27395733 | `6eb0b8bff3a8a6d042b2e101ee112f18a212be966e1c824a806947e2b4c38a30` | 1291.5 s, playable (includes the bin-fix attempts after frame 19979) | [s4_room.mp4](https://drive.google.com/file/d/1iW5iRGwkUNWubfq53JVij-7N0lx3vNB6/view) |
+| s4 `head.mp4` | `C:\Users\raresense\sim_home\runs\1121_123451_dex1_floor_final_s4\head.mp4` | 96872484 | `2e9fd169f6e46c278999abb5f1bc71afbcae9519bb12e89cbbc454b5ce5441b1` | 1291.5 s, playable | [s4_head.mp4](https://drive.google.com/file/d/1cO2MEMTeBtWlEJ-RP5ATv6N1rNCgFgud/view) |
 
 ## 3. Working frames (JPEG stills, every 300th frame at the end)
 
@@ -38,8 +38,8 @@ Zip each folder before upload and record the zip's SHA-256 here.
 
 | folder | files | bytes | zip SHA-256 | Drive link |
 |---|---|---|---|---|
-| `D:\sim_runs_overflow\1121_034845_dex1_floor_final_s3\frames` | 612 | 48818478 | TBD (compute on zip) | TBD |
-| `C:\Users\raresense\sim_home\runs\1121_123451_dex1_floor_final_s4\frames` | 260 | 18946057 | TBD (compute on zip) | TBD |
+| `D:\sim_runs_overflow\1121_034845_dex1_floor_final_s3\frames` | 612 | 48818478 | `de12a0f5f8c2b540ee8c034a18fce5d541a00ea7003aa541030a7ce5292361de` | [s3_frames.zip](https://drive.google.com/file/d/1_PUKCWSnsEa0gcykz6lbYclxVIVc1Hkh/view) |
+| `C:\Users\raresense\sim_home\runs\1121_123451_dex1_floor_final_s4\frames` | 260 | 18946057 | `20f2f441f0cc74c9cbc33d13dd3c54bd7908eba2960e763ea8489e79794b4d6a` | [s4_frames.zip](https://drive.google.com/file/d/13WabwEOeR3NF5MOWMXWGZWfshAOkRGVi/view) |
 
 ## 4. Optional: full state of the non-item checkpoints
 
@@ -50,10 +50,10 @@ not in git; it is only needed to resume from a point between two items (the Stat
 
 | session folder `...\checkpoints\` (non-item dirs, without meta.json) | files | bytes | zip SHA-256 | Drive link |
 |---|---|---|---|---|
-| `C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\checkpoints` | 5677 | 1078717114 | TBD | TBD |
-| `C:\Users\raresense\sim_home\runs\1121_021343_dex1_floor_final_s2\checkpoints` | 1081 | 264771962 | TBD | TBD |
-| `C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\checkpoints` | 4905 | 693807296 | TBD | TBD |
-| `C:\Users\raresense\sim_home\runs\1121_123451_dex1_floor_final_s4\checkpoints` | 1128 | 625125597 | TBD | TBD |
+| `C:\Users\raresense\sim_home\runs\1120_181556_dex1_floor_final\checkpoints` | 5677 | 1078717114 | `b7dd3a0cc5e1d19f192af356d81de3a2b3c5780baa81e61b01a31538cb3e1137` | [s1_checkpoints_between_items.zip](https://drive.google.com/file/d/1MjDXS9BkV11VAIeeHsiBOhenQVRGtaOD/view) |
+| `C:\Users\raresense\sim_home\runs\1121_021343_dex1_floor_final_s2\checkpoints` | 1081 | 264771962 | `c2464bc8889487fed8254812e2aebbbe33059360ffaa7a28871ee25a5e69babb` | [s2_checkpoints_between_items.zip](https://drive.google.com/file/d/14Ghv37_zn-eTFCFXHojeD4qgrcbT3RmW/view) |
+| `C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\checkpoints` | 4905 | 693807296 | `c499b2b0a4f733b9ee82c7d5d4219641d2f905c2c21c0751a029c7ece4b2421e` | [s3_checkpoints_between_items.zip](https://drive.google.com/file/d/1DCFApJ4G1bzx8cxCi36tT-YBNCfNZfeR/view) |
+| `C:\Users\raresense\sim_home\runs\1121_123451_dex1_floor_final_s4\checkpoints` | 1128 | 625125597 | `3baa8893fa06ff195edf52b596fec0e0aae03482d44d410345b5c299e4ff563d` | [s4_checkpoints_between_items.zip](https://drive.google.com/file/d/1b9Y6TFq93ARKgmLU8gldA0xC1fEcqDwu/view) |
 
 ## Not planned for Drive
 
