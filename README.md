@@ -31,8 +31,10 @@ ray tracing, DLSS Quality, ACES; tag `look-final` in universal-robot-control).
 | robot head camera | 1440x1080 | 30 | 3 h 20 min 54 s | [part 1 of 4](https://drive.google.com/file/d/13r651ioZo28dDf4SycPmwA19uLb2rLzz/view), [part 2 of 4](https://drive.google.com/file/d/1U8rbFS2FA1yIJWU8yJrVYzm_rZRry5c8/view), [part 3 of 4](https://drive.google.com/file/d/15Eo8KM0BwjLvZvsMVeNzOYGm2sqNLEik/view), [part 4 of 4](https://drive.google.com/file/d/1dXz88I206VM-XNbAJvHpnxwgSTtX8nc7/view) |
 
 H.264, CRF 20. The parts are lossless cuts of one file each; sizes and SHA-256 of the full files and every part are in
-`DRIVE_MANIFEST.md`. One 60 s stretch during the coat pile (session 1 frames 112790-114589) is missing from both videos
-and is being re-rendered.
+`DRIVE_MANIFEST.md`. Known issues in these two videos: one 60 s stretch during the coat pile (session 1 frames
+112790-114589) is missing (rendered separately and included in the training data), and at 1:27:24 the video jumps back
+about 50 s, repeating the end of the second duck item (session 2 frames 44652-46148). The training data below has
+neither issue.
 
 ## Items
 
