@@ -5,6 +5,16 @@ Google Drive folder **`long-horizon-apartment`**. Sections 2-4 uploaded 22 Nov 2
 
 Verify a download with `sha256sum <file>` (Linux / Git Bash) or `certutil -hashfile <file> SHA256` (Windows).
 
+<!-- v2 files start -->
+## Current files (v2, no overlay; updated 23 Nov 2026 03:30)
+
+| file | bytes | SHA-256 | Drive link |
+|---|---|---|---|
+| `episode_room_1080p_v2_part1of4.mp4` | 2809226265 | `881cd7f5aa31cdaacfdc55dcaf3067d58d5b8bfdfbde1db1cdf72b6f22c47248` | [link](https://drive.google.com/file/d/1plEtH194VjeqJfqkAdrEDDXmAEYQWpNQ/view) |
+| `episode_head_1080p_v2_part1of4.mp4` | 3202636685 | `d81c1ee7aea9b41479e72eba0f7fd10ac6e0da00f2b2f0f488e4e57db48fb87f` | [link](https://drive.google.com/file/d/1_sxQIiM-OfuxxtoRO5wsslAgUHf83bul/view) |
+
+<!-- v2 files end -->
+
 ## 1. Final video (main deliverable)
 
 | file | source path (original machine) | bytes | SHA-256 | Drive link |

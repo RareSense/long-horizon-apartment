@@ -23,18 +23,17 @@ door and appliance skills.
 ## Final video
 
 Two synchronised cameras, rendered from the recorded simulation states with the locked realistic look (RTX real-time
-ray tracing, DLSS Quality, ACES; tag `look-final` in universal-robot-control).
+ray tracing, DLSS Quality, ACES; tag `look-final` in universal-robot-control). Google Drive folder
+`long-horizon-apartment/final_video_v2/` (anyone with the link can view). Uploading in quarters as the render runs: 1 of 4 quarters are up, the rest follow automatically.
 
 | camera | resolution | fps | duration | Google Drive |
 |---|---|---|---|---|
-| room corner camera | 1920x1080 | 30 | 3 h 20 min 54 s | [part 1 of 2](https://drive.google.com/file/d/1EBXDVmoUhFdLWNyr54e4mT9gMKKMMK7R/view), [part 2 of 2](https://drive.google.com/file/d/1sQrCcHpzqHaZt7YAGqal-5rK5lvcPe4y/view) |
-| robot head camera | 1440x1080 | 30 | 3 h 20 min 54 s | [part 1 of 4](https://drive.google.com/file/d/13r651ioZo28dDf4SycPmwA19uLb2rLzz/view), [part 2 of 4](https://drive.google.com/file/d/1U8rbFS2FA1yIJWU8yJrVYzm_rZRry5c8/view), [part 3 of 4](https://drive.google.com/file/d/15Eo8KM0BwjLvZvsMVeNzOYGm2sqNLEik/view), [part 4 of 4](https://drive.google.com/file/d/1dXz88I206VM-XNbAJvHpnxwgSTtX8nc7/view) |
+| room corner camera | 1920x1080 | 30 | 3 h 21 min 4.5 s | [part 1 of 4](https://drive.google.com/file/d/1plEtH194VjeqJfqkAdrEDDXmAEYQWpNQ/view), part 2: coming, part 3: coming, part 4: coming |
+| robot head camera | 1440x1080 | 30 | 3 h 21 min 4.5 s | [part 1 of 4](https://drive.google.com/file/d/1_sxQIiM-OfuxxtoRO5wsslAgUHf83bul/view), part 2: coming, part 3: coming, part 4: coming |
 
-H.264, CRF 20. The parts are lossless cuts of one file each; sizes and SHA-256 of the full files and every part are in
-`DRIVE_MANIFEST.md`. Known issues in these two videos: one 60 s stretch during the coat pile (session 1 frames
-112790-114589) is missing (rendered separately and included in the training data), and at 1:27:24 the video jumps back
-about 50 s, repeating the end of the second duck item (session 2 frames 44652-46148). The training data below has
-neither issue.
+H.264, CRF 20, 361,935 frames per camera, frame for frame the same timeline as the training data. Play the parts in
+order; they join without a gap. Sizes and SHA-256: `DRIVE_MANIFEST.md`. Training data with these videos:
+`dataset/apartment_g1_dex1_tidy_v2/` (7 of 35 episodes so far).
 
 ## Items
 
