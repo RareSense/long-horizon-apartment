@@ -47,7 +47,7 @@ Recorded live by each session (room 960x540, head 640x480). **Drive folder:**
 
 ## 3. Working frames (JPEG stills, every 300th frame at the end)
 
-Only these still exist (the s1, s2 and early s3 frame folders listed in PROGRESS_FINAL.md are now empty / gone).
+Only the late s3 and the s4 frame folders exist.
 Zip each folder before upload and record the zip's SHA-256 here.
 
 | folder | files | bytes | zip SHA-256 | Drive link |
