@@ -12,3 +12,5 @@ __pycache__/
 *.mov
 *.mkv
 *.zip
+# exception: the LeRobot training dataset's per-episode videos (480p, each < 95 MB) are in git
+!dataset/**/*.mp4

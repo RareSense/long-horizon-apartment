@@ -111,3 +111,25 @@ Code: [RareSense/universal-robot-control](https://github.com/RareSense/universal
 - Room: `rooms/apartment_1122_full.json`.
 
 Point the scripts at `data/episode/sN_*` of this repo.
+
+## Training data
+
+`dataset/apartment_g1_dex1_tidy/` is the episode as training data in **LeRobot v2.1** format: **35 episodes**, one per
+done item (the plastic bag has none), **361935 frames at 30 fps (3.35 h)**, each episode with one task string, e.g.
+"pick up the slipper and set it on the floor beside the doormat, next to its partner" (destinations from the item plan,
+`docs/apartment/full_plan/full_plan_v3.json`).
+
+- `observation.state` (40): floating-base pose of the pelvis (position + quaternion) and the 33 joint positions (legs,
+  waist, arms, Dex1 fingers), from the 30 Hz recorded states.
+- `action` (33): the next frame's joint positions (the recording has no per-frame joint targets).
+- Videos per episode: robot head camera 640x480 and room corner camera 854x480, cut frame-exact from the final videos;
+  each has exactly as many frames as its parquet file has rows.
+- Episode *k* runs from the end of item *k-1* to item *k*'s checkpoint. Concatenated in order, the 35 episodes are the
+  full continuous episode, with two differences from the final videos: the 60 s missing from them during the coat pile
+  is rendered and included (episode 7), and final-video 1:26:34.5-1:27:24.4, after which the video jumps back to an
+  earlier state, is left out (episode 15).
+- Alignment checked on the rendered frames (caption time = recorded time, pelvis position, item checkpoint stills):
+  0 frames offset. Validated with pyarrow / ffprobe and loaded with `LeRobotDataset` (lerobot 0.4.4, after its own
+  v2.1 to v3.0 conversion).
+- Details and the per-episode table: `dataset/apartment_g1_dex1_tidy/README.md`. The whole folder as one zip on Google
+  Drive: see `DRIVE_MANIFEST.md`.
