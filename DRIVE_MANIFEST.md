@@ -1,7 +1,7 @@
 # Drive manifest
 
 Big files of this episode that are **not** in the git repo (GitHub limit 100 MB per file, repo kept small). Upload target:
-Google Drive folder **`long-horizon-apartment`**. Sections 2-4 uploaded 22 Nov 2026 (links below, uploads confirmed by Drive id and size). Section 1 (final videos): upload pending.
+Google Drive folder **`long-horizon-apartment`**. Sections 2-4 uploaded 22 Nov 2026 (links below, uploads confirmed by Drive id and size). Section 1 (final videos) uploaded 22 Nov 2026 as parts (below).
 
 Verify a download with `sha256sum <file>` (Linux / Git Bash) or `certutil -hashfile <file> SHA256` (Windows).
 
@@ -14,6 +14,20 @@ Verify a download with `sha256sum <file>` (Linux / Git Bash) or `certutil -hashf
 
 Room corner camera 1920x1080, robot head camera 1440x1080, both 30 fps, H.264 CRF 20, 12054.4 s (3 h 20 min 54 s).
 Upload each as one file (Drive allows up to 5 TB per file); if the upload is split, keep the SHA-256 above for the joined file.
+
+### Uploaded parts (lossless cuts of the files above, play one after another)
+
+| part | bytes | SHA-256 | Drive link |
+|---|---|---|---|
+| `episode_room_1080p_part1of2.mp4` | 5622974861 | `7fa6923e58b8a0bd2137df88d6419838c1af500451a82060bb3daf09a27c7abc` | [link](https://drive.google.com/file/d/1EBXDVmoUhFdLWNyr54e4mT9gMKKMMK7R/view) |
+| `episode_room_1080p_part2of2.mp4` | 5671470173 | `4540f89740d87ebecf0a28ec4653056895a429f6928c04909e7f81fa4042dbc9` | [link](https://drive.google.com/file/d/1sQrCcHpzqHaZt7YAGqal-5rK5lvcPe4y/view) |
+| `episode_head_1080p_part1of4.mp4` | 3178492036 | `1e1b6db69c0134cf9ab332edb0321fc16e1525aec3b9362bc80db2fc4945cdb2` | [link](https://drive.google.com/file/d/13r651ioZo28dDf4SycPmwA19uLb2rLzz/view) |
+| `episode_head_1080p_part2of4.mp4` | 3113684315 | `715c9556e7d82aa51a1022f9ad227c104d4db3143624e7a2c3cd6f9a5cf1a6b5` | [link](https://drive.google.com/file/d/1U8rbFS2FA1yIJWU8yJrVYzm_rZRry5c8/view) |
+| `episode_head_1080p_part3of4.mp4` | 3456571851 | `a351fe6f1f19ae40ba3eafa99ff490f75cb71823244445d89807586de774e65f` | [link](https://drive.google.com/file/d/15Eo8KM0BwjLvZvsMVeNzOYGm2sqNLEik/view) |
+| `episode_head_1080p_part4of4.mp4` | 3292626098 | `34d305791e99883e0de1dbe0afb7adfa91259c27d73757fc23b5ef6dd37789ca` | [link](https://drive.google.com/file/d/1dXz88I206VM-XNbAJvHpnxwgSTtX8nc7/view) |
+
+Drive folder: `long-horizon-apartment/final_video/`. Room: 2 parts cut by the ffmpeg segment muxer at 6027 s. Head: 4 parts cut at keyframes (3017.43 s, 6026.07 s, 9041.93 s); each head cut repeats 2-3 frames (<0.1 s) at the start of the next part.
+
 
 ## 2. Working preview videos (live session previews, low resolution)
 

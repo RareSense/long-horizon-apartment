@@ -28,7 +28,7 @@ ray tracing, DLSS Quality, ACES; tag `look-final` in universal-robot-control).
 | camera | resolution | fps | duration | Google Drive |
 |---|---|---|---|---|
 | room corner camera | 1920x1080 | 30 | 3 h 20 min 54 s | [part 1 of 2](https://drive.google.com/file/d/1EBXDVmoUhFdLWNyr54e4mT9gMKKMMK7R/view), [part 2 of 2](https://drive.google.com/file/d/1sQrCcHpzqHaZt7YAGqal-5rK5lvcPe4y/view) |
-| robot head camera | 1440x1080 | 30 | 3 h 20 min 54 s | uploading (4 parts) |
+| robot head camera | 1440x1080 | 30 | 3 h 20 min 54 s | [part 1 of 4](https://drive.google.com/file/d/13r651ioZo28dDf4SycPmwA19uLb2rLzz/view), [part 2 of 4](https://drive.google.com/file/d/1U8rbFS2FA1yIJWU8yJrVYzm_rZRry5c8/view), [part 3 of 4](https://drive.google.com/file/d/15Eo8KM0BwjLvZvsMVeNzOYGm2sqNLEik/view), [part 4 of 4](https://drive.google.com/file/d/1dXz88I206VM-XNbAJvHpnxwgSTtX8nc7/view) |
 
 H.264, CRF 20. The parts are lossless cuts of one file each; sizes and SHA-256 of the full files and every part are in
 `DRIVE_MANIFEST.md`. One 60 s stretch during the coat pile (session 1 frames 112790-114589) is missing from both videos
