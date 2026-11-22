@@ -69,6 +69,16 @@ not in git; it is only needed to resume from a point between two items (the Stat
 | `C:\Users\raresense\sim_home\runs\1121_034845_dex1_floor_final_s3\checkpoints` | 4905 | 693807296 | `c499b2b0a4f733b9ee82c7d5d4219641d2f905c2c21c0751a029c7ece4b2421e` | [s3_checkpoints_between_items.zip](https://drive.google.com/file/d/1DCFApJ4G1bzx8cxCi36tT-YBNCfNZfeR/view) |
 | `C:\Users\raresense\sim_home\runs\1121_123451_dex1_floor_final_s4\checkpoints` | 1128 | 625125597 | `3baa8893fa06ff195edf52b596fec0e0aae03482d44d410345b5c299e4ff563d` | [s4_checkpoints_between_items.zip](https://drive.google.com/file/d/1b9Y6TFq93ARKgmLU8gldA0xC1fEcqDwu/view) |
 
+## 5. Training data (LeRobot v2.1 dataset, zip)
+
+The folder `dataset/apartment_g1_dex1_tidy/` of this repo (35 episodes, 361935 frames, parquet + 480p videos + meta),
+zipped without compression (ZIP_STORED, top folder `apartment_g1_dex1_tidy/`). The same files are in git. **Drive
+folder:** `long-horizon-apartment/dataset/`. Uploaded 22 Nov 2026, confirmed by Drive id and size.
+
+| file | contents | bytes | SHA-256 | Drive link |
+|---|---|---|---|---|
+| `apartment_g1_dex1_tidy_lerobot_v2.1.zip` | `dataset/apartment_g1_dex1_tidy/` (111 files, 1719254557 bytes) | 1719279167 | `dad4250ba3b7899ac45fdd59d1fc082348a46abb34209e40b7b9273b82c0fccd` | [apartment_g1_dex1_tidy_lerobot_v2.1.zip](https://drive.google.com/file/d/1l-V8oRfdSCMqIFBpSnA7jt_ErftyBND7/view) |
+
 ## Not planned for Drive
 
 - `C:\Users\raresense\sim_home\final_video\room_so_far.mp4` (11748775019 bytes) and `head_so_far.mp4` (13531368493 bytes):
