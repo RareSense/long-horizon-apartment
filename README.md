@@ -24,16 +24,16 @@ door and appliance skills.
 
 Two synchronised cameras, rendered from the recorded simulation states with the locked realistic look (RTX real-time
 ray tracing, DLSS Quality, ACES; tag `look-final` in universal-robot-control). Google Drive folder
-`long-horizon-apartment/final_video_v2/` (anyone with the link can view). Uploading in quarters as the render runs: 1 of 4 quarters are up, the rest follow automatically.
+`long-horizon-apartment/final_video_v2/` (anyone with the link can view). Uploading in quarters as the render runs: 2 of 4 quarters are up, the rest follow automatically.
 
 | camera | resolution | fps | duration | Google Drive |
 |---|---|---|---|---|
-| room corner camera | 1920x1080 | 30 | 3 h 21 min 4.5 s | [part 1 of 4](https://drive.google.com/file/d/1plEtH194VjeqJfqkAdrEDDXmAEYQWpNQ/view), part 2: coming, part 3: coming, part 4: coming |
-| robot head camera | 1440x1080 | 30 | 3 h 21 min 4.5 s | [part 1 of 4](https://drive.google.com/file/d/1_sxQIiM-OfuxxtoRO5wsslAgUHf83bul/view), part 2: coming, part 3: coming, part 4: coming |
+| room corner camera | 1920x1080 | 30 | 3 h 21 min 4.5 s | [part 1 of 4](https://drive.google.com/file/d/1plEtH194VjeqJfqkAdrEDDXmAEYQWpNQ/view), [part 2 of 4](https://drive.google.com/file/d/1ev2voazo7AqOkXxLX9y4QHIKaKcoChFa/view), part 3: coming, part 4: coming |
+| robot head camera | 1440x1080 | 30 | 3 h 21 min 4.5 s | [part 1 of 4](https://drive.google.com/file/d/1_sxQIiM-OfuxxtoRO5wsslAgUHf83bul/view), [part 2 of 4](https://drive.google.com/file/d/1ejBx8z_aSrh_P1B5ntfDy-RwypKxTtl2/view), part 3: coming, part 4: coming |
 
 H.264, CRF 20, 361,935 frames per camera, frame for frame the same timeline as the training data. Play the parts in
 order; they join without a gap. Sizes and SHA-256: `DRIVE_MANIFEST.md`. Training data with these videos:
-`dataset/apartment_g1_dex1_tidy_v2/` (7 of 35 episodes so far).
+`dataset/apartment_g1_dex1_tidy_v2/` (16 of 35 episodes so far).
 
 ## Items
 
