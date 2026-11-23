@@ -6,7 +6,7 @@ Google Drive folder **`long-horizon-apartment`**. Sections 2-4 uploaded 22 Nov 2
 Verify a download with `sha256sum <file>` (Linux / Git Bash) or `certutil -hashfile <file> SHA256` (Windows).
 
 <!-- v2 files start -->
-## Current files (v2, no overlay; updated 23 Nov 2026 07:28)
+## Current files (v2, no overlay; updated 23 Nov 2026 11:31)
 
 | file | bytes | SHA-256 | Drive link |
 |---|---|---|---|
@@ -14,6 +14,8 @@ Verify a download with `sha256sum <file>` (Linux / Git Bash) or `certutil -hashf
 | `episode_head_1080p_v2_part1of4.mp4` | 3202636685 | `d81c1ee7aea9b41479e72eba0f7fd10ac6e0da00f2b2f0f488e4e57db48fb87f` | [link](https://drive.google.com/file/d/1_sxQIiM-OfuxxtoRO5wsslAgUHf83bul/view) |
 | `episode_room_1080p_v2_part2of4.mp4` | 2848334243 | `43ab82f661fef9e0234f541c947f942b9fc84d4f519543789d9f64e19dc9b8cd` | [link](https://drive.google.com/file/d/1ev2voazo7AqOkXxLX9y4QHIKaKcoChFa/view) |
 | `episode_head_1080p_v2_part2of4.mp4` | 3169154799 | `f987b229c24c94294bce6dd8146da1c82c1e5d384b4aef65b864c751932ccbe4` | [link](https://drive.google.com/file/d/1ejBx8z_aSrh_P1B5ntfDy-RwypKxTtl2/view) |
+| `episode_room_1080p_v2_part3of4.mp4` | 2872348460 | `545f187808ff304cccf3fa6c3f852ee5d2de3d79942fcf1a6c33e5441cdb8b1c` | [link](https://drive.google.com/file/d/1t4Rjc6WNMfO5rqjr7PXlwsN0u389U-nX/view) |
+| `episode_head_1080p_v2_part3of4.mp4` | 3514665662 | `d5ca885541f881da3a00ac54db72ae10c8ec856643fed3dad3852b064fc6b3e2` | [link](https://drive.google.com/file/d/1j4xo_prOvJcXyjB0Tnuhh2C54R1EB4s9/view) |
 
 <!-- v2 files end -->
 
